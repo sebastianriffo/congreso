@@ -18,7 +18,9 @@
 				<input id="dropcheck-dip1" type="checkbox">
 				<label for="dropcheck-dip1" class="dropbtn-1"> 1990-2022 </label>
 				<ul class="dropdown-submenu">		
-					{% assign pages=site.pages | where_exp: "item", "item.ref == 'diputados' and item.ref2 >= 1989" | where:"lang", page.lang | sort: "ref" | reversed %}	
+					{% comment %} {%- assign pages=site.pages | where_exp: "item", "item.ref == 'diputados' and item.ref2 >= 1989" | where:"lang", page.lang | sort: "ref" | reversed -%} {% endcomment %}
+
+					{% assign pages=site.pages | where_exp: "item", "item.ref == 'diputados'" | where_exp: "item", "item.ref2 >= 1989" | where:"lang", page.lang | sort: "ref" | reversed %}
 					{% for page in pages %}
 					<li class="nivel-2"> <a href="{{ page.url }}"> {%- if page.lang == "es" -%} Período {{page.title}} {%- else -%} {{page.title}} term {%- endif -%} </a>
 					{% endfor %}
@@ -27,8 +29,10 @@
 			<li class="nivel-1">
 				<input id="dropcheck-dip2" type="checkbox">
 				<label for="dropcheck-dip2" class="dropbtn-1"> 1941-1973 </label>			
-				<ul class="dropdown-submenu">					
-					{% assign pages=site.pages | where_exp: "item", "item.ref == 'diputados' and item.ref2 <= 1989" | where:"lang", page.lang | sort: "ref" | reversed %}	
+				<ul class="dropdown-submenu">
+					{% comment %} {% assign pages=site.pages | where_exp: "item", "item.ref == 'diputados' and item.ref2 <= 1989" | where:"lang", page.lang | sort: "ref" | reversed %}	{% endcomment %}
+					
+					{% assign pages=site.pages | where_exp: "item", "item.ref == 'diputados'" | where_exp: "item", "item.ref2 <= 1989" | where:"lang", page.lang | sort: "ref" | reversed %}						
 					{% for page in pages %}
 					<li class="nivel-2"> <a href="{{ page.url }}"> {%- if page.lang == "es" -%} Período {{page.title}} {%- else -%} {{page.title}} term {%- endif -%} </a>
 					{% endfor %}
@@ -44,8 +48,10 @@
 			<li class="nivel-1"> 	
 				<input id="dropcheck-sen1" type="checkbox">
 				<label for="dropcheck-sen1" class="dropbtn-1"> 1990-2022 </label>						
-				<ul class="dropdown-submenu">				
-					{% assign pages=site.pages | where_exp: "item", "item.ref == 'senadores' and item.ref2 >= 1989" | where:"lang", page.lang | sort: "ref" | reversed %}	
+				<ul class="dropdown-submenu">			
+					{% comment %} {% assign pages=site.pages | where_exp: "item", "item.ref == 'senadores' and item.ref2 >= 1989" | where:"lang", page.lang | sort: "ref" | reversed %}	{% endcomment %}
+					
+					{% assign pages=site.pages | where_exp: "item", "item.ref == 'senadores'" | where_exp: "item", "item.ref2 >= 1989" | where:"lang", page.lang | sort: "ref" | reversed %}	
 					{% for page in pages %}
 					<li class="nivel-2"> <a href="{{ page.url }}"> {%- if page.lang == "es" -%} Período {{page.title}} {%- else -%} {{page.title}} term {%- endif -%} </a>
 					{% endfor %}	
@@ -55,7 +61,11 @@
 	</li>			
 	<li class="date"> ({{ page.title }}) 
 	
-	{% assign pages=site.pages | where_exp: "item", "item.ref == 'sistemas' or item.ref == 'fuentes'" | where:"lang", page.lang | sort: "ref" | reversed %}	 	
+	{% comment %} {% assign pages=site.pages | where_exp: "item", "item.ref == 'sistemas' or item.ref == 'fuentes'" | where:"lang", page.lang | sort: "ref" | reversed %} {% endcomment %}
+		
+	{% assign fuentes=site.pages | where_exp: "item", "item.ref == 'fuentes'" | where:"lang", page.lang %}	 	
+	{% assign pages=site.pages | where_exp: "item", "item.ref == 'sistemas'" | where:"lang", page.lang | concat:fuentes %}	 		
+		
 	{% for page in pages %}
 	<li class="resp"> <a href="{{ page.url }}" style="color:#FDFEFE">{{page.title}}</a>
 	{% endfor %}
@@ -63,7 +73,7 @@
 	<li class="resp"> <a href="https://github.com/sebastianriffo/congreso-chile" style="color:#FDFEFE" target="_blank"> {%- if page.lang == "es" -%} Repositorio {%- else -%} Repository {%- endif -%} </a> </li> 
 
 	<!-- language selector -->	
-	<!--
+	{% comment %}
 	{%- if page.layout != "mapa" -%}
 		{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
 	{%- else -%}
@@ -73,7 +83,7 @@
 	{% for page in pages %}
 	<li class="lang"> <a href="{{ page.url }}">{{page.lang}}</a>
 	{% endfor %}
-	-->
+	{% endcomment %}
 		
 </ul>
 </nav>  
