@@ -1,3 +1,6 @@
+include: 
+- es
+
 exclude:
 - repo_mapas/input
 - repo_mapas/modulos
