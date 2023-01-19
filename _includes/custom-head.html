@@ -22,7 +22,7 @@
 
 					{% assign pages=site.pages | where_exp: "item", "item.ref == 'diputados'" | where_exp: "item", "item.ref2 >= 1989" | where:"lang", page.lang | sort: "ref" | reversed %}
 					{% for page in pages %}
-					<li class="nivel-2"> <a href="{{ page.url }}"> {%- if page.lang == "es" -%} Período {{page.title}} {%- else -%} {{page.title}} term {%- endif -%} </a>
+					<li class="nivel-2"> <a href="{{ page.url | relative_url }}"> {%- if page.lang == "es" -%} Período {{page.title}} {%- else -%} {{page.title}} term {%- endif -%} </a>
 					{% endfor %}
 				</ul>
 			</li>
@@ -34,7 +34,7 @@
 					
 					{% assign pages=site.pages | where_exp: "item", "item.ref == 'diputados'" | where_exp: "item", "item.ref2 <= 1989" | where:"lang", page.lang | sort: "ref" | reversed %}						
 					{% for page in pages %}
-					<li class="nivel-2"> <a href="{{ page.url }}"> {%- if page.lang == "es" -%} Período {{page.title}} {%- else -%} {{page.title}} term {%- endif -%} </a>
+					<li class="nivel-2"> <a href="{{ page.url  | relative_url }}"> {%- if page.lang == "es" -%} Período {{page.title}} {%- else -%} {{page.title}} term {%- endif -%} </a>
 					{% endfor %}
 				</ul>
 			</li>				
@@ -53,7 +53,7 @@
 					
 					{% assign pages=site.pages | where_exp: "item", "item.ref == 'senadores'" | where_exp: "item", "item.ref2 >= 1989" | where:"lang", page.lang | sort: "ref" | reversed %}	
 					{% for page in pages %}
-					<li class="nivel-2"> <a href="{{ page.url }}"> {%- if page.lang == "es" -%} Período {{page.title}} {%- else -%} {{page.title}} term {%- endif -%} </a>
+					<li class="nivel-2"> <a href="{{ page.url  | relative_url }}"> {%- if page.lang == "es" -%} Período {{page.title}} {%- else -%} {{page.title}} term {%- endif -%} </a>
 					{% endfor %}	
 				</ul>
 			</li>
@@ -67,7 +67,7 @@
 	{% assign pages=site.pages | where_exp: "item", "item.ref == 'sistemas'" | where:"lang", page.lang | concat:fuentes %}	 		
 		
 	{% for page in pages %}
-	<li class="resp"> <a href="{{ page.url }}" style="color:#FDFEFE">{{page.title}}</a>
+	<li class="resp"> <a href="{{ page.url  | relative_url }}" style="color:#FDFEFE">{{page.title}}</a>
 	{% endfor %}
 		
 	<li class="resp"> <a href="https://github.com/sebastianriffo/congreso-chile" style="color:#FDFEFE" target="_blank"> {%- if page.lang == "es" -%} Repositorio {%- else -%} Repository {%- endif -%} </a> </li> 
@@ -81,7 +81,7 @@
 	{%- endif -%}
 				
 	{% for page in pages %}
-	<li class="lang"> <a href="{{ page.url }}">{{page.lang}}</a>
+	<li class="lang"> <a href="{{ page.url  | relative_url }}">{{page.lang}}</a>
 	{% endfor %}
 	{% endcomment %}
 		
