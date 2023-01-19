@@ -1,0 +1,102 @@
+
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+<header class="Header js-details-container Details px-3 px-md-4 px-lg-5 flex-wrap flex-md-nowrap" role="banner" 
+<nav>
+<ul class="nav-menu" id="myTopnav">				
+	<li class="icon" onclick="myFunction()"> <a> <i class="fa fa-bars"></i> </a>		
+	
+	<li class="resp"> {%- if page.lang == "es" -%} <a href="{{ 'index.html' | relative_url }}" style="color:#FDFEFE"> Inicio </a> {%- else -%} <a href="{{ '/en/home.html' | relative_url }}"> Home </a> {%- endif -%} </li>
+
+	<li class="diputados">
+		<input id="dropcheck-dip" type="checkbox">
+		<label for="dropcheck-dip" class="dropbtn"> {%- if page.lang == "es" -%} Mapas Diputados {%- else -%} Chamber of Deputees {%- endif -%} </label> 
+		<ul class="dropdown-menu">
+			<li class="nivel-1"> 
+				<input id="dropcheck-dip1" type="checkbox">
+				<label for="dropcheck-dip1" class="dropbtn-1"> 1990-2022 </label>
+				<ul class="dropdown-submenu">		
+					{% assign pages=site.pages | where_exp: "item", "item.ref == 'diputados' and item.ref2 >= 1989" | where:"lang", page.lang | sort: "ref" | reverse %}	
+					{% for page in pages %}
+					<li class="nivel-2"> <a href="{{ page.url }}"> {%- if page.lang == "es" -%} Período {{page.title}} {%- else -%} {{page.title}} term {%- endif -%} </a>
+					{% endfor %}
+				</ul>
+			</li>
+			<li class="nivel-1">
+				<input id="dropcheck-dip2" type="checkbox">
+				<label for="dropcheck-dip2" class="dropbtn-1"> 1941-1973 </label>			
+				<ul class="dropdown-submenu">					
+					{% assign pages=site.pages | where_exp: "item", "item.ref == 'diputados' and item.ref2 <= 1989" | where:"lang", page.lang | sort: "ref" | reverse %}	
+					{% for page in pages %}
+					<li class="nivel-2"> <a href="{{ page.url }}"> {%- if page.lang == "es" -%} Período {{page.title}} {%- else -%} {{page.title}} term {%- endif -%} </a>
+					{% endfor %}
+				</ul>
+			</li>				
+		</ul>
+	</li>
+	
+	<li class="senadores"> 
+		<input id="dropcheck-sen" type="checkbox">
+		<label for="dropcheck-sen" class="dropbtn"> {%- if page.lang == "es" -%} Mapas Senadores {%- else -%} Senate {%- endif -%} </label> 			
+		<ul class="dropdown-menu">
+			<li class="nivel-1"> 	
+				<input id="dropcheck-sen1" type="checkbox">
+				<label for="dropcheck-sen1" class="dropbtn-1"> 1990-2022 </label>						
+				<ul class="dropdown-submenu">				
+					{% assign pages=site.pages | where_exp: "item", "item.ref == 'senadores' and item.ref2 >= 1989" | where:"lang", page.lang | sort: "ref" | reverse %}	
+					{% for page in pages %}
+					<li class="nivel-2"> <a href="{{ page.url }}"> {%- if page.lang == "es" -%} Período {{page.title}} {%- else -%} {{page.title}} term {%- endif -%} </a>
+					{% endfor %}	
+				</ul>
+			</li>
+		</ul>
+	</li>			
+	<li class="date"> ({{ page.title }}) 
+	
+	{% assign pages=site.pages | where_exp: "item", "item.ref == 'sistemas' or item.ref == 'fuentes'" | where:"lang", page.lang | sort: "ref" | reverse %}	 	
+	{% for page in pages %}
+	<li class="resp"> <a href="{{ page.url }}" style="color:#FDFEFE">{{page.title}}</a>
+	{% endfor %}
+		
+	<li class="resp"> <a href="https://github.com/sebastianriffo/congreso-chile" style="color:#FDFEFE" target="_blank"> {%- if page.lang == "es" -%} Repositorio {%- else -%} Repository {%- endif -%} </a> </li> 
+
+	<!-- language selector -->	
+	<!--
+	{%- if page.layout != "mapa" -%}
+		{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+	{%- else -%}
+		{% assign pages=site.pages | where_exp: "item", "item.ref == page.ref and item.ref2 == page.ref2" | sort: 'lang' %}
+	{%- endif -%}
+				
+	{% for page in pages %}
+	<li class="lang"> <a href="{{ page.url }}">{{page.lang}}</a>
+	{% endfor %}
+	-->
+		
+</ul>
+</nav>  
+
+</header>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "nav-menu") {
+    x.className += " responsive";
+  } else {
+    x.className = "nav-menu";
+  }  
+}
+
+<!-- SOURCE: https://stackoverflow.com/questions/11365491/disable-all-checkboxes-if-one-selected-and-enable-when-none-selected -->
+$('input:checkbox').click(function(){
+    var $inputs = $('input:checkbox')
+        if($(this).is(':checked')){
+			$(this).parent().siblings().children().prop('checked',false); // mismo nivel
+			$(this).parent().siblings().children().children().children().prop('checked',false); // siguiente nivel			
+        }
+    })
+</script> 
+

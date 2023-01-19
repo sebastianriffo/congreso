@@ -1,0 +1,5 @@
+exclude:
+- repo_mapas/input
+- repo_mapas/modulos
+- repo_mapas/requirements.txt
+- repo_mapas/TODO.md

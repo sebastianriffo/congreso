@@ -1,0 +1,155 @@
+Distrito,Lista/Pacto,Partido,Candidatos,Votos,Porcentaje,Electos,Electos_comp,url
+1,Falange Nacional,FN,"['Radomiro', 'Tomic', 'Romero']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Radomiro_Tomic_Romero
+1,Frente Popular,PPN,"['Ángel', 'Veas', 'Alcayaga']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ángel_Veas_Alcayaga
+1,Frente Popular,PR,"['Carlos', 'Morales', 'San Martín']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Morales_San_Martín
+1,Frente Popular,PPN,"['Ricardo', 'Fonseca', 'Aguayo']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ricardo_Fonseca_Aguayo
+2,Frente Popular,PDo,"['Máximo', 'Venegas', 'Sepúlveda']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Máximo_Venegas_Sepúlveda
+2,Frente Popular,PR,"['Pedro', 'Opitz', 'Velásquez']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Opitz_Velásquez
+2,Frente Popular,PPN,"['José', 'Celestino', 'Díaz', 'Iturrieta']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Celestino_Díaz_Iturrieta
+2,Frente Popular,PR,"['Fernando', 'Cisternas', 'Ortiz']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fernando_Cisternas_Ortiz
+2,Frente Popular,PPN,"['Alfredo', 'Astudillo', 'Sieman']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alfredo_Astudillo_Sieman
+2,Frente Popular,PPN,"['Juan', 'Guerra', 'Guerra']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Guerra_Guerra
+2,Partido Socialista,PS,"['Vicente', 'Segundo', 'Ruiz', 'Mondaca']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Vicente_Segundo_Ruiz_Mondaca
+3,Frente Popular,PR,"['Carlos', 'Melej', 'Nazar']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Melej_Nazar
+3,Frente Popular,PR,"['Carlos', 'Alberto', 'Martínez', 'Martínez']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Alberto_Martínez_Martínez
+4,Partido Liberal,PL,"['Hugo', 'Alejandro', 'Zepeda', 'Barrios']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Hugo_Alejandro_Zepeda_Barrios
+4,Partido Liberal,PL,"['Raúl', 'Marín', 'Balmaceda']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Raúl_Marín_Balmaceda
+4,Frente Popular,PR,"['Gustavo', 'Olivares', 'Faúndez']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gustavo_Olivares_Faúndez
+4,Frente Popular,PR,"['Jorge', 'Oscar', 'Salamanca', 'Valdivia']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Oscar_Salamanca_Valdivia
+4,Frente Popular,PR,"['Julio', 'Pinto', 'Riquelme']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Julio_Pinto_Riquelme
+4,Frente Popular,PPN,"['Humberto', 'Abarca', 'Cabrera']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Humberto_Abarca_Cabrera
+4,Partido Socialista,PS,"['Luis', 'Estenio', 'Mesa', 'Castillo']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Estenio_Mesa_Castillo
+5,Partido Conservador,PCon,"['Alfredo', 'Cerda', 'Jaraquemada']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alfredo_Cerda_Jaraquemada
+5,Partido Liberal,PL,"['Marcelo', 'Abelardo', 'Pizarro', 'Herrera']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Marcelo_Abelardo_Pizarro_Herrera
+5,Frente Popular,PR,"['Alfredo', 'Rosende', 'Verdugo']",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alfredo_Rosende_Verdugo
+5,Frente Popular,PR,"['Pedro', 'Jara', 'del Villar']",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Jara_del_Villar
+6,Falange Nacional,FN,"['Alberto', 'Jorge', 'Ceardi', 'Ferrer']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alberto_Jorge_Ceardi_Ferrer
+6,Partido Conservador,PCon,"['Alfredo', 'Fernando', 'Silva', 'Carvallo']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alfredo_Fernando_Silva_Carvallo
+6,Partido Conservador,PCon,"['Francisco', 'Palma', 'Sanguinetti']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Francisco_Palma_Sanguinetti
+6,Partido Conservador,PCon,"['Hernán', 'Somavía', 'Asquet']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Hernán_Somavía_Asquet
+6,Partido Liberal,PL,"['Pedro', 'Poklepovic', 'Novillo']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Poklepovic_Novillo
+6,Partido Liberal,PL,"['Eduardo', 'Pompeyo', 'Moore', 'Montero']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eduardo_Pompeyo_Moore_Montero
+6,Frente Popular,PR,"['José', 'Antonio', 'Ollino', 'Buzeta']",,,,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Antonio_Ollino_Buzeta
+6,Frente Popular,PPN,"['Juan', 'Chacón', 'Corona']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Chacón_Corona
+6,Frente Popular,PR,"['Ismael', 'Carrasco', 'Rábago']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ismael_Carrasco_Rábago
+6,Frente Popular,PR,"['Luis', 'Bossay', 'Leiva']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Bossay_Leiva
+6,Frente Popular,PPN,"['Alfredo', 'Escobar', 'Zamora']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alfredo_Escobar_Zamora
+6,Partido Socialista,PS,"['Vasco', 'Valdebenito', 'García']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Vasco_Valdebenito_García
+6,Partido Socialista,PS,"['Bernardo', 'Ibáñez', 'Aguila']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Bernardo_Ibáñez_Aguila
+8,Partido Conservador,PCon,"['Sergio', 'José', 'María', 'Marcos', 'Fernández', 'Larraín']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Sergio_José_María_Marcos_Fernández_Larraín
+8,Partido Conservador,PCon,"['Rafael', 'Moreno', 'Echavarría']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rafael_Moreno_Echavarría
+8,Partido Liberal,PL,"['Enrique', 'Madrid', 'Osorio']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Enrique_Madrid_Osorio
+8,Frente Popular,PR,"['Raúl', 'Brañes', 'Farmer']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Raúl_Brañes_Farmer
+8,Partido Socialista,PS,"['Simón', 'Olavarría', 'Alarcón']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Simón_Olavarría_Alarcón
+9,Partido Conservador,PCon,"['Francisco', 'Javier', 'Labbé', 'Labbé']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Francisco_Javier_Labbé_Labbé
+9,Partido Conservador,PCon,"['Salvador', 'Correa', 'Larraín']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Salvador_Correa_Larraín
+9,Partido Liberal,PL,"['Humberto', 'Yáñez', 'Velasco']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Humberto_Yáñez_Velasco
+9,Frente Popular,PPN,"['Salvador', 'Ocampo', 'Pastene']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Salvador_Ocampo_Pastene
+9,Frente Popular,PR,"['Sebastián', 'Santandreu', 'Herrera']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Sebastián_Santandreu_Herrera
+9,Partido Socialista,PS,"['Carlos', 'Jeremías', 'Gaete', 'Gaete']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Jeremías_Gaete_Gaete
+10,Partido Conservador,PCon,"['Jorge', 'Baraona', 'Puelma']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Baraona_Puelma
+10,Partido Liberal,PL,"['Pedro', 'García', 'de la Huerta', 'Matte']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_García_de_la_Huerta_Matte
+10,Frente Popular,PR,"['Jorge', 'Urzúa', 'Urzúa']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Urzúa_Urzúa
+10,Partido Socialista,PS,"['Luis', 'Videla', 'Salinas']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Videla_Salinas
+11,Partido Conservador,PCon,"['Luis', 'Cabrera', 'Ferrada']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Cabrera_Ferrada
+11,Partido Liberal,PL,"['René', 'Benedicto', 'León', 'Echaíz']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/René_Benedicto_León_Echaíz
+11,Frente Popular,PR,"['Cecilio', 'Imable', 'Yens']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Cecilio_Imable_Yens
+12,Partido Conservador,PCon,"['Camilo', 'Prieto', 'Concha']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Camilo_Prieto_Concha
+12,Partido Conservador,PCon,"['Manuel', 'Diez', 'García']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Diez_García
+12,Partido Liberal,PL,"['Guillermo', 'Donoso', 'Grez']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Guillermo_Donoso_Grez
+12,Frente Popular,PR,"['Eliecer', 'Mejías', 'Concha']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eliecer_Mejías_Concha
+12,Frente Popular,PPN,"['Manuel', 'González', 'Vilches']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_González_Vilches
+13,Partido Conservador,PCon,"['Raúl', 'Yrarrázaval', 'Lecaros']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Raúl_Yrarrázaval_Lecaros
+13,Partido Liberal,PL,"['Eduardo', 'Alessandri', 'Rodríguez']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eduardo_Alessandri_Rodríguez
+13,Frente Popular,PR,"['Amílcar', 'Chiorrini', 'Alveti']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Amílcar_Chiorrini_Alveti
+14,Partido Conservador,PCon,"['Carlos', 'Rozas', 'Larraín']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Rozas_Larraín
+14,Partido Liberal,PL,"['Pedro', 'Opaso', 'Cousiño']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Opaso_Cousiño
+14,Partido Agrario,PA,"['Alberto', 'del Pedregal', 'Artigas']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alberto_Del_Pedregal_Artigas
+14,Frente Popular,PR,"['Víctor', 'Hugo', 'Arias', 'Briones']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Víctor_Hugo_Arias_Briones
+15,Partido Conservador,PCon,"['Lucio', 'Aníbal', 'Concha', 'Molina']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Lucio_Aníbal_Concha_Molina
+15,Partido Liberal,PL,"['Manuel', 'Salvador', 'Montt', 'Lehuedé']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Salvador_Montt_Lehuedé
+15,Frente Popular,PR,"['Aurelio', 'Benavente', 'Arancibia']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Aurelio_Benavente_Arancibia
+16,Partido Conservador,PCon,"['Rafael', 'Cifuentes', 'Latham']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rafael_Cifuentes_Latham
+16,Partido Conservador,PCon,"['Carlos', 'Izquierdo', 'Edwards']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Izquierdo_Edwards
+16,Partido Liberal,PL,"['Belisario', 'Troncoso', 'Ibarrondo']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Belisario_Troncoso_Ibarrondo
+16,Frente Popular,PR,"['Néstor', 'Orlando', 'Sandoval', 'Vargas']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Néstor_Orlando_Sandoval_Vargas
+16,Frente Popular,PR,"['Roberto', 'Gómez', 'Pérez']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Roberto_Gómez_Pérez
+17,Partido Conservador,PCon,"['Fernando', 'Aldunate', 'Errázuriz']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fernando_Aldunate_Errázuriz
+17,Partido Liberal,PL,"['Luis', 'Zenón', 'Urrutia', 'Infante']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Zenón_Urrutia_Infante
+17,Frente Popular,PPN,"['Justo', 'Zamora', 'Rivera']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Justo_Zamora_Rivera
+17,Frente Popular,PPN,"['Damián', 'del Carmen', 'Uribe', 'Cárdenas']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Damián_Del_Carmen_Uribe_Cárdenas
+17,Frente Popular,PDo,"['José', 'Bernales', 'Navarro']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Bernales_Navarro
+17,Frente Popular,PST,"['Natalio', 'Berman', 'Berman']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Natalio_Berman_Berman
+17,Frente Popular,PR,"['Lionel', 'Edwards', 'Atherton']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Lionel_Edwards_Atherton
+17,Frente Popular,PR,"['Fernando', 'Blas', 'Maira', 'Castellón']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fernando_Blas_Maira_Castellón
+17,Frente Popular,PDo,"['Dionisio', 'Segundo', 'Garrido', 'Segura']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Dionisio_Segundo_Garrido_Segura
+18,Frente Popular,PR,"['Eudocio', 'Rivas', 'Roa']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eudocio_Rivas_Roa
+18,Frente Popular,PPN,"['José', 'Cruz', 'Delgado', 'Espinosa']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Cruz_Delgado_Espinosa
+19,Partido Conservador,PCon,"['Joaquín', 'Mardones', 'Bissig']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Joaquín_Mardones_Bissig
+19,Partido Liberal,PL,"['Julio', 'René', 'de la Jara', 'Zúñiga']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Julio_René_De_la_Jara_Zúñiga
+19,Frente Popular,PR,"['Héctor', 'Dario', 'Barrueto', 'Hermosilla']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Héctor_Dario_Barrueto_Hermosilla
+19,Frente Popular,PDo,"['Alberto', 'Matus', 'Chiessa']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alberto_Matus_Chiessa
+20,Partido Conservador,PCon,"['José', 'Gonzalo', 'Jarpa', 'Bisquert']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Gonzalo_Jarpa_Bisquert
+20,Partido Liberal,PL,"['Juan', 'Arnoldo', 'Smitmans', 'López']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Arnoldo_Smitmans_López
+20,Partido Democrático,PD,"['Lisandro', 'Fuentealba', 'Troncoso']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Lisandro_Fuentealba_Troncoso
+20,Frente Popular,PR,"['José', 'Luis', 'Osorio', 'Navarrete']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Luis_Osorio_Navarrete
+20,Frente Popular,PR,"['Julio', 'Aníbal', 'Sepúlveda', 'Rondanelli']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Julio_Aníbal_Sepúlveda_Rondanelli
+20,Frente Popular,PR,"['Manuel', 'Uribe', 'Barra']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Uribe_Barra
+21,Vanguardia Popular Socialista,VPS,"['Gustavo', 'Vargas', 'Molinare']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gustavo_Vargas_Molinare
+21,Partido Conservador,PCon,"['Gustavo', 'Loyola', 'Vásquez']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gustavo_Loyola_Vásquez
+21,Partido Liberal,PL,"['Alfonso', 'Salazar', 'Ravanal']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alfonso_Salazar_Ravanal
+21,Partido Agrario,PA,"['Julián', 'Abel', 'Echavarri', 'Elorza']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Julián_Abel_Echavarri_Elorza
+21,Partido Agrario,PA,"['Manuel', 'Bart', 'Herrera']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Bart_Herrera
+21,Frente Popular,PR,"['Ramón', 'Olave', 'Acuña']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ramón_Olave_Acuña
+21,Frente Popular,PDo,"['Moisés', 'Ríos', 'Echague']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Moisés_Ríos_Echague
+21,Frente Popular,PR,"['Elías', 'Montecinos', 'Matus']",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Elías_Montecinos_Matus
+21,Frente Popular,PR,"['Federico', 'Brito', 'Salvo']",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Federico_Brito_Salvo
+21,Frente Popular,PR,"['Armando', 'Holzapfel', 'Álvarez']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Armando_Holzapfel_Álvarez
+21,Partido Socialista,PS,"['Narciso', 'Rojas', 'Rodríguez']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Narciso_Rojas_Rodríguez
+22,Alianza Popular Libertadora,APL,"['Jorge', 'Bustos', 'León']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Bustos_León
+22,Partido Liberal,PL,"['Carlos', 'Acharán', 'Pérez de Arce']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Acharán_Pérez_de_Arce
+22,Frente Popular,PR,"['Carlos', 'René', 'Moyano', 'Fuschlocher']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_René_Moyano_Fuschlocher
+22,Frente Popular,PR,"['Pedro', 'Castelblanco', 'Agüero']",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Castelblanco_Agüero
+22,Partido Socialista,PS,"['Eduardo', 'Rodríguez', 'Mazer']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eduardo_Rodríguez_Mazer
+23,Partido Conservador,PCon,"['José', 'María', 'Pinedo', 'Goycochea']",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_María_Pinedo_Goycochea
+23,Partido Liberal,PL,"['Jorge', 'Labarca', 'Moreno']",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Labarca_Moreno
+23,Frente Popular,PR,"['Quintín', 'Barrientos', 'Villalobos']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Quintín_Barrientos_Villalobos
+23,Frente Popular,PR,"['Pelegrín', 'Aníbal', 'Meza', 'Loyola']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pelegrín_Aníbal_Meza_Loyola
+24,Partido Conservador,PCon,"['Alfredo', 'Felipe', 'Brahm', 'Appel']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alfredo_Felipe_Brahm_Appel
+24,Partido Liberal,PL,"['Alfonso', 'Campos', 'Menéndez']",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alfonso_Campos_Menéndez
+24,Frente Popular,PR,"['Pedro', 'Bórquez', 'Oberreuter']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Bórquez_Oberreuter
+24,Frente Popular,PR,"['Santiago', 'Ernst', 'Martínez']",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Santiago_Ernst_Martínez
+25,Partido Conservador,PCon,"['Héctor', 'Alejandro', 'Correa', 'Letelier']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Héctor_Alejandro_Correa_Letelier
+25,Partido Liberal,PL,"['Juan', 'Rafael', 'del Canto', 'Medán']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Rafael_Del_Canto_Medán
+25,Frente Popular,PR,"['Exequiel', 'González', 'Madariaga']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Exequiel_González_Madariaga
+26,Partido Socialista,PS,"['Juan', 'Efraín', 'Ojeda', 'Ojeda']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Efraín_Ojeda_Ojeda
+71,Vanguardia Popular Socialista,VPS,"['Jorge', 'González', 'von Marées']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_González_Von_Marées
+71,Falange Nacional,FN,"['Manuel', 'Antonio', 'Garretón', 'Walker']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Antonio_Garretón_Walker
+71,Partido Conservador,PCon,"['Juan', 'Antonio', 'Coloma', 'Mellado']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Antonio_Coloma_Mellado
+71,Partido Conservador,PCon,"['Enrique', 'Cañas', 'Flores']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Enrique_Cañas_Flores
+71,Partido Conservador,PCon,"['José', 'Germán', 'Domínguez', 'Echenique']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Germán_Domínguez_Echenique
+71,Partido Liberal,PL,"['Carlos', 'Atienza', 'Pedraza']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Atienza_Pedraza
+71,Partido Liberal,PL,"['Roberto', 'Barros', 'Torres']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Roberto_Barros_Torres
+71,Frente Popular,PR,"['Isidoro', 'Muñoz', 'Alegría']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Isidoro_Muñoz_Alegría
+71,Frente Popular,PRS,"['Juan', 'Bautista', 'Rossetti', 'Colombino']",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Bautista_Rossetti_Colombino
+71,Frente Popular,PR,"['Jorge', 'Raúl', 'Horacio', 'Rivera', 'Vicuña']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Raúl_Horacio_Rivera_Vicuña
+71,Frente Popular,PDo,"['Pedro', 'Cárdenas', 'Núñez']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Cárdenas_Núñez
+71,Frente Popular,PR,"['Manuel', 'Cabezón', 'Díaz']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Cabezón_Díaz
+71,Frente Popular,PDo,"['Teodoro', 'Agurto', 'Muñoz']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Teodoro_Agurto_Muñoz
+71,Frente Popular,PPN,"['Andrés', 'Escobar', 'Díaz']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Andrés_Escobar_Díaz
+71,Frente Popular,PPN,"['César', 'Godoy', 'Urrutia']",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/César_Godoy_Urrutia
+71,Frente Popular,PR,"['Ángel', 'Faivovich', 'Hitzcovich']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ángel_Faivovich_Hitzcovich
+71,Partido Socialista,PS,"['Julio', 'Barrenechea', 'Pino']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Julio_Barrenechea_Pino
+71,Partido Socialista,PS,"['Luis', 'Alberto', 'González', 'Olivares']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Alberto_González_Olivares
+71,Partido Socialista,PS,"['Astolfo', 'Tapia', 'Moore']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Astolfo_Tapia_Moore
+72,Partido Conservador,PCon,"['Enrique', 'Alcalde', 'Cruchaga']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Enrique_Alcalde_Cruchaga
+72,Partido Conservador,PCon,"['Carlos', 'Germán', 'Juan', 'Eugenio', 'Valdés', 'Riesco']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Germán_Juan_Eugenio_Valdés_Riesco
+72,Frente Popular,PR,"['Héctor', 'Muñoz', 'Ayling']",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Héctor_Muñoz_Ayling
+72,Frente Popular,PDo,"['Juan', 'José', 'Florencio', 'Silva', 'Pinto']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_José_Florencio_Silva_Pinto
+72,Frente Popular,PPN,"['Oscar', 'Samuel', 'Baeza', 'Herrera']",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Oscar_Samuel_Baeza_Herrera
+72,Partido Socialista,PS,"['Ramiro', 'Sepúlveda', 'Aguilar']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ramiro_Sepúlveda_Aguilar
+73,Partido Conservador,PCon,"['Luis', 'Arturo', 'Gardeweg', 'Villegas']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Arturo_Gardeweg_Villegas
+73,Partido Conservador,PCon,"['Julio', 'Pereira', 'Larraín']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Julio_Pereira_Larraín
+73,Frente Popular,PPN,"['Reinaldo', 'Núñez', 'Alvarez']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Reinaldo_Núñez_Alvarez
+73,Frente Popular,PR,"['Luis', 'Armando', 'Rodríguez', 'Quezada']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Armando_Rodríguez_Quezada
+73,Partido Socialista,PS,"['José', 'Acevedo', 'Briones']",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Acevedo_Briones
