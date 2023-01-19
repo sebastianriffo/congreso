@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from division_politica import comunas1989_presente, deptos1940_1973, Division_electoral_shp
+from division_politica import comunas1989_presente, Division_electoral_shp
 from resultados_elecciones import resultados_parlamentarias, Senado1989_presente
 
 from pactos import leyendas_electorales
@@ -24,7 +24,7 @@ path_input = root / 'input'
 path_output = root / 'output'
 
 rep = 0
-elecciones = [2021] #list(chain(range(1941,1974,4), range(1989,2022,4)))
+elecciones = list(chain(range(1941,1974,4), range(1989,2022,4)))
 
 #%%
 for eleccion in elecciones: 
@@ -60,8 +60,6 @@ for eleccion in elecciones:
     
     if eleccion >= 1989:
         comunas1989_presente(path_input / 'shapes/source')
-    else:
-        deptos1940_1973(path_input / 'shapes/source')    
     
     # directorios por año
     if eleccion == 2021:
@@ -110,6 +108,7 @@ for eleccion in elecciones:
     if datos_filenames:
         for file in datos_filenames: 
             filename = re.split('_|.csv',file.as_posix())[-2]
+            
             locals()[filename] = pd.read_csv(file).fillna('')
             
             if 'listas' in filename:

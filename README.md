@@ -41,7 +41,7 @@ Los resultados de cada elección y sus polígonos asociados fueron generados med
 Por último, el script *visualizaciones.py* crea uno o más mapas, buscando los polígonos y datos de una elección parlamentaria (o generándolos en caso contrario). Por medio del módulo *mapa_folium* los produce y guarda en formato *.html*.   
 
 ## Resultados
-Los mapas generados se encuentran disponibles en el [sitio web de este proyecto](https://sebastianriffo.github.io/congreso-chile/) y en el directorio **/output**. A modo de ejemplo, las últimas elecciones pueden ser vistas directamente en [diputados 2021](mapas/2022-2026_Diputados.html) y [senadores 2021](mapas/2022-2026_Senadores.html). 
+Los mapas generados se encuentran disponibles en el [sitio web de este proyecto](https://sebastianriffo.github.io/congreso-chile/) y en el directorio **/output**. A modo de ejemplo, las últimas elecciones pueden ser vistas directamente en [diputados 2021](https://sebastianriffo.github.io/congreso-chile/es/mapas/2022-2026_Diputados.html) y [senadores 2021](https://sebastianriffo.github.io/congreso-chile/es/mapas/2022-2026_Senadores.html). 
 
 
 
