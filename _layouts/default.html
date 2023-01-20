@@ -229,11 +229,21 @@ input:checked ~ .dropdown-submenu {
 {%- endif -%}  
 }
 
-.mapa-iframe{
-	width: 100vw; 
-	height: calc(100vh - 30px); 
-	display:block; 
-	border:none;
+@media screen and (min-width: 660px) {
+	.mapa-iframe{
+		width: 100vw; 
+		height: calc(100vh - 50px); 
+		display:block; 
+		border:none;
+	}	
+}
+@media screen and (max-width: 660px) {
+	.mapa-iframe{
+		width: 100vw; 
+		height: calc(100vh - 100px); 
+		display:block; 
+		border:none;
+	}	
 }
 
 /* home */
