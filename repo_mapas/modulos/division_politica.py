@@ -85,7 +85,7 @@ def Division_electoral_shp(path_shapes, eleccion, rep):
     # nombres de distritos/circunscripciones
     div_electoral['nombre'] = div_electoral.index                    
     if rep == 0 or (rep == 1 and eleccion >= 2017):
-        div_electoral['nombre'] = div_electoral['nombre'].apply(lambda x : 'Distrito '+str(x) if rep == 0 else str(x)+'ª Circunscripción')      
+        div_electoral['nombre'] = div_electoral['nombre'].apply(lambda x : 'Distrito '+str(x) if rep == 0 else str(x)+'ª Circunscripción')
         
     else:
         div_electoral['nombre'] = div_electoral['nombre'].replace({1:"Tarapacá", 2:"Antofagasta", 3:"Atacama", 4:"Coquimbo", 
@@ -94,7 +94,7 @@ def Division_electoral_shp(path_shapes, eleccion, rep):
                                                                    14:"Araucanía Norte", 15:"Araucanía Sur", 16:"Los Ríos", 17:"Los Lagos", 18:"Aysén", 19:"Magallanes"}).astype(str)        
     div_electoral['nombre'] = div_electoral['nombre'].astype("string")
         
-    div_electoral.to_file((path_shapes / (vig+{0:'_distritos.shp',1:'circunscripciones.shp'}[rep])))
+    div_electoral.to_file((path_shapes / (vig+{0:'_distritos.shp',1:'_circunscripciones.shp'}[rep])))
     return div_electoral
 
 #%% MODIFICACIONES DESDE 1989

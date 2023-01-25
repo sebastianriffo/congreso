@@ -23,8 +23,8 @@ root = Path.cwd().parents[0]
 path_input = root / 'input'
 path_output = root / 'output'
 
-rep = 0
-elecciones = list(chain(range(1941,1974,4), range(1989,2022,4)))
+rep = 1
+elecciones = [2017] #list(chain(range(1941,1974,4), range(1989,2022,4)))
 
 #%%
 for eleccion in elecciones: 
