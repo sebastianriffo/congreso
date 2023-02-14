@@ -5,9 +5,11 @@ title: Sistema electoral
 
 lang: es
 ref: sistemas
+
+published: true
+order: 4
 ---
 
-## Sistema electoral 
 Se entiende por sistema electoral a la forma de llevar a cabo una elección y determinar sus resultados. Esto se suele homologar al mecanismo de asignación de escaños usado, omitiendo otros aspectos como la conformación de pactos electorales, la manera de marcar preferencias en la papeleta y la emisión de las mismas, la división político-electoral, además de las normativas que rigen dicha elección. 
 
 En el caso de las elecciones parlamentarias chilenas, en la actualidad el país se divide en 28 distritos y 16 circunscripciones para las elecciones de diputados y senadores, respectivamente; se utiliza una cédula única de votación y un mecanismo proporcional que considera pactos nacionales entre partidos (llamado D'Hondt a dos niveles). 

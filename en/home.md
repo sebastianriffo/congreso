@@ -1,38 +1,38 @@
 ---
 layout: default
 
-title: Home
+title: Chilean parliamentary election maps
 
 lang: en
 ref: home
+
+published: true
+order: 1
 ---
 
-## Visualizaciones parlamentarias (eng)
+This project seeks to develop an interactive visualization of the chilean parliamentary elections from 1941 onwards, for both the Chamber of Deputies and the Senate, integrating several public sources. These representations have been inspired by [DecideChile](https://2021.decidechile.cl/#/ev/2021.nov/ct/2021.nov.D/){:target="_blank"}, [SERVEL](https://historico.servel.cl/servel/app/index.php?r=EleccionesGenerico&id=234){:target="_blank"} and [Wikipedia](https://es.wikipedia.org/wiki/Elecciones_parlamentarias_de_Chile_de_2021){:target="_blank"}; and were made using Python (folium, beautiful soup, pandas), QGIS and Highcharts. A GitHub repository, containing the codes, data and shapefiles, is available [here](https://github.com/sebastianriffo/congreso-chile){:target="_blank"}.
 
-Este proyecto busca desarrollar una visualización interactiva de la Cámara de Diputados y el Senado de Chile, desde las elecciones de 1941 en adelante, integrando diversas fuentes. Dichas representaciones están inspiradas en lo hecho por [DecideChile](https://2021.decidechile.cl/#/ev/2021.nov/ct/2021.nov.D/){:target="_blank"}, [SERVEL](https://historico.servel.cl/servel/app/index.php?r=EleccionesGenerico&id=234){:target="_blank"} y [Wikipedia](https://es.wikipedia.org/wiki/Elecciones_parlamentarias_de_Chile_de_2021){:target="_blank"}, siendo elaboradas a partir de Python (folium, beautiful soup, pandas), QGIS y Highcharts. Un repositorio en GitHub, con los códigos y datos generados, se encuentra disponible [aquí](https://github.com/sebastianriffo/congreso-chile){:target="_blank"}.
-
-La información de cada elección se presenta en tres niveles: 
+For every election, the information is portrayed at three different levels: 
 
 <div class="row">
   <div class="column">
     <img src="../fig/home-1.png">
     <div class="text"> 
-    <h4> Resultados individuales </h4> 
-    Cada ícono representa el número de parlamentarios a elegir en el territorio respectivo. De estar disponibles, se presentan los resultados detallados, pudiendo ser ordenados y filtrados según quienes fueron electos. </div>
+    <h4> Individual results </h4> 
+    Each icon represents the number of seats in the respective electoral division. If available, the detailed results are displayed, being possible to sort and filter them according to the elected members. </div>
   </div>
   <div class="column">
     <img src="../fig/home-2.png">
     <div class="text"> 
-    <h4> Resultados por territorio electoral </h4> 
-    Al interactuar con un distrito o circunscripción, se muestra la votación obtenida por las principales coaliciones, y en caso contrario, sus resultados a nivel nacional. </div>
+    <h4> Results by electoral divisions </h4> 
+    When interacting with an electoral district or senatorial constituency, the local results obtained by the main alliances are showed. Otherwise, these are replaced by their overall votes. </div>
   </div>
   <div class="column">
     <img src="../fig/home-3.png">
     <div class="text"> 
-    <h4> Distribución de escaños </h4>
-    La composición de la cámara en cuestión se expone en un diagrama, cuyos escaños están coloreados por coalición y agrupados por partidos. Estos últimos contienen el listado de sus parlamentarios. </div>
+    <h4> Seat distribution </h4>
+    The composition of a chamber is exposed in a apportionment diagram, whose seats are colored by alliances. These are in turn grouped by parties, each containing a list of their elected legislators. </div>
   </div>
 </div>
 
 
-<div style="margin-top: 10px; text-align: right"> Elaborado por <a href="https://sebastianriffo.github.io/" style="color:#E91E63" target="_blank">Sebastián RIFFO</a>. </div>

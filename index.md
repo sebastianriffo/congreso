@@ -1,13 +1,14 @@
 ---
 layout: default
 
-title: Home
+title: Visualizaciones parlamentarias
 
 lang: es
 ref: home
----
 
-## Visualizaciones parlamentarias
+published: true
+order: 1
+---
 
 Este proyecto busca desarrollar una visualización interactiva de la Cámara de Diputados y el Senado de Chile, desde las elecciones de 1941 en adelante, integrando diversas fuentes. Dichas representaciones están inspiradas en lo hecho por [DecideChile](https://2021.decidechile.cl/#/ev/2021.nov/ct/2021.nov.D/){:target="_blank"}, [SERVEL](https://historico.servel.cl/servel/app/index.php?r=EleccionesGenerico&id=234){:target="_blank"} y [Wikipedia](https://es.wikipedia.org/wiki/Elecciones_parlamentarias_de_Chile_de_2021){:target="_blank"}, siendo elaboradas a partir de Python (folium, beautiful soup, pandas), QGIS y Highcharts. Un repositorio en GitHub, con los códigos y datos generados, se encuentra disponible [aquí](https://github.com/sebastianriffo/congreso-chile){:target="_blank"}.
 
@@ -34,5 +35,3 @@ La información de cada elección se presenta en tres niveles:
   </div>
 </div>
 
-
-<div style="margin-top: 10px; text-align: right"> Elaborado por <a href="https://sebastianriffo.github.io/" style="color:#E91E63" target="_blank">Sebastián RIFFO</a>. </div>
