@@ -17,12 +17,13 @@ Dependiendo del período, los resultados de cada votación fueron obtenidos de
 * **1989-presente**. [Resultados históricos](https://historico.servel.cl/). Archivo Histórico del Servicio Electoral de Chile.
 * **1973**. [Resultados de las elecciones parlamentarias de Chile de 1973 (Anexo)](https://es.wikipedia.org/wiki/Anexo:Resultados_de_las_elecciones_parlamentarias_de_Chile_de_1973). Wikipedia.
 * **1941-1969** (Diputados).
-  + Por partidos y coaliciones (1945, 1961-1973):
+  + Por partidos y coaliciones :
     - Germán Urzúa Valenzuela. [*Historia política de Chile y su evolución electoral: desde 1810 a 1992*](https://books.google.fr/books?id=ac9AhNVyCCoC&printsec=frontcover#v=onepage&q&f=false). Editorial Jurídica de Chile, 1992.
     - Adolfo Aldunate y Ana Rita Díaz-Muñoz. [*Las provincias de Chile a través de indicadores: una infraestructura para los análisis causales y de procesos*](https://repositorio.cepal.org/handle/11362/8017?show=full). Programa de Intercambio CELADE-ELAS, 1972. 
     - Georgetown University. [*Political Database of the Americas*](https://pdba.georgetown.edu/Elecdata/Chile/cong_totals.html).
     - Dieter Nohlen, *Elections in the Americas: A Data Handbook. Volume 2 South America*. Oxford University Press, 2005.
     - Raúl Morodo. *Las elecciones parlamentarias chilenas de 1965*. Revista de Derecho Público, 7, pp. 91-164, 1965. 
+    - [*Partido Nacional. Antecedentes elecciones de Senadores y Diputados 1969, Presidencial 1970 y Regidores 1971*](https://repositorio.uai.cl/handle/20.500.12858/268?show=full). Fondo Pedro Ibáñez Ojeda, Universidad Adolfo Ibáñez.
     - Michael J. Coppedge, [*A Classification of Latin American Political Parties*](https://kellogg.nd.edu/documents/1539). 1997. 
   + Listado de parlamentarios por período legislativo:
     - [Diarios de Sesiones del Congreso Nacional, 1925-1973](https://www.bcn.cl/historiapolitica/corporaciones/periodos_legislativos?periodo=1925-1973). Biblioteca del Congreso Nacional de Chile.
