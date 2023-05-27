@@ -1,121 +1,122 @@
-Distrito,Lista/Pacto,Partido,Candidatos,Votos,Porcentaje,Electos,url
-1,Nueva Mayoría,PS,"['Luis', 'Rocafull', 'Lopez']",15064,22.42,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Alberto_Rocafull_López
-1,"Si tú quieres, Chile cambia",PL,"['Vlado', 'Mirosevic', 'Verdugo']",14301,21.28,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Vlado_Mirosevic_Verdugo
-2,Nueva Mayoría,PC,"['Hugo', 'Gutierrez', 'Galvez']",23238,28.79,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Hugo_Humberto_Gutiérrez_Gálvez
-2,Alianza,UDI,"['Renzo', 'Trisotti', 'Martinez']",20818,25.8,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Renzo_Aldo_Trisotti_Martínez
-3,Nueva Mayoría,PRSD,"['Marcos', 'Andres', 'Espinosa', 'Monardes']",16877,27.87,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Marcos_Espinosa_Monardes
-3,Alianza,UDI,"['Felipe', 'Ward', 'Edwards']",14604,24.12,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Felipe_Ward_Edwards
-4,Nueva Mayoría,PRSD,"['Marcela', 'Hernando', 'Perez']",27226,25.98,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Marcela_Ximena_Hernando_Pérez
-4,Alianza,RN,"['Paulina', 'Nuñez', 'Urrutia']",20565,19.63,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Paulina_Andrea_Núñez_Urrutia
-5,Nueva Mayoría,IND,"['Daniella', 'Cicardini', 'Milla']",13382,24.07,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Daniella_Valentina_Cicardini_Milla
-5,Nueva Mayoría,PC,"['Lautaro', 'Carmona', 'Soto']",23293,41.9,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Lautaro_Carmona_Soto
-6,Nueva Mayoría,PDC,"['Yasna', 'Provoste', 'Campillay']",16694,43.91,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Yasna_Provoste_Campillay
-6,Nueva Mayoría,PRSD,"['Alberto', 'Robles', 'Pantoja']",5055,13.3,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alberto_Robles_Pantoja
-7,Nueva Mayoría,PS,"['Raul', 'Saldivar', 'Auger']",25764,29.91,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Raúl_Fernando_Saldívar_Auger
-7,Alianza,UDI,"['Sergio', 'Gahona', 'Salazar']",20507,23.8,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Sergio_Alfredo_Gahona_Salazar
-8,Nueva Mayoría,PDC,"['Matias', 'Walker', 'Prieto']",38573,38.51,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Matías_Walker_Prieto
-8,Nueva Mayoría,PC,"['Daniel', 'Nuñez', 'Arancibia']",13394,13.37,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Daniel_Ignacio_Núñez_Arancibia
-9,Nueva Mayoría,PS,"['Luis', 'Lemus', 'Aracena']",23802,43.78,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Segundo_Lemus_Aracena
-9,Nueva Mayoría,PPD,"['Jorge', 'Insunza', 'Gregorio de las Heras']",15474,28.46,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Insunza_Gregorio_de_Las_Heras
-10,Nueva Mayoría,PS,"['Christian', 'Urizar', 'Muñoz']",31353,25.76,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Christian_Erwin_Urízar_Muñoz
-10,Alianza,UDI,"['Andrea', 'Molina', 'Oliva']",40790,33.52,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Andrea_Molina_Oliva
-11,Nueva Mayoría,PPD,"['Marco', 'Antonio', 'Nuñez', 'Lozano']",48097,48.98,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Marco_Antonio_Núñez_Lozano
-11,Alianza,RN,"['Gaspar', 'Rivas', 'Sanchez']",23826,24.26,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gaspar_Alberto_Rivas_Sánchez
-12,Nueva Mayoría,PS,"['Marcelo', 'Schilling', 'Rodriguez']",29198,25.08,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Marcelo_Schilling_Rodríguez
-12,Alianza,UDI,"['Arturo', 'Squella', 'Ovalle']",32570,27.98,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Arturo_Squella_Ovalle
-13,Nueva Mayoría,PDC,"['Aldo', 'Cornejo', 'Gonzalez']",34406,29.69,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Aldo_Cornejo_González
-13,Alianza,RN,"['Joaquin', 'Godoy', 'Ibañez']",24987,21.56,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Joaquín_Godoy_Ibáñez
-14,Nueva Mayoría,PPD,"['Rodrigo', 'Gonzalez', 'Torres']",40303,28.04,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rodrigo_René_González_Torres
-14,Alianza,UDI,"['Osvaldo', 'Urrutia', 'Soto']",38005,26.44,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Osvaldo_Alejandro_Nicanor_Urrutia_Soto
-15,Nueva Mayoría,PDC,"['Victor', 'Torres', 'Jeldes']",27561,35.89,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Víctor_Marcelo_Torres_Jeldes
-15,Alianza,UDI,"['Maria', 'Jose', 'Hoffmann', 'Opazo']",21870,28.48,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/María_José_Hoffmann_Opazo
-16,Nueva Mayoría,PDC,"['Gabriel', 'Silber', 'Romo']",64696,38.6,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gabriel_Silber_Romo
-16,Alianza,UDI,"['Patricio', 'Melero', 'Abaroa']",39449,23.54,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Patricio_Melero_Abaroa
-17,Nueva Mayoría,PPD,"['Daniel', 'Alejandro', 'Farcas', 'Guendelman']",32467,25.06,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Daniel_Alejandro_Farcas_Guendelman
-17,Alianza,RN,"['Karla', 'Rubilar', 'Barahona']",35402,27.33,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Karla_Rubilar_Barahona
-18,Nueva Mayoría,PPD,"['Cristina', 'Girardi', 'Lavin']",61874,45.5,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Cristina_Girardi_Lavín
-18,Alianza,RN,"['Nicolas', 'Monckeberg', 'Diaz']",39100,28.75,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Nicolás_Monckeberg_Díaz
-19,Nueva Mayoría,PC,"['Karol', 'Cariola', 'Oliva']",35706,38.4,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Karol_Aída_Cariola_Oliva
-19,Alianza,UDI,"['Claudia', 'Nogueira', 'Fernandez']",23391,25.16,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Claudia_Nogueira_Fernández
-20,Nueva Mayoría,PPD,"['Pepe', 'Auth', 'Stewart']",82856,33.77,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pepe_Auth_Stewart
-20,Alianza,UDI,"['Joaquin', 'Lavin', 'Leon']",58180,23.71,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Joaquín_José_Lavín_León
-21,Nueva Mayoría,PS,"['Maya', 'Fernandez', 'Allende']",58186,31.3,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Maya_Alejandra_Fernández_Allende
-21,Alianza,RN,"['Marcela', 'Sabat', 'Fernandez']",53135,28.58,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Marcela_Constanza_Sabat_Fernández
-22,Alianza,IND,"['Felipe', 'Kast', 'Sommerhoff']",22431,19.55,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Felipe_José_Kast_Sommerhoff
-22,Candidatura Independiente,IND,"['Giorgio', 'Jackson', 'Drago']",55259,48.17,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Kenneth_Giorgio_Jackson_Drago
-23,Alianza,UDI,"['Ernesto', 'Silva', 'Mendez']",76522,34.0,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ernesto_Silva_Méndez
-23,Alianza,RN,"['Cristian', 'Monckeberg', 'Bruner']",77952,34.63,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Cristián_Monckeberg_Bruner
-24,Nueva Mayoría,PDC,"['Jaime', 'Pilowsky', 'Greene']",27072,20.71,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jaime_Hernán_Gonzalo_Pilowsky_Greene
-24,Alianza,UDI,"['Jose', 'Antonio', 'Kast', 'Rist']",24471,18.72,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Antonio_Kast_Rist
-25,Nueva Mayoría,PDC,"['Claudio', 'Arriagada', 'Macaya']",36410,27.67,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Claudio_Eugenio_Arriagada_Macaya
-25,Nueva Mayoría,PPD,"['Ramon', 'Farias', 'Ponce']",40278,30.61,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ramón_Farías_Ponce
-26,Nueva Mayoría,PC,"['Camila', 'Vallejo', 'Dowling']",62751,43.71,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Camila_Antonia_Amaranta_Vallejo_Dowling
-26,Alianza,UDI,"['Gustavo', 'Hasbun', 'Selume']",34819,24.26,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gustavo_Hasbún_Selume
-27,Nueva Mayoría,PPD,"['Tucapel', 'Jimenez', 'Fuentes']",45523,33.51,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Tucapel_Francisco_Jiménez_Fuentes
-27,Nueva Mayoría,PS,"['Daniel', 'Melo', 'Contreras']",34201,25.18,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Daniel_Alexander_Melo_Contreras
-28,Nueva Mayoría,PC,"['Guillermo', 'Teillier', 'del Valle']",53374,41.03,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Guillermo_León_Teillier_del_Valle
-28,Alianza,RN,"['Pedro', 'Browne', 'Urrejola']",21978,16.9,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Pablo_Browne_Urrejola
-29,Nueva Mayoría,PS,"['Osvaldo', 'Andrade', 'Lara']",61191,31.01,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Osvaldo_Raúl_Andrade_Lara
-29,Alianza,RN,"['Leopoldo', 'Perez', 'Lahsen']",46500,23.57,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Leopoldo_Alfredo_Pérez_Lahsen
-30,Nueva Mayoría,PS,"['Leonardo', 'Soto', 'Ferrada']",36618,25.11,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Leonardo_Enrique_Soto_Ferrada
-30,Alianza,UDI,"['Jaime', 'Bellolio', 'Avaria']",32223,22.1,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jaime_Andrés_Bellolio_Avaria
-31,Nueva Mayoría,PS,"['Denise', 'Pascal', 'Allende']",66747,42.97,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Denise_Pascal_Allende
-31,Alianza,UDI,"['Juan', 'Antonio', 'Coloma', 'Alamos']",31393,20.21,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Antonio_Coloma_Álamos
-32,Nueva Mayoría,PS,"['Juan', 'Luis', 'Castro', 'Gonzalez']",35158,41.13,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Luis_Castro_González
-32,Alianza,UDI,"['Issa', 'Kort', 'Garriga']",18812,22.01,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Issa_Farid_Kort_Garriga
-33,Nueva Mayoría,PDC,"['Ricardo', 'Rincon', 'Gonzalez']",48114,45.17,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ricardo_Enrique_Rincón_González
-33,Nueva Mayoría,PPD,"['Felipe', 'Letelier', 'Norambuena']",14809,13.9,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Felipe_Letelier_Norambuena
-34,Alianza,UDI,"['Javier', 'Macaya', 'Danus']",21979,26.47,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Javier_Ignacio_Macaya_Danus
-34,Candidatura Independiente,IND,"['Alejandra', 'Sepulveda', 'Orbenes']",35012,42.16,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alejandra_Sepúlveda_Orbenes
-35,Nueva Mayoría,PDC,"['Sergio', 'Espejo', 'Yaksic']",16869,26.19,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Sergio_Espejo_Yaksic
-35,Alianza,UDI,"['Ramon', 'Barros', 'Montero']",20723,32.17,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ramón_José_Barros_Montero
-36,Nueva Mayoría,PDC,"['Roberto', 'Leon', 'Ramirez']",48374,42.9,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Roberto_León_Ramírez
-36,Alianza,UDI,"['Celso', 'Morales', 'Muñoz']",30117,26.71,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Celso_René_Morales_Muñoz
-37,Nueva Mayoría,IND,"['Sergio', 'Patricio', 'Aguilo', 'Melo']",22611,26.78,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Sergio_Aguiló_Melo
-37,Alianza,RN,"['German', 'Verdugo', 'Soto']",22037,26.1,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Germán_Verdugo_Soto
-38,Nueva Mayoría,PDC,"['Pablo', 'Lorenzini', 'Basso']",28849,40.57,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pablo_Lorenzini_Basso
-38,Alianza,UDI,"['Pedro', 'Pablo', 'Alvarez-Salamanca', 'Ramirez']",17716,24.91,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Pablo_Álvarez-Salamanca_Ramírez
-39,Nueva Mayoría,PPD,"['Jorge', 'Tarud', 'Daccarett']",29601,38.53,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Tarud_Daccarett
-39,Alianza,UDI,"['Romilio', 'Gutierrez', 'Pino']",23526,30.62,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Romilio_Gutiérrez_Pino
-40,Nueva Mayoría,PPD,"['Guillermo', 'Ceroni', 'Fuentes']",19509,29.44,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Guillermo_Ceroni_Fuentes
-40,Alianza,UDI,"['Ignacio', 'Urrutia', 'Bonilla']",14773,22.29,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ignacio_Urrutia_Bonilla
-41,Nueva Mayoría,PRSD,"['Carlos', 'Abel', 'Jarpa', 'Wevar']",37882,32.85,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Abel_Jarpa_Wevar
-41,Alianza,RN,"['Rosauro', 'Martinez', 'Labbe']",36014,31.23,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rosauro_Martínez_Labbé
-42,Nueva Mayoría,PDC,"['Jorge', 'Sabag', 'Villalobos']",45044,45.87,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Eduardo_Sabag_Villalobos
-42,Nueva Mayoría,PPD,"['Loreto', 'Carvajal', 'Ambiado']",18744,19.09,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/María_Loreto_Carvajal_Ambiado
-43,Nueva Mayoría,PPD,"['Cristian', 'Campos', 'Jara']",29771,30.92,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Cristian_Campos_Jara
-43,Alianza,UDI,"['Jorge', 'Ulloa', 'Aguillon']",25651,26.64,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Iván_Ulloa_Aguillón
-44,Nueva Mayoría,PDC,"['Jose', 'Miguel', 'Ortiz', 'Novoa']",59861,36.98,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Miguel_Ortiz_Novoa
-44,Alianza,UDI,"['Enrique', 'van Rysselberghe', 'Herrera']",40721,25.16,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Enrique_Van_Rysselberghe_Herrera
-45,Nueva Mayoría,PS,"['Clemira', 'Pacheco', 'Rivas']",42711,41.59,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Clemira_Pacheco_Rivas
-45,Nueva Mayoría,PDC,"['Marcelo', 'Chavez', 'Velasquez']",17131,16.68,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Marcelo_Omar_Chávez_Velásquez
-46,Nueva Mayoría,PS,"['Manuel', 'Monsalve', 'Benavides']",33688,38.24,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Zacarías_Monsalve_Benavides
-46,Alianza,UDI,"['Ivan', 'Norambuena', 'Farias']",30806,34.97,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Iván_Ernesto_Norambuena_Farías
-47,Nueva Mayoría,IND,"['Roberto', 'Poblete', 'Zapata']",15826,12.83,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Roberto_Fortunato_Poblete_Zapata
-47,Nueva Mayoría,PRSD,"['Jose', 'Perez', 'Arriagada']",53539,43.41,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Pérez_Arriagada
-48,Nueva Mayoría,PDC,"['Mario', 'Venegas', 'Cardenas']",22641,36.44,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Mario_Venegas_Cárdenas
-48,Alianza,RN,"['Jorge', 'Rathgeb', 'Schifferli']",16449,26.47,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Evaldo_Rathgeb_Schifferli
-49,Nueva Mayoría,PDC,"['Fuad', 'Chahin', 'Valenzuela']",26584,43.65,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fuad_Eduardo_Chahin_Valenzuela
-49,Alianza,RN,"['Diego', 'Paulsen', 'Kehr']",16017,26.3,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Diego_Alfredo_Paulsen_Kehr
-50,Nueva Mayoría,PDC,"['Rene', 'Saffirio', 'Espinoza']",44111,36.83,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/René_Fernando_Saffirio_Espinoza
-50,Alianza,RN,"['German', 'Becker', 'Alvear']",40011,33.41,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Germán_Becker_Alvear
-51,Nueva Mayoría,PPD,"['Joaquin', 'Tuma', 'Zedan']",22191,36.61,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Joaquín_Tuma_Zedan
-51,Alianza,RN,"['Jose', 'Manuel', 'Edwards', 'Silva']",19445,32.08,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Manuel_Edwards_Silva
-52,Nueva Mayoría,PRSD,"['Fernando', 'Meza', 'Moncada']",19375,31.98,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fernando_Meza_Moncada
-52,Alianza,RN,"['Rene', 'Manuel', 'Garcia', 'Garcia']",14372,23.73,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/René_Manuel_García_García
-53,Nueva Mayoría,PDC,"['Ivan', 'Flores', 'Garcia']",29366,36.24,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Iván_Alberto_Flores_García
-53,Alianza,RN,"['Bernardo', 'Berger', 'Fett']",20836,25.71,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Bernardo_José_Berger_Fett
-54,Nueva Mayoría,PPD,"['Enrique', 'Jaramillo', 'Becker']",34538,49.88,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Enrique_Jaramillo_Becker
-54,Alianza,RN,"['Gonzalo', 'Fuenzalida', 'Figueroa']",13650,19.71,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gonzalo_Guillermo_Fuenzalida_Figueroa
-55,Nueva Mayoría,PDC,"['Sergio', 'Ojeda', 'Uribe']",24071,34.2,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Sergio_Ojeda_Uribe
-55,Alianza,UDI,"['Javier', 'Hernandez', 'Hernandez']",19280,27.4,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Javier_Ricardo_Hernández_Hernández
-56,Nueva Mayoría,PS,"['Fidel', 'Espinoza', 'Sandoval']",38554,55.16,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fidel_Edgardo_Espinoza_Sandoval
-56,Alianza,UDI,"['Felipe', 'de Mussy', 'Hiriart']",15961,22.84,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Felipe_De_Mussy_Hiriart
-57,Nueva Mayoría,PDC,"['Patricio', 'Vallespin', 'Lopez']",37964,45.32,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Patricio_Vallespín_López
-57,Alianza,UDI,"['Marisol', 'Turres', 'Figueroa']",19292,23.03,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Marisol_Turres_Figueroa
-58,Nueva Mayoría,PS,"['Jenny', 'Alvarez', 'Vera']",23895,38.09,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jenny_Paola_Álvarez_Vera
-58,Alianza,RN,"['Alejandro', 'Santana', 'Tirachini']",20526,32.72,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alejandro_Santana_Tirachini
-59,Nueva Mayoría,IND,"['Ivan', 'Fuentes', 'Castillo']",9128,25.36,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Iván_Aladino_Fuentes_Castillo
-59,Alianza,UDI,"['David', 'Sandoval', 'Plaza']",8595,23.88,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/David_Sandoval_Plaza
-60,Nueva Mayoría,PDC,"['Juan', 'Enrique', 'Morano', 'Cornejo']",10760,18.27,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Enrique_Morano_Cornejo
-60,Candidatura Independiente,IND,"['Gabriel', 'Boric', 'Font']",15417,26.18,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gabriel_Boric_Font
+Distrito,Lista/Pacto,Partido,Candidatos,Votos,Porcentaje,Electos,Electos_comp,url
+1,Nueva Mayoría,PS,"('Luis', 'Rocafull', 'Lopez')",15064.0,22.42,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Alberto_Rocafull_López
+1,"Si tú quieres, Chile cambia",PL,"('Vlado', 'Mirosevic', 'Verdugo')",14301.0,21.28,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Vlado_Mirosevic_Verdugo
+2,Alianza,UDI,"('Renzo', 'Trisotti', 'Martinez')",20818.0,25.8,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Renzo_Aldo_Trisotti_Martínez
+2,Nueva Mayoría,PC,"('Hugo', 'Gutierrez', 'Galvez')",23238.0,28.79,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Hugo_Humberto_Gutiérrez_Gálvez
+3,Alianza,UDI,"('Felipe', 'Ward', 'Edwards')",14604.0,24.12,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Felipe_Ward_Edwards
+3,Nueva Mayoría,PRSD,"('Marcos', 'Andres', 'Espinosa', 'Monardes')",16877.0,27.87,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Marcos_Espinosa_Monardes
+4,Alianza,RN,"('Paulina', 'Nuñez', 'Urrutia')",20565.0,19.63,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Paulina_Andrea_Núñez_Urrutia
+4,Nueva Mayoría,PRSD,"('Marcela', 'Hernando', 'Perez')",27226.0,25.98,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Marcela_Ximena_Hernando_Pérez
+5,Nueva Mayoría,PC,"('Lautaro', 'Carmona', 'Soto')",23293.0,41.9,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Lautaro_Carmona_Soto
+5,Nueva Mayoría,IND,"('Daniella', 'Cicardini', 'Milla')",13382.0,24.07,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Daniella_Valentina_Cicardini_Milla
+6,Nueva Mayoría,PRSD,"('Alberto', 'Robles', 'Pantoja')",5055.0,13.3,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alberto_Robles_Pantoja
+6,Nueva Mayoría,PDC,"('Yasna', 'Provoste', 'Campillay')",16694.0,43.91,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Yasna_Provoste_Campillay
+7,Alianza,UDI,"('Sergio', 'Gahona', 'Salazar')",20507.0,23.8,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Sergio_Alfredo_Gahona_Salazar
+7,Nueva Mayoría,PS,"('Raul', 'Saldivar', 'Auger')",25764.0,29.91,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Raúl_Fernando_Saldívar_Auger
+8,Nueva Mayoría,PDC,"('Matias', 'Walker', 'Prieto')",38573.0,38.51,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Matías_Walker_Prieto
+8,Nueva Mayoría,PC,"('Daniel', 'Nuñez', 'Arancibia')",13394.0,13.37,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Daniel_Ignacio_Núñez_Arancibia
+9,Nueva Mayoría,PS,"('Luis', 'Lemus', 'Aracena')",23802.0,43.78,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Segundo_Lemus_Aracena
+9,Nueva Mayoría,PPD,"('Jorge', 'Insunza', 'Gregorio de las Heras')",15474.0,28.46,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Insunza_Gregorio_de_Las_Heras
+9,Nueva Mayoría,PPD,"('Miguel', 'Ángel', 'Alvarado', 'Ramírez')",0.0,0.0,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Miguel_Ángel_Alvarado_Ramírez
+10,Alianza,UDI,"('Andrea', 'Molina', 'Oliva')",40790.0,33.52,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Andrea_Molina_Oliva
+10,Nueva Mayoría,PS,"('Christian', 'Urizar', 'Muñoz')",31353.0,25.76,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Christian_Erwin_Urízar_Muñoz
+11,Alianza,RN,"('Gaspar', 'Rivas', 'Sanchez')",23826.0,24.26,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gaspar_Alberto_Rivas_Sánchez
+11,Nueva Mayoría,PPD,"('Marco', 'Antonio', 'Nuñez', 'Lozano')",48097.0,48.98,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Marco_Antonio_Núñez_Lozano
+12,Alianza,UDI,"('Arturo', 'Squella', 'Ovalle')",32570.0,27.98,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Arturo_Squella_Ovalle
+12,Nueva Mayoría,PS,"('Marcelo', 'Schilling', 'Rodriguez')",29198.0,25.08,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Marcelo_Schilling_Rodríguez
+13,Alianza,RN,"('Joaquin', 'Godoy', 'Ibañez')",24987.0,21.56,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Joaquín_Godoy_Ibáñez
+13,Nueva Mayoría,PDC,"('Aldo', 'Cornejo', 'Gonzalez')",34406.0,29.69,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Aldo_Cornejo_González
+14,Alianza,UDI,"('Osvaldo', 'Urrutia', 'Soto')",38005.0,26.44,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Osvaldo_Alejandro_Nicanor_Urrutia_Soto
+14,Nueva Mayoría,PPD,"('Rodrigo', 'Gonzalez', 'Torres')",40303.0,28.04,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rodrigo_René_González_Torres
+15,Alianza,UDI,"('Maria', 'Jose', 'Hoffmann', 'Opazo')",21870.0,28.48,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/María_José_Hoffmann_Opazo
+15,Nueva Mayoría,PDC,"('Victor', 'Torres', 'Jeldes')",27561.0,35.89,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Víctor_Marcelo_Torres_Jeldes
+16,Alianza,UDI,"('Patricio', 'Melero', 'Abaroa')",39449.0,23.54,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Patricio_Melero_Abaroa
+16,Nueva Mayoría,PDC,"('Gabriel', 'Silber', 'Romo')",64696.0,38.6,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gabriel_Silber_Romo
+17,Alianza,RN,"('Karla', 'Rubilar', 'Barahona')",35402.0,27.33,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Karla_Rubilar_Barahona
+17,Nueva Mayoría,PPD,"('Daniel', 'Alejandro', 'Farcas', 'Guendelman')",32467.0,25.06,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Daniel_Alejandro_Farcas_Guendelman
+18,Alianza,RN,"('Nicolas', 'Monckeberg', 'Diaz')",39100.0,28.75,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Nicolás_Monckeberg_Díaz
+18,Nueva Mayoría,PPD,"('Cristina', 'Girardi', 'Lavin')",61874.0,45.5,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Cristina_Girardi_Lavín
+19,Alianza,UDI,"('Claudia', 'Nogueira', 'Fernandez')",23391.0,25.16,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Claudia_Nogueira_Fernández
+19,Nueva Mayoría,PC,"('Karol', 'Cariola', 'Oliva')",35706.0,38.4,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Karol_Aída_Cariola_Oliva
+20,Alianza,UDI,"('Joaquin', 'Lavin', 'Leon')",58180.0,23.71,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Joaquín_José_Lavín_León
+20,Nueva Mayoría,PPD,"('Pepe', 'Auth', 'Stewart')",82856.0,33.77,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pepe_Auth_Stewart
+21,Alianza,RN,"('Marcela', 'Sabat', 'Fernandez')",53135.0,28.58,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Marcela_Constanza_Sabat_Fernández
+21,Nueva Mayoría,PS,"('Maya', 'Fernandez', 'Allende')",58186.0,31.3,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Maya_Alejandra_Fernández_Allende
+22,Alianza,IND,"('Felipe', 'Kast', 'Sommerhoff')",22431.0,19.55,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Felipe_José_Kast_Sommerhoff
+22,Candidatura Independiente,IND,"('Giorgio', 'Jackson', 'Drago')",55259.0,48.17,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Kenneth_Giorgio_Jackson_Drago
+23,Alianza,RN,"('Cristian', 'Monckeberg', 'Bruner')",77952.0,34.63,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Cristián_Monckeberg_Bruner
+23,Alianza,UDI,"('Ernesto', 'Silva', 'Mendez')",76522.0,34.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ernesto_Silva_Méndez
+24,Alianza,UDI,"('Jose', 'Antonio', 'Kast', 'Rist')",24471.0,18.72,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Antonio_Kast_Rist
+24,Nueva Mayoría,PDC,"('Jaime', 'Pilowsky', 'Greene')",27072.0,20.71,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jaime_Hernán_Gonzalo_Pilowsky_Greene
+25,Nueva Mayoría,PPD,"('Ramon', 'Farias', 'Ponce')",40278.0,30.61,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ramón_Farías_Ponce
+25,Nueva Mayoría,PDC,"('Claudio', 'Arriagada', 'Macaya')",36410.0,27.67,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Claudio_Eugenio_Arriagada_Macaya
+26,Alianza,UDI,"('Gustavo', 'Hasbun', 'Selume')",34819.0,24.26,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gustavo_Hasbún_Selume
+26,Nueva Mayoría,PC,"('Camila', 'Vallejo', 'Dowling')",62751.0,43.71,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Camila_Antonia_Amaranta_Vallejo_Dowling
+27,Nueva Mayoría,PPD,"('Tucapel', 'Jimenez', 'Fuentes')",45523.0,33.51,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Tucapel_Francisco_Jiménez_Fuentes
+27,Nueva Mayoría,PS,"('Daniel', 'Melo', 'Contreras')",34201.0,25.18,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Daniel_Alexander_Melo_Contreras
+28,Alianza,RN,"('Pedro', 'Browne', 'Urrejola')",21978.0,16.9,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Pablo_Browne_Urrejola
+28,Nueva Mayoría,PC,"('Guillermo', 'Teillier', 'del Valle')",53374.0,41.03,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Guillermo_León_Teillier_del_Valle
+29,Alianza,RN,"('Leopoldo', 'Perez', 'Lahsen')",46500.0,23.57,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Leopoldo_Alfredo_Pérez_Lahsen
+29,Nueva Mayoría,PS,"('Osvaldo', 'Andrade', 'Lara')",61191.0,31.01,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Osvaldo_Raúl_Andrade_Lara
+30,Alianza,UDI,"('Jaime', 'Bellolio', 'Avaria')",32223.0,22.1,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jaime_Andrés_Bellolio_Avaria
+30,Nueva Mayoría,PS,"('Leonardo', 'Soto', 'Ferrada')",36618.0,25.11,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Leonardo_Enrique_Soto_Ferrada
+31,Alianza,UDI,"('Juan', 'Antonio', 'Coloma', 'Alamos')",31393.0,20.21,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Antonio_Coloma_Álamos
+31,Nueva Mayoría,PS,"('Denise', 'Pascal', 'Allende')",66747.0,42.97,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Denise_Pascal_Allende
+32,Alianza,UDI,"('Issa', 'Kort', 'Garriga')",18812.0,22.01,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Issa_Farid_Kort_Garriga
+32,Nueva Mayoría,PS,"('Juan', 'Luis', 'Castro', 'Gonzalez')",35158.0,41.13,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Luis_Castro_González
+33,Nueva Mayoría,PDC,"('Ricardo', 'Rincon', 'Gonzalez')",48114.0,45.17,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ricardo_Enrique_Rincón_González
+33,Nueva Mayoría,PPD,"('Felipe', 'Letelier', 'Norambuena')",14809.0,13.9,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Felipe_Letelier_Norambuena
+34,Alianza,UDI,"('Javier', 'Macaya', 'Danus')",21979.0,26.47,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Javier_Ignacio_Macaya_Danus
+34,Candidatura Independiente,IND,"('Alejandra', 'Sepulveda', 'Orbenes')",35012.0,42.16,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alejandra_Sepúlveda_Orbenes
+35,Alianza,UDI,"('Ramon', 'Barros', 'Montero')",20723.0,32.17,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ramón_José_Barros_Montero
+35,Nueva Mayoría,PDC,"('Sergio', 'Espejo', 'Yaksic')",16869.0,26.19,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Sergio_Espejo_Yaksic
+36,Alianza,UDI,"('Celso', 'Morales', 'Muñoz')",30117.0,26.71,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Celso_René_Morales_Muñoz
+36,Nueva Mayoría,PDC,"('Roberto', 'Leon', 'Ramirez')",48374.0,42.9,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Roberto_León_Ramírez
+37,Alianza,RN,"('German', 'Verdugo', 'Soto')",22037.0,26.1,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Germán_Verdugo_Soto
+37,Nueva Mayoría,IND,"('Sergio', 'Patricio', 'Aguilo', 'Melo')",22611.0,26.78,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Sergio_Aguiló_Melo
+38,Alianza,UDI,"('Pedro', 'Pablo', 'Alvarez-Salamanca', 'Ramirez')",17716.0,24.91,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Pablo_Álvarez-Salamanca_Ramírez
+38,Nueva Mayoría,PDC,"('Pablo', 'Lorenzini', 'Basso')",28849.0,40.57,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pablo_Lorenzini_Basso
+39,Alianza,UDI,"('Romilio', 'Gutierrez', 'Pino')",23526.0,30.62,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Romilio_Gutiérrez_Pino
+39,Nueva Mayoría,PPD,"('Jorge', 'Tarud', 'Daccarett')",29601.0,38.53,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Tarud_Daccarett
+40,Alianza,UDI,"('Ignacio', 'Urrutia', 'Bonilla')",14773.0,22.29,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ignacio_Urrutia_Bonilla
+40,Nueva Mayoría,PPD,"('Guillermo', 'Ceroni', 'Fuentes')",19509.0,29.44,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Guillermo_Ceroni_Fuentes
+41,Alianza,RN,"('Rosauro', 'Martinez', 'Labbe')",36014.0,31.23,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rosauro_Martínez_Labbé
+41,Nueva Mayoría,PRSD,"('Carlos', 'Abel', 'Jarpa', 'Wevar')",37882.0,32.85,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Abel_Jarpa_Wevar
+42,Nueva Mayoría,PDC,"('Jorge', 'Sabag', 'Villalobos')",45044.0,45.87,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Eduardo_Sabag_Villalobos
+42,Nueva Mayoría,PPD,"('Loreto', 'Carvajal', 'Ambiado')",18744.0,19.09,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/María_Loreto_Carvajal_Ambiado
+43,Alianza,UDI,"('Jorge', 'Ulloa', 'Aguillon')",25651.0,26.64,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Iván_Ulloa_Aguillón
+43,Nueva Mayoría,PPD,"('Cristian', 'Campos', 'Jara')",29771.0,30.92,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Cristian_Campos_Jara
+44,Alianza,UDI,"('Enrique', 'van Rysselberghe', 'Herrera')",40721.0,25.16,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Enrique_Van_Rysselberghe_Herrera
+44,Nueva Mayoría,PDC,"('Jose', 'Miguel', 'Ortiz', 'Novoa')",59861.0,36.98,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Miguel_Ortiz_Novoa
+45,Nueva Mayoría,PS,"('Clemira', 'Pacheco', 'Rivas')",42711.0,41.59,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Clemira_Pacheco_Rivas
+45,Nueva Mayoría,PDC,"('Marcelo', 'Chavez', 'Velasquez')",17131.0,16.68,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Marcelo_Omar_Chávez_Velásquez
+46,Alianza,UDI,"('Ivan', 'Norambuena', 'Farias')",30806.0,34.97,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Iván_Ernesto_Norambuena_Farías
+46,Nueva Mayoría,PS,"('Manuel', 'Monsalve', 'Benavides')",33688.0,38.24,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Zacarías_Monsalve_Benavides
+47,Nueva Mayoría,PRSD,"('Jose', 'Perez', 'Arriagada')",53539.0,43.41,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Pérez_Arriagada
+47,Nueva Mayoría,IND,"('Roberto', 'Poblete', 'Zapata')",15826.0,12.83,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Roberto_Fortunato_Poblete_Zapata
+48,Alianza,RN,"('Jorge', 'Rathgeb', 'Schifferli')",16449.0,26.47,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Evaldo_Rathgeb_Schifferli
+48,Nueva Mayoría,PDC,"('Mario', 'Venegas', 'Cardenas')",22641.0,36.44,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Mario_Venegas_Cárdenas
+49,Alianza,RN,"('Diego', 'Paulsen', 'Kehr')",16017.0,26.3,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Diego_Alfredo_Paulsen_Kehr
+49,Nueva Mayoría,PDC,"('Fuad', 'Chahin', 'Valenzuela')",26584.0,43.65,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fuad_Eduardo_Chahin_Valenzuela
+50,Alianza,RN,"('German', 'Becker', 'Alvear')",40011.0,33.41,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Germán_Becker_Alvear
+50,Nueva Mayoría,PDC,"('Rene', 'Saffirio', 'Espinoza')",44111.0,36.83,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/René_Fernando_Saffirio_Espinoza
+51,Alianza,RN,"('Jose', 'Manuel', 'Edwards', 'Silva')",19445.0,32.08,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Manuel_Edwards_Silva
+51,Nueva Mayoría,PPD,"('Joaquin', 'Tuma', 'Zedan')",22191.0,36.61,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Joaquín_Tuma_Zedan
+52,Alianza,RN,"('Rene', 'Manuel', 'Garcia', 'Garcia')",14372.0,23.73,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/René_Manuel_García_García
+52,Nueva Mayoría,PRSD,"('Fernando', 'Meza', 'Moncada')",19375.0,31.98,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fernando_Meza_Moncada
+53,Alianza,RN,"('Bernardo', 'Berger', 'Fett')",20836.0,25.71,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Bernardo_José_Berger_Fett
+53,Nueva Mayoría,PDC,"('Ivan', 'Flores', 'Garcia')",29366.0,36.24,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Iván_Alberto_Flores_García
+54,Alianza,RN,"('Gonzalo', 'Fuenzalida', 'Figueroa')",13650.0,19.71,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gonzalo_Guillermo_Fuenzalida_Figueroa
+54,Nueva Mayoría,PPD,"('Enrique', 'Jaramillo', 'Becker')",34538.0,49.88,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Enrique_Jaramillo_Becker
+55,Alianza,UDI,"('Javier', 'Hernandez', 'Hernandez')",19280.0,27.4,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Javier_Ricardo_Hernández_Hernández
+55,Nueva Mayoría,PDC,"('Sergio', 'Ojeda', 'Uribe')",24071.0,34.2,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Sergio_Ojeda_Uribe
+56,Alianza,UDI,"('Felipe', 'de Mussy', 'Hiriart')",15961.0,22.84,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Felipe_De_Mussy_Hiriart
+56,Nueva Mayoría,PS,"('Fidel', 'Espinoza', 'Sandoval')",38554.0,55.16,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fidel_Edgardo_Espinoza_Sandoval
+57,Alianza,UDI,"('Marisol', 'Turres', 'Figueroa')",19292.0,23.03,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Marisol_Turres_Figueroa
+57,Nueva Mayoría,PDC,"('Patricio', 'Vallespin', 'Lopez')",37964.0,45.32,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Patricio_Vallespín_López
+58,Alianza,RN,"('Alejandro', 'Santana', 'Tirachini')",20526.0,32.72,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alejandro_Santana_Tirachini
+58,Nueva Mayoría,PS,"('Jenny', 'Alvarez', 'Vera')",23895.0,38.09,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jenny_Paola_Álvarez_Vera
+59,Alianza,UDI,"('David', 'Sandoval', 'Plaza')",8595.0,23.88,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/David_Sandoval_Plaza
+59,Nueva Mayoría,IND,"('Ivan', 'Fuentes', 'Castillo')",9128.0,25.36,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Iván_Aladino_Fuentes_Castillo
+60,Candidatura Independiente,IND,"('Gabriel', 'Boric', 'Font')",15417.0,26.18,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gabriel_Boric_Font
+60,Nueva Mayoría,PDC,"('Juan', 'Enrique', 'Morano', 'Cornejo')",10760.0,18.27,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Enrique_Morano_Cornejo

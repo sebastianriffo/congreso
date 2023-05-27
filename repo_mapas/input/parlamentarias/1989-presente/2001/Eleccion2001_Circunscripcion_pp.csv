@@ -1,8 +1,8 @@
 Circunscripción,Lista/Pacto,Partido,Candidaturas,Votos,Porcentaje,Electos
 1,Partido Comunista,PC,1,4808,3.11,0
 1,Partido Humanista,PH,1,1323,0.86,0
-1,Alianza por Chile,UDI,1,38093,24.65,1
 1,Alianza por Chile,RN,1,24844,16.08,0
+1,Alianza por Chile,UDI,1,38093,24.65,1
 1,Concertación,PPD,1,47159,30.51,1
 1,Concertación,PDC,1,13754,8.9,0
 1,Candidatura Independiente,IND,1,24569,15.9,0
@@ -13,8 +13,8 @@ Circunscripción,Lista/Pacto,Partido,Candidaturas,Votos,Porcentaje,Electos
 3,Válidamente emitidos,,0,98225,100.0,0
 5,Partido Comunista,PC,1,11909,3.7,0
 5,Alianza por Chile,RN,2,137167,42.66,1
-5,Concertación,PDC,1,80042,24.89,0
 5,Concertación,PS,1,92419,28.74,1
+5,Concertación,PDC,1,80042,24.89,0
 5,Válidamente emitidos,,0,321537,100.0,0
 6,Partido Comunista,PC,2,9163,2.57,0
 6,Partido Humanista,PH,1,5142,1.44,0
@@ -29,13 +29,13 @@ Circunscripción,Lista/Pacto,Partido,Candidaturas,Votos,Porcentaje,Electos
 11,Partido Comunista,PC,1,1988,1.32,0
 11,Alianza por Chile,UDI,1,66767,44.22,1
 11,Partido Liberal,PL,1,1407,0.93,0
-11,Concertación,PS,1,42395,28.08,1
 11,Concertación,PDC,1,34502,22.85,0
+11,Concertación,PS,1,42395,28.08,1
 11,Válidamente emitidos,,0,151003,100.0,0
 14,Partido Comunista,PC,1,4004,3.09,0
 14,Alianza por Chile,RN,1,62813,48.5,1
-14,Concertación,PPD,1,35051,27.06,1
 14,Concertación,PDC,1,27645,21.35,0
+14,Concertación,PPD,1,35051,27.06,1
 14,Válidamente emitidos,,0,129513,100.0,0
 15,Partido Comunista,PC,1,5553,2.42,0
 15,Alianza por Chile,RN,1,79009,34.48,1

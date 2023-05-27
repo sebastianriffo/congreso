@@ -1,21 +1,40 @@
-Circunscripción,Lista/Pacto,Partido,Candidatos,Votos,Porcentaje,Electos,url
-2,Nueva Mayoría,IND,"['Pedro', 'Araya', 'Guerrero']",29201,17.49,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Araya_Guerrero
-2,Nueva Mayoría,IND,"['Alejandro', 'Guillier', 'Alvarez']",61911,37.08,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alejandro_René_Eleodoro_Guillier_Álvarez
-4,Nueva Mayoría,PDC,"['Jorge', 'Pizarro', 'Soto']",78713,32.75,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Pizarro_Soto
-4,Nueva Mayoría,PPD,"['Adriana', 'Muñoz', ""D'Albora""]",73562,30.61,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Adriana_Muñoz_D'Albora
-7,Nueva Mayoría,PPD,"['Guido', 'Girardi', 'Lavin']",360949,30.31,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Guido_Girardi_Lavín
-7,Alianza,RN,"['Andres', 'Allamand', 'Zavala']",240483,20.19,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Andrés_Allamand_Zavala
-8,Nueva Mayoría,PS,"['Carlos', 'Montes', 'Cisternas']",279196,21.57,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Montes_Cisternas
-8,Alianza,RN,"['Manuel', 'Jose', 'Ossandon', 'Irarrazabal']",317311,24.51,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_José_Ossandón_Irarrázabal
-9,Nueva Mayoría,PS,"['Juan', 'Pablo', 'Letelier', 'Morel']",156230,46.03,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Pablo_Letelier_Morel
-9,Alianza,UDI,"['Alejandro', 'Garcia-Huidobro', 'Sanfuentes']",69061,20.35,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alejandro_García-Huidobro_Sanfuentes
-12,Nueva Mayoría,MAS,"['Alejandro', 'Navarro', 'Brain']",156372,33.92,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alejandro_Navarro_Brain
-12,Alianza,UDI,"['Jacqueline', 'van Rysselberghe', 'Herrera']",128451,27.87,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jacqueline_Van_Rysselberghe_Herrera
-13,Nueva Mayoría,PPD,"['Felipe', 'Harboe', 'Bascuñan']",121620,37.8,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Felipe_Harboe_Bascuñán
-13,Alianza,UDI,"['Victor', 'Perez', 'Varela']",79298,24.65,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Víctor_Pérez_Varela
-16,Nueva Mayoría,PS,"['Alfonso', 'de Urresti', 'Longton']",140358,46.86,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alfonso_Arturo_De_Urresti_Longton
-16,Alianza,UDI,"['Ena', 'von Baer', 'Jahn']",68384,22.83,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ena_Anglein_von_Baer_Jahn
-17,Nueva Mayoría,PS,"['Rabindranath', 'Quinteros', 'Lara']",270744,47.5,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rabindranath_Quinteros_Lara
-17,Alianza,UDI,"['Ivan', 'Moreira', 'Barros']",108918,19.11,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Iván_Moreira_Barros
-19,Nueva Mayoría,PDC,"['Carolina', 'Goic', 'Boroevic']",22714,38.19,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carolina_Goic_Boroevic
-19,Candidatura Independiente,IND,"['Carlos', 'Bianchi', 'Chelech']",16330,27.46,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Antonio_Karim_Bianchi_Chelech
+Circunscripción,Lista/Pacto,Partido,Candidatos,Votos,Porcentaje,Electos,Electos_comp,url
+1,Alianza,UDI,"('Jaime', 'Orpis', 'Bouchon')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jaime_Orpis_Bouchon
+1,Nueva Mayoría,PS,"('Fulvio', 'Rossi', 'Ciocca')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fulvio_Rossi_Ciocca
+2,Nueva Mayoría,IND,"('Pedro', 'Araya', 'Guerrero')",29201.0,17.49,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Araya_Guerrero
+2,Nueva Mayoría,IND,"('Alejandro', 'Guillier', 'Alvarez')",61911.0,37.08,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alejandro_René_Eleodoro_Guillier_Álvarez
+3,Alianza,RN,"('Baldo', 'Prokurica', 'Prokurica')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Baldo_Prokurica_Prokurica
+3,Nueva Mayoría,PS,"('Isabel', 'Allende', 'Bussi')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/María_Isabel_Allende_Bussi
+4,Nueva Mayoría,PDC,"('Jorge', 'Pizarro', 'Soto')",78713.0,32.75,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Pizarro_Soto
+4,Nueva Mayoría,PPD,"('Adriana', 'Muñoz', ""D'Albora"")",73562.0,30.61,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Adriana_Muñoz_D'Albora
+5,Alianza,IND,"('Lily', 'Pérez', 'San Martín')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Lily_Jovanka_Pérez_San_Martín
+5,Nueva Mayoría,PDC,"('Ignacio', 'Walker', 'Prieto')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ignacio_Walker_Prieto
+6,Alianza,RN,"('Francisco', 'Chahuán', 'Chahuán')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Francisco_Chahuán_Chahuán
+6,Nueva Mayoría,PPD,"('Ricardo', 'Lagos', 'Weber')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ricardo_Lagos_Weber
+7,Alianza,RN,"('Andres', 'Allamand', 'Zavala')",240483.0,20.19,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Andrés_Allamand_Zavala
+7,Nueva Mayoría,PPD,"('Guido', 'Girardi', 'Lavin')",360949.0,30.31,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Guido_Girardi_Lavín
+8,Alianza,RN,"('Manuel', 'Jose', 'Ossandon', 'Irarrazabal')",317311.0,24.51,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_José_Ossandón_Irarrázabal
+8,Nueva Mayoría,PS,"('Carlos', 'Montes', 'Cisternas')",279196.0,21.57,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Montes_Cisternas
+9,Alianza,UDI,"('Alejandro', 'Garcia-Huidobro', 'Sanfuentes')",69061.0,20.35,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alejandro_García-Huidobro_Sanfuentes
+9,Nueva Mayoría,PS,"('Juan', 'Pablo', 'Letelier', 'Morel')",156230.0,46.03,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Pablo_Letelier_Morel
+10,Alianza,UDI,"('Juan', 'Antonio', 'Coloma', 'Correa')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Antonio_Coloma_Correa
+10,Nueva Mayoría,PDC,"('Andrés', 'Zaldívar', 'Larraín')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Andrés_Zaldívar_Larraín
+11,Alianza,UDI,"('Hernán', 'Larraín', 'Fernández')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Hernán_Larraín_Fernández
+11,Nueva Mayoría,PDC,"('Ximena', 'Rincón', 'González')",0.0,0.0,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ximena_Rincón_González
+11,Nueva Mayoría,PDC,"('Manuel', 'Matta', 'Aragay')",0.0,0.0,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_José_Ramón_Matta_Aragay
+12,Alianza,UDI,"('Jacqueline', 'van Rysselberghe', 'Herrera')",128451.0,27.87,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jacqueline_Van_Rysselberghe_Herrera
+12,Nueva Mayoría,MAS,"('Alejandro', 'Navarro', 'Brain')",156372.0,33.92,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alejandro_Navarro_Brain
+13,Alianza,UDI,"('Victor', 'Perez', 'Varela')",79298.0,24.65,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Víctor_Pérez_Varela
+13,Nueva Mayoría,PPD,"('Felipe', 'Harboe', 'Bascuñan')",121620.0,37.8,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Felipe_Harboe_Bascuñán
+14,Alianza,RN,"('Alberto', 'Espina', 'Otero')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alberto_Espina_Otero
+14,Nueva Mayoría,PPD,"('Jaime', 'Quintana', 'Leal')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jaime_Quintana_Leal
+15,Alianza,RN,"('José', 'García', 'Ruminot')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Gilberto_García_Ruminot
+15,Nueva Mayoría,PPD,"('Eugenio', 'Tuma', 'Zedan')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eugenio_Tuma_Zedan
+16,Alianza,UDI,"('Ena', 'von Baer', 'Jahn')",68384.0,22.83,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ena_Anglein_von_Baer_Jahn
+16,Nueva Mayoría,PS,"('Alfonso', 'de Urresti', 'Longton')",140358.0,46.86,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alfonso_Arturo_De_Urresti_Longton
+17,Alianza,UDI,"('Ivan', 'Moreira', 'Barros')",108918.0,19.11,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Iván_Moreira_Barros
+17,Nueva Mayoría,PS,"('Rabindranath', 'Quinteros', 'Lara')",270744.0,47.5,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rabindranath_Quinteros_Lara
+18,Alianza,IND,"('Antonio', 'Horvath', 'Kiss')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Antonio_Horvath_Kiss
+18,Nueva Mayoría,PDC,"('Patricio', 'Walker', 'Prieto')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Patricio_Walker_Prieto
+19,Candidatura Independiente,IND,"('Carlos', 'Bianchi', 'Chelech')",16330.0,27.46,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Antonio_Karim_Bianchi_Chelech
+19,Nueva Mayoría,PDC,"('Carolina', 'Goic', 'Boroevic')",22714.0,38.19,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carolina_Goic_Boroevic

@@ -41,42 +41,75 @@ def nombres_formato(candidatos, formato=True):
         Nombres de candidatos en el nuevo formato.
 
     """
-    # (1941-presente)
-    excepciones = {'Viale Rigo':'Viale+Rigo',
-                   'Rigo Righi':'Rigo+Righi',
+
+    excepciones = {'Díaz De Valdés':'Díaz+de+Valdés',
+                   'Diaz De Valdes':'Diaz+de+Valdes',
+                   'García De la Huerta':'García+de+la+Huerta',
+                   'García de la Huerta':'García+de+la+Huerta',                   
+                   'Garcia de la Huerta':'García+de+la+Huerta',   
+                   'Gregorio De Las Heras':'Gregorio+de+las+Heras',
+                   'Ladrón de Guevara':'Ladrón+de+Guevara',
+                   'Ladrón De Guevara':'Ladrón+de+Guevara',                   
+                   'Lerdo De Tejada':'Lerdo+de+Tejada',
+                   'Niño De Zepeda':'Niño+de+Zepeda',
+                   'Niño de Zepeda':'Niño+de+Zepeda',
+                   'Peña Y Lillo':'Peña+y+Lillo',
+                   'Peña y Lillo':'Peña+y+Lillo',                   
                    'Pérez de Arce':'Pérez+de+Arce',
                    'Pérez De Arce':'Pérez+de+Arce',                   
-                   'Niño De Zepeda':'Niño+de+Zepeda',
+                   'Ponce de León':'Ponce+de+León',
+                   'Ruiz de Gamboa':'Ruíz+de+Gamboa',
+                   'Ruiz De Gamboa':'Ruíz+de+Gamboa',
                    'Solo De Zaldívar':'Solo+de+Zaldívar',
                    'Solo De Zaldivar':'Solo+de+Zaldivar',
-                   'Gregorio De Las Heras':'Gregorio+de+las+Heras',                   
-                   'Díaz De Valdés':'Díaz+de+Valdés',
-                   'Diaz De Valdes':'Diaz+de+Valdes',
-                   'Lerdo De Tejada':'Lerdo+de+Tejada',
-                   'Peña Y Lillo':'Peña+y+Lillo',
-                   'Jocelyn Holt':'Jocelyn+Holt',                   
-                   'Viera Gallo':'Viera+Gallo',           
-                   'Cruz Coke':'Cruz+Coke'}  
+                   #
+                   'Cruz Coke':'Cruz-Coke',
+                   'Garcia Huidobro':'García-Huidobro',
+                   'García Huidobro':'García-Huidobro',                   
+                   'Jocelyn Holt':'Jocelyn-Holt',
+                   'Larraín García Moreno': 'Larraín García-Moreno',
+                   # 'Mac-Clure': 'Mac+Clure',
+                   'Pérez Cotapos':'Pérez-Cotapos',
+                   'Viale Rigo':'Viale-Rigo',
+                   'Viera Gallo':'Viera-Gallo',
+                   'Rigo Righi':'Rigo-Righi',
+                   'Ruiz Tagle':'Ruiz-Tagle',
+                   'Ruiz Esquide':'Ruiz-Esquide',
+                   #
+                   'Dalbora': "D'Albora",
+                   'O Ryan': "O'Ryan",
+                   #                                      
+                   'Yrarrázaval': 'Irarrázaval',
+                   #
+                   'Brucher': 'Brücher',
+                   'Buchi': 'Büchi',
+                   'Doll': 'Döll',
+                   'Hubner': 'Hübner',
+                   'Muhlenbrock': 'Mühlenbrock',
+                   'Muller': 'Müller'}
     
     articulos = {' Y ':' Y+',
-                 ' De La ':' de+la+', ' De Los ':' de+los+', ' De Las ':' de+las+', ' De ':' de+', ' Del ':' del+', 
+                 ' De La ':' de+la+', ' De Los ':' de+los+', ' De Las ':' de+las+', ' De ':' de+', ' Del ':' del+', ' del ':' del+', 
                  ' San ':' San+', ' Santa ':' Santa+', 
                  ' Van ':' van+', ' Von ':' von+', '-Von ':'-von+', 
+                 ' Mac ':' Mac+',
                  ' La ':' La+', ' Le ':' Le+',
                  ' Da ':' Da+'}
     
     nombres = candidatos[['Candidatos']].copy()
-    
-    nombres['Candidatos'] = nombres['Candidatos'].replace({'Raúl Armando Barrionuevo' : 'Raúl Barrionuevo Barrionuevo', #1973
-                                                           'Alejandro Bell Jara' : 'Alejandro Bell Jaras'}, 
-                                                           regex=True)   
-    
+            
+    nombres['Candidatos'] = nombres['Candidatos'].replace({'^Raúl Armando Barrionuevo$' : 'Raúl Armando Barrionuevo Barrionuevo', #1973
+                                                           '^Anselmo del Rosario Quezada$' : 'Anselmo del Rosario Quezada Quezada',
+                                                           '^Alejandro Bell Jara$' : 'Alejandro Bell Jaras'}, 
+                                                            regex=True)   
+        
     # errores en SERVEL (al 16/01/2023)
     nombres['Candidatos'] = nombres['Candidatos'].replace({'Venturafaulbaum' : 'Ventura Faulbaum',          #1989, D58
                                                            'álvarez-Salamán' : 'Alvarez-Salamanca',         #1989-97, D38
+                                                           'van Rysselbergh Varela' : 'van Rysselberghe Varela', #1997, D44
+                                                           'Manouchehr Manouchehri Moghadam Kashan Lobos' : 'Daniel Manouchehri Lobos', #2009, D8
                                                            'DE LAS HERAS DE LAS HERAS' : 'DE LAS HERAS',    #2013, D9
-                                                           'KASHAN LOBOS MANOUCHEHRI MOGHADAM' : 'Manouchehri Lobos Daniel', #2021, D5 
-                                                           'Manouchehr Manouchehri Moghadam Kashan Lobos' : 'Daniel Manouchehri Lobos' #2009, D8
+                                                           'KASHAN LOBOS MANOUCHEHRI MOGHADAM' : 'Manouchehri Lobos Daniel' #2021, D5 
                                                            },
                                                            regex=True)   
     
@@ -86,12 +119,12 @@ def nombres_formato(candidatos, formato=True):
         # se asume que tienen dos apellidos
         nombres['Candidatos'] = nombres['Candidatos'].map(lambda x: x[2:] +x[0:2] if len(x) > 2 else (x[1]+x[0] if len(x) > 0 else x))
         
-    nombres['Candidatos'] = nombres['Candidatos'].map(lambda x: [u.replace('+',' ') for u in x])
+    nombres['Candidatos'] = nombres['Candidatos'].map(lambda x: tuple([u.replace('+',' ') for u in x]))
     
     return nombres
 
 #%%
-def biografiasBCN(eleccion, electos):
+def biografiasBCN(eleccion, rep, electos):
     """
     Webscraping de biografías parlamentarias (1973-presente) desde la BCN.
 
@@ -106,13 +139,20 @@ def biografiasBCN(eleccion, electos):
         El dataframe original tiene una columna suplementaria, url, con las 
         biografías de cada candidato.
     """
-
-    url = []
+    subdivrow = {0:'Distrito',1:'Circunscripción'}[rep]
     
     if not 'url' in electos.columns:
         electos['url'] = ''
      
+    url_mask = (electos['url'].str.contains('bcn') == False) & ((electos['Electos'] == '*') | (electos['Electos_comp'] == '*')) &\
+                ((electos.index.get_level_values(0) < 100) if subdivrow in electos.index.names else (electos[subdivrow] < 100))
+
+    if (url_mask.sum() == 0):
+        return None
+    
     ## WEBSCRAPING
+    print(electos.loc[url_mask]['Candidatos'])    
+    
     # iniciar selenium en Chrome   
     chrome_service = Service('/usr/bin/chromedriver')
     chrome_options = Options()
@@ -128,9 +168,7 @@ def biografiasBCN(eleccion, electos):
         
     elem = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.ID, 'busca_parlamentario')))        
     
-    url_mask = ~(electos['url'].str.contains('bcn') == True) & (electos['Electos'] == '*') & (electos.index.get_level_values(0) < 100)
-    # if 'Circunscripción' in electos.index.names:
-    #     url_mask = url_mask & (candidatos.index.get_level_values(0) < 100)
+    url = []
     
     for item in electos.loc[url_mask]['Candidatos']:    
         url_item = []
@@ -193,3 +231,44 @@ def biografiasBCN(eleccion, electos):
             url.append([''])
 
     electos.loc[url_mask,'url'] = url
+
+#%%
+def subdiv_str(subdivision):
+    """
+    Toma una lista de enteros y la expresa como texto, abreviando grupos consecutivos. Por ejemplo
+        subdiv_str([1,...,28]) = '1-28'
+        subdiv_str([8,9,10,13,14,15,16]) = '8-10_13-16'
+
+    Parámetros
+    ---------
+    subdivision : list[int]
+        Lista de enteros.
+
+    Entrega
+    -------
+    filename : str
+        Texto para usar en los nombres de archivo.
+
+    """
+       
+    subdivision = list(set(subdivision))
+    subdivision.sort()    
+    
+    l0 = subdivision[0]
+    l1 = subdivision[0]
+    
+    filename=''
+    
+    for i in range(1,len(subdivision)):
+        if subdivision[i] == subdivision[i-1]+1:
+            l1 = subdivision[i]
+        else:
+            filename = filename + (str(l0)+ ('-'+str(l1))*bool(l0 != l1))+'_'            
+
+            l0 = subdivision[i]
+            l1 = subdivision[i]
+    
+        if i == len(subdivision)-1:
+            filename = filename + (str(l0)+'-'+str(l1))*bool(l0 != l1) +str(l0)*bool(l0==l1)
+    
+    return filename +bool(len(subdivision) == 1)*str(l0)

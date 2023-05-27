@@ -5,7 +5,7 @@ title: 1941-1945
 
 lang: es
 ref: diputados
-ref2: 1945
+ref2: 1941
 ---
 
 <div>

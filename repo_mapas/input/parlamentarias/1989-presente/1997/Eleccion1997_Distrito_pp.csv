@@ -1,7 +1,7 @@
 Distrito,Lista/Pacto,Partido,Candidaturas,Votos,Porcentaje,Electos
 1,Partido Humanista,PH,2,1339,1.98,0
-1,Unión por Chile,RN,1,14275,21.16,0
 1,Unión por Chile,UDI,1,2096,3.11,0
+1,Unión por Chile,RN,1,14275,21.16,0
 1,Concertación de Partidos por la Democracia,PRSD,1,10922,16.19,0
 1,Concertación de Partidos por la Democracia,PPD,1,14358,21.28,1
 1,La Izquierda,PC,1,4720,6.99,0
@@ -9,8 +9,8 @@ Distrito,Lista/Pacto,Partido,Candidaturas,Votos,Porcentaje,Electos
 1,Candidatura Independiente,IND,1,17680,26.2,1
 1,Válidamente emitidos,,0,67478,100.0,0
 2,Partido Humanista,PH,2,932,1.21,0
-2,Unión por Chile,UDI,1,2160,2.79,0
 2,Unión por Chile,RN,1,21013,27.18,0
+2,Unión por Chile,UDI,1,2160,2.79,0
 2,Concertación de Partidos por la Democracia,PDC,1,28580,36.97,1
 2,Concertación de Partidos por la Democracia,PPD,1,21184,27.41,1
 2,La Izquierda,PC,1,3428,4.43,0
@@ -30,16 +30,16 @@ Distrito,Lista/Pacto,Partido,Candidaturas,Votos,Porcentaje,Electos
 4,La Izquierda,PC,1,6032,6.0,0
 4,Válidamente emitidos,,0,100507,100.0,0
 5,Partido Humanista,PH,1,3954,8.07,0
-5,Unión por Chile,RN,1,10502,21.44,1
 5,Unión por Chile,UDI,1,3653,7.46,0
-5,Concertación de Partidos por la Democracia,PPD,1,13242,27.04,1
+5,Unión por Chile,RN,1,10502,21.44,1
 5,Concertación de Partidos por la Democracia,PRSD,1,11455,23.39,0
+5,Concertación de Partidos por la Democracia,PPD,1,13242,27.04,1
 5,La Izquierda,PC,1,5009,10.23,0
 5,La Izquierda,NAP,1,1161,2.37,0
 5,Válidamente emitidos,,0,48976,100.0,0
 6,Partido Humanista,PH,1,426,1.09,0
-6,Unión por Chile,UDI,1,522,1.34,0
 6,Unión por Chile,RN,1,14753,37.89,1
+6,Unión por Chile,UDI,1,522,1.34,0
 6,Concertación de Partidos por la Democracia,PS,1,9355,24.03,0
 6,Concertación de Partidos por la Democracia,PDC,1,12012,30.85,1
 6,La Izquierda,NAP,1,354,0.91,0
@@ -50,28 +50,28 @@ Distrito,Lista/Pacto,Partido,Candidaturas,Votos,Porcentaje,Electos
 7,Unión por Chile,UDI,1,10977,15.02,0
 7,Concertación de Partidos por la Democracia,PRSD,1,18331,25.08,0
 7,Concertación de Partidos por la Democracia,PDC,1,18642,25.5,1
-7,La Izquierda,PC,1,6443,8.81,0
 7,La Izquierda,NAP,1,1093,1.5,0
+7,La Izquierda,PC,1,6443,8.81,0
 7,Válidamente emitidos,,0,73103,100.0,0
 8,Partido Humanista,PH,1,1536,1.78,0
-8,Unión por Chile,UDI,1,12761,14.77,0
 8,Unión por Chile,RN,1,13053,15.1,0
+8,Unión por Chile,UDI,1,12761,14.77,0
 8,Concertación de Partidos por la Democracia,PS,1,22301,25.81,1
 8,Concertación de Partidos por la Democracia,PDC,1,30246,35.0,1
 8,La Izquierda,PC,1,5097,5.9,0
 8,La Izquierda,NAP,1,1423,1.65,0
 8,Válidamente emitidos,,0,86417,100.0,0
 9,Partido Humanista,PH,2,1972,3.57,0
-9,Unión por Chile,UDI,1,8662,15.66,1
 9,Unión por Chile,RN,1,6641,12.01,0
+9,Unión por Chile,UDI,1,8662,15.66,1
 9,Concertación de Partidos por la Democracia,PDC,1,12721,23.0,0
 9,Concertación de Partidos por la Democracia,PPD,1,14757,26.68,1
 9,La Izquierda,PC,1,10127,18.31,0
 9,La Izquierda,NAP,1,423,0.76,0
 9,Válidamente emitidos,,0,55303,100.0,0
 10,Partido Humanista,PH,1,1884,1.63,0
-10,Unión por Chile,UDI,1,7932,6.86,0
 10,Unión por Chile,RN,1,34704,30.03,1
+10,Unión por Chile,UDI,1,7932,6.86,0
 10,Concertación de Partidos por la Democracia,PDC,1,46015,39.81,1
 10,Concertación de Partidos por la Democracia,PS,1,16498,14.27,0
 10,La Izquierda,PC,1,7197,6.23,0
@@ -80,17 +80,17 @@ Distrito,Lista/Pacto,Partido,Candidaturas,Votos,Porcentaje,Electos
 11,Partido Humanista,PH,2,1507,1.57,0
 11,Unión por Chile,UDI,1,6407,6.67,0
 11,Unión por Chile,RN,1,17768,18.51,0
-11,Concertación de Partidos por la Democracia,PDC,1,8268,8.61,1
 11,Concertación de Partidos por la Democracia,PPD,1,56126,58.47,1
-11,La Izquierda,PC,1,2994,3.12,0
+11,Concertación de Partidos por la Democracia,PDC,1,8268,8.61,1
 11,La Izquierda,NAP,1,987,1.03,0
+11,La Izquierda,PC,1,2994,3.12,0
 11,Chile 2000,UCCP,1,1934,2.01,0
 11,Válidamente emitidos,,0,95991,100.0,0
 12,Partido Humanista,PH,2,2815,3.29,0
-12,Unión por Chile,UDI,1,5774,6.75,0
 12,Unión por Chile,RN,1,27489,32.13,1
-12,Concertación de Partidos por la Democracia,PDC,1,20263,23.68,0
+12,Unión por Chile,UDI,1,5774,6.75,0
 12,Concertación de Partidos por la Democracia,PS,1,23614,27.6,1
+12,Concertación de Partidos por la Democracia,PDC,1,20263,23.68,0
 12,La Izquierda,PC,1,5603,6.55,0
 12,Válidamente emitidos,,0,85558,100.0,0
 13,Partido Humanista,PH,2,3669,3.34,0
@@ -100,13 +100,13 @@ Distrito,Lista/Pacto,Partido,Candidaturas,Votos,Porcentaje,Electos
 13,Válidamente emitidos,,0,109746,100.0,0
 14,Partido Humanista,PH,2,2802,2.22,0
 14,Unión por Chile,RN,1,23478,18.63,0
-14,Concertación de Partidos por la Democracia,PPD,1,39432,31.29,1
 14,Concertación de Partidos por la Democracia,PDC,1,14841,11.78,0
+14,Concertación de Partidos por la Democracia,PPD,1,39432,31.29,1
 14,La Izquierda,PC,1,10118,8.03,0
 14,Válidamente emitidos,,0,126034,100.0,0
 15,Partido Humanista,PH,1,980,1.45,0
-15,Unión por Chile,RN,1,7156,10.58,0
 15,Unión por Chile,UDI,1,8653,12.79,0
+15,Unión por Chile,RN,1,7156,10.58,0
 15,Concertación de Partidos por la Democracia,PPD,1,7853,11.61,0
 15,Concertación de Partidos por la Democracia,PDC,1,14566,21.54,1
 15,La Izquierda,PC,1,3900,5.77,0
@@ -114,65 +114,65 @@ Distrito,Lista/Pacto,Partido,Candidaturas,Votos,Porcentaje,Electos
 15,Candidatura Independiente,IND,1,22342,33.03,1
 15,Válidamente emitidos,,0,67636,100.0,0
 16,Partido Humanista,PH,2,3360,3.03,0
-16,Unión por Chile,RN,1,4383,3.96,0
 16,Unión por Chile,UDI,1,33483,30.24,1
+16,Unión por Chile,RN,1,4383,3.96,0
 16,Concertación de Partidos por la Democracia,PDC,1,34030,30.74,1
 16,Concertación de Partidos por la Democracia,PS,1,19984,18.05,0
 16,La Izquierda,PC,2,13153,11.88,0
 16,Chile 2000,UCCP,2,2317,2.09,0
 16,Válidamente emitidos,,0,110710,100.0,0
 17,Partido Humanista,PH,2,4064,2.76,0
-17,Unión por Chile,RN,1,7629,5.19,0
 17,Unión por Chile,UDI,1,30124,20.48,0
+17,Unión por Chile,RN,1,7629,5.19,0
 17,Concertación de Partidos por la Democracia,PDC,1,33025,22.45,1
 17,Concertación de Partidos por la Democracia,PPD,1,49432,33.6,1
 17,La Izquierda,PC,1,18588,12.64,0
 17,Válidamente emitidos,,0,147111,100.0,0
 18,Partido Humanista,PH,2,4249,2.42,0
-18,Unión por Chile,UDI,1,20076,11.43,0
 18,Unión por Chile,RN,1,9037,5.14,0
+18,Unión por Chile,UDI,1,20076,11.43,0
 18,Concertación de Partidos por la Democracia,PPD,1,115791,65.92,1
 18,Concertación de Partidos por la Democracia,PDC,1,11080,6.31,1
 18,La Izquierda,PC,1,15432,8.78,0
 18,Válidamente emitidos,,0,175665,100.0,0
 19,Partido Humanista,PH,2,3566,3.28,0
 19,Unión por Chile,UDI,1,32401,29.82,1
-19,Concertación de Partidos por la Democracia,PDC,1,14916,13.73,0
 19,Concertación de Partidos por la Democracia,PPD,1,34625,31.87,1
+19,Concertación de Partidos por la Democracia,PDC,1,14916,13.73,0
 19,La Izquierda,PC,1,10399,9.57,0
 19,Chile 2000,UCCP,1,2224,2.05,0
 19,Válidamente emitidos,,0,108644,100.0,0
 20,Partido Humanista,PH,2,6843,3.62,0
 20,Unión por Chile,RN,1,55117,29.17,1
-20,Concertación de Partidos por la Democracia,PDC,1,64619,34.2,1
 20,Concertación de Partidos por la Democracia,PS,1,23611,12.5,0
+20,Concertación de Partidos por la Democracia,PDC,1,64619,34.2,1
 20,La Izquierda,PC,1,24297,12.86,0
 20,Válidamente emitidos,,0,188933,100.0,0
 21,Partido Humanista,PH,2,4860,2.92,0
-21,Unión por Chile,UDI,1,13694,8.22,0
 21,Unión por Chile,RN,1,68627,41.19,1
-21,Concertación de Partidos por la Democracia,PS,1,33247,19.95,0
+21,Unión por Chile,UDI,1,13694,8.22,0
 21,Concertación de Partidos por la Democracia,PDC,1,39077,23.45,1
+21,Concertación de Partidos por la Democracia,PS,1,33247,19.95,0
 21,La Izquierda,PC,2,7106,4.27,0
 21,Válidamente emitidos,,0,166611,100.0,0
 22,Partido Humanista,PH,1,3482,3.19,0
-22,Unión por Chile,RN,1,33917,31.06,1
 22,Unión por Chile,UDI,1,4505,4.13,0
+22,Unión por Chile,RN,1,33917,31.06,1
 22,Concertación de Partidos por la Democracia,PDC,1,31530,28.87,1
 22,La Izquierda,PC,1,9281,8.5,0
 22,Válidamente emitidos,,0,109196,100.0,0
 23,Partido Humanista,PH,2,4734,2.76,0
-23,Unión por Chile,RN,1,50516,29.43,1
 23,Unión por Chile,UDI,1,58446,34.05,1
-23,Concertación de Partidos por la Democracia,PDC,1,38712,22.55,0
+23,Unión por Chile,RN,1,50516,29.43,1
 23,Concertación de Partidos por la Democracia,PPD,1,14662,8.54,0
+23,Concertación de Partidos por la Democracia,PDC,1,38712,22.55,0
 23,La Izquierda,PC,1,4574,2.66,0
 23,Válidamente emitidos,,0,171644,100.0,0
 24,Partido Humanista,PH,2,7870,6.47,0
 24,Unión por Chile,RN,1,61810,50.79,1
 24,Unión por Chile,UDI,1,2848,2.34,0
-24,Concertación de Partidos por la Democracia,PDC,1,26126,21.47,1
 24,Concertación de Partidos por la Democracia,PS,1,14895,12.24,0
+24,Concertación de Partidos por la Democracia,PDC,1,26126,21.47,1
 24,La Izquierda,PC,1,8153,6.7,0
 24,Válidamente emitidos,,0,121702,100.0,0
 25,Partido Humanista,PH,2,8468,5.57,0
@@ -199,13 +199,13 @@ Distrito,Lista/Pacto,Partido,Candidaturas,Votos,Porcentaje,Electos
 28,Partido Humanista,PH,2,7783,5.19,0
 28,Unión por Chile,UDI,1,34325,22.9,1
 28,Unión por Chile,RN,1,11550,7.71,0
-28,Concertación de Partidos por la Democracia,PDC,1,38114,25.43,1
 28,Concertación de Partidos por la Democracia,PPD,1,32287,21.54,0
+28,Concertación de Partidos por la Democracia,PDC,1,38114,25.43,1
 28,La Izquierda,PC,1,25836,17.24,0
 28,Válidamente emitidos,,0,149895,100.0,0
 29,Partido Humanista,PH,2,6492,4.3,0
-29,Unión por Chile,RN,1,54260,35.94,1
 29,Unión por Chile,UDI,1,4889,3.24,0
+29,Unión por Chile,RN,1,54260,35.94,1
 29,Concertación de Partidos por la Democracia,PDC,1,22611,14.98,0
 29,Concertación de Partidos por la Democracia,PS,1,53694,35.57,1
 29,La Izquierda,PC,1,9014,5.97,0
@@ -213,29 +213,29 @@ Distrito,Lista/Pacto,Partido,Candidaturas,Votos,Porcentaje,Electos
 30,Partido Humanista,PH,2,8994,7.08,0
 30,Unión por Chile,UDI,1,51360,40.45,1
 30,Unión por Chile,RN,1,6510,5.13,0
-30,Concertación de Partidos por la Democracia,PDC,1,36483,28.73,1
 30,Concertación de Partidos por la Democracia,PS,1,12347,9.72,0
+30,Concertación de Partidos por la Democracia,PDC,1,36483,28.73,1
 30,La Izquierda,PC,1,9319,7.34,0
 30,Válidamente emitidos,,0,126981,100.0,0
 31,Partido Humanista,PH,2,5215,3.95,0
 31,Unión por Chile,UDI,1,62772,47.53,1
-31,Concertación de Partidos por la Democracia,PDC,1,34944,26.46,1
 31,Concertación de Partidos por la Democracia,PPD,1,12513,9.47,0
+31,Concertación de Partidos por la Democracia,PDC,1,34944,26.46,1
 31,La Izquierda,PC,1,11856,8.98,0
 31,Válidamente emitidos,,0,132081,100.0,0
 32,Partido Humanista,PH,2,2468,3.02,0
-32,Unión por Chile,UDI,1,4405,5.4,0
 32,Unión por Chile,RN,1,10917,13.37,0
+32,Unión por Chile,UDI,1,4405,5.4,0
 32,Concertación de Partidos por la Democracia,PDC,1,7699,9.43,0
 32,Concertación de Partidos por la Democracia,PPD,1,30927,37.88,1
 32,La Izquierda,PC,1,5914,7.24,0
 32,Chile 2000,UCCP,2,19315,23.66,1
 32,Válidamente emitidos,,0,81645,100.0,0
 33,Partido Humanista,PH,2,2369,2.32,0
-33,Unión por Chile,RN,1,5435,5.33,0
 33,Unión por Chile,UDI,1,12094,11.86,0
-33,Concertación de Partidos por la Democracia,PS,1,58710,57.58,1
+33,Unión por Chile,RN,1,5435,5.33,0
 33,Concertación de Partidos por la Democracia,PDC,1,8901,8.73,1
+33,Concertación de Partidos por la Democracia,PS,1,58710,57.58,1
 33,La Izquierda,PC,1,3624,3.55,0
 33,Chile 2000,UCCP,2,9761,9.57,0
 33,Válidamente emitidos,,0,101968,100.0,0
@@ -248,14 +248,14 @@ Distrito,Lista/Pacto,Partido,Candidaturas,Votos,Porcentaje,Electos
 35,Partido Humanista,PH,2,1357,2.01,0
 35,Unión por Chile,RN,1,6765,10.0,0
 35,Unión por Chile,UDI,1,4971,7.35,0
-35,Concertación de Partidos por la Democracia,PDC,1,19347,28.61,1
 35,Concertación de Partidos por la Democracia,PPD,1,8198,12.12,0
+35,Concertación de Partidos por la Democracia,PDC,1,19347,28.61,1
 35,La Izquierda,PC,1,2608,3.86,0
 35,Chile 2000,UCCP,2,24376,36.05,1
 35,Válidamente emitidos,,0,67622,100.0,0
 36,Partido Humanista,PH,1,1187,1.18,0
-36,Unión por Chile,RN,1,7375,7.35,0
 36,Unión por Chile,UDI,1,20110,20.05,1
+36,Unión por Chile,RN,1,7375,7.35,0
 36,Concertación de Partidos por la Democracia,PS,1,17357,17.31,0
 36,Concertación de Partidos por la Democracia,PDC,1,29925,29.84,1
 36,La Izquierda,PC,1,4495,4.48,0
@@ -299,8 +299,8 @@ Distrito,Lista/Pacto,Partido,Candidaturas,Votos,Porcentaje,Electos
 42,Chile 2000,UCCP,1,5453,5.37,0
 42,Válidamente emitidos,,0,101556,100.0,0
 43,Partido Humanista,PH,1,2277,2.39,0
-43,Unión por Chile,UDI,1,31373,32.94,1
 43,Unión por Chile,RN,1,2823,2.96,0
+43,Unión por Chile,UDI,1,31373,32.94,1
 43,Concertación de Partidos por la Democracia,PDC,1,19793,20.78,0
 43,Concertación de Partidos por la Democracia,PPD,1,30842,32.38,1
 43,La Izquierda,PC,1,7040,7.39,0
@@ -315,15 +315,15 @@ Distrito,Lista/Pacto,Partido,Candidaturas,Votos,Porcentaje,Electos
 45,Partido Humanista,PH,1,3435,3.64,0
 45,Unión por Chile,RN,1,5528,5.86,0
 45,Unión por Chile,UDI,1,10142,10.75,0
-45,Concertación de Partidos por la Democracia,PDC,1,31316,33.19,1
 45,Concertación de Partidos por la Democracia,PS,1,33949,35.98,1
+45,Concertación de Partidos por la Democracia,PDC,1,31316,33.19,1
 45,La Izquierda,PC,1,5877,6.23,0
 45,Válidamente emitidos,,0,94352,100.0,0
 46,Partido Humanista,PH,1,2558,3.33,0
-46,Unión por Chile,RN,1,11409,14.83,1
 46,Unión por Chile,UDI,1,10298,13.39,0
-46,Concertación de Partidos por la Democracia,PPD,1,15047,19.56,0
+46,Unión por Chile,RN,1,11409,14.83,1
 46,Concertación de Partidos por la Democracia,PRSD,1,23661,30.76,1
+46,Concertación de Partidos por la Democracia,PPD,1,15047,19.56,0
 46,La Izquierda,PC,1,13955,18.14,0
 46,Válidamente emitidos,,0,76928,100.0,0
 47,Partido Humanista,PH,2,4206,3.5,0
@@ -371,16 +371,16 @@ Distrito,Lista/Pacto,Partido,Candidaturas,Votos,Porcentaje,Electos
 53,Concertación de Partidos por la Democracia,PS,1,14413,20.14,0
 53,La Izquierda,PC,1,2870,4.01,0
 53,Válidamente emitidos,,0,71579,100.0,0
-54,Unión por Chile,RN,1,21170,29.27,1
 54,Unión por Chile,UDI,1,11565,15.99,0
-54,Concertación de Partidos por la Democracia,PDC,1,18561,25.66,0
+54,Unión por Chile,RN,1,21170,29.27,1
 54,Concertación de Partidos por la Democracia,PPD,1,18743,25.91,1
+54,Concertación de Partidos por la Democracia,PDC,1,18561,25.66,0
 54,La Izquierda,PC,1,2295,3.17,0
 54,Válidamente emitidos,,0,72334,100.0,0
 55,Partido Humanista,PH,1,1253,1.79,0
 55,Unión por Chile,RN,1,13911,19.85,1
-55,Concertación de Partidos por la Democracia,PPD,1,13795,19.69,0
 55,Concertación de Partidos por la Democracia,PDC,1,24332,34.73,1
+55,Concertación de Partidos por la Democracia,PPD,1,13795,19.69,0
 55,La Izquierda,PC,2,4728,6.75,0
 55,Válidamente emitidos,,0,70066,100.0,0
 56,Partido Humanista,PH,1,1559,2.47,0
@@ -391,26 +391,26 @@ Distrito,Lista/Pacto,Partido,Candidaturas,Votos,Porcentaje,Electos
 56,Válidamente emitidos,,0,63226,100.0,0
 57,Partido Humanista,PH,1,1450,2.05,0
 57,Unión por Chile,RN,1,22284,31.54,1
-57,Concertación de Partidos por la Democracia,PPD,1,16262,23.01,0
 57,Concertación de Partidos por la Democracia,PDC,1,19404,27.46,1
+57,Concertación de Partidos por la Democracia,PPD,1,16262,23.01,0
 57,La Izquierda,PC,1,2597,3.68,0
 57,Válidamente emitidos,,0,70660,100.0,0
 58,Partido Humanista,PH,1,911,1.42,0
 58,Unión por Chile,RN,1,11865,18.5,0
-58,Concertación de Partidos por la Democracia,PS,1,9125,14.23,0
 58,Concertación de Partidos por la Democracia,PDC,1,15359,23.95,1
+58,Concertación de Partidos por la Democracia,PS,1,9125,14.23,0
 58,La Izquierda,PC,1,1051,1.64,0
 58,Válidamente emitidos,,0,64138,100.0,0
 59,Partido Humanista,PH,1,323,0.94,0
-59,Unión por Chile,RN,1,11163,32.4,1
 59,Unión por Chile,UDI,1,4116,11.95,0
-59,Concertación de Partidos por la Democracia,PPD,1,9055,26.28,1
+59,Unión por Chile,RN,1,11163,32.4,1
 59,Concertación de Partidos por la Democracia,PDC,1,8689,25.22,0
+59,Concertación de Partidos por la Democracia,PPD,1,9055,26.28,1
 59,La Izquierda,PC,1,1105,3.21,0
 59,Válidamente emitidos,,0,34451,100.0,0
 60,Partido Humanista,PH,1,1696,2.9,0
 60,Unión por Chile,RN,1,7636,13.07,0
-60,Concertación de Partidos por la Democracia,PS,1,19948,34.15,1
 60,Concertación de Partidos por la Democracia,PDC,1,13207,22.61,0
+60,Concertación de Partidos por la Democracia,PS,1,19948,34.15,1
 60,La Izquierda,PC,1,2355,4.03,0
 60,Válidamente emitidos,,0,58412,100.0,0

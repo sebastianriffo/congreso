@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 """
-Mapa de una elección de diputados o senadores, desde 1941, generados en folium 
-mediante la función *mapa_elecciones*. 
+Mapa de una elección de diputados o senadores, generados en folium mediante 
+la función *mapa_elecciones*. 
 
 Los marcadores asociados a cada distrito o circunscripción, al igual que la 
 información electoral desplegada en los popups respectivos, son personalizados 
@@ -14,7 +14,7 @@ de estar disponibles. Sino, se crea una leyenda mediante *categorical_legend*.
 
 Adicionalmente, el diagrama con la composición de la cámara se genera en Highcharts,
 por medio de la función *dist_eleccion*. En ella, *legislaturaBCN* agrega un 
-subtí­tulo vinculado a un artí­culo de la BCN
+subtí­tulo vinculado a un artí­culo de la BCN.
 
 El cuadro lateral, leyenda y diagrama no son propios de folium. Para integrar
 el primero al código html del mapa, la función *editar_template* modifica el template, 
@@ -44,7 +44,7 @@ fonttitle = ImageFont.truetype('/usr/share/fonts/truetype/corscore/Arimo-Regular
 from unidecode import unidecode
 from pactos import siglas_partidos
 
-def mapa_elecciones_folium(path_mapas, eleccion, rep, listas, candidatos, div_electoral, leyenda=None, reg=None):
+def mapa_elecciones_folium(path_mapas, eleccion, rep, listas, candidatos, div_electoral, leyenda=None):
     """
     Mapa de una elección de diputados o senadores, a partir de 1941. Contiene 
     un diagrama con la composición de la nueva legislatura (que en el caso de los senadores, 
@@ -70,24 +70,16 @@ def mapa_elecciones_folium(path_mapas, eleccion, rep, listas, candidatos, div_el
     leyenda : dict[str,str], opcional
         Nombres de listas y colores asociados, según el formato 
         {lista_1 : color_1, ... , lista_k : color_k}
-    reg : list[list[int]] o str, opcional
-        Grupos de regiones a considerar. Toma por defecto todo el pais. 
-        El string 'regiones' divide al paí­s en los siguientes grupos (2021):                 
-        [[1,2,15], [3,4], [5,6,7], [8,9,16], [10,14], [11,12], [13]], si rep=0,  
-        [[1,2,3,4], [5,6,7,8,13,16], [9,10,14], [11,12]], si rep=1. 
 
     Entrega
     -------
     Mapas en formato html, guardados en path_mapas.
 
     """
-    # MEJORAS
-    # segundo layer con votación por comunas (de existir)
-
-    # leyenda por defecto
+    ## Leyenda por defecto
     if leyenda == None:
-        labels = listas.index.levels[1][(listas.groupby(
-            level=1)['Electos'].sum() > 5)].values.tolist()
+        labels = candidatos.groupby('Partido').agg({'Candidatos':'count'}) if listas == None else listas.index.levels[1][(listas.groupby(level=1)['Electos'].sum() > 5)].values.tolist()
+        labels = labels.index[labels['Candidatos'] > 5].values.tolist()
         labels.append('Otros')
 
         # SOURCE : https://plotly.com/python/discrete-color/
@@ -95,30 +87,7 @@ def mapa_elecciones_folium(path_mapas, eleccion, rep, listas, candidatos, div_el
         colors = (1 + len(labels)//11)*[x.replace(' ', '') for x in px.colors.qualitative.Pastel]
         leyenda = dict(zip(labels, colors[:len(labels)]))
 
-    # reg : lista de mapas por zonas
-    # regiones : 1989-presente
-    # agrupaciones provinciales : 1940-1973
-    flag_reg = 'regiones'
-
-    if eleccion >= 1989:
-        if reg == None:
-            reg = [[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]]
-            flag_reg = 'Chile'
-        elif type(reg) == str and reg.lower() == 'regiones':
-            reg = [[1, 2, 15], [3, 4], [5, 6, 7], [8, 9, 16], [10, 14], [11, 12], [13]]*(rep == 0) + [[1, 2, 3, 4], [5, 6, 7, 8, 13, 16], [9, 10, 14], [11, 12]]*(rep == 1)
-        elif type(reg) == str:
-            Exception()
-    else:
-        if reg == None:
-            reg = list(range(1, 28))
-            reg.remove(7)
-            reg.extend([71, 72, 73])
-            reg = [reg]
-
-            flag_reg = 'Chile'
-
-    # GENERAR MAPAS
-    # votacion_div_electoral (geoDF) : geometrí­as de TODOS los distritos o circunscripciones, resultados por lista
+    ## votacion_div_electoral : geometrías de todos los distritos/circunscripciones
     if listas is not None:
         if (rep == 0) or (rep == 1 and candidatos.index.levels[0].equals(listas.index.levels[0])):
             votacion_div_electoral = pd.merge(div_electoral,
@@ -126,211 +95,167 @@ def mapa_elecciones_folium(path_mapas, eleccion, rep, listas, candidatos, div_el
                                                   listas.groupby(level=0)['Electos'].transform(lambda x: x == x.max()).astype(bool))
                                                   .groupby(level=0)['Porcentaje'].transform(lambda x: x == x.max()).astype(bool)).dropna().reset_index(level=1)['Lista/Pacto'],
                                               left_index=True, right_index=True)
-        else:
+        else:            
             votacion_div_electoral = div_electoral.join(listas.where(listas.where(
                                                             listas.groupby(level=0)['Electos'].transform(lambda x: x == x.max()).astype(bool))
                                                             .groupby(level=0)['Porcentaje'].transform(lambda x: x == x.max()).astype(bool)).dropna().reset_index(level=1)['Lista/Pacto']
                                                         )
-            mask = votacion_div_electoral['Lista/Pacto'].isna()
-            
-            votacion_div_electoral.loc[mask,'nombre'] = 'nacionales'
-            
-            votacion_div_electoral['Lista/Pacto'] = votacion_div_electoral['Lista/Pacto'].astype(str)
-            votacion_div_electoral.loc[mask,'Lista/Pacto'] = 'senado'
     else:
-            votacion_div_electoral = pd.merge(div_electoral,
-                                              candidatos.groupby(level=[0,1]).agg({'Candidatos':'count'}).groupby(level=0).transform(lambda x: x == x.max()).astype(bool).reset_index(level=1).query('Candidatos == True')['Lista/Pacto'],
-                                              left_index=True, right_index=True)
-        
-    votacion_div_electoral.index.names = ['dis_elec']
-    votacion_div_electoral = votacion_div_electoral[~votacion_div_electoral.index.duplicated(keep='first')]
-
-    for i in range(0, len(reg)):
-        if eleccion >= 1989:
-            votacion_subdiv = votacion_div_electoral.loc[votacion_div_electoral['codregion'].isin(reg[i])]
-
-            # discordancia entre regiones y datos electorales
-            if votacion_subdiv.empty:
-                continue
-
-            # posición inicial del mapa
-            if flag_reg == 'Chile': 
-                lim = votacion_subdiv.loc[votacion_subdiv['codregion'].isin([5, 6])].to_crs("epsg:4326").bounds
-
-            # posiciones de marcadores 
-            marker_loc = votacion_subdiv.centroid.to_crs("epsg:4326")
-
-            # usar límites continentales en la 5ta, 11va, 12va regiones, reposicionar dist 42, 57
-            for j in {5, 11, 12}:
-                if sum(votacion_subdiv['codregion'] == j):
-                    u = gpd.GeoDataFrame({'geometry': [max(votacion_subdiv.loc[k]['geometry'].geoms, key=lambda a: a.area) if votacion_subdiv.loc[k]['geometry'].geom_type == 'MultiPolygon' 
-                                                       else votacion_subdiv.loc[k]['geometry'] for k in votacion_subdiv[votacion_subdiv['codregion'] == j].index]})
-                    u = u.set_crs('epsg:3857')
-                    u = u.set_index(
-                        [votacion_subdiv[votacion_subdiv['codregion'] == j].index.to_list()])
-
-                    if (j == 5 and flag_reg == 'Chile') or (flag_reg == 'regiones'):
-                        lim.loc[u.index] = u.to_crs("epsg:4326").bounds
-
-                    marker_loc[u.index] = u.centroid.to_crs("epsg:4326")
-                    
-            if eleccion <= 2013 and rep == 0:
-                marker_loc[42] = Point(marker_loc.x[42], marker_loc.y[42]+0.15) 
-                marker_loc[57] = Point(marker_loc.x[57], marker_loc.y[57]+0.15)                  
-            elif eleccion <= 2013 and rep == 1:
-                marker_loc[12] = Point(marker_loc.x[12]-0.25, marker_loc.y[12])  
+        votacion_div_electoral = pd.merge(div_electoral,
+                                          candidatos.groupby(level=[0,1]).agg({'Candidatos':'count'}).groupby(level=0).transform(lambda x: x == x.max()).astype(bool).reset_index(level=1).query('Candidatos == True')['Lista/Pacto'],
+                                          left_index=True, right_index=True)
                 
-        else:
-            votacion_div_electoral = votacion_div_electoral.reset_index()
-            votacion_div_electoral = votacion_div_electoral.set_index('dis_elec', drop=False)
+    votacion_div_electoral.index.names = ['dis_elec']
+    votacion_div_electoral = votacion_div_electoral.reset_index()    
+    votacion_div_electoral = votacion_div_electoral.set_index('dis_elec', drop=False)
 
-            votacion_subdiv = votacion_div_electoral.loc[votacion_div_electoral['dis_elec'].isin(reg[i])]
+    votacion_div_electoral = votacion_div_electoral[~votacion_div_electoral.index.duplicated(keep='first')]
+                
+    ## posición inicial del mapa
+    pos = list(filter(re.compile('|'.join(['Valparaíso', "O'Higgins"])).findall, div_electoral['nombre'])) if eleccion >= 1989 else (['Aconcagua', 'Colchagua'] if rep == 0 else ['Santiago'])
+    lim = votacion_div_electoral.loc[votacion_div_electoral['nombre'].isin(pos)].to_crs("epsg:4326").bounds
 
-            # discordancia entre regiones y datos electorales
-            if votacion_subdiv.empty:
-                continue
+    ## posiciones de marcadores 
+    votacion_div_electoral['marker'] = votacion_div_electoral['geometry'].centroid.to_crs("epsg:4326")    
 
-            # posición inicial del mapa
-            if flag_reg == 'Chile' and rep == 0:
-                lim = votacion_subdiv.loc[votacion_subdiv['dis_elec'].isin([5, 10])].to_crs("epsg:4326").bounds
+    # reposicionar algunos
+    marker_rep = (['D42','D57']*(rep == 0) +['Bío-Bío Costa']*(rep == 1)) if (1989 <= eleccion <= 2013) else \
+                  (['Colchagua','Curicó']*(rep == 0) if (1932 <= eleccion <= 1973) else [])
 
-            # posiciones de marcadores
-            marker_loc = votacion_subdiv.centroid.to_crs("epsg:4326")
-            
-            # DIPUTADOS
-            # usar límites continentales en Valaraíso (6), Chiloé (25)
-            # reposicionar colchagua (10) y curico (11)
-            for j in {6, 25, 26}:
-                if sum(votacion_subdiv['dis_elec'] == j):
+    if marker_rep:
+        r = list(filter(re.compile('|'.join(marker_rep)).findall, votacion_div_electoral['nombre']))
 
-                    u = gpd.GeoDataFrame({'geometry': [max(votacion_subdiv.loc[k]['geometry'].geoms, key=lambda a: a.area) if votacion_subdiv.loc[k]['geometry'].geom_type ==
-                                         'MultiPolygon' else votacion_subdiv.loc[k]['geometry'] for k in votacion_subdiv[votacion_subdiv['dis_elec'] == j].index]})
-                    u = u.set_crs('epsg:3857')
-                    u = u.set_index([votacion_subdiv[votacion_subdiv['dis_elec'] == j].index.to_list()])
+        rep_xy = {'D42': (0, 0.15), 'D57': (0, 0.15), 'Bío-Bío Costa': (-0.25,0),
+                  'Colchagua': (-0.25, 0), 'Curicó': (0.25,0), 'Aysén y Magallanes': (-0.25,7.75) if eleccion <= 1965 else (2,-2.5)}        
+        for s in r: 
+            rep_xy[s] = rep_xy.pop([x for x in rep_xy.keys() if x in s][0])  
 
-                    marker_loc[u.index] = u.centroid.to_crs("epsg:4326")
-            marker_loc[10] = Point(marker_loc.x[10]-0.25, marker_loc.y[10]) # colchagua
-            marker_loc[11] = Point(marker_loc.x[11]+0.25, marker_loc.y[11]) # curico 
-            
-            if eleccion < 1969: 
-                marker_loc[24] = Point(marker_loc.x[24]+0.25, marker_loc.y[24]+4.4) # llanquihue y aysen
+        mask = votacion_div_electoral['nombre'].isin(r)
+        votacion_div_electoral.loc[mask,'marker'] = votacion_div_electoral[mask].apply(lambda row: Point(row['marker'].x +rep_xy[row['nombre']][0], row['marker'].y +rep_xy[row['nombre']][1]) ,axis=1)
 
-        # centro (to_crs : coordinate reference system)
-        lat_map = (lim['miny'].min() + lim['maxy'].max())/2
-        long_map = (lim['minx'].min() + lim['maxx'].max())/2 -1
+    # usar límites continentales en Valparaíso, Chiloé, Aysén y Magallanes
+    r = list(filter(re.compile('Valparaíso|Chiloé|Aysén|Magallanes').findall, votacion_div_electoral['nombre']))
+    
+    if r: 
+        u = gpd.GeoDataFrame({'geometry': [max(votacion_div_electoral.loc[k]['geometry'].geoms, key=lambda a: a.area) if votacion_div_electoral.loc[k]['geometry'].geom_type == 'MultiPolygon' 
+                                            else votacion_div_electoral.loc[k]['geometry'] for k in votacion_div_electoral[votacion_div_electoral['nombre'].isin(r)].index] 
+                              })
+        u = u.set_crs('epsg:3857')
+        u = u.set_index([votacion_div_electoral[votacion_div_electoral['nombre'].isin(r)].index.to_list()])
 
-        # MAPA
-        sample_map = folium.Map(location=[lat_map, long_map], zoom_start=8, minZoom = 4, maxZoom = 13, zoomSnap=0.1, zoom_control=False)
-        folium.TileLayer('CartoDB positron', control=True).add_to(sample_map)
+        lim.loc[(u.index).intersection(lim.index)] = u.loc[(u.index).intersection(lim.index)].to_crs("epsg:4326").bounds
+        votacion_div_electoral.loc[u.index,'marker'] = u.centroid.to_crs("epsg:4326")   
 
-        # colormap
-        def color_listas(x):
-            if x in leyenda.keys():
-                return leyenda[x]
-            elif x == 'senado':
-                return '#e5e4e2' # regiones donde no hubo elección senatorial
-            else:
-                return '#a04000' # otros
+    ## GENERAR MAPA
+    # centro (to_crs : coordinate reference system)
+    lat_map, long_map = (lim['miny'].min() + lim['maxy'].max())/2, (lim['minx'].min() + lim['maxx'].max())/2 -1
 
-        # panel derecho (tabla html)
-        if listas is not None:
-            debug = False  # verificar si los datos construidos coinciden
-            votacion_subdiv, datos_nac = resultados_subdiv(eleccion, rep, votacion_subdiv, listas, leyenda, debug)
-        else: 
-            datos_nac = None
+    sample_map = folium.Map(location=[lat_map, long_map], zoom_start=8, minZoom = 4, maxZoom = 13, zoomSnap=0.1, zoom_control=False)
+    folium.TileLayer('CartoDB positron', control=True).add_to(sample_map)
 
-        layer_dist = folium.GeoJson(votacion_subdiv,
-                                    name='Votación por Distrito',
-                                    control=True,
-                                    style_function=lambda x: {
-                                        'color': 'black',
-                                        'weight': 1,
-                                        'fillColor': color_listas(x['properties']['Lista/Pacto']),
-                                        'fillOpacity': 0.4},
-                                    highlight_function=lambda x: {
-                                        'color': 'black',
-                                        'weight': 2,
-                                        'fillColor': color_listas(x['properties']['Lista/Pacto']),
-                                        'fillOpacity': 0.6},
-                                    )
+    if (rep == 1) and eleccion not in {1932, 1989}:
+        mask = votacion_div_electoral['Lista/Pacto'].isna() if listas is not None else votacion_div_electoral['nombre'].str.contains('Tarapacá|Aconcagua|Colchagua|Concepción|Valdivia' +'|Chiloé'*(eleccion == 1969)).apply(lambda x: not(x) if ((eleccion-1937)%8 == 0) else x)
+       
+        votacion_div_electoral['Lista/Pacto'] = votacion_div_electoral['Lista/Pacto'].astype(str)
+        votacion_div_electoral.loc[mask,'nombre'] = 'nacionales'            
+        votacion_div_electoral.loc[mask,'Lista/Pacto'] = 'senado'
+        
+    ## panel derecho (tabla html)
+    if listas is not None:
+        debug = False  # verificar si los datos construidos coinciden
+        votacion_div_electoral, datos_nac = resultados_subdiv(eleccion, rep, votacion_div_electoral, listas, leyenda, debug)
+        cols_div_json = ['dis_elec', 'nombre', 'geometry', 'Lista/Pacto', 'table']
+    else: 
+        datos_nac = None
+        cols_div_json = ['dis_elec', 'nombre', 'geometry', 'Lista/Pacto']
+        
+    # colormap
+    def color_listas(x):
+        return leyenda[x] if (x in leyenda.keys()) else ('#e5e4e2' if x == 'senado' else '#a04000')
+                
+    layer_dist = folium.GeoJson(votacion_div_electoral[cols_div_json],
+                                name='Votación por Distrito',
+                                control=True,
+                                style_function=lambda x: {
+                                    'color': 'black',
+                                    'weight': 1,
+                                    'fillColor': color_listas(x['properties']['Lista/Pacto']),
+                                    'fillOpacity': 0.4},
+                                highlight_function=lambda x: {
+                                    'color': 'black',
+                                    'weight': 2,
+                                    'fillColor': color_listas(x['properties']['Lista/Pacto']),
+                                    'fillOpacity': 0.6},
+                                )
 
-        sample_map.add_child(layer_dist)
+    sample_map.add_child(layer_dist)
+    
+    ## construir marcadores y pop-ups
+    fg = folium.FeatureGroup(name='Electos', overlay=True, control=True)
+    sample_map.add_child(fg)
+    marker_cluster = MarkerCluster().add_to(fg)
 
-        # MARCADORES
-        fg = folium.FeatureGroup(name='Electos', overlay=True, control=True)
-        sample_map.add_child(fg)
-        marker_cluster = MarkerCluster().add_to(fg)
+    for j in votacion_div_electoral.index:
+        ## MARCADORES
+        escanos_subdiv = (candidatos['Electos'].loc[j] == '*').sum() if 'Electos' in candidatos.columns else (candidatos.loc[j]['Candidatos'].notna()).sum()            
+        listas_subdiv = listas.loc[j]['Electos'] if (listas is not None and j in listas.index.levels[0]) else candidatos.groupby(level=[0,1]).agg({'Candidatos':'count'}).loc[j]
+        
+        x_loc = votacion_div_electoral['marker'].y[j] 
+        y_loc = votacion_div_electoral['marker'].x[j] 
 
-        if rep == 1: 
-            # MEJORAR
-            electos_v2 = candidatos[candidatos['Electos'] == "*"].groupby(level=[0,1]).agg({'Candidatos':'count'})
+        (marker_html, marker_anchor) = marker_subdiv(escanos_subdiv, listas_subdiv, color_listas)
 
-        for j in votacion_subdiv.index:
-            escanos = (candidatos['Electos'].loc[j] == '*').sum() if 'Electos' in candidatos.columns else (candidatos.loc[j]['Candidatos'].notna()).sum()            
-            
-            x_loc = marker_loc.y[j]
-            y_loc = marker_loc.x[j]
+        ## POP-UPs : tabla de candidatos por subdivision
+        popup = popup_resultados_subdiv(eleccion, rep, escanos_subdiv, candidatos, j, leyenda) 
 
-            if rep == 0:
-                (marker_html, marker_anchor) = marker_subdiv(escanos, listas.loc[j]['Electos'] if listas is not None else candidatos.groupby(level=[0,1]).agg({'Candidatos':'count'}).loc[j], color_listas)                
-            else:
-                (marker_html, marker_anchor) = marker_subdiv(escanos, electos_v2.loc[j], color_listas)                
+        folium.Marker(location= [x_loc, y_loc],
+                      draggable=False,
+                      popup=popup,
+                      icon=folium.DivIcon(html=marker_html, icon_anchor=marker_anchor)).add_to(marker_cluster)
 
-            # customize popup
-            # SOURCE https://stackoverflow.com/questions/62789558/is-it-possible-to-change-the-popup-background-colour-in-folium
+    ## Distribución parlamentaria
+    if 'Electos' in candidatos.columns:
+        electos = candidatos[candidatos['Electos'] == '*']
+        electos = electos.drop(['Electos'], axis=1)
+    else:
+        electos = candidatos
 
-            # POPUP : tabla de candidatos por subdivision
-            popup = popup_resultados_subdiv(eleccion, rep, escanos, candidatos, j, leyenda) 
+    subdivision = votacion_div_electoral[votacion_div_electoral['Lista/Pacto'] != 'senado'].index
+    
+    legislatura = dist_eleccion(eleccion, rep, subdivision, electos, leyenda, color_listas)
+    sample_map.get_root().add_child(legislatura)
 
-            folium.Marker(location= [x_loc, y_loc],
-                          draggable=False,
-                          popup=popup,
-                          icon=folium.DivIcon(html=marker_html, icon_anchor=marker_anchor)).add_to(marker_cluster)
+    ## SEARCH BAR
+    # fuente : https://github.com/perliedman/leaflet-control-geocoder
+    Geocoder(position='topleft', collapsed=True, add_marker=False).add_to(sample_map)
 
-        # distribución parlamentaria
-        if flag_reg == 'Chile': 
-            if 'Electos' in candidatos.columns:
-                electos = candidatos[candidatos['Electos'] == '*']
-                electos = electos.drop(['Electos'], axis=1)
-            else:
-                electos = candidatos
+    html_to_insert = """<style>
+    .leaflet-control-geocoder-icon {width: 36px !important; height: 36px !important; border-radius:3px !important;} 
+    .leaflet-control-geocoder{left: 50px !important; top: 2px !important;}
+    .leaflet-bar{border: 2px solid rgba(0,0,0,0.2) !important; background-clip: padding-box !important; box-shadow: none !important;}
+    </style>"""
 
-            subdivision = electos[electos['Votos'] != 0].index.remove_unused_levels().levels[0]
-            
-            legislatura = dist_eleccion(eleccion, rep, subdivision, electos, leyenda, color_listas)
-            sample_map.get_root().add_child(legislatura)
+    sample_map.get_root().header.add_child(folium.Element(html_to_insert))
 
-        # SEARCH BAR
-        # https://github.com/perliedman/leaflet-control-geocoder
-        Geocoder(position='topleft', collapsed=True, add_marker=False).add_to(sample_map)
+    ## PANEL DERECHO, listeners
+    if listas is not None:            
+        panel = True
+    else:
+        panel = False
 
-        html_to_insert = """<style>
-        .leaflet-control-geocoder-icon {width: 36px !important; height: 36px !important; border-radius:3px !important;} 
-        .leaflet-control-geocoder{left: 50px !important; top: 2px !important;}
-        .leaflet-bar{border: 2px solid rgba(0,0,0,0.2) !important; background-clip: padding-box !important; box-shadow: none !important;}
-        </style>"""
+        cat_legend = categorical_legend(leyenda, listas.groupby(level=1).agg({'Electos': 'sum'}).query('Electos> 0') if (listas is not None) else candidatos.groupby(level=1).agg({'Candidatos': 'count'}))            
+        sample_map.get_root().add_child(cat_legend)
 
-        sample_map.get_root().header.add_child(folium.Element(html_to_insert))
+    sample_map = editar_template(sample_map, layer_dist, marker_cluster, datos_nac, panel)
 
-        # PANEL DERECHO, listeners
-        if listas is not None:            
-            panel = True
-        else:
-            panel = False
+    ## GUARDAR MAPA
+    if eleccion >= 1989 or eleccion == 1932:
+        filename = ''.join([str(eleccion+1), '-', str(eleccion+5),{0: '_Diputados', 1: '_Senadores'}[rep],  '.html'])
+    else:
+        filename = ''.join([str(eleccion), '-', str(eleccion+4),{0: '_Diputados', 1: '_Senadores'}[rep], '.html'])
 
-            cat_legend = categorical_legend(leyenda, listas.groupby(level=1).agg({'Electos': 'sum'}).query('Electos> 0') if (listas is not None) else candidatos.groupby(level=1).agg({'Candidatos': 'count'}))            
-            sample_map.get_root().add_child(cat_legend)
-
-        sample_map = editar_template(sample_map, layer_dist, marker_cluster, datos_nac, panel)
-
-        # GUARDAR MAPA
-        if eleccion >= 1989:
-            filename = ''.join([str(eleccion+1), '-', str(eleccion+5),{0: '_Diputados', 1: '_Senadores'}[rep],  '.html'])
-        else:
-            filename = ''.join([str(eleccion), '-', str(eleccion+4),{0: '_Diputados', 1: '_Senadores'}[rep], '.html'])
-
-        sample_map.save(path_mapas/filename)
-        webbrowser.open(str(path_mapas/filename))
+    sample_map.save(path_mapas/filename)
+    webbrowser.open(str(path_mapas/filename))
 
 # %% FUNCIONES VARIAS
 # %%
@@ -401,8 +326,7 @@ def marker_subdiv(escanos, listas, color_listas):
 </svg></div>"""
 
         return html_marker, anchor
-
-    # elif escanos == 11:
+        
     elif escanos == 10:  # 3,4,3,0
         color.extend(['none']*2)
         stroke[10:] = ['0']*2
@@ -528,8 +452,9 @@ def popup_resultados_subdiv(eleccion, rep, escanos, candidatos, j, leyenda):
         Código html del popup
         
     """
-    
-    # SOURCE : https://stackoverflow.com/questions/49324569/replicating-jupyter-notebook-pandas-dataframe-html-printout
+
+    # SOURCE1: https://stackoverflow.com/questions/62789558/is-it-possible-to-change-the-popup-background-colour-in-folium
+    # SOURCE2 : https://stackoverflow.com/questions/49324569/replicating-jupyter-notebook-pandas-dataframe-html-printout
     # tablesorter (sin Iframe): http://www.loyno.edu/assets/shared/js/tablesorter/docs/index.html
 
     if eleccion >= 1989:
@@ -798,7 +723,7 @@ def popup_resultados_subdiv(eleccion, rep, escanos, candidatos, j, leyenda):
     }}       
     
     .electos{{
-        text-align: center;
+        text-align: right;
     }}
        
     /* filters */
@@ -907,19 +832,18 @@ def resultados_subdiv(eleccion, rep, votacion_subdiv, listas, leyenda, debug):
         Código html para los resultados nacionales por coalición.
 
     """
-
     subdivrow = {0: 'Distrito', 1: 'Circunscripción'}[rep]
 
-    # reemplazos
-    estadistica = ['Válidamente emitidos', 'Nulos', 'Blancos', 'Total'] if (eleccion == 1973 or eleccion >= 2013) else (['Válidamente emitidos'] if eleccion >= 1989 else ['Válidamente emitidos', 'Blancos/Nulos', 'Total'])
-
+    estadistica = [x for x in listas.index.get_level_values('Lista/Pacto').drop_duplicates().tolist() if x in['Válidamente emitidos', 'Nulos', 'Blancos', 'Blancos/Nulos','Total']]
+    
     editar = dict(zip([f"""<td>{key}</td>""" for key in leyenda.keys()], [f"""<td class="coalicion"><span style='background:{leyenda[key]};'></span>{key }</td>""" for key in leyenda.keys()]))
     editar['<td>Otros</td>'] = """<td class="coalicion"><span style='background: #a04000;'></span> Otros</td>"""
 
-    editar['<tr>\n      <td>Válidamente emitidos</td>'] = """</tbody><tbody><tr>\n      <td class="coalicion">Válidamente emitidos</td>"""
-
-    for i in range(1, len(estadistica)):
-        editar[''.join(['<td>', estadistica[i], '</td>'])] = ''.join(['<td class="coalicion">', estadistica[i], '</td>'])
+    for i in range(0, len(estadistica)):
+        if i == 0: 
+            editar[''.join(['<tr>\n      <td>',estadistica[i],'</td>'])] = ''.join(['</tbody><tbody><tr>\n      <td class="coalicion">',estadistica[i],'</td>'])
+        else:
+            editar[''.join(['<td>',estadistica[i],'</td>'])] = ''.join(['<td class="coalicion">',estadistica[i], '</td>'])
     editar['<th>Lista/Pacto</th>'] = '<th class="coalicion">Coalición</th>'
 
     pattern = re.compile(("|".join(editar.keys())).replace('+', '\+'))  # problema con «Chile Podemos +», 2021
@@ -935,7 +859,7 @@ def resultados_subdiv(eleccion, rep, votacion_subdiv, listas, leyenda, debug):
 
     listas_display['Lista/Pacto'] = listas_display['Lista/Pacto'].map(lambda x: x if x in leyenda.keys() else (x if x in estadistica else 'Otros'))
 
-    if eleccion <= 1969:
+    if eleccion <= 1969 and (rep == 0):
         # (santiago y nuble a veces están repetidos)
         if len(set(listas[(listas.index.get_level_values('Distrito').isin([71, 72, 73, 8])) & (listas.index.get_level_values('Lista/Pacto').isin(estadistica[-1:]))]['Votos'].values)) == 1:
             reg.extend([72, 73, 8])
@@ -956,12 +880,11 @@ def resultados_subdiv(eleccion, rep, votacion_subdiv, listas, leyenda, debug):
     if debug:
         datos_nac = listas_nac[['Lista/Pacto', 'Votos', 'Porcentaje']].to_html(
             justify='center', index=False, bold_rows=False, border=0, table_id='info_display')
-    else:
+    else:        
         mask = ~((listas_nac['Lista/Pacto'] == 'Nulos') | (listas_nac['Lista/Pacto'] == 'Blancos') | (listas_nac['Lista/Pacto'] == 'Blancos/Nulos'))
         datos_nac = listas_nac[mask][['Lista/Pacto', 'Votos', 'Porcentaje']].to_html(
             justify='center', index=False, bold_rows=False, border=0, table_id='info_display')
 
-    # datos_nac = listas_nac[['Votos','Porcentaje']].to_html(justify='center', index_names=False, bold_rows=False, border=0,table_id='info_display')
     datos_nac = pattern.sub(lambda m: editar[m.group(0)], datos_nac)
 
     # totales por division electoral
@@ -979,14 +902,9 @@ def resultados_subdiv(eleccion, rep, votacion_subdiv, listas, leyenda, debug):
         listas_reg = listas_reg.reset_index().set_index([subdivrow])
     else:        
         listas_reg = listas_reg.reset_index()
-        mask = ~((listas_reg['Lista/Pacto'] == 'Nulos') | (listas_reg['Lista/Pacto'] == 'Blancos') | (listas_reg['Lista/Pacto'] == 'Blancos/Nulos'))
-
+        mask = ~((listas_reg['Lista/Pacto'] == 'Nulos') | (listas_reg['Lista/Pacto'] == 'Blancos') | (listas_reg['Lista/Pacto'] == 'Blancos/Nulos') )
+        
         listas_reg = listas_reg[mask].set_index([subdivrow])
-
-    # datos = []
-    # for i in listas_reg.index.levels[0]:
-    #     datos.append( pattern.sub(lambda m: editar[m.group(0)], listas_reg.loc[i][['Votos','Porcentaje']].to_html(justify='center', index_names=False, bold_rows=False, border=0,table_id='info_display')) )
-    #     # datos.append(listas_reg.loc[i][['Votos','Porcentaje']].to_html(justify='center', index_names=False, bold_rows=False, border=0,table_id='info_display'))
 
     datos = []
 
@@ -1520,8 +1438,8 @@ def dist_eleccion(eleccion, rep, subdivision, electos, leyenda, color_listas):
 
     if rep == 1:        
         mask = (~data_chart['Circunscripción'].isin(subdivision)) & (data_chart['Circunscripción'] != 101)
-        data_chart.loc[mask,'Candidatos'] = '*' + data_chart[mask]['Candidatos']
-        data_chart.loc[data_chart['Circunscripción'] == 101, 'Candidatos'] = '**' + data_chart[data_chart['Circunscripción'] == 101]['Candidatos']
+        data_chart.loc[mask,'Candidatos'] = '* ' + data_chart[mask]['Candidatos']
+        data_chart.loc[data_chart['Circunscripción'] == 101, 'Candidatos'] = '** ' + data_chart[data_chart['Circunscripción'] == 101]['Candidatos']
 
     # senadores : separar los electos (subdivision) de los ya instalados y designados (circ. 101)
     data_chart['Electos_total'] = 1
@@ -1529,6 +1447,8 @@ def dist_eleccion(eleccion, rep, subdivision, electos, leyenda, color_listas):
 
     if rep == 1:
         data_chart.loc[(~data_chart['Circunscripción'].isin(subdivision)) | (data_chart['Circunscripción'] == 101), 'Electos_periodo'] = 0
+        data_chart['Circunscripción'] = pd.Categorical(data_chart['Circunscripción'], categories=(subdivision.tolist() +[x for x in electos.index.levels[0] if x not in subdivision.tolist()]), ordered=True)
+        data_chart = data_chart.sort_values(['Circunscripción'],ascending=[True])
 
     data_chart = data_chart.drop({0: 'Distrito', 1: 'Circunscripción'}[rep], axis=1)
 
@@ -1537,6 +1457,8 @@ def dist_eleccion(eleccion, rep, subdivision, electos, leyenda, color_listas):
                             data_chart[data_chart['Partido'] != 'IND'].groupby('Partido').agg({'Lista/Pacto': 'first', 'Candidatos': lambda x: tooltip_partido(x), 'Electos_total': 'sum', 'Electos_periodo': 'sum'}),
                             data_chart[data_chart['Lista/Pacto'] == 'Candidatura Independiente'].groupby('Partido').agg({'Lista/Pacto': 'first', 'Candidatos': lambda x: tooltip_partido(x), 'Electos_total': 'sum', 'Electos_periodo': 'sum'})
                             ]).reset_index()
+
+    data_chart = data_chart.dropna()
 
     # coaliciones tal como en leyenda
     # partidos ordenados en decreciente por coalición
@@ -1550,17 +1472,20 @@ def dist_eleccion(eleccion, rep, subdivision, electos, leyenda, color_listas):
     # nombre en tooltip
     siglas = siglas_partidos()
     siglas_inv = {v: k for k, v in siglas.items()}    
+    
     data_chart['Partido_tooltip'] = data_chart['Partido'].map(lambda x: x + ' ('+siglas_inv[x]+')')
 
-    if rep == 1 and eleccion >= 1993:
+    if rep == 1 and eleccion not in {1932, 1989}: 
         mask = ~data_chart['Partido'].str.contains("COSENA|SUPREMA|GOB|VIT")
         data_chart.loc[mask, 'Partido'] = data_chart.loc[mask, 'Partido'] + data_chart.loc[mask, 'Electos_periodo'].astype(str).map(lambda x: ' ('+x+')')
 
+    data_chart['Candidatos'] = data_chart['Candidatos'].apply(lambda x: x + ('<br>* electos en el período anterior' if re.search('\>\*\s[A-Z]',x) else '') +('<br>** designados o vitalicios' if re.search('\>\*\*\s[A-Z]',x) else ''))
+    
     data_chart['color'] = data_chart['Lista/Pacto'].map(lambda x: color_listas(x))
 
     # alineación vertical de leyendas (SOURCE : http://jsfiddle.net/1kep8yvm/)
     l = len(data_chart)
-    n = 2 if l <= 14 else 3
+    n = 2 if l <= 10 else 3
     data_chart['legendIndex'] = [i+(j-1)*n for i in range(1, n+1) for j in range(1, l//n + (i <= l % n) + 1)]
 
     # tooltip en legend
@@ -1579,8 +1504,8 @@ def dist_eleccion(eleccion, rep, subdivision, electos, leyenda, color_listas):
 
     container_width = 500
 
-    chart_height = (rep == 0)*(300 -25*(eleccion in {1953, 2021})) + (rep == 1)*250
-    chart_marginBottom = min(125,20*(math.ceil(l//n))+10) 
+    chart_height = (rep == 0)*(300 -25*max(0,min(3,math.ceil(l/n)-4))) + (rep == 1)*250
+    chart_marginBottom = min(125,20*(math.ceil(l/n))+10) if math.ceil(l/n) <= 7 else 150
 
     container_height = chart_height + chart_marginBottom
 
@@ -1666,14 +1591,16 @@ def dist_eleccion(eleccion, rep, subdivision, electos, leyenda, color_listas):
     title: {{
         text: '{title_text}',
         style: {{
-            fontWeight: 'bold'
+            fontWeight: 'bold',
+            fontSize: '16px'
         }}
     }},
 
     subtitle: {{
         text: '{subtitle_text}',
         style: {{
-            fontSize: '13px' 
+            fontWeight: 'lighter',
+            fontSize: '12px' 
         }}
     }},
 
@@ -1689,7 +1616,8 @@ def dist_eleccion(eleccion, rep, subdivision, electos, leyenda, color_listas):
         x: {legend_x},
         labelFormat: '{{name}} <span style="opacity: 0.4">{{y}}</span>',
         itemStyle: {{
-            fontWeight: 'normal'
+            fontWeight: 'normal',
+            fontSize: '12px'
         }}
     }},
 
@@ -1899,6 +1827,9 @@ def legislaturaBCN(eleccion):
     elif 1937 <= eleccion <= 1973:
         url += str(63000+[-13, -8, -6, 34, 44, 45, 64, 73, 89, 135][(eleccion-1937)//4]) + '&periodo=1925-1973'
         title = '<a href='+url+' target="_blank">' + leg + ' Período Legislativo ('+str(eleccion)+'-' + str(eleccion+4)+')' + '</a>'
+    elif 1932: 
+        url += '62982&periodo=1925-1973'
+        title = '<a href='+url+' target="_blank">' + leg + ' Período Legislativo ('+str(eleccion+1)+'-' + str(eleccion+5)+')' + '</a>'
     else:
         title = leg + ' Perí­odo Legislativo ('+str(eleccion+1)+'-'+str(eleccion+5)+')'
 

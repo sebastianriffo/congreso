@@ -1,21 +1,40 @@
-Circunscripción,Lista/Pacto,Partido,Candidatos,Votos,Porcentaje,Electos,url
-2,Concertación Democrática,PRSD,"['José', 'Antonio', 'Gómez', 'Urrutia']",74572,40.15,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Antonio_Gómez_Urrutia
-2,Alianza,RN,"['Carlos', 'Cantero', 'Ojeda']",36045,19.41,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Cantero_Ojeda
-4,Concertación Democrática,PDC,"['Jorge', 'Pizarro', 'Soto']",101671,40.37,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Pizarro_Soto
-4,Alianza,UDI,"['Evelyn', 'Matthei', 'Fornet']",71697,28.47,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Evelyn_Matthei_Fornet
-7,Concertación Democrática,PPD,"['Guido', 'Girardi', 'Lavin']",439903,35.3,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Guido_Girardi_Lavín
-7,Alianza,UDI,"['Jovino', 'Novoa', 'Vásquez']",258539,20.75,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jovino_Novoa_Vásquez
-8,Concertación Democrática,PDC,"['Soledad', 'Alvear', 'Valenzuela']",582117,43.81,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/María_Soledad_Alvear_Valenzuela
-8,Alianza,UDI,"['Pablo', 'Longueira', 'Montes']",318434,23.97,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pablo_Longueira_Montes
-9,Concertación Democrática,PS,"['Juan', 'Pablo', 'Letelier', 'Morel']",154894,41.5,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Pablo_Letelier_Morel
-9,Alianza,UDI,"['Andrés', 'Chadwick', 'Piñera']",94877,25.42,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Andrés_Pío_Bernardino_Chadwick_Piñera
-12,Concertación Democrática,PS,"['Alejandro', 'Navarro', 'Brain']",209410,41.97,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alejandro_Navarro_Brain
-12,Concertación Democrática,PDC,"['Hosain', 'Sabag', 'Castillo']",127803,25.62,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Hosain_Sabag_Castillo
-13,Concertación Democrática,PDC,"['Mariano', 'Ruiz-Esquide', 'Jara']",139657,39.31,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Sergio_Mariano_Ruiz-Esquide_Jara
-13,Alianza,UDI,"['Víctor', 'Perez', 'Varela']",83170,23.41,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Víctor_Pérez_Varela
-16,Concertación Democrática,PDC,"['Eduardo', 'Freí', 'Ruiz-Tagle']",85145,35.86,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eduardo_Frei_Ruiz-Tagle
-16,Alianza,RN,"['Andrés', 'Allamand', 'Zavala']",90030,37.92,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Andrés_Allamand_Zavala
-17,Concertación Democrática,PS,"['Camilo', 'Escalona', 'Medina']",65337,28.68,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Camilo_Escalona_Medina
-17,Alianza,RN,"['Carlos', 'Ignacio', 'Kuschel', 'Silva']",47054,20.66,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Ignacio_Kuschel_Silva
-19,Concertación Democrática,PS,"['Pedro', 'Muñoz', 'Aburto']",21960,33.31,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Héctor_Muñoz_Aburto
-19,Candidatura Independiente,IND,"['Carlos', 'Bianchi', 'Chelech']",18275,27.72,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Antonio_Karim_Bianchi_Chelech
+Circunscripción,Lista/Pacto,Partido,Candidatos,Votos,Porcentaje,Electos,Electos_comp,url
+1,Alianza,UDI,"('Jaime', 'Orpis', 'Bouchon')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jaime_Orpis_Bouchon
+1,Concertación Democrática,PPD,"('Fernando', 'Flores', 'Labra')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Fernando_Flores_Labra
+2,Alianza,RN,"('Carlos', 'Cantero', 'Ojeda')",36045.0,19.41,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Cantero_Ojeda
+2,Concertación Democrática,PRSD,"('José', 'Antonio', 'Gómez', 'Urrutia')",74572.0,40.15,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Antonio_Argomedo_González
+3,Alianza,RN,"('Baldo', 'Prokurica', 'Prokurica')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Baldo_Prokurica_Prokurica
+3,Concertación Democrática,PS,"('Ricardo', 'Nuñez', 'Muñoz')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ricardo_Núñez_Muñoz
+4,Alianza,UDI,"('Evelyn', 'Matthei', 'Fornet')",71697.0,28.47,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Evelyn_Matthei_Fornet
+4,Concertación Democrática,PDC,"('Jorge', 'Pizarro', 'Soto')",101671.0,40.37,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Pizarro_Soto
+5,Alianza,RN,"('Sergio', 'Romero', 'Pizarro')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Sergio_Romero_Pizarro
+5,Concertación Democrática,PS,"('Carlos', 'Ominami', 'Pascual')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Ominami_Pascual
+6,Alianza,UDI,"('Jorge', 'Arancibia', 'Reyes')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Patricio_Arancibia_Reyes
+6,Concertación Democrática,PRSD,"('Nelson', 'Avila', 'Contreras')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Nelson_Jaime_Ávila_Contreras
+7,Alianza,UDI,"('Jovino', 'Novoa', 'Vásquez')",258539.0,20.75,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jovino_Novoa_Vásquez
+7,Concertación Democrática,PPD,"('Guido', 'Girardi', 'Lavin')",439903.0,35.3,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Guido_Girardi_Lavín
+8,Alianza,UDI,"('Pablo', 'Longueira', 'Montes')",318434.0,23.97,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pablo_Longueira_Montes
+8,Concertación Democrática,PDC,"('Soledad', 'Alvear', 'Valenzuela')",582117.0,43.81,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/María_Soledad_Alvear_Valenzuela
+9,Alianza,UDI,"('Andrés', 'Chadwick', 'Piñera')",94877.0,25.42,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Andrés_Pío_Bernardino_Chadwick_Piñera
+9,Concertación Democrática,PS,"('Juan', 'Pablo', 'Letelier', 'Morel')",154894.0,41.5,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Pablo_Letelier_Morel
+10,Alianza,UDI,"('Juan', 'Antonio', 'Coloma', 'Correa')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Antonio_Coloma_Correa
+10,Concertación Democrática,PS,"('Jaime', 'Gazmuri', 'Mujica')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jaime_Gazmuri_Mujica
+11,Alianza,UDI,"('Hernán', 'Larraín', 'Fernández')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Hernán_Larraín_Fernández
+11,Concertación Democrática,PS,"('Jaime', 'Naranjo', 'Ortiz')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jaime_Naranjo_Ortiz
+12,Concertación Democrática,PS,"('Alejandro', 'Navarro', 'Brain')",209410.0,41.97,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alejandro_Navarro_Brain
+12,Concertación Democrática,PDC,"('Hosain', 'Sabag', 'Castillo')",127803.0,25.62,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Hosain_Sabag_Castillo
+13,Alianza,UDI,"('Víctor', 'Perez', 'Varela')",83170.0,23.41,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Víctor_Pérez_Varela
+13,Concertación Democrática,PDC,"('Mariano', 'Ruiz-Esquide', 'Jara')",139657.0,39.31,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Sergio_Mariano_Ruiz-Esquide_Jara
+14,Alianza,RN,"('Alberto', 'Espina', 'Otero')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alberto_Espina_Otero
+14,Concertación Democrática,PPD,"('Roberto', 'Muñoz', 'Barra')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Roberto_Muñoz_Barra
+15,Alianza,RN,"('José', 'García', 'Ruminot')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Gilberto_García_Ruminot
+15,Concertación Democrática,PDC,"('Jorge', 'Lavandero', 'Illanes')",0.0,0.0,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Exequiel_Lavandero_Illanes
+15,Concertación Democrática,PRSD,"('Guillermo', 'Vásquez', 'Úbeda')",0.0,0.0,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Guillermo_Vásquez_Ubeda
+16,Alianza,RN,"('Andrés', 'Allamand', 'Zavala')",90030.0,37.92,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Andrés_Allamand_Zavala
+16,Concertación Democrática,PDC,"('Eduardo', 'Freí', 'Ruiz-Tagle')",85145.0,35.86,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eduardo_Frei_Ruiz-Tagle
+17,Alianza,RN,"('Carlos', 'Ignacio', 'Kuschel', 'Silva')",47054.0,20.66,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Ignacio_Kuschel_Silva
+17,Concertación Democrática,PS,"('Camilo', 'Escalona', 'Medina')",65337.0,28.68,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Camilo_Escalona_Medina
+18,Alianza,RN,"('Antonio', 'Horvath', 'Kiss')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Antonio_Horvath_Kiss
+18,Concertación Democrática,PDC,"('Adolfo', 'Zaldívar', 'Larraín')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Miguel_Adolfo_Zaldívar_Larraín
+19,Candidatura Independiente,IND,"('Carlos', 'Bianchi', 'Chelech')",18275.0,27.72,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Antonio_Karim_Bianchi_Chelech
+19,Concertación Democrática,PS,"('Pedro', 'Muñoz', 'Aburto')",21960.0,33.31,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Héctor_Muñoz_Aburto

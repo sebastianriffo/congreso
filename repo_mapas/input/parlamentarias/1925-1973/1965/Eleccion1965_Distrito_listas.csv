@@ -65,7 +65,7 @@ Distrito,Lista/Pacto,Electos,Porcentaje,Votos
 6,Válidamente emitidos,0,96.63,249980.0
 6,Blancos/Nulos,0,3.37,8724.0
 6,Total,0,100.0,258704.0
-8,Frente de Acción Popular,1,24.63,231077.0
+8,Frente de Acción Popular,1,24.65,231272.0
 8,Partido Democrático,0,1.49,14019.0
 8,Democracia Agrario Laborista,0,1.32,12345.0
 8,Partido Demócrata Cristiano,4,47.29,443556.0
@@ -73,8 +73,8 @@ Distrito,Lista/Pacto,Electos,Porcentaje,Votos
 8,Derecha Tradicional,0,10.870000000000001,101874.0
 8,Acción Nacional,0,1.41,13197.0
 8,Candidatura Independiente,0,0.0,0.0
-8,Válidamente emitidos,0,96.18,902009.0
-8,Blancos/Nulos,0,3.82,35841.0
+8,Válidamente emitidos,0,96.2,902204.0
+8,Blancos/Nulos,0,3.8,35646.0
 8,Total,0,100.0,937850.0
 9,Frente de Acción Popular,2,37.51,29879.0
 9,Partido Democrático,0,0.0,0.0
@@ -142,28 +142,28 @@ Distrito,Lista/Pacto,Electos,Porcentaje,Votos
 14,Válidamente emitidos,0,97.0,41776.0
 14,Blancos/Nulos,0,3.0,1294.0
 14,Total,0,100.0,43070.0
-15,Frente de Acción Popular,0,14.37,2916.0
+15,Frente de Acción Popular,0,4.29,2916.0
 15,Partido Democrático,0,0.0,0.0
 15,Democracia Agrario Laborista,0,0.0,0.0
-15,Partido Demócrata Cristiano,2,46.52,9439.0
-15,Partido Radical,1,23.13,4694.0
-15,Derecha Tradicional,0,13.9,2820.0
+15,Partido Demócrata Cristiano,2,13.88,9439.0
+15,Partido Radical,1,6.9,4694.0
+15,Derecha Tradicional,0,4.15,2820.0
 15,Acción Nacional,0,0.0,0.0
 15,Candidatura Independiente,0,0.0,0.0
-15,Válidamente emitidos,0,97.93,19869.0
-15,Blancos/Nulos,0,2.07,421.0
-15,Total,0,100.0,20290.0
-16,Frente de Acción Popular,0,17.67,8435.0
-16,Partido Democrático,0,0.26,125.0
-16,Democracia Agrario Laborista,0,1.08,515.0
-16,Partido Demócrata Cristiano,3,43.63,20825.0
-16,Partido Radical,2,25.2,12030.0
-16,Derecha Tradicional,0,10.85,5182.0
+15,Válidamente emitidos,0,29.21,19869.0
+15,Blancos/Nulos,0,70.79,48151.0
+15,Total,0,100.0,68020.0
+16,Frente de Acción Popular,0,12.4,8435.0
+16,Partido Democrático,0,0.18,125.0
+16,Democracia Agrario Laborista,0,0.76,515.0
+16,Partido Demócrata Cristiano,3,30.62,20825.0
+16,Partido Radical,2,17.69,12030.0
+16,Derecha Tradicional,0,7.62,5182.0
 16,Acción Nacional,0,0.0,0.0
 16,Candidatura Independiente,0,0.0,0.0
-16,Válidamente emitidos,0,98.71,47112.0
-16,Blancos/Nulos,0,1.29,618.0
-16,Total,0,100.0,47730.0
+16,Válidamente emitidos,0,69.26,47112.0
+16,Blancos/Nulos,0,30.74,20908.0
+16,Total,0,100.0,68020.0
 17,Frente de Acción Popular,3,37.66,59625.0
 17,Partido Democrático,0,0.25,395.0
 17,Democracia Agrario Laborista,0,0.26,414.0
@@ -274,7 +274,7 @@ Distrito,Lista/Pacto,Electos,Porcentaje,Votos
 26,Válidamente emitidos,0,97.9,27661.0
 26,Blancos/Nulos,0,2.1,594.0
 26,Total,0,100.0,28255.0
-71,Frente de Acción Popular,4,24.63,231077.0
+71,Frente de Acción Popular,4,24.65,231272.0
 71,Partido Democrático,0,1.49,14019.0
 71,Democracia Agrario Laborista,0,1.32,12345.0
 71,Partido Demócrata Cristiano,11,47.29,443556.0
@@ -282,10 +282,10 @@ Distrito,Lista/Pacto,Electos,Porcentaje,Votos
 71,Derecha Tradicional,1,10.870000000000001,101874.0
 71,Acción Nacional,0,1.41,13197.0
 71,Candidatura Independiente,0,0.0,0.0
-71,Válidamente emitidos,0,96.18,902009.0
-71,Blancos/Nulos,0,3.82,35841.0
+71,Válidamente emitidos,0,96.2,902204.0
+71,Blancos/Nulos,0,3.8,35646.0
 71,Total,0,100.0,937850.0
-72,Frente de Acción Popular,2,24.63,231077.0
+72,Frente de Acción Popular,2,24.65,231272.0
 72,Partido Democrático,0,1.49,14019.0
 72,Democracia Agrario Laborista,0,1.32,12345.0
 72,Partido Demócrata Cristiano,3,47.29,443556.0
@@ -293,10 +293,10 @@ Distrito,Lista/Pacto,Electos,Porcentaje,Votos
 72,Derecha Tradicional,0,10.870000000000001,101874.0
 72,Acción Nacional,0,1.41,13197.0
 72,Candidatura Independiente,0,0.0,0.0
-72,Válidamente emitidos,0,96.18,902009.0
-72,Blancos/Nulos,0,3.82,35841.0
+72,Válidamente emitidos,0,96.2,902204.0
+72,Blancos/Nulos,0,3.8,35646.0
 72,Total,0,100.0,937850.0
-73,Frente de Acción Popular,2,24.63,231077.0
+73,Frente de Acción Popular,2,24.65,231272.0
 73,Partido Democrático,0,1.49,14019.0
 73,Democracia Agrario Laborista,0,1.32,12345.0
 73,Partido Demócrata Cristiano,3,47.29,443556.0
@@ -304,6 +304,6 @@ Distrito,Lista/Pacto,Electos,Porcentaje,Votos
 73,Derecha Tradicional,0,10.870000000000001,101874.0
 73,Acción Nacional,0,1.41,13197.0
 73,Candidatura Independiente,0,0.0,0.0
-73,Válidamente emitidos,0,96.18,902009.0
-73,Blancos/Nulos,0,3.82,35841.0
+73,Válidamente emitidos,0,96.2,902204.0
+73,Blancos/Nulos,0,3.8,35646.0
 73,Total,0,100.0,937850.0

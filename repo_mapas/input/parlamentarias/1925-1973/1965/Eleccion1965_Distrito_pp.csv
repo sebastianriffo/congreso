@@ -1,9 +1,9 @@
 Distrito,Lista/Pacto,Partido,Electos,Porcentaje,Votos
-1,Frente de Acción Popular,VNP,0,0.0,0.0
 1,Frente de Acción Popular,PS,0,0.0,0.0
 1,Frente de Acción Popular,PC,2,37.43,17979.0
-1,Frente de Acción Popular,PADENA,0,0.0,0.0
 1,Frente de Acción Popular,CP,0,0.0,0.0
+1,Frente de Acción Popular,PADENA,0,0.0,0.0
+1,Frente de Acción Popular,VNP,0,0.0,0.0
 1,Partido Democrático,PDo,0,0.15,73.0
 1,Democracia Agrario Laborista,DAL,0,0.0,0.0
 1,Partido Demócrata Cristiano,PDC,2,31.26,15013.0
@@ -95,33 +95,33 @@ Distrito,Lista/Pacto,Partido,Electos,Porcentaje,Votos
 6,Válidamente emitidos,,0,96.63,249980.0
 6,Blancos/Nulos,,0,3.37,8724.0
 6,Total,,0,100.0,258704.0
+8,Frente de Acción Popular,VNP,0,0.22,2108.0
 8,Frente de Acción Popular,PS,0,9.0,84403.0
 8,Frente de Acción Popular,PC,1,13.48,126449.0
-8,Frente de Acción Popular,CP,0,0.3,2791.0
 8,Frente de Acción Popular,PADENA,0,1.65,15521.0
-8,Frente de Acción Popular,VNP,0,0.2,1913.0
+8,Frente de Acción Popular,CP,0,0.3,2791.0
 8,Partido Democrático,PDo,0,1.49,14019.0
 8,Democracia Agrario Laborista,DAL,0,1.32,12345.0
 8,Partido Demócrata Cristiano,PDC,4,47.29,443556.0
 8,Partido Radical,PR,0,9.16,85941.0
-8,Derecha Tradicional,PL,0,5.39,50519.0
 8,Derecha Tradicional,PCU,0,5.48,51355.0
+8,Derecha Tradicional,PL,0,5.39,50519.0
 8,Acción Nacional,AN,0,1.41,13197.0
 8,Candidatura Independiente,IND,0,0.0,0.0
-8,Válidamente emitidos,,0,96.18,902009.0
-8,Blancos/Nulos,,0,3.82,35841.0
+8,Válidamente emitidos,,0,96.2,902204.0
+8,Blancos/Nulos,,0,3.8,35646.0
 8,Total,,0,100.0,937850.0
-9,Frente de Acción Popular,CP,0,0.0,0.0
+9,Frente de Acción Popular,PS,1,12.38,9859.0
+9,Frente de Acción Popular,VNP,0,0.68,541.0
 9,Frente de Acción Popular,PADENA,0,8.67,6905.0
 9,Frente de Acción Popular,PC,1,15.78,12574.0
-9,Frente de Acción Popular,VNP,0,0.68,541.0
-9,Frente de Acción Popular,PS,1,12.38,9859.0
+9,Frente de Acción Popular,CP,0,0.0,0.0
 9,Partido Democrático,PDo,0,0.0,0.0
 9,Democracia Agrario Laborista,DAL,0,0.0,0.0
 9,Partido Demócrata Cristiano,PDC,4,39.65,31585.0
 9,Partido Radical,PR,0,5.87,4673.0
-9,Derecha Tradicional,PL,0,4.75,3785.0
 9,Derecha Tradicional,PCU,0,9.31,7416.0
+9,Derecha Tradicional,PL,0,4.75,3785.0
 9,Acción Nacional,AN,0,0.0,0.0
 9,Candidatura Independiente,IND,0,0.0,0.0
 9,Válidamente emitidos,,0,97.08,77338.0
@@ -159,17 +159,17 @@ Distrito,Lista/Pacto,Partido,Electos,Porcentaje,Votos
 11,Válidamente emitidos,,0,96.36,27218.0
 11,Blancos/Nulos,,0,3.64,1028.0
 11,Total,,0,100.0,28246.0
-12,Frente de Acción Popular,CP,0,0.0,0.0
-12,Frente de Acción Popular,PADENA,1,22.52,11599.0
-12,Frente de Acción Popular,PC,0,0.0,0.0
 12,Frente de Acción Popular,VNP,0,1.88,970.0
 12,Frente de Acción Popular,PS,0,0.0,0.0
+12,Frente de Acción Popular,PC,0,0.0,0.0
+12,Frente de Acción Popular,PADENA,1,22.52,11599.0
+12,Frente de Acción Popular,CP,0,0.0,0.0
 12,Partido Democrático,PDo,0,0.25,131.0
 12,Democracia Agrario Laborista,DAL,0,0.0,0.0
 12,Partido Demócrata Cristiano,PDC,3,37.41,19265.0
 12,Partido Radical,PR,1,14.05,7234.0
-12,Derecha Tradicional,PL,0,9.01,4639.0
 12,Derecha Tradicional,PCU,0,11.38,5860.0
+12,Derecha Tradicional,PL,0,9.01,4639.0
 12,Acción Nacional,AN,0,0.38,195.0
 12,Candidatura Independiente,IND,0,0.0,0.0
 12,Válidamente emitidos,,0,96.89,49893.0
@@ -207,38 +207,38 @@ Distrito,Lista/Pacto,Partido,Electos,Porcentaje,Votos
 14,Válidamente emitidos,,0,97.0,41776.0
 14,Blancos/Nulos,,0,3.0,1294.0
 14,Total,,0,100.0,43070.0
-15,Frente de Acción Popular,PS,0,14.37,2916.0
-15,Frente de Acción Popular,VNP,0,0.0,0.0
-15,Frente de Acción Popular,PADENA,0,0.0,0.0
+15,Frente de Acción Popular,PS,0,4.29,2916.0
 15,Frente de Acción Popular,PC,0,0.0,0.0
+15,Frente de Acción Popular,PADENA,0,0.0,0.0
+15,Frente de Acción Popular,VNP,0,0.0,0.0
 15,Frente de Acción Popular,CP,0,0.0,0.0
 15,Partido Democrático,PDo,0,0.0,0.0
 15,Democracia Agrario Laborista,DAL,0,0.0,0.0
-15,Partido Demócrata Cristiano,PDC,2,46.52,9439.0
-15,Partido Radical,PR,1,23.13,4694.0
+15,Partido Demócrata Cristiano,PDC,2,13.88,9439.0
+15,Partido Radical,PR,1,6.9,4694.0
+15,Derecha Tradicional,PL,0,4.15,2820.0
 15,Derecha Tradicional,PCU,0,0.0,0.0
-15,Derecha Tradicional,PL,0,13.9,2820.0
 15,Acción Nacional,AN,0,0.0,0.0
 15,Candidatura Independiente,IND,0,0.0,0.0
-15,Válidamente emitidos,,0,97.93,19869.0
-15,Blancos/Nulos,,0,2.07,421.0
-15,Total,,0,100.0,20290.0
-16,Frente de Acción Popular,PADENA,0,7.18,3427.0
-16,Frente de Acción Popular,CP,0,0.0,0.0
-16,Frente de Acción Popular,PC,0,10.49,5008.0
-16,Frente de Acción Popular,PS,0,0.0,0.0
+15,Válidamente emitidos,,0,29.21,19869.0
+15,Blancos/Nulos,,0,70.79,48151.0
+15,Total,,0,100.0,68020.0
 16,Frente de Acción Popular,VNP,0,0.0,0.0
-16,Partido Democrático,PDo,0,0.26,125.0
-16,Democracia Agrario Laborista,DAL,0,1.08,515.0
-16,Partido Demócrata Cristiano,PDC,3,43.63,20825.0
-16,Partido Radical,PR,2,25.2,12030.0
-16,Derecha Tradicional,PCU,0,10.59,5056.0
-16,Derecha Tradicional,PL,0,0.26,126.0
+16,Frente de Acción Popular,PS,0,0.0,0.0
+16,Frente de Acción Popular,PC,0,7.36,5008.0
+16,Frente de Acción Popular,PADENA,0,5.04,3427.0
+16,Frente de Acción Popular,CP,0,0.0,0.0
+16,Partido Democrático,PDo,0,0.18,125.0
+16,Democracia Agrario Laborista,DAL,0,0.76,515.0
+16,Partido Demócrata Cristiano,PDC,3,30.62,20825.0
+16,Partido Radical,PR,2,17.69,12030.0
+16,Derecha Tradicional,PL,0,0.19,126.0
+16,Derecha Tradicional,PCU,0,7.43,5056.0
 16,Acción Nacional,AN,0,0.0,0.0
 16,Candidatura Independiente,IND,0,0.0,0.0
-16,Válidamente emitidos,,0,98.71,47112.0
-16,Blancos/Nulos,,0,1.29,618.0
-16,Total,,0,100.0,47730.0
+16,Válidamente emitidos,,0,69.26,47112.0
+16,Blancos/Nulos,,0,30.74,20908.0
+16,Total,,0,100.0,68020.0
 17,Frente de Acción Popular,CP,0,0.0,0.0
 17,Frente de Acción Popular,PADENA,0,5.52,8745.0
 17,Frente de Acción Popular,PC,3,24.41,38641.0
@@ -319,11 +319,11 @@ Distrito,Lista/Pacto,Partido,Electos,Porcentaje,Votos
 21,Válidamente emitidos,,0,97.17,84969.0
 21,Blancos/Nulos,,0,2.83,2475.0
 21,Total,,0,100.0,87444.0
-22,Frente de Acción Popular,PS,1,19.62,11978.0
-22,Frente de Acción Popular,PC,0,7.17,4378.0
-22,Frente de Acción Popular,PADENA,0,0.0,0.0
-22,Frente de Acción Popular,VNP,0,0.0,0.0
 22,Frente de Acción Popular,CP,0,0.0,0.0
+22,Frente de Acción Popular,PADENA,0,0.0,0.0
+22,Frente de Acción Popular,PC,0,7.17,4378.0
+22,Frente de Acción Popular,VNP,0,0.0,0.0
+22,Frente de Acción Popular,PS,1,19.62,11978.0
 22,Partido Democrático,PDo,0,1.51,921.0
 22,Democracia Agrario Laborista,DAL,0,4.2,2563.0
 22,Partido Demócrata Cristiano,PDC,3,37.02,22598.0
@@ -335,17 +335,17 @@ Distrito,Lista/Pacto,Partido,Electos,Porcentaje,Votos
 22,Válidamente emitidos,,0,97.94,59789.0
 22,Blancos/Nulos,,0,2.06,1257.0
 22,Total,,0,100.0,61046.0
-23,Frente de Acción Popular,PS,0,10.36,3862.0
-23,Frente de Acción Popular,VNP,0,0.0,0.0
+23,Frente de Acción Popular,PADENA,0,0.0,0.0
 23,Frente de Acción Popular,CP,0,0.0,0.0
 23,Frente de Acción Popular,PC,0,0.0,0.0
-23,Frente de Acción Popular,PADENA,0,0.0,0.0
+23,Frente de Acción Popular,PS,0,10.36,3862.0
+23,Frente de Acción Popular,VNP,0,0.0,0.0
 23,Partido Democrático,PDo,0,0.0,0.0
 23,Democracia Agrario Laborista,DAL,0,0.0,0.0
 23,Partido Demócrata Cristiano,PDC,2,40.77,15199.0
 23,Partido Radical,PR,1,29.4,10958.0
-23,Derecha Tradicional,PL,0,6.25,2331.0
 23,Derecha Tradicional,PCU,0,0.0,0.0
+23,Derecha Tradicional,PL,0,6.25,2331.0
 23,Acción Nacional,AN,0,0.0,0.0
 23,Candidatura Independiente,IND,0,11.66,4345.0
 23,Válidamente emitidos,,0,98.44,36695.0
@@ -399,11 +399,11 @@ Distrito,Lista/Pacto,Partido,Electos,Porcentaje,Votos
 26,Válidamente emitidos,,0,97.9,27661.0
 26,Blancos/Nulos,,0,2.1,594.0
 26,Total,,0,100.0,28255.0
-71,Frente de Acción Popular,VNP,0,0.2,1913.0
-71,Frente de Acción Popular,PS,1,9.0,84403.0
-71,Frente de Acción Popular,PC,3,13.48,126449.0
-71,Frente de Acción Popular,PADENA,0,1.65,15521.0
 71,Frente de Acción Popular,CP,0,0.3,2791.0
+71,Frente de Acción Popular,PADENA,0,1.65,15521.0
+71,Frente de Acción Popular,PC,3,13.48,126449.0
+71,Frente de Acción Popular,VNP,0,0.22,2108.0
+71,Frente de Acción Popular,PS,1,9.0,84403.0
 71,Partido Democrático,PDo,0,1.49,14019.0
 71,Democracia Agrario Laborista,DAL,0,1.32,12345.0
 71,Partido Demócrata Cristiano,PDC,11,47.29,443556.0
@@ -412,26 +412,26 @@ Distrito,Lista/Pacto,Partido,Electos,Porcentaje,Votos
 71,Derecha Tradicional,PCU,1,5.48,51355.0
 71,Acción Nacional,AN,0,1.41,13197.0
 71,Candidatura Independiente,IND,0,0.0,0.0
-71,Válidamente emitidos,,0,96.18,902009.0
-71,Blancos/Nulos,,0,3.82,35841.0
+71,Válidamente emitidos,,0,96.2,902204.0
+71,Blancos/Nulos,,0,3.8,35646.0
 71,Total,,0,100.0,937850.0
-72,Frente de Acción Popular,VNP,0,0.2,1913.0
 72,Frente de Acción Popular,PS,1,9.0,84403.0
+72,Frente de Acción Popular,VNP,0,0.22,2108.0
+72,Frente de Acción Popular,CP,0,0.3,2791.0
 72,Frente de Acción Popular,PC,1,13.48,126449.0
 72,Frente de Acción Popular,PADENA,0,1.65,15521.0
-72,Frente de Acción Popular,CP,0,0.3,2791.0
 72,Partido Democrático,PDo,0,1.49,14019.0
 72,Democracia Agrario Laborista,DAL,0,1.32,12345.0
 72,Partido Demócrata Cristiano,PDC,3,47.29,443556.0
 72,Partido Radical,PR,0,9.16,85941.0
-72,Derecha Tradicional,PCU,0,5.48,51355.0
 72,Derecha Tradicional,PL,0,5.39,50519.0
+72,Derecha Tradicional,PCU,0,5.48,51355.0
 72,Acción Nacional,AN,0,1.41,13197.0
 72,Candidatura Independiente,IND,0,0.0,0.0
-72,Válidamente emitidos,,0,96.18,902009.0
-72,Blancos/Nulos,,0,3.82,35841.0
+72,Válidamente emitidos,,0,96.2,902204.0
+72,Blancos/Nulos,,0,3.8,35646.0
 72,Total,,0,100.0,937850.0
-73,Frente de Acción Popular,VNP,0,0.2,1913.0
+73,Frente de Acción Popular,VNP,0,0.22,2108.0
 73,Frente de Acción Popular,PS,1,9.0,84403.0
 73,Frente de Acción Popular,PC,1,13.48,126449.0
 73,Frente de Acción Popular,PADENA,0,1.65,15521.0
@@ -440,10 +440,10 @@ Distrito,Lista/Pacto,Partido,Electos,Porcentaje,Votos
 73,Democracia Agrario Laborista,DAL,0,1.32,12345.0
 73,Partido Demócrata Cristiano,PDC,3,47.29,443556.0
 73,Partido Radical,PR,0,9.16,85941.0
-73,Derecha Tradicional,PCU,0,5.48,51355.0
 73,Derecha Tradicional,PL,0,5.39,50519.0
+73,Derecha Tradicional,PCU,0,5.48,51355.0
 73,Acción Nacional,AN,0,1.41,13197.0
 73,Candidatura Independiente,IND,0,0.0,0.0
-73,Válidamente emitidos,,0,96.18,902009.0
-73,Blancos/Nulos,,0,3.82,35841.0
+73,Válidamente emitidos,,0,96.2,902204.0
+73,Blancos/Nulos,,0,3.8,35646.0
 73,Total,,0,100.0,937850.0

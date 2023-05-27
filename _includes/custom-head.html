@@ -33,7 +33,7 @@
 			</li>
 			<li class="nivel-1">
 				<input id="dropcheck-dip2" type="checkbox">
-				<label for="dropcheck-dip2" class="dropbtn-1"> 1941-1973 </label>			
+				<label for="dropcheck-dip2" class="dropbtn-1"> 1932-1973 </label>			
 				<ul class="dropdown-submenu">
 					{% comment %} {% assign pages=site.pages | where_exp: "item", "item.ref == 'diputados' and item.ref2 <= 1989" | where:"lang", page.lang | sort: "ref" | reversed %}	{% endcomment %}
 					
@@ -62,7 +62,19 @@
 					{% endfor %}	
 				</ul>
 			</li>
-		</ul>
+			<li class="nivel-1">
+				<input id="dropcheck-sen2" type="checkbox">
+				<label for="dropcheck-sen2" class="dropbtn-1"> 1932-1973 </label>			
+				<ul class="dropdown-submenu">
+					{% comment %} {% assign pages=site.pages | where_exp: "item", "item.ref == 'diputados' and item.ref2 <= 1989" | where:"lang", page.lang | sort: "ref" | reversed %}	{% endcomment %}
+					
+					{% assign pages=site.pages | where_exp: "item", "item.ref == 'senadores'" | where_exp: "item", "item.ref2 <= 1989" | where:"lang", page.lang | sort: "ref" | reverse %}						
+					{% for page in pages %}
+					<li class="nivel-2"> <a href="{{ page.url  | relative_url }}"> {%- if page.lang == "es" -%} Período {{page.title}} {%- else -%} {{page.title}} term {%- endif -%} </a>
+					{% endfor %}
+				</ul>
+			</li>
+		</ul>		
 	</li>			
 	<li class="date"> ({{ page.title }})	
 	

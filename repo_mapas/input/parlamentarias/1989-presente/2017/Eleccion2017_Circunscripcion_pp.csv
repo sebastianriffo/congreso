@@ -6,8 +6,8 @@ Circunscripción,Lista/Pacto,Partido,Candidaturas,Votos,Porcentaje,Electos
 1,La Fuerza de la Mayoría,PPD,1,8159,10.89,0
 1,La Fuerza de la Mayoría,PS,1,14501,19.36,1
 1,Convergencia Democrática,PDC,1,813,1.09,0
-1,Chile Vamos,UDI,1,9639,12.87,1
 1,Chile Vamos,RN,2,8186,10.93,0
+1,Chile Vamos,UDI,1,9639,12.87,1
 1,Candidatura Independiente,IND,1,14824,19.79,0
 1,Válidamente emitidos,,0,71416,95.34,0
 1,Nulos,,0,1936,2.58,0
@@ -15,8 +15,8 @@ Circunscripción,Lista/Pacto,Partido,Candidaturas,Votos,Porcentaje,Electos
 1,Total,,0,74907,100.0,0
 2,Frente Amplio,PODER,1,3878,4.03,0
 2,Sumemos,TODOS,3,4337,4.5,0
-2,La Fuerza de la Mayoría,PPD,1,31627,32.85,1
 2,La Fuerza de la Mayoría,PS,2,3376,3.51,0
+2,La Fuerza de la Mayoría,PPD,1,31627,32.85,1
 2,Chile Vamos,RN,2,5670,5.89,0
 2,Chile Vamos,UDI,1,21195,22.01,1
 2,Candidatura Independiente,IND,1,22398,23.26,0
@@ -26,9 +26,9 @@ Circunscripción,Lista/Pacto,Partido,Candidaturas,Votos,Porcentaje,Electos
 2,Total,,0,96276,100.0,0
 4,Frente Amplio,PODER,1,4175,4.15,0
 4,Coalición Regionalista Verde,FREVS,2,2397,2.38,0
+4,La Fuerza de la Mayoría,PRSD,1,5442,5.4,0
 4,La Fuerza de la Mayoría,PPD,1,1299,1.29,0
 4,La Fuerza de la Mayoría,PC,1,16724,16.6,0
-4,La Fuerza de la Mayoría,PRSD,1,5442,5.4,0
 4,Convergencia Democrática,PDC,1,32598,32.36,1
 4,Chile Vamos,RN,1,17604,17.48,1
 4,Chile Vamos,UDI,1,14289,14.19,0
@@ -44,28 +44,28 @@ Circunscripción,Lista/Pacto,Partido,Candidaturas,Votos,Porcentaje,Electos
 6,Frente Amplio,PODER,1,16222,2.24,0
 6,Sumemos,AMPLITUD,6,42554,5.87,0
 6,Unión Patriótica,UPA,3,7273,1.0,0
-6,La Fuerza de la Mayoría,PS,2,63690,8.78,1
-6,La Fuerza de la Mayoría,PPD,2,93819,12.93,1
 6,La Fuerza de la Mayoría,PRSD,2,25337,3.49,0
+6,La Fuerza de la Mayoría,PPD,2,93819,12.93,1
+6,La Fuerza de la Mayoría,PS,2,63690,8.78,1
 6,Convergencia Democrática,PDC,3,49438,6.81,0
-6,Chile Vamos,RN,3,168820,23.27,2
 6,Chile Vamos,UDI,3,75803,10.45,0
+6,Chile Vamos,RN,3,168820,23.27,2
 6,Candidatura Independiente,IND,1,29404,4.05,0
 6,Válidamente emitidos,,0,663894,91.51,0
 6,Nulos,,0,31651,4.36,0
 6,Blancos,,0,29964,4.13,0
 6,Total,,0,725509,100.0,0
-9,Por Todo Chile,PRO,1,5622,0.69,0
 9,Por Todo Chile,PAIS,2,13892,1.69,0
-9,Frente Amplio,PH,3,18412,2.25,0
-9,Frente Amplio,PL,1,42284,5.16,0
+9,Por Todo Chile,PRO,1,5622,0.69,0
 9,Frente Amplio,RD,2,13146,1.6,0
+9,Frente Amplio,PL,1,42284,5.16,0
+9,Frente Amplio,PH,3,18412,2.25,0
 9,Sumemos,CIUDADANOS,5,91068,11.11,0
 9,La Fuerza de la Mayoría,PS,3,76984,9.39,1
 9,La Fuerza de la Mayoría,PPD,3,32944,4.02,0
 9,Convergencia Democrática,PDC,2,136696,16.68,1
-9,Chile Vamos,UDI,3,136622,16.67,1
 9,Chile Vamos,RN,3,171798,20.96,2
+9,Chile Vamos,UDI,3,136622,16.67,1
 9,Válidamente emitidos,,0,739468,90.21,0
 9,Nulos,,0,34300,4.18,0
 9,Blancos,,0,45986,5.61,0
@@ -77,8 +77,8 @@ Circunscripción,Lista/Pacto,Partido,Candidaturas,Votos,Porcentaje,Electos
 11,La Fuerza de la Mayoría,PPD,3,43528,11.65,1
 11,Convergencia Democrática,PDC,2,76164,20.38,1
 11,Chile Vamos,UDI,2,14257,3.81,0
-11,Chile Vamos,RN,2,59101,15.81,1
 11,Chile Vamos,EVOPOLI,2,67790,18.14,2
+11,Chile Vamos,RN,2,59101,15.81,1
 11,Candidatura Independiente,IND,1,22074,5.91,0
 11,Válidamente emitidos,,0,337718,90.37,0
 11,Nulos,,0,14570,3.9,0

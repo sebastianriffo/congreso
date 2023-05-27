@@ -1,24 +1,47 @@
-Circunscripción,Lista/Pacto,Partido,Candidatos,Votos,Porcentaje,Electos,url
-1,La Fuerza de la Mayoría,PS,"['Jose', 'Miguel', 'Insulza', 'Salinas']",14501,20.3,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Miguel_Insulza_Salinas
-1,Chile Vamos,UDI,"['Jose', 'Durana', 'Semir']",9639,13.5,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Miguel_Alberto_Durana_Semir
-2,La Fuerza de la Mayoría,PPD,"['Jorge', 'Soria', 'Quiroga']",31627,34.2,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Alejandro_Soria_Quiroga
-2,Chile Vamos,UDI,"['Luz', 'Ebensperger', 'Orrego']",21195,22.92,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luz_Eliana_Ebensperger_Orrego
-4,Convergencia Democrática,PDC,"['Yasna', 'Provoste', 'Campillay']",32598,34.25,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Yasna_Provoste_Campillay
-4,Chile Vamos,RN,"['Rafael', 'Prohens', 'Espinosa']",17604,18.5,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rafael_Prohens_Espinosa
-6,Frente Amplio,RD,"['Juan', 'Ignacio', 'Latorre', 'Riveros']",30545,4.6,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Ignacio_Latorre_Riveros
-6,La Fuerza de la Mayoría,PS,"['Isabel', 'Allende', 'Bussi']",59214,8.92,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/María_Isabel_Allende_Bussi
-6,La Fuerza de la Mayoría,PPD,"['Ricardo', 'Lagos', 'Weber']",74031,11.15,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ricardo_Lagos_Weber
-6,Chile Vamos,RN,"['Francisco', 'Chahuan', 'Chahuan']",150065,22.6,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Francisco_Chahuán_Chahuán
-6,Chile Vamos,RN,"['Kenneth', 'Pugh', 'Olavarria']",14203,2.14,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Kenneth_Peter_Pugh_Olavarría
-9,La Fuerza de la Mayoría,PS,"['Alvaro', 'Elizalde', 'Soto']",61828,8.36,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Álvaro_Antonio_Elizalde_Soto
-9,Convergencia Democrática,PDC,"['Ximena', 'Rincon', 'Gonzalez']",77500,10.48,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ximena_Rincón_González
-9,Chile Vamos,RN,"['Juan', 'Castro', 'Prieto']",108960,14.73,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Enrique_Castro_Prieto
-9,Chile Vamos,UDI,"['Juan', 'Antonio', 'Coloma', 'Correa']",117232,15.85,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Antonio_Coloma_Correa
-9,Chile Vamos,RN,"['Rodrigo', 'Galilea', 'Vial']",56442,7.63,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rodrigo_Galilea_Vial
-11,La Fuerza de la Mayoría,PPD,"['Jaime', 'Quintana', 'Leal']",34331,10.17,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jaime_Quintana_Leal
-11,Convergencia Democrática,PDC,"['Francisco', 'Huenchumilla', 'Jaramillo']",38203,11.31,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Francisco_Huenchumilla_Jaramillo
-11,Chile Vamos,RN,"['Jose', 'Garcia', 'Ruminot']",33493,9.92,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Gilberto_García_Ruminot
-11,Chile Vamos,EVOPOLI,"['Carmen', 'Gloria', 'Aravena', 'Acuña']",4185,1.24,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carmen_Gloria_Aravena_Acuña
-11,Chile Vamos,EVOPOLI,"['Felipe', 'Kast', 'Sommerhoff']",63605,18.83,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Felipe_José_Kast_Sommerhoff
-14,La Fuerza de la Mayoría,PPD,"['Ximena', 'Ordenes', 'Neira']",5405,15.14,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ximena_Loreto_Órdenes_Neira
-14,Chile Vamos,UDI,"['David', 'Sandoval', 'Plaza']",7320,20.51,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/David_Sandoval_Plaza
+Circunscripción,Lista/Pacto,Partido,Candidatos,Votos,Porcentaje,Electos,Electos_comp,url
+1,Chile Vamos,UDI,"('Jose', 'Durana', 'Semir')",9639.0,13.5,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Miguel_Alberto_Durana_Semir
+1,La Fuerza de la Mayoría,PS,"('Jose', 'Miguel', 'Insulza', 'Salinas')",14501.0,20.3,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Miguel_Insulza_Salinas
+2,Chile Vamos,UDI,"('Luz', 'Ebensperger', 'Orrego')",21195.0,22.92,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luz_Eliana_Ebensperger_Orrego
+2,La Fuerza de la Mayoría,PPD,"('Jorge', 'Soria', 'Quiroga')",31627.0,34.2,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Alejandro_Soria_Quiroga
+3,Convergencia Democrática,PR,"('Alejandro', 'Guillier', 'Alvarez')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alejandro_René_Eleodoro_Guillier_Álvarez
+3,Convergencia Democrática,PDC,"('Pedro', 'Araya', 'Guerrero')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Araya_Guerrero
+4,Chile Vamos,RN,"('Rafael', 'Prohens', 'Espinosa')",17604.0,18.5,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rafael_Prohens_Espinosa
+4,Convergencia Democrática,PDC,"('Yasna', 'Provoste', 'Campillay')",32598.0,34.25,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Yasna_Provoste_Campillay
+5,Convergencia Democrática,PDC,"('Jorge', 'Pizarro', 'Soto')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Pizarro_Soto
+5,La Fuerza de la Mayoría,PPD,"('Adriana', 'Muñoz', ""D'Albora"")",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Adriana_Muñoz_D'Albora
+6,Chile Vamos,RN,"('Kenneth', 'Pugh', 'Olavarria')",14203.0,2.14,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Kenneth_Peter_Pugh_Olavarría
+6,Chile Vamos,RN,"('Francisco', 'Chahuan', 'Chahuan')",150065.0,22.6,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Francisco_Chahuán_Chahuán
+6,Frente Amplio,RD,"('Juan', 'Ignacio', 'Latorre', 'Riveros')",30545.0,4.6,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Ignacio_Latorre_Riveros
+6,La Fuerza de la Mayoría,PS,"('Isabel', 'Allende', 'Bussi')",59214.0,8.92,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/María_Isabel_Allende_Bussi
+6,La Fuerza de la Mayoría,PPD,"('Ricardo', 'Lagos', 'Weber')",74031.0,11.15,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ricardo_Lagos_Weber
+7,Chile Vamos,RN,"('Manuel', 'Jose', 'Ossandon', 'Irarrazabal')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_José_Ossandón_Irarrázabal
+7,Chile Vamos,RN,"('Andres', 'Allamand', 'Zavala')",0.0,0.0,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Andrés_Allamand_Zavala
+7,Chile Vamos,RN,"('Marcela', 'Sabat', 'Fernández')",0.0,0.0,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Marcela_Constanza_Sabat_Fernández
+7,La Fuerza de la Mayoría,PS,"('Carlos', 'Montes', 'Cisternas')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Montes_Cisternas
+7,La Fuerza de la Mayoría,PPD,"('Guido', 'Girardi', 'Lavin')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Guido_Girardi_Lavín
+8,Chile Vamos,UDI,"('Alejandro', 'Garcia-Huidobro', 'Sanfuentes')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alejandro_García-Huidobro_Sanfuentes
+8,La Fuerza de la Mayoría,PS,"('Juan', 'Pablo', 'Letelier', 'Morel')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Pablo_Letelier_Morel
+9,Chile Vamos,RN,"('Juan', 'Castro', 'Prieto')",108960.0,14.73,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Enrique_Castro_Prieto
+9,Chile Vamos,UDI,"('Juan', 'Antonio', 'Coloma', 'Correa')",117232.0,15.85,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Antonio_Coloma_Correa
+9,Chile Vamos,RN,"('Rodrigo', 'Galilea', 'Vial')",56442.0,7.63,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rodrigo_Galilea_Vial
+9,Convergencia Democrática,PDC,"('Ximena', 'Rincon', 'Gonzalez')",77500.0,10.48,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ximena_Rincón_González
+9,La Fuerza de la Mayoría,PS,"('Alvaro', 'Elizalde', 'Soto')",61828.0,8.36,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Álvaro_Antonio_Elizalde_Soto
+10,Chile Vamos,UDI,"('Victor', 'Perez', 'Varela')",0.0,0.0,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Víctor_Pérez_Varela
+10,Chile Vamos,UDI,"('Jacqueline', 'van Rysselberghe', 'Herrera')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jacqueline_Van_Rysselberghe_Herrera
+10,Chile Vamos,UDI,"('Claudio', 'Alvarado', 'Andrade')",0.0,0.0,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Claudio_Alvarado_Andrade
+10,La Fuerza de la Mayoría,PPD,"('Felipe', 'Harboe', 'Bascuñan')",0.0,0.0,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Felipe_Harboe_Bascuñán
+10,La Fuerza de la Mayoría,PPD,"('Loreto', 'Carvajal', 'Ambiado')",0.0,0.0,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/María_Loreto_Carvajal_Ambiado
+10,Por Todo Chile,PAIS,"('Alejandro', 'Navarro', 'Brain')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alejandro_Navarro_Brain
+11,Chile Vamos,EVOPOLI,"('Felipe', 'Kast', 'Sommerhoff')",63605.0,18.83,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Felipe_José_Kast_Sommerhoff
+11,Chile Vamos,RN,"('Jose', 'Garcia', 'Ruminot')",33493.0,9.92,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Gilberto_García_Ruminot
+11,Chile Vamos,EVOPOLI,"('Carmen', 'Gloria', 'Aravena', 'Acuña')",4185.0,1.24,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carmen_Gloria_Aravena_Acuña
+11,Convergencia Democrática,PDC,"('Francisco', 'Huenchumilla', 'Jaramillo')",38203.0,11.31,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Francisco_Huenchumilla_Jaramillo
+11,La Fuerza de la Mayoría,PPD,"('Jaime', 'Quintana', 'Leal')",34331.0,10.17,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jaime_Quintana_Leal
+12,Chile Vamos,UDI,"('Ena', 'von Baer', 'Jahn')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ena_Anglein_von_Baer_Jahn
+12,La Fuerza de la Mayoría,PS,"('Alfonso', 'de Urresti', 'Longton')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alfonso_Arturo_De_Urresti_Longton
+13,Chile Vamos,UDI,"('Ivan', 'Moreira', 'Barros')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Iván_Moreira_Barros
+13,La Fuerza de la Mayoría,PS,"('Rabindranath', 'Quinteros', 'Lara')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rabindranath_Quinteros_Lara
+14,Chile Vamos,UDI,"('David', 'Sandoval', 'Plaza')",7320.0,20.51,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/David_Sandoval_Plaza
+14,La Fuerza de la Mayoría,PPD,"('Ximena', 'Ordenes', 'Neira')",5405.0,15.14,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ximena_Loreto_Órdenes_Neira
+15,Candidatura Independiente,IND,"('Carlos', 'Bianchi', 'Chelech')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Antonio_Karim_Bianchi_Chelech
+15,Convergencia Democrática,PDC,"('Carolina', 'Goic', 'Boroevic')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carolina_Goic_Boroevic
