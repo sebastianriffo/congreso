@@ -2,12 +2,12 @@
 # -*- coding: utf-8 -*-
 """
 Establece las divisiones electorales (distritos o circunscripciones) de Chile
-desde 1941 en adelante. La función que lleva esto a cabo es *Division_electoral_shp*, 
+desde 1932 en adelante. La función que lleva esto a cabo es *Division_electoral_shp*, 
 la cual construye dichas divisiones de dos maneras, dependiendo del período : 
 
-- en 1941-1973, mediante un shapefile de los departamentos de Chile en 1973 
+- en 1932-1973, mediante un shapefile de los departamentos de Chile en 1973 
 (elaboración  propia, aún en revisión), al cual se le agrega/modifica información 
-usando la función *deptos1940_1973*.
+usando la función *deptos1932_1973*.
 
 - En 1989-2021, gracias al shapefile de comunas presente en el sitio de la BCN.  
 Ya que este archivo no está al día, la función *comunas1989_presente* lo actualiza 
