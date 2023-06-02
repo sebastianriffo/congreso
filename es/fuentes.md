@@ -16,7 +16,7 @@ Dependiendo del período, los resultados de cada votación fueron obtenidos de
 
 * **1989-presente**. [Resultados históricos](https://historico.servel.cl/). Archivo Histórico del Servicio Electoral de Chile.
 * **1973**. [Resultados de las elecciones parlamentarias de Chile de 1973 (Anexo)](https://es.wikipedia.org/wiki/Anexo:Resultados_de_las_elecciones_parlamentarias_de_Chile_de_1973). Wikipedia.
-* **1941-1969** (Diputados).
+* **1941-1969**.
   + Por partidos y coaliciones :
     - Germán Urzúa Valenzuela. [*Historia política de Chile y su evolución electoral: desde 1810 a 1992*](https://books.google.fr/books?id=ac9AhNVyCCoC&printsec=frontcover#v=onepage&q&f=false). Editorial Jurídica de Chile, 1992.
     - Adolfo Aldunate y Ana Rita Díaz-Muñoz. [*Las provincias de Chile a través de indicadores: una infraestructura para los análisis causales y de procesos*](https://repositorio.cepal.org/handle/11362/8017?show=full). Programa de Intercambio CELADE-ELAS, 1972. 
@@ -31,10 +31,6 @@ Dependiendo del período, los resultados de cada votación fueron obtenidos de
     - Respectivos artículos en la categoría [Elecciones parlamentarias de Chile](https://es.wikipedia.org/wiki/Categoría:Elecciones_parlamentarias_de_Chile), Wikipedia.
     - [Elecciones extraordinarias 1938-1971](https://archivo.servel.cl/index.php/elecciones-extraordinarias-1938-1971). Archivo Histórico del Servicio Electoral de Chile.
 
-<!--
-  + [Reseñas biográficas parlamentarias](https://www.bcn.cl/historiapolitica/resenas_parlamentarias/index.html?categ=por_periodo&periodo=1990-2018). Biblioteca del Congreso Nacional de Chile.
--->
-
 ### Divisiones Territoriales
 Los polígonos de cada división electoral fueron construidos a partir de
 
@@ -42,7 +38,7 @@ Los polígonos de cada división electoral fueron construidos a partir de
   + [División electoral de Chile](https://es.wikipedia.org/wiki/División_electoral_de_Chile){:target="_blank"} y [Comunas de Chile (Anexo)](https://es.wikipedia.org/wiki/Anexo:Comunas_de_Chile){:target="_blank"}. Wikipedia.
   + [División comunal: polígonos de las comunas de Chile](https://www.bcn.cl/siit/mapas_vectoriales/index_html){:target="_blank"}. Biblioteca del Congreso Nacional de Chile.
 
-* **1941-1973**.
+* **1932-1973**.
   + José Ignacio González, José Compan y Rafael Sagredo Baeza. [*La política en el espacio. Atlas histórico de las divisiones político-administrativas de Chile, 1810-1940*](https://www.centrobarrosarana.gob.cl/622/w3-article-71237.html?_noredirect=1){:target="_blank"}. Centro de Investigaciones Diego Barros Arana, 2017.
   + Orlando Zamudio Vargasene. [*Chile, historia de la división político administrativa 1810-2000*](https://bibliotecadigital.ciren.cl/handle/20.500.13082/14812){:target="_blank"}. Instituto Nacional de Estadísticas (Chile), 2001.
   + Miguel Kast y Sergio Molina. *Mapa de extrema pobreza*. Oficina de Planificación Nacional (Odeplan), 1975. 

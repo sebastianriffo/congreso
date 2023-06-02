@@ -50,12 +50,12 @@ for eleccion in elecciones:
     print('Mapa')        
     leyenda = leyendas_electorales(eleccion)        
         
-    # resultados a nivel nacional
-    path_mapas = path_output / 'legislaturas'
-    path_mapas = path_mapas / ('1989-presente' if eleccion >= 1989 else '1925-1973')
+    # # resultados a nivel nacional
+    # path_mapas = path_output / 'legislaturas'
+    # path_mapas = path_mapas / ('1989-presente' if eleccion >= 1989 else '1925-1973')
         
-    path_mapas.mkdir(parents=True, exist_ok=True)   
-    mapa_elecciones_folium(path_mapas, eleccion, rep, listas, electos if eleccion <= 1969 else candidatos, div_electoral, leyenda)
+    # path_mapas.mkdir(parents=True, exist_ok=True)   
+    # mapa_elecciones_folium(path_mapas, eleccion, rep, listas, electos if eleccion <= 1969 else candidatos, div_electoral, leyenda)
 
     #%%    
     # if 'listas' in locals():

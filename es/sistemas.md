@@ -143,9 +143,5 @@ https://www.bcn.cl/leychile/navegar?idNorma=1108229
   + A continuación, dentro de cada pacto electoral, los escaños ya asignados se repartirán entre los partidos que las conforman usando nuevamente este método.
     - Una vez determinado el número de escaños por partido, las candidaturas que hayan obtenido las primeras mayorías individuales, hasta completar dicho número, serán elegidas.
     - Si un partido obtiene más escaños que el total de sus candidaturas, la diferencia se repartirá entre los partidos pertenecientes a su lista. Si aún esto fuera insuficiente, se asignarán entre las demás.
-  + En caso de empate, ya sea entre listas o candidatos de una misma lista, el TRICEL efectuará un sorteo para asignar el escaño en cuestión.
-
-  <!--
-  Esta reforma fue la primera en instaurar una ley de cuotas de género, pues cada partido tiene la obligación de que hombres y mujeres no puedan superar el 60% de sus candidaturas totales presentadas. Cabe mencionar que esta noción de paridad es distinta a la establecida para la conformación de la Convención Constituyente. -->
-  
+  + En caso de empate, ya sea entre listas o candidatos de una misma lista, el TRICEL efectuará un sorteo para asignar el escaño en cuestión.  
   

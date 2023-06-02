@@ -1312,7 +1312,12 @@ body {
 </style>
 </head>
 
-<body>
+<body>	
+	<!-- Custom JavaScript files set in YAML front matter -->
+	{% for js in page.customjs %}
+	<script src="{{ js }}"></script>
+	{% endfor %}	
+
 	{%- include custom-head.html -%}
 
 	<article class="markdown-body"> 	

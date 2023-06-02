@@ -1821,8 +1821,8 @@ def legislaturaBCN(eleccion):
 
     # BCN : 26/10/2022
     url = 'https://www.bcn.cl/historiapolitica/elecciones/detalle_eleccion?handle=10221.1/'
-    if 1989 <= eleccion <= 2013:
-        url += str(63200+[10, 11, 12, 13, 16, 17, 23][(eleccion-1989)//4]) + '&periodo=' + ('1973-1990' if eleccion == 1989 else '1990-2022')
+    if 1989 <= eleccion <= 2021:  
+        url += str( (63200+[10, 11, 12, 13, 16, 17, 23][(eleccion-1989)//4]) if eleccion <= 2013 else [87409,87444][(eleccion-2017)//4] ) + '&periodo=' + ('1973-1990' if eleccion == 1989 else '1990-2022')
         title = '<a href='+url+' target="_blank">' + leg + ' Período Legislativo ('+str(eleccion+1) + '-'+str(eleccion+5)+')' + '</a>'
     elif 1937 <= eleccion <= 1973:
         url += str(63000+[-13, -8, -6, 34, 44, 45, 64, 73, 89, 135][(eleccion-1937)//4]) + '&periodo=1925-1973'
