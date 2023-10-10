@@ -6,8 +6,8 @@ title: Blog
 lang: es
 ref: blog
 
-published: True
-order: 6
+published: False
+order: 7
 ---
 
 <ul>
