@@ -1,376 +1,617 @@
 Distrito,Lista/Pacto,Partido,Candidaturas,Votos,Porcentaje,Electos
-1,Partido Comunista,PC,1,2007,2.81,0
-1,Partido Humanista,PH,1,642,0.9,0
-1,Alianza por Chile,RN,1,9720,13.62,0
-1,Alianza por Chile,UDI,1,10835,15.18,1
-1,Concertación,PDC,1,6013,8.43,0
-1,Concertación,PPD,1,13708,19.21,0
-1,Candidatura Independiente,IND,1,1158,1.62,0
-1,Candidatura Independiente,IND,1,386,0.54,0
-1,Candidatura Independiente,IND,1,26886,37.68,1
-1,Válidamente emitidos,,0,71355,100.0,0
-2,Partido Comunista,PC,1,2742,3.27,0
-2,Partido Humanista,PH,2,614,0.73,0
-2,Alianza por Chile,RN,1,8660,10.32,0
-2,Concertación,PDC,1,22652,27.0,0
-2,Candidatura Independiente,IND,1,7292,8.69,0
-2,Válidamente emitidos,,0,83894,100.0,0
-3,Partido Comunista,PC,1,2927,4.48,0
-3,Alianza por Chile,UDI,1,13745,21.03,1
-3,Alianza por Chile,RN,1,5899,9.02,0
-3,Concertación,PS,1,14338,21.94,0
-3,Concertación,PDC,1,14433,22.08,1
-3,Candidatura Independiente,IND,1,14021,21.45,0
-3,Válidamente emitidos,,0,65363,100.0,0
-4,Alianza por Chile,UDI,1,37033,35.75,1
-4,Concertación,PS,1,29773,28.74,0
-4,Concertación,PDC,1,32338,31.22,1
-4,Válidamente emitidos,,0,103578,100.0,0
-5,Partido Comunista,PC,2,4998,8.68,0
-5,Alianza por Chile,UDI,1,9058,15.74,0
-5,Alianza por Chile,RN,1,10960,19.04,1
-5,Concertación,PPD,1,29382,51.05,1
-5,Concertación,PDC,1,3155,5.48,0
-5,Válidamente emitidos,,0,57553,100.0,0
-6,Partido Comunista,PC,1,1525,3.72,0
-6,Partido Humanista,PH,1,737,1.8,0
-6,Alianza por Chile,RN,1,5368,13.09,0
-6,Alianza por Chile,UDI,1,7053,17.2,0
-6,Concertación,PRSD,1,8947,21.82,1
-6,Concertación,PDC,1,17378,42.38,1
-6,Válidamente emitidos,,0,41008,100.0,0
-7,Partido Comunista,PC,2,5047,6.27,0
-7,Alianza por Chile,RN,1,17884,22.23,1
-7,Alianza por Chile,UDI,1,17231,21.42,0
-7,Concertación,PPD,1,22178,27.57,1
-7,Concertación,PDC,1,18112,22.51,0
-7,Válidamente emitidos,,0,80452,100.0,0
-8,Partido Humanista,PH,1,1981,2.06,0
-8,Alianza por Chile,UDI,1,20522,21.39,0
-8,Concertación,PS,1,19544,20.37,1
-8,Concertación,PDC,1,43516,45.35,1
-8,Válidamente emitidos,,0,95948,100.0,0
-9,Partido Comunista,PC,2,10219,17.24,0
-9,Partido Humanista,PH,2,1122,1.89,0
-9,Alianza por Chile,RN,1,6549,11.05,0
-9,Alianza por Chile,UDI,1,13673,23.06,1
-9,Concertación,PRSD,1,788,1.33,0
-9,Concertación,PPD,1,23380,39.44,1
-9,Candidatura Independiente,IND,1,3555,6.0,0
-9,Válidamente emitidos,,0,59286,100.0,0
-10,Partido Comunista,PC,2,8343,6.78,0
-10,Alianza por Chile,RN,1,38631,31.42,1
-10,Alianza por Chile,UDI,1,20798,16.91,0
-10,Concertación,PRSD,1,26394,21.46,0
-10,Concertación,PDC,1,28800,23.42,1
-10,Válidamente emitidos,,0,122966,100.0,0
-11,Partido Comunista,PC,1,4983,5.18,0
-11,Partido Humanista,PH,1,1994,2.07,0
-11,Alianza por Chile,UDI,1,22395,23.27,1
-11,Concertación,PDC,1,26798,27.84,1
-11,Concertación,PRSD,1,19028,19.77,0
-11,Válidamente emitidos,,0,96254,100.0,0
-12,Partido Comunista,PC,2,5136,5.02,0
-12,Alianza por Chile,RN,1,29874,29.2,1
-12,Alianza por Chile,UDI,1,23199,22.68,0
-12,Concertación,PDC,1,16884,16.5,0
-12,Concertación,PS,1,27217,26.6,1
-12,Válidamente emitidos,,0,102310,100.0,0
-13,Partido Comunista,PC,1,13595,10.45,0
-13,Partido Humanista,PH,1,2074,1.59,0
-13,Alianza por Chile,UDI,1,30047,23.09,0
-13,Concertación,PDC,1,14949,11.49,0
-13,Concertación,PPD,1,34527,26.53,1
-13,Candidatura Independiente,IND,1,2826,2.17,0
-13,Válidamente emitidos,,0,130131,100.0,0
-14,Partido Comunista,PC,1,8752,6.05,0
-14,Alianza por Chile,RN,1,9129,6.31,0
-14,Alianza por Chile,UDI,1,59822,41.34,1
-14,Concertación,PDC,1,19397,13.41,0
-14,Concertación,PPD,1,47593,32.89,1
-14,Válidamente emitidos,,0,144693,100.0,0
-15,Partido Comunista,PC,1,8926,11.62,0
-15,Alianza por Chile,UDI,1,13562,17.65,0
-15,Concertación,PDC,1,15254,19.85,0
-15,Concertación,PRSD,1,20353,26.49,1
-15,Válidamente emitidos,,0,76836,100.0,0
-16,Partido Comunista,PC,2,19552,15.5,0
-16,Alianza por Chile,UDI,1,52806,41.86,1
-16,Concertación,PDC,1,38762,30.73,1
-16,Válidamente emitidos,,0,126153,100.0,0
-17,Partido Comunista,PC,2,9212,6.1,0
-17,Partido Humanista,PH,2,2494,1.65,0
-17,Alianza por Chile,UDI,1,61319,40.63,1
-17,Alianza por Chile,RN,1,3035,2.01,0
-17,Concertación,PPD,1,49986,33.12,1
-17,Concertación,PDC,1,24881,16.49,0
-17,Válidamente emitidos,,0,150927,100.0,0
-18,Partido Comunista,PC,2,8889,5.27,0
-18,Partido Humanista,PH,1,2411,1.43,0
-18,Alianza por Chile,UDI,1,39717,23.55,0
-18,Alianza por Chile,RN,1,8247,4.89,0
-18,Concertación,PPD,1,98491,58.39,1
-18,Concertación,PDC,1,10930,6.48,1
-18,Válidamente emitidos,,0,168685,100.0,0
-19,Partido Comunista,PC,2,7300,6.8,0
-19,Partido Humanista,PH,2,2116,1.97,0
-19,Alianza por Chile,UDI,1,36994,34.44,1
-19,Concertación,PDC,1,9505,8.85,0
-19,Concertación,PPD,1,44193,41.15,1
-19,Válidamente emitidos,,0,107406,100.0,0
-20,Partido Comunista,PC,2,12536,6.21,0
-20,Partido Humanista,PH,2,4872,2.41,0
-20,Alianza por Chile,RN,1,39238,19.43,0
-20,Alianza por Chile,UDI,1,49844,24.68,1
-20,Concertación,PDC,1,53474,26.47,1
-20,Concertación,PS,1,42019,20.8,0
-20,Válidamente emitidos,,0,201983,100.0,0
-21,Partido Comunista,PC,2,7592,4.56,0
-21,Partido Humanista,PH,1,3503,2.11,0
-21,Alianza por Chile,UDI,1,61584,37.01,1
-21,Alianza por Chile,RN,1,27879,16.76,0
-21,Concertación,PDC,1,37787,22.71,1
-21,Concertación,PPD,1,28046,16.86,0
-21,Válidamente emitidos,,0,166391,100.0,0
-22,Partido Comunista,PC,2,5721,5.27,0
-22,Partido Humanista,PH,2,1791,1.65,0
-22,Alianza por Chile,RN,1,42772,39.4,1
-22,Alianza por Chile,UDI,1,8362,7.7,0
-22,Concertación,PDC,1,16960,15.62,0
-22,Válidamente emitidos,,0,108571,100.0,0
-23,Partido Comunista,PC,1,3511,1.96,0
-23,Partido Humanista,PH,1,2885,1.61,0
-23,Alianza por Chile,RN,1,46675,26.06,1
-23,Alianza por Chile,UDI,1,80016,44.67,1
-23,Concertación,PDC,1,18278,10.2,0
-23,Concertación,PRSD,1,27751,15.49,0
-23,Válidamente emitidos,,0,179116,100.0,0
-24,Partido Comunista,PC,2,5593,4.55,0
-24,Partido Humanista,PH,2,2795,2.27,0
-24,Alianza por Chile,UDI,1,11255,9.16,0
-24,Alianza por Chile,RN,1,47346,38.52,1
-24,Concertación,PDC,1,14679,11.94,0
-24,Concertación,PPD,1,41239,33.55,1
-24,Válidamente emitidos,,0,122907,100.0,0
-25,Partido Comunista,PC,2,10741,7.22,0
-25,Partido Humanista,PH,2,4998,3.36,0
-25,Alianza por Chile,UDI,1,41504,27.89,1
-25,Concertación,PDC,1,35296,23.72,0
-25,Concertación,PPD,1,42072,28.28,1
-25,Válidamente emitidos,,0,148794,100.0,0
-26,Partido Comunista,PC,2,5229,3.85,0
-26,Partido Humanista,PH,1,1874,1.38,0
-26,Alianza por Chile,UDI,1,4640,3.42,0
-26,Alianza por Chile,RN,1,49810,36.71,1
-26,Concertación,PS,1,69183,50.99,1
-26,Válidamente emitidos,,0,135671,100.0,0
-27,Partido Comunista,PC,2,9405,6.07,0
-27,Partido Humanista,PH,2,3201,2.07,0
-27,Alianza por Chile,UDI,1,65777,42.45,1
-27,Alianza por Chile,RN,1,4722,3.05,0
-27,Concertación,PS,1,30766,19.85,0
-27,Concertación,PDC,1,36832,23.77,1
-27,Candidatura Independiente,IND,1,4252,2.74,0
-27,Válidamente emitidos,,0,154955,100.0,0
-28,Partido Comunista,PC,2,19017,12.84,0
-28,Partido Humanista,PH,1,3619,2.44,0
-28,Alianza por Chile,UDI,1,47756,32.23,1
-28,Alianza por Chile,RN,1,9695,6.54,0
-28,Concertación,PS,1,28058,18.94,0
-28,Concertación,PDC,1,40010,27.01,1
-28,Válidamente emitidos,,0,148155,100.0,0
-29,Partido Comunista,PC,2,8029,4.93,0
-29,Partido Humanista,PH,2,4115,2.53,0
-29,Alianza por Chile,UDI,1,11280,6.92,0
-29,Alianza por Chile,RN,1,69786,42.83,1
-29,Concertación,PDC,1,12555,7.71,0
-29,Concertación,PS,1,57164,35.09,1
-29,Válidamente emitidos,,0,162929,100.0,0
-30,Partido Comunista,PC,2,6675,4.93,0
-30,Partido Humanista,PH,2,4714,3.48,0
-30,Alianza por Chile,UDI,1,48025,35.45,1
-30,Alianza por Chile,RN,1,18138,13.39,0
-30,Concertación,PDC,1,30056,22.18,1
-30,Concertación,PPD,1,27879,20.58,0
-30,Válidamente emitidos,,0,135487,100.0,0
-31,Partido Comunista,PC,2,8902,6.18,0
-31,Partido Humanista,PH,1,2999,2.08,0
-31,Alianza por Chile,UDI,1,60495,42.0,1
-31,Alianza por Chile,RN,1,4864,3.38,0
-31,Concertación,PDC,1,39036,27.1,1
-31,Concertación,PPD,1,27742,19.26,0
-31,Válidamente emitidos,,0,144038,100.0,0
-32,Partido Comunista,PC,1,5148,5.94,0
-32,Partido Humanista,PH,2,1681,1.94,0
-32,Alianza por Chile,UDI,1,35695,41.16,1
-32,Concertación,PPD,1,28689,33.08,1
-32,Concertación,PDC,1,10762,12.41,0
-32,Válidamente emitidos,,0,86720,100.0,0
-33,Partido Humanista,PH,1,1350,1.23,0
-33,Alianza por Chile,UDI,1,29594,26.94,1
-33,Alianza por Chile,RN,1,11826,10.77,0
-33,Concertación,PDC,1,8410,7.66,0
-33,Concertación,PS,1,58666,53.41,1
-33,Válidamente emitidos,,0,109846,100.0,0
-34,Partido Comunista,PC,2,6962,8.17,0
-34,Partido Humanista,PH,1,1451,1.7,0
-34,Alianza por Chile,UDI,1,28154,33.03,1
-34,Concertación,PRSD,1,10127,11.88,0
-34,Válidamente emitidos,,0,85243,100.0,0
-35,Partido Comunista,PC,1,1519,2.14,0
-35,Partido Humanista,PH,2,1599,2.25,0
-35,Alianza por Chile,UDI,1,20665,29.08,1
-35,Alianza por Chile,RN,1,9443,13.29,0
-35,Concertación,PPD,1,23923,33.67,1
-35,Concertación,PDC,1,13904,19.57,0
-35,Válidamente emitidos,,0,71053,100.0,0
-36,Partido Comunista,PC,2,5392,5.01,0
-36,Partido Humanista,PH,1,2937,2.73,0
-36,Alianza por Chile,UDI,1,41777,38.83,1
-36,Concertación,PS,1,23667,22.0,0
-36,Concertación,PDC,1,26676,24.8,1
-36,Válidamente emitidos,,0,107577,100.0,0
-37,Partido Comunista,PC,1,2050,2.57,0
-37,Partido Humanista,PH,1,967,1.21,0
-37,Alianza por Chile,RN,1,7963,9.97,0
-37,Partido Liberal,PL,1,732,0.92,0
-37,Concertación,PDC,1,7991,10.0,0
-37,Concertación,PS,1,34195,42.81,1
-37,Candidatura Independiente,IND,1,4535,5.68,0
-37,Válidamente emitidos,,0,79879,100.0,0
-38,Partido Comunista,PC,1,3010,4.48,0
-38,Alianza por Chile,RN,1,23035,34.27,1
-38,Alianza por Chile,UDI,1,4024,5.99,0
-38,Concertación,PDC,1,21771,32.39,1
-38,Válidamente emitidos,,0,67225,100.0,0
-39,Partido Comunista,PC,1,2188,2.76,0
-39,Partido Humanista,PH,1,2156,2.72,0
-39,Alianza por Chile,RN,1,23363,29.5,1
-39,Concertación,PPD,1,33067,41.75,1
-39,Concertación,PRSD,1,6401,8.08,0
-39,Válidamente emitidos,,0,79197,100.0,0
-40,Partido Comunista,PC,1,1633,2.31,0
-40,Alianza por Chile,RN,1,10073,14.26,0
-40,Concertación,PDC,1,12578,17.8,0
-40,Concertación,PPD,1,20460,28.96,1
-40,Válidamente emitidos,,0,70651,100.0,0
-41,Partido Comunista,PC,1,1919,1.66,0
-41,Alianza por Chile,UDI,1,12985,11.24,0
-41,Concertación,PRSD,1,23150,20.04,1
-41,Concertación,PS,1,19452,16.84,0
-41,Candidatura Independiente,IND,1,8368,7.24,0
-41,Candidatura Independiente,IND,1,3266,2.83,0
-41,Candidatura Independiente,IND,1,1894,1.64,0
-41,Válidamente emitidos,,0,115510,100.0,0
-42,Partido Comunista,PC,1,2503,2.28,0
-42,Alianza por Chile,RN,1,47839,43.6,1
-42,Concertación,PDC,1,25950,23.65,0
-42,Concertación,PPD,1,33436,30.47,1
-42,Válidamente emitidos,,0,109728,100.0,0
-43,Partido Comunista,PC,1,5745,5.63,0
-43,Alianza por Chile,RN,1,5374,5.26,0
-43,Alianza por Chile,UDI,1,38326,37.53,1
-43,Concertación,PPD,1,35877,35.14,1
-43,Válidamente emitidos,,0,102108,100.0,0
-44,Partido Comunista,PC,2,10089,6.83,0
-44,Alianza por Chile,UDI,1,48403,32.78,1
-44,Alianza por Chile,RN,1,12468,8.44,0
-44,Partido Liberal,PL,1,1049,0.71,0
-44,Concertación,PDC,1,52037,35.25,1
-44,Concertación,PRSD,1,23597,15.98,0
-44,Válidamente emitidos,,0,147643,100.0,0
-45,Partido Comunista,PC,1,3618,3.36,0
-45,Alianza por Chile,UDI,1,31173,28.92,0
-45,Alianza por Chile,RN,1,1870,1.74,0
-45,Concertación,PDC,1,22125,20.53,1
-45,Concertación,PS,1,48990,45.46,1
-45,Válidamente emitidos,,0,107776,100.0,0
-46,Partido Comunista,PC,1,6435,7.19,0
-46,Alianza por Chile,UDI,1,28902,32.32,1
-46,Alianza por Chile,RN,1,3315,3.71,0
-46,Partido Liberal,PL,2,1694,1.89,0
-46,Concertación,PS,1,33291,37.22,1
-46,Concertación,PDC,1,15801,17.67,0
-46,Válidamente emitidos,,0,89438,100.0,0
-47,Partido Comunista,PC,1,4371,3.35,0
-47,Alianza por Chile,UDI,1,45328,34.7,1
-47,Alianza por Chile,RN,1,15184,11.62,0
-47,Concertación,PDC,1,25552,19.56,0
-47,Concertación,PRSD,1,40201,30.77,1
-47,Válidamente emitidos,,0,130636,100.0,0
-48,Alianza por Chile,RN,1,18130,28.02,1
-48,Alianza por Chile,UDI,1,17200,26.58,0
-48,Concertación,PS,1,14389,22.23,0
-48,Concertación,PDC,1,14996,23.17,1
-48,Válidamente emitidos,,0,64715,100.0,0
-49,Partido Comunista,PC,1,2026,3.19,0
-49,Alianza por Chile,RN,1,16764,26.41,1
-49,Alianza por Chile,UDI,1,13277,20.92,0
-49,Concertación,PPD,1,15865,25.0,1
-49,Concertación,PDC,1,15536,24.48,0
-49,Válidamente emitidos,,0,63468,100.0,0
-50,Partido Comunista,PC,1,4386,4.15,0
-50,Alianza por Chile,UDI,1,14256,13.49,0
-50,Alianza por Chile,RN,1,39801,37.68,1
-50,Concertación,PS,1,11711,11.09,0
-50,Concertación,PDC,1,35487,33.59,1
-50,Válidamente emitidos,,0,105641,100.0,0
-51,Partido Comunista,PC,1,1372,2.21,0
-51,Alianza por Chile,RN,1,6885,11.07,0
-51,Alianza por Chile,UDI,1,20156,32.4,1
-51,Concertación,PPD,1,25082,40.32,1
-51,Concertación,PDC,1,6568,10.56,0
-51,Candidatura Independiente,IND,1,2143,3.45,0
-51,Válidamente emitidos,,0,62206,100.0,0
-52,Partido Comunista,PC,1,1245,2.05,0
-52,Alianza por Chile,RN,1,23370,38.43,1
-52,Alianza por Chile,UDI,1,7723,12.7,0
-52,Concertación,PRSD,1,16781,27.59,1
-52,Concertación,PDC,1,11694,19.23,0
-52,Válidamente emitidos,,0,60813,100.0,0
-53,Partido Comunista,PC,1,3188,4.3,0
-53,Alianza por Chile,UDI,1,12864,17.33,0
-53,Concertación,PDC,1,22445,30.24,1
-53,Concertación,PS,1,9860,13.28,0
-53,Válidamente emitidos,,0,74223,100.0,0
-54,Partido Comunista,PC,1,2134,2.79,0
-54,Alianza por Chile,RN,1,12885,16.82,0
-54,Concertación,PDC,1,9990,13.04,0
-54,Concertación,PPD,1,27706,36.16,1
-54,Válidamente emitidos,,0,76617,100.0,0
-55,Partido Comunista,PC,1,3091,4.15,0
-55,Alianza por Chile,UDI,1,23479,31.55,1
-55,Concertación,PDC,1,24752,33.26,1
-55,Concertación,PS,1,6413,8.62,0
-55,Candidatura Independiente,IND,1,4324,5.81,0
-55,Válidamente emitidos,,0,74410,100.0,0
-56,Partido Comunista,PC,2,1644,2.4,0
-56,Alianza por Chile,UDI,1,19992,29.17,1
-56,Concertación,PS,1,18436,26.9,1
-56,Concertación,PDC,1,17801,25.97,0
-56,Válidamente emitidos,,0,68545,100.0,0
-57,Partido Comunista,PC,2,3424,4.56,0
-57,Alianza por Chile,RN,1,19004,25.29,1
-57,Alianza por Chile,UDI,1,17594,23.42,0
-57,Concertación,PDC,1,14545,19.36,0
-57,Concertación,PRSD,1,20565,27.37,1
-57,Válidamente emitidos,,0,75132,100.0,0
-58,Partido Comunista,PC,1,4210,6.5,0
-58,Alianza por Chile,UDI,1,26203,40.48,1
-58,Alianza por Chile,RN,1,6371,9.84,0
-58,Concertación,PRSD,1,4738,7.32,0
-58,Concertación,PDC,1,23206,35.85,1
-58,Válidamente emitidos,,0,64728,100.0,0
-59,Partido Comunista,PC,1,4282,11.57,0
-59,Alianza por Chile,RN,1,14918,40.29,1
-59,Alianza por Chile,UDI,1,3011,8.13,0
-59,Concertación,PPD,1,7812,21.1,1
-59,Concertación,PDC,1,6999,18.9,0
-59,Válidamente emitidos,,0,37022,100.0,0
-60,Alianza por Chile,UDI,1,26081,41.76,1
-60,Alianza por Chile,RN,1,1103,1.77,0
-60,Concertación,PS,1,17302,27.7,1
-60,Concertación,PDC,1,15914,25.48,0
-60,Candidatura Independiente,IND,1,1289,2.06,0
-60,Candidatura Independiente,IND,1,769,1.23,0
-60,Válidamente emitidos,,0,62458,100.0,0
+D1,Partido Comunista,PC,1,2007,2.81,0
+D1,Partido Humanista,PH,1,642,0.9,0
+D1,Alianza por Chile,UDI,1,10835,15.18,1
+D1,Alianza por Chile,RN,1,9720,13.62,0
+D1,Partido Liberal,PL,0,0,0.0,0
+D1,Concertación,PS,0,0,0.0,0
+D1,Concertación,PRSD,0,0,0.0,0
+D1,Concertación,PPD,1,13708,19.21,0
+D1,Concertación,PDC,1,6013,8.43,0
+D1,Candidatura Independiente,IND,1,386,0.54,0
+D1,Candidatura Independiente,IND,1,1158,1.62,0
+D1,Candidatura Independiente,IND,1,26886,37.68,1
+D1,Válidamente emitidos,,0,71355,100.0,0
+D2,Partido Comunista,PC,1,2742,3.27,0
+D2,Partido Humanista,PH,2,614,0.73,0
+D2,Alianza por Chile,UDI,0,0,0.0,0
+D2,Alianza por Chile,RN,1,8660,10.32,0
+D2,Partido Liberal,PL,0,0,0.0,0
+D2,Concertación,PS,0,0,0.0,0
+D2,Concertación,PRSD,0,0,0.0,0
+D2,Concertación,PPD,0,0,0.0,0
+D2,Concertación,PDC,1,22652,27.0,0
+D2,Candidatura Independiente,IND,1,7292,8.69,0
+D2,Válidamente emitidos,,0,83894,100.0,0
+D3,Partido Comunista,PC,1,2927,4.48,0
+D3,Partido Humanista,PH,0,0,0.0,0
+D3,Alianza por Chile,UDI,1,13745,21.03,1
+D3,Alianza por Chile,RN,1,5899,9.02,0
+D3,Partido Liberal,PL,0,0,0.0,0
+D3,Concertación,PS,1,14338,21.94,0
+D3,Concertación,PRSD,0,0,0.0,0
+D3,Concertación,PPD,0,0,0.0,0
+D3,Concertación,PDC,1,14433,22.08,1
+D3,Candidatura Independiente,IND,1,14021,21.45,0
+D3,Válidamente emitidos,,0,65363,100.0,0
+D4,Partido Comunista,PC,0,0,0.0,0
+D4,Partido Humanista,PH,0,0,0.0,0
+D4,Alianza por Chile,UDI,1,37033,35.75,1
+D4,Alianza por Chile,RN,0,0,0.0,0
+D4,Partido Liberal,PL,0,0,0.0,0
+D4,Concertación,PS,1,29773,28.74,0
+D4,Concertación,PRSD,0,0,0.0,0
+D4,Concertación,PPD,0,0,0.0,0
+D4,Concertación,PDC,1,32338,31.22,1
+D4,Válidamente emitidos,,0,103578,100.0,0
+D5,Partido Comunista,PC,2,4998,8.68,0
+D5,Partido Humanista,PH,0,0,0.0,0
+D5,Alianza por Chile,RN,1,10960,19.04,1
+D5,Alianza por Chile,UDI,1,9058,15.74,0
+D5,Partido Liberal,PL,0,0,0.0,0
+D5,Concertación,PDC,1,3155,5.48,0
+D5,Concertación,PPD,1,29382,51.05,1
+D5,Concertación,PRSD,0,0,0.0,0
+D5,Concertación,PS,0,0,0.0,0
+D5,Válidamente emitidos,,0,57553,100.0,0
+D6,Partido Comunista,PC,1,1525,3.72,0
+D6,Partido Humanista,PH,1,737,1.8,0
+D6,Alianza por Chile,UDI,1,7053,17.2,0
+D6,Alianza por Chile,RN,1,5368,13.09,0
+D6,Partido Liberal,PL,0,0,0.0,0
+D6,Concertación,PDC,1,17378,42.38,1
+D6,Concertación,PS,0,0,0.0,0
+D6,Concertación,PRSD,1,8947,21.82,1
+D6,Concertación,PPD,0,0,0.0,0
+D6,Válidamente emitidos,,0,41008,100.0,0
+D7,Partido Comunista,PC,2,5047,6.27,0
+D7,Partido Humanista,PH,0,0,0.0,0
+D7,Alianza por Chile,UDI,1,17231,21.42,0
+D7,Alianza por Chile,RN,1,17884,22.23,1
+D7,Partido Liberal,PL,0,0,0.0,0
+D7,Concertación,PS,0,0,0.0,0
+D7,Concertación,PRSD,0,0,0.0,0
+D7,Concertación,PPD,1,22178,27.57,1
+D7,Concertación,PDC,1,18112,22.51,0
+D7,Válidamente emitidos,,0,80452,100.0,0
+D8,Partido Comunista,PC,0,0,0.0,0
+D8,Partido Humanista,PH,1,1981,2.06,0
+D8,Alianza por Chile,RN,0,0,0.0,0
+D8,Alianza por Chile,UDI,1,20522,21.39,0
+D8,Partido Liberal,PL,0,0,0.0,0
+D8,Concertación,PS,1,19544,20.37,1
+D8,Concertación,PRSD,0,0,0.0,0
+D8,Concertación,PPD,0,0,0.0,0
+D8,Concertación,PDC,1,43516,45.35,1
+D8,Válidamente emitidos,,0,95948,100.0,0
+D9,Partido Comunista,PC,2,10219,17.24,0
+D9,Partido Humanista,PH,2,1122,1.89,0
+D9,Alianza por Chile,RN,1,6549,11.05,0
+D9,Alianza por Chile,UDI,1,13673,23.06,1
+D9,Partido Liberal,PL,0,0,0.0,0
+D9,Concertación,PS,0,0,0.0,0
+D9,Concertación,PRSD,1,788,1.33,0
+D9,Concertación,PPD,1,23380,39.44,1
+D9,Concertación,PDC,0,0,0.0,0
+D9,Candidatura Independiente,IND,1,3555,6.0,0
+D9,Válidamente emitidos,,0,59286,100.0,0
+D10,Partido Comunista,PC,2,8343,6.78,0
+D10,Partido Humanista,PH,0,0,0.0,0
+D10,Alianza por Chile,RN,1,38631,31.42,1
+D10,Alianza por Chile,UDI,1,20798,16.91,0
+D10,Partido Liberal,PL,0,0,0.0,0
+D10,Concertación,PRSD,1,26394,21.46,0
+D10,Concertación,PS,0,0,0.0,0
+D10,Concertación,PPD,0,0,0.0,0
+D10,Concertación,PDC,1,28800,23.42,1
+D10,Válidamente emitidos,,0,122966,100.0,0
+D11,Partido Comunista,PC,1,4983,5.18,0
+D11,Partido Humanista,PH,1,1994,2.07,0
+D11,Alianza por Chile,UDI,1,22395,23.27,1
+D11,Alianza por Chile,RN,0,0,0.0,0
+D11,Partido Liberal,PL,0,0,0.0,0
+D11,Concertación,PS,0,0,0.0,0
+D11,Concertación,PRSD,1,19028,19.77,0
+D11,Concertación,PPD,0,0,0.0,0
+D11,Concertación,PDC,1,26798,27.84,1
+D11,Válidamente emitidos,,0,96254,100.0,0
+D12,Partido Comunista,PC,2,5136,5.02,0
+D12,Partido Humanista,PH,0,0,0.0,0
+D12,Alianza por Chile,RN,1,29874,29.2,1
+D12,Alianza por Chile,UDI,1,23199,22.68,0
+D12,Partido Liberal,PL,0,0,0.0,0
+D12,Concertación,PS,1,27217,26.6,1
+D12,Concertación,PRSD,0,0,0.0,0
+D12,Concertación,PPD,0,0,0.0,0
+D12,Concertación,PDC,1,16884,16.5,0
+D12,Válidamente emitidos,,0,102310,100.0,0
+D13,Partido Comunista,PC,1,13595,10.45,0
+D13,Partido Humanista,PH,1,2074,1.59,0
+D13,Alianza por Chile,UDI,1,30047,23.09,0
+D13,Alianza por Chile,RN,0,0,0.0,0
+D13,Partido Liberal,PL,0,0,0.0,0
+D13,Concertación,PS,0,0,0.0,0
+D13,Concertación,PRSD,0,0,0.0,0
+D13,Concertación,PPD,1,34527,26.53,1
+D13,Concertación,PDC,1,14949,11.49,0
+D13,Candidatura Independiente,IND,1,2826,2.17,0
+D13,Válidamente emitidos,,0,130131,100.0,0
+D14,Partido Comunista,PC,1,8752,6.05,0
+D14,Partido Humanista,PH,0,0,0.0,0
+D14,Alianza por Chile,RN,1,9129,6.31,0
+D14,Alianza por Chile,UDI,1,59822,41.34,1
+D14,Partido Liberal,PL,0,0,0.0,0
+D14,Concertación,PS,0,0,0.0,0
+D14,Concertación,PRSD,0,0,0.0,0
+D14,Concertación,PPD,1,47593,32.89,1
+D14,Concertación,PDC,1,19397,13.41,0
+D14,Válidamente emitidos,,0,144693,100.0,0
+D15,Partido Comunista,PC,1,8926,11.62,0
+D15,Partido Humanista,PH,0,0,0.0,0
+D15,Alianza por Chile,RN,0,0,0.0,0
+D15,Alianza por Chile,UDI,1,13562,17.65,0
+D15,Partido Liberal,PL,0,0,0.0,0
+D15,Concertación,PRSD,1,20353,26.49,1
+D15,Concertación,PPD,0,0,0.0,0
+D15,Concertación,PDC,1,15254,19.85,0
+D15,Concertación,PS,0,0,0.0,0
+D15,Válidamente emitidos,,0,76836,100.0,0
+D16,Partido Comunista,PC,2,19552,15.5,0
+D16,Partido Humanista,PH,0,0,0.0,0
+D16,Alianza por Chile,UDI,1,52806,41.86,1
+D16,Alianza por Chile,RN,0,0,0.0,0
+D16,Partido Liberal,PL,0,0,0.0,0
+D16,Concertación,PDC,1,38762,30.73,1
+D16,Concertación,PRSD,0,0,0.0,0
+D16,Concertación,PS,0,0,0.0,0
+D16,Concertación,PPD,0,0,0.0,0
+D16,Válidamente emitidos,,0,126153,100.0,0
+D17,Partido Comunista,PC,2,9212,6.1,0
+D17,Partido Humanista,PH,2,2494,1.65,0
+D17,Alianza por Chile,UDI,1,61319,40.63,1
+D17,Alianza por Chile,RN,1,3035,2.01,0
+D17,Partido Liberal,PL,0,0,0.0,0
+D17,Concertación,PS,0,0,0.0,0
+D17,Concertación,PRSD,0,0,0.0,0
+D17,Concertación,PPD,1,49986,33.12,1
+D17,Concertación,PDC,1,24881,16.49,0
+D17,Válidamente emitidos,,0,150927,100.0,0
+D18,Partido Comunista,PC,2,8889,5.27,0
+D18,Partido Humanista,PH,1,2411,1.43,0
+D18,Alianza por Chile,UDI,1,39717,23.55,0
+D18,Alianza por Chile,RN,1,8247,4.89,0
+D18,Partido Liberal,PL,0,0,0.0,0
+D18,Concertación,PS,0,0,0.0,0
+D18,Concertación,PRSD,0,0,0.0,0
+D18,Concertación,PPD,1,98491,58.39,1
+D18,Concertación,PDC,1,10930,6.48,1
+D18,Válidamente emitidos,,0,168685,100.0,0
+D19,Partido Comunista,PC,2,7300,6.8,0
+D19,Partido Humanista,PH,2,2116,1.97,0
+D19,Alianza por Chile,RN,0,0,0.0,0
+D19,Alianza por Chile,UDI,1,36994,34.44,1
+D19,Partido Liberal,PL,0,0,0.0,0
+D19,Concertación,PS,0,0,0.0,0
+D19,Concertación,PRSD,0,0,0.0,0
+D19,Concertación,PPD,1,44193,41.15,1
+D19,Concertación,PDC,1,9505,8.85,0
+D19,Válidamente emitidos,,0,107406,100.0,0
+D20,Partido Comunista,PC,2,12536,6.21,0
+D20,Partido Humanista,PH,2,4872,2.41,0
+D20,Alianza por Chile,UDI,1,49844,24.68,1
+D20,Alianza por Chile,RN,1,39238,19.43,0
+D20,Partido Liberal,PL,0,0,0.0,0
+D20,Concertación,PS,1,42019,20.8,0
+D20,Concertación,PRSD,0,0,0.0,0
+D20,Concertación,PPD,0,0,0.0,0
+D20,Concertación,PDC,1,53474,26.47,1
+D20,Válidamente emitidos,,0,201983,100.0,0
+D21,Partido Comunista,PC,2,7592,4.56,0
+D21,Partido Humanista,PH,1,3503,2.11,0
+D21,Alianza por Chile,UDI,1,61584,37.01,1
+D21,Alianza por Chile,RN,1,27879,16.76,0
+D21,Partido Liberal,PL,0,0,0.0,0
+D21,Concertación,PDC,1,37787,22.71,1
+D21,Concertación,PPD,1,28046,16.86,0
+D21,Concertación,PS,0,0,0.0,0
+D21,Concertación,PRSD,0,0,0.0,0
+D21,Válidamente emitidos,,0,166391,100.0,0
+D22,Partido Comunista,PC,2,5721,5.27,0
+D22,Partido Humanista,PH,2,1791,1.65,0
+D22,Alianza por Chile,RN,1,42772,39.4,1
+D22,Alianza por Chile,UDI,1,8362,7.7,0
+D22,Partido Liberal,PL,0,0,0.0,0
+D22,Concertación,PS,0,0,0.0,0
+D22,Concertación,PRSD,0,0,0.0,0
+D22,Concertación,PPD,0,0,0.0,0
+D22,Concertación,PDC,1,16960,15.62,0
+D22,Válidamente emitidos,,0,108571,100.0,0
+D23,Partido Comunista,PC,1,3511,1.96,0
+D23,Partido Humanista,PH,1,2885,1.61,0
+D23,Alianza por Chile,UDI,1,80016,44.67,1
+D23,Alianza por Chile,RN,1,46675,26.06,1
+D23,Partido Liberal,PL,0,0,0.0,0
+D23,Concertación,PS,0,0,0.0,0
+D23,Concertación,PRSD,1,27751,15.49,0
+D23,Concertación,PPD,0,0,0.0,0
+D23,Concertación,PDC,1,18278,10.2,0
+D23,Válidamente emitidos,,0,179116,100.0,0
+D24,Partido Comunista,PC,2,5593,4.55,0
+D24,Partido Humanista,PH,2,2795,2.27,0
+D24,Alianza por Chile,RN,1,47346,38.52,1
+D24,Alianza por Chile,UDI,1,11255,9.16,0
+D24,Partido Liberal,PL,0,0,0.0,0
+D24,Concertación,PS,0,0,0.0,0
+D24,Concertación,PRSD,0,0,0.0,0
+D24,Concertación,PPD,1,41239,33.55,1
+D24,Concertación,PDC,1,14679,11.94,0
+D24,Válidamente emitidos,,0,122907,100.0,0
+D25,Partido Comunista,PC,2,10741,7.22,0
+D25,Partido Humanista,PH,2,4998,3.36,0
+D25,Alianza por Chile,UDI,1,41504,27.89,1
+D25,Alianza por Chile,RN,0,0,0.0,0
+D25,Partido Liberal,PL,0,0,0.0,0
+D25,Concertación,PS,0,0,0.0,0
+D25,Concertación,PRSD,0,0,0.0,0
+D25,Concertación,PPD,1,42072,28.28,1
+D25,Concertación,PDC,1,35296,23.72,0
+D25,Válidamente emitidos,,0,148794,100.0,0
+D26,Partido Comunista,PC,2,5229,3.85,0
+D26,Partido Humanista,PH,1,1874,1.38,0
+D26,Alianza por Chile,RN,1,49810,36.71,1
+D26,Alianza por Chile,UDI,1,4640,3.42,0
+D26,Partido Liberal,PL,0,0,0.0,0
+D26,Concertación,PPD,0,0,0.0,0
+D26,Concertación,PRSD,0,0,0.0,0
+D26,Concertación,PS,1,69183,50.99,1
+D26,Concertación,PDC,0,0,0.0,0
+D26,Válidamente emitidos,,0,135671,100.0,0
+D27,Partido Comunista,PC,2,9405,6.07,0
+D27,Partido Humanista,PH,2,3201,2.07,0
+D27,Alianza por Chile,RN,1,4722,3.05,0
+D27,Alianza por Chile,UDI,1,65777,42.45,1
+D27,Partido Liberal,PL,0,0,0.0,0
+D27,Concertación,PPD,0,0,0.0,0
+D27,Concertación,PDC,1,36832,23.77,1
+D27,Concertación,PS,1,30766,19.85,0
+D27,Concertación,PRSD,0,0,0.0,0
+D27,Candidatura Independiente,IND,1,4252,2.74,0
+D27,Válidamente emitidos,,0,154955,100.0,0
+D28,Partido Comunista,PC,2,19017,12.84,0
+D28,Partido Humanista,PH,1,3619,2.44,0
+D28,Alianza por Chile,RN,1,9695,6.54,0
+D28,Alianza por Chile,UDI,1,47756,32.23,1
+D28,Partido Liberal,PL,0,0,0.0,0
+D28,Concertación,PS,1,28058,18.94,0
+D28,Concertación,PRSD,0,0,0.0,0
+D28,Concertación,PPD,0,0,0.0,0
+D28,Concertación,PDC,1,40010,27.01,1
+D28,Válidamente emitidos,,0,148155,100.0,0
+D29,Partido Comunista,PC,2,8029,4.93,0
+D29,Partido Humanista,PH,2,4115,2.53,0
+D29,Alianza por Chile,RN,1,69786,42.83,1
+D29,Alianza por Chile,UDI,1,11280,6.92,0
+D29,Partido Liberal,PL,0,0,0.0,0
+D29,Concertación,PS,1,57164,35.09,1
+D29,Concertación,PRSD,0,0,0.0,0
+D29,Concertación,PPD,0,0,0.0,0
+D29,Concertación,PDC,1,12555,7.71,0
+D29,Válidamente emitidos,,0,162929,100.0,0
+D30,Partido Comunista,PC,2,6675,4.93,0
+D30,Partido Humanista,PH,2,4714,3.48,0
+D30,Alianza por Chile,RN,1,18138,13.39,0
+D30,Alianza por Chile,UDI,1,48025,35.45,1
+D30,Partido Liberal,PL,0,0,0.0,0
+D30,Concertación,PS,0,0,0.0,0
+D30,Concertación,PRSD,0,0,0.0,0
+D30,Concertación,PPD,1,27879,20.58,0
+D30,Concertación,PDC,1,30056,22.18,1
+D30,Válidamente emitidos,,0,135487,100.0,0
+D31,Partido Comunista,PC,2,8902,6.18,0
+D31,Partido Humanista,PH,1,2999,2.08,0
+D31,Alianza por Chile,RN,1,4864,3.38,0
+D31,Alianza por Chile,UDI,1,60495,42.0,1
+D31,Partido Liberal,PL,0,0,0.0,0
+D31,Concertación,PRSD,0,0,0.0,0
+D31,Concertación,PPD,1,27742,19.26,0
+D31,Concertación,PDC,1,39036,27.1,1
+D31,Concertación,PS,0,0,0.0,0
+D31,Válidamente emitidos,,0,144038,100.0,0
+D32,Partido Comunista,PC,1,5148,5.94,0
+D32,Partido Humanista,PH,2,1681,1.94,0
+D32,Alianza por Chile,RN,0,0,0.0,0
+D32,Alianza por Chile,UDI,1,35695,41.16,1
+D32,Partido Liberal,PL,0,0,0.0,0
+D32,Concertación,PS,0,0,0.0,0
+D32,Concertación,PRSD,0,0,0.0,0
+D32,Concertación,PPD,1,28689,33.08,1
+D32,Concertación,PDC,1,10762,12.41,0
+D32,Válidamente emitidos,,0,86720,100.0,0
+D33,Partido Comunista,PC,0,0,0.0,0
+D33,Partido Humanista,PH,1,1350,1.23,0
+D33,Alianza por Chile,UDI,1,29594,26.94,1
+D33,Alianza por Chile,RN,1,11826,10.77,0
+D33,Partido Liberal,PL,0,0,0.0,0
+D33,Concertación,PS,1,58666,53.41,1
+D33,Concertación,PRSD,0,0,0.0,0
+D33,Concertación,PPD,0,0,0.0,0
+D33,Concertación,PDC,1,8410,7.66,0
+D33,Válidamente emitidos,,0,109846,100.0,0
+D34,Partido Comunista,PC,2,6962,8.17,0
+D34,Partido Humanista,PH,1,1451,1.7,0
+D34,Alianza por Chile,UDI,1,28154,33.03,1
+D34,Alianza por Chile,RN,0,0,0.0,0
+D34,Partido Liberal,PL,0,0,0.0,0
+D34,Concertación,PS,0,0,0.0,0
+D34,Concertación,PRSD,1,10127,11.88,0
+D34,Concertación,PDC,0,0,0.0,0
+D34,Concertación,PPD,0,0,0.0,0
+D34,Válidamente emitidos,,0,85243,100.0,0
+D35,Partido Comunista,PC,1,1519,2.14,0
+D35,Partido Humanista,PH,2,1599,2.25,0
+D35,Alianza por Chile,UDI,1,20665,29.08,1
+D35,Alianza por Chile,RN,1,9443,13.29,0
+D35,Partido Liberal,PL,0,0,0.0,0
+D35,Concertación,PDC,1,13904,19.57,0
+D35,Concertación,PS,0,0,0.0,0
+D35,Concertación,PRSD,0,0,0.0,0
+D35,Concertación,PPD,1,23923,33.67,1
+D35,Válidamente emitidos,,0,71053,100.0,0
+D36,Partido Comunista,PC,2,5392,5.01,0
+D36,Partido Humanista,PH,1,2937,2.73,0
+D36,Alianza por Chile,UDI,1,41777,38.83,1
+D36,Alianza por Chile,RN,0,0,0.0,0
+D36,Partido Liberal,PL,0,0,0.0,0
+D36,Concertación,PRSD,0,0,0.0,0
+D36,Concertación,PPD,0,0,0.0,0
+D36,Concertación,PDC,1,26676,24.8,1
+D36,Concertación,PS,1,23667,22.0,0
+D36,Válidamente emitidos,,0,107577,100.0,0
+D37,Partido Comunista,PC,1,2050,2.57,0
+D37,Partido Humanista,PH,1,967,1.21,0
+D37,Alianza por Chile,UDI,0,0,0.0,0
+D37,Alianza por Chile,RN,1,7963,9.97,0
+D37,Partido Liberal,PL,1,732,0.92,0
+D37,Concertación,PDC,1,7991,10.0,0
+D37,Concertación,PPD,0,0,0.0,0
+D37,Concertación,PRSD,0,0,0.0,0
+D37,Concertación,PS,1,34195,42.81,1
+D37,Candidatura Independiente,IND,1,4535,5.68,0
+D37,Válidamente emitidos,,0,79879,100.0,0
+D38,Partido Comunista,PC,1,3010,4.48,0
+D38,Partido Humanista,PH,0,0,0.0,0
+D38,Alianza por Chile,RN,1,23035,34.27,1
+D38,Alianza por Chile,UDI,1,4024,5.99,0
+D38,Partido Liberal,PL,0,0,0.0,0
+D38,Concertación,PS,0,0,0.0,0
+D38,Concertación,PRSD,0,0,0.0,0
+D38,Concertación,PPD,0,0,0.0,0
+D38,Concertación,PDC,1,21771,32.39,1
+D38,Válidamente emitidos,,0,67225,100.0,0
+D39,Partido Comunista,PC,1,2188,2.76,0
+D39,Partido Humanista,PH,1,2156,2.72,0
+D39,Alianza por Chile,UDI,0,0,0.0,0
+D39,Alianza por Chile,RN,1,23363,29.5,1
+D39,Partido Liberal,PL,0,0,0.0,0
+D39,Concertación,PS,0,0,0.0,0
+D39,Concertación,PRSD,1,6401,8.08,0
+D39,Concertación,PPD,1,33067,41.75,1
+D39,Concertación,PDC,0,0,0.0,0
+D39,Válidamente emitidos,,0,79197,100.0,0
+D40,Partido Comunista,PC,1,1633,2.31,0
+D40,Partido Humanista,PH,0,0,0.0,0
+D40,Alianza por Chile,RN,1,10073,14.26,0
+D40,Alianza por Chile,UDI,0,0,0.0,0
+D40,Partido Liberal,PL,0,0,0.0,0
+D40,Concertación,PS,0,0,0.0,0
+D40,Concertación,PRSD,0,0,0.0,0
+D40,Concertación,PPD,1,20460,28.96,1
+D40,Concertación,PDC,1,12578,17.8,0
+D40,Válidamente emitidos,,0,70651,100.0,0
+D41,Partido Comunista,PC,1,1919,1.66,0
+D41,Partido Humanista,PH,0,0,0.0,0
+D41,Alianza por Chile,UDI,1,12985,11.24,0
+D41,Alianza por Chile,RN,0,0,0.0,0
+D41,Partido Liberal,PL,0,0,0.0,0
+D41,Concertación,PS,1,19452,16.84,0
+D41,Concertación,PRSD,1,23150,20.04,1
+D41,Concertación,PDC,0,0,0.0,0
+D41,Concertación,PPD,0,0,0.0,0
+D41,Candidatura Independiente,IND,1,3266,2.83,0
+D41,Candidatura Independiente,IND,1,1894,1.64,0
+D41,Candidatura Independiente,IND,1,8368,7.24,0
+D41,Válidamente emitidos,,0,115510,100.0,0
+D42,Partido Comunista,PC,1,2503,2.28,0
+D42,Partido Humanista,PH,0,0,0.0,0
+D42,Alianza por Chile,UDI,0,0,0.0,0
+D42,Alianza por Chile,RN,1,47839,43.6,1
+D42,Partido Liberal,PL,0,0,0.0,0
+D42,Concertación,PS,0,0,0.0,0
+D42,Concertación,PRSD,0,0,0.0,0
+D42,Concertación,PDC,1,25950,23.65,0
+D42,Concertación,PPD,1,33436,30.47,1
+D42,Válidamente emitidos,,0,109728,100.0,0
+D43,Partido Comunista,PC,1,5745,5.63,0
+D43,Partido Humanista,PH,0,0,0.0,0
+D43,Alianza por Chile,RN,1,5374,5.26,0
+D43,Alianza por Chile,UDI,1,38326,37.53,1
+D43,Partido Liberal,PL,0,0,0.0,0
+D43,Concertación,PRSD,0,0,0.0,0
+D43,Concertación,PPD,1,35877,35.14,1
+D43,Concertación,PS,0,0,0.0,0
+D43,Concertación,PDC,0,0,0.0,0
+D43,Válidamente emitidos,,0,102108,100.0,0
+D44,Partido Comunista,PC,2,10089,6.83,0
+D44,Partido Humanista,PH,0,0,0.0,0
+D44,Alianza por Chile,RN,1,12468,8.44,0
+D44,Alianza por Chile,UDI,1,48403,32.78,1
+D44,Partido Liberal,PL,1,1049,0.71,0
+D44,Concertación,PPD,0,0,0.0,0
+D44,Concertación,PRSD,1,23597,15.98,0
+D44,Concertación,PS,0,0,0.0,0
+D44,Concertación,PDC,1,52037,35.25,1
+D44,Válidamente emitidos,,0,147643,100.0,0
+D45,Partido Comunista,PC,1,3618,3.36,0
+D45,Partido Humanista,PH,0,0,0.0,0
+D45,Alianza por Chile,RN,1,1870,1.74,0
+D45,Alianza por Chile,UDI,1,31173,28.92,0
+D45,Partido Liberal,PL,0,0,0.0,0
+D45,Concertación,PDC,1,22125,20.53,1
+D45,Concertación,PPD,0,0,0.0,0
+D45,Concertación,PS,1,48990,45.46,1
+D45,Concertación,PRSD,0,0,0.0,0
+D45,Válidamente emitidos,,0,107776,100.0,0
+D46,Partido Comunista,PC,1,6435,7.19,0
+D46,Partido Humanista,PH,0,0,0.0,0
+D46,Alianza por Chile,UDI,1,28902,32.32,1
+D46,Alianza por Chile,RN,1,3315,3.71,0
+D46,Partido Liberal,PL,2,1694,1.89,0
+D46,Concertación,PDC,1,15801,17.67,0
+D46,Concertación,PPD,0,0,0.0,0
+D46,Concertación,PRSD,0,0,0.0,0
+D46,Concertación,PS,1,33291,37.22,1
+D46,Válidamente emitidos,,0,89438,100.0,0
+D47,Partido Comunista,PC,1,4371,3.35,0
+D47,Partido Humanista,PH,0,0,0.0,0
+D47,Alianza por Chile,RN,1,15184,11.62,0
+D47,Alianza por Chile,UDI,1,45328,34.7,1
+D47,Partido Liberal,PL,0,0,0.0,0
+D47,Concertación,PDC,1,25552,19.56,0
+D47,Concertación,PPD,0,0,0.0,0
+D47,Concertación,PRSD,1,40201,30.77,1
+D47,Concertación,PS,0,0,0.0,0
+D47,Válidamente emitidos,,0,130636,100.0,0
+D48,Partido Comunista,PC,0,0,0.0,0
+D48,Partido Humanista,PH,0,0,0.0,0
+D48,Alianza por Chile,UDI,1,17200,26.58,0
+D48,Alianza por Chile,RN,1,18130,28.02,1
+D48,Partido Liberal,PL,0,0,0.0,0
+D48,Concertación,PDC,1,14996,23.17,1
+D48,Concertación,PPD,0,0,0.0,0
+D48,Concertación,PRSD,0,0,0.0,0
+D48,Concertación,PS,1,14389,22.23,0
+D48,Válidamente emitidos,,0,64715,100.0,0
+D49,Partido Comunista,PC,1,2026,3.19,0
+D49,Partido Humanista,PH,0,0,0.0,0
+D49,Alianza por Chile,RN,1,16764,26.41,1
+D49,Alianza por Chile,UDI,1,13277,20.92,0
+D49,Partido Liberal,PL,0,0,0.0,0
+D49,Concertación,PDC,1,15536,24.48,0
+D49,Concertación,PPD,1,15865,25.0,1
+D49,Concertación,PS,0,0,0.0,0
+D49,Concertación,PRSD,0,0,0.0,0
+D49,Válidamente emitidos,,0,63468,100.0,0
+D50,Partido Comunista,PC,1,4386,4.15,0
+D50,Partido Humanista,PH,0,0,0.0,0
+D50,Alianza por Chile,UDI,1,14256,13.49,0
+D50,Alianza por Chile,RN,1,39801,37.68,1
+D50,Partido Liberal,PL,0,0,0.0,0
+D50,Concertación,PDC,1,35487,33.59,1
+D50,Concertación,PPD,0,0,0.0,0
+D50,Concertación,PRSD,0,0,0.0,0
+D50,Concertación,PS,1,11711,11.09,0
+D50,Válidamente emitidos,,0,105641,100.0,0
+D51,Partido Comunista,PC,1,1372,2.21,0
+D51,Partido Humanista,PH,0,0,0.0,0
+D51,Alianza por Chile,RN,1,6885,11.07,0
+D51,Alianza por Chile,UDI,1,20156,32.4,1
+D51,Partido Liberal,PL,0,0,0.0,0
+D51,Concertación,PS,0,0,0.0,0
+D51,Concertación,PDC,1,6568,10.56,0
+D51,Concertación,PPD,1,25082,40.32,1
+D51,Concertación,PRSD,0,0,0.0,0
+D51,Candidatura Independiente,IND,1,2143,3.45,0
+D51,Válidamente emitidos,,0,62206,100.0,0
+D52,Partido Comunista,PC,1,1245,2.05,0
+D52,Partido Humanista,PH,0,0,0.0,0
+D52,Alianza por Chile,RN,1,23370,38.43,1
+D52,Alianza por Chile,UDI,1,7723,12.7,0
+D52,Partido Liberal,PL,0,0,0.0,0
+D52,Concertación,PDC,1,11694,19.23,0
+D52,Concertación,PPD,0,0,0.0,0
+D52,Concertación,PRSD,1,16781,27.59,1
+D52,Concertación,PS,0,0,0.0,0
+D52,Válidamente emitidos,,0,60813,100.0,0
+D53,Partido Comunista,PC,1,3188,4.3,0
+D53,Partido Humanista,PH,0,0,0.0,0
+D53,Alianza por Chile,RN,0,0,0.0,0
+D53,Alianza por Chile,UDI,1,12864,17.33,0
+D53,Partido Liberal,PL,0,0,0.0,0
+D53,Concertación,PS,1,9860,13.28,0
+D53,Concertación,PRSD,0,0,0.0,0
+D53,Concertación,PPD,0,0,0.0,0
+D53,Concertación,PDC,1,22445,30.24,1
+D53,Válidamente emitidos,,0,74223,100.0,0
+D54,Partido Comunista,PC,1,2134,2.79,0
+D54,Partido Humanista,PH,0,0,0.0,0
+D54,Alianza por Chile,UDI,0,0,0.0,0
+D54,Alianza por Chile,RN,1,12885,16.82,0
+D54,Partido Liberal,PL,0,0,0.0,0
+D54,Concertación,PPD,1,27706,36.16,1
+D54,Concertación,PRSD,0,0,0.0,0
+D54,Concertación,PS,0,0,0.0,0
+D54,Concertación,PDC,1,9990,13.04,0
+D54,Válidamente emitidos,,0,76617,100.0,0
+D55,Partido Comunista,PC,1,3091,4.15,0
+D55,Partido Humanista,PH,0,0,0.0,0
+D55,Alianza por Chile,UDI,1,23479,31.55,1
+D55,Alianza por Chile,RN,0,0,0.0,0
+D55,Partido Liberal,PL,0,0,0.0,0
+D55,Concertación,PDC,1,24752,33.26,1
+D55,Concertación,PPD,0,0,0.0,0
+D55,Concertación,PRSD,0,0,0.0,0
+D55,Concertación,PS,1,6413,8.62,0
+D55,Candidatura Independiente,IND,1,4324,5.81,0
+D55,Válidamente emitidos,,0,74410,100.0,0
+D56,Partido Comunista,PC,2,1644,2.4,0
+D56,Partido Humanista,PH,0,0,0.0,0
+D56,Alianza por Chile,RN,0,0,0.0,0
+D56,Alianza por Chile,UDI,1,19992,29.17,1
+D56,Partido Liberal,PL,0,0,0.0,0
+D56,Concertación,PDC,1,17801,25.97,0
+D56,Concertación,PPD,0,0,0.0,0
+D56,Concertación,PRSD,0,0,0.0,0
+D56,Concertación,PS,1,18436,26.9,1
+D56,Válidamente emitidos,,0,68545,100.0,0
+D57,Partido Comunista,PC,2,3424,4.56,0
+D57,Partido Humanista,PH,0,0,0.0,0
+D57,Alianza por Chile,UDI,1,17594,23.42,0
+D57,Alianza por Chile,RN,1,19004,25.29,1
+D57,Partido Liberal,PL,0,0,0.0,0
+D57,Concertación,PDC,1,14545,19.36,0
+D57,Concertación,PPD,0,0,0.0,0
+D57,Concertación,PRSD,1,20565,27.37,1
+D57,Concertación,PS,0,0,0.0,0
+D57,Válidamente emitidos,,0,75132,100.0,0
+D58,Partido Comunista,PC,1,4210,6.5,0
+D58,Partido Humanista,PH,0,0,0.0,0
+D58,Alianza por Chile,RN,1,6371,9.84,0
+D58,Alianza por Chile,UDI,1,26203,40.48,1
+D58,Partido Liberal,PL,0,0,0.0,0
+D58,Concertación,PDC,1,23206,35.85,1
+D58,Concertación,PPD,0,0,0.0,0
+D58,Concertación,PRSD,1,4738,7.32,0
+D58,Concertación,PS,0,0,0.0,0
+D58,Válidamente emitidos,,0,64728,100.0,0
+D59,Partido Comunista,PC,1,4282,11.57,0
+D59,Partido Humanista,PH,0,0,0.0,0
+D59,Alianza por Chile,RN,1,14918,40.29,1
+D59,Alianza por Chile,UDI,1,3011,8.13,0
+D59,Partido Liberal,PL,0,0,0.0,0
+D59,Concertación,PDC,1,6999,18.9,0
+D59,Concertación,PPD,1,7812,21.1,1
+D59,Concertación,PRSD,0,0,0.0,0
+D59,Concertación,PS,0,0,0.0,0
+D59,Válidamente emitidos,,0,37022,100.0,0
+D60,Partido Comunista,PC,0,0,0.0,0
+D60,Partido Humanista,PH,0,0,0.0,0
+D60,Alianza por Chile,UDI,1,26081,41.76,1
+D60,Alianza por Chile,RN,1,1103,1.77,0
+D60,Partido Liberal,PL,0,0,0.0,0
+D60,Concertación,PDC,1,15914,25.48,0
+D60,Concertación,PPD,0,0,0.0,0
+D60,Concertación,PRSD,0,0,0.0,0
+D60,Concertación,PS,1,17302,27.7,1
+D60,Candidatura Independiente,IND,1,1289,2.06,0
+D60,Candidatura Independiente,IND,1,769,1.23,0
+D60,Válidamente emitidos,,0,62458,100.0,0

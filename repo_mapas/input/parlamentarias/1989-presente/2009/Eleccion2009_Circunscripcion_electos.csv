@@ -1,39 +1,43 @@
 Circunscripción,Lista/Pacto,Partido,Candidatos,Votos,Porcentaje,Electos,Electos_comp,url
-1,Coalición por el Cambio,UDI,"('Jaime', 'Orpis', 'Bouchon')",56390,33.49,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jaime_Orpis_Bouchon
-1,Concertación y Juntos Podemos por más Democracia,PS,"('Fulvio', 'Rossi', 'Ciocca')",45639,27.1,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fulvio_Rossi_Ciocca
-2,Coalición por el Cambio,IND,"('Carlos', 'Cantero', 'Ojeda')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Cantero_Ojeda
-2,Concertación y Juntos Podemos por más Democracia,PRSD,"('José', 'Antonio', 'Gómez', 'Urrutia')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Antonio_Argomedo_González
-3,Coalición por el Cambio,RN,"('Baldo', 'Prokurica', 'Prokurica')",34793,33.03,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Baldo_Prokurica_Prokurica
-3,Concertación y Juntos Podemos por más Democracia,PS,"('Isabel', 'Allende', 'Bussi')",28240,26.81,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/María_Isabel_Allende_Bussi
-4,Coalición por el Cambio,UDI,"('Evelyn', 'Matthei', 'Fornet')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Evelyn_Matthei_Fornet
-4,Concertación y Juntos Podemos por más Democracia,PDC,"('Jorge', 'Pizarro', 'Soto')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Pizarro_Soto
-5,Coalición por el Cambio,RN,"('Lily', 'Pérez', 'San Martín')",84556,23.03,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Lily_Jovanka_Pérez_San_Martín
-5,Concertación y Juntos Podemos por más Democracia,PDC,"('Ignacio', 'Walker', 'Prieto')",77432,21.09,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ignacio_Walker_Prieto
-6,Coalición por el Cambio,RN,"('Francisco', 'Chahuán', 'Chahuán')",109603,28.35,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Francisco_Chahuán_Chahuán
-6,Concertación y Juntos Podemos por más Democracia,PPD,"('Ricardo', 'Lagos', 'Weber')",128287,33.19,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ricardo_Lagos_Weber
-7,Coalición por el Cambio,UDI,"('Jovino', 'Novoa', 'Vásquez')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jovino_Novoa_Vásquez
-7,Concertación y Juntos Podemos por más Democracia,PPD,"('Guido', 'Girardi', 'Lavin')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Guido_Girardi_Lavín
-8,Coalición por el Cambio,UDI,"('Pablo', 'Longueira', 'Montes')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pablo_Longueira_Montes
-8,Concertación y Juntos Podemos por más Democracia,PDC,"('Soledad', 'Alvear', 'Valenzuela')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/María_Soledad_Alvear_Valenzuela
-9,Coalición por el Cambio,UDI,"('Andrés', 'Chadwick', 'Piñera')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Andrés_Pío_Bernardino_Chadwick_Piñera
-9,Concertación y Juntos Podemos por más Democracia,PS,"('Juan', 'Pablo', 'Letelier', 'Morel')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Pablo_Letelier_Morel
-10,Coalición por el Cambio,UDI,"('Juan', 'Antonio', 'Coloma', 'Correa')",97614,35.22,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Antonio_Coloma_Correa
-10,Concertación y Juntos Podemos por más Democracia,PDC,"('Andrés', 'Zaldívar', 'Larraín')",86936,31.37,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Andrés_Zaldívar_Larraín
-11,Coalición por el Cambio,UDI,"('Hernán', 'Larraín', 'Fernández')",68354,43.12,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Hernán_Larraín_Fernández
-11,Concertación y Juntos Podemos por más Democracia,PDC,"('Ximena', 'Rincón', 'González')",49241,31.06,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ximena_Rincón_González
-12,Chile Limpio. Vote Feliz,MAS,"('Alejandro', 'Navarro', 'Brain')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alejandro_Navarro_Brain
-12,Concertación y Juntos Podemos por más Democracia,PDC,"('Hosain', 'Sabag', 'Castillo')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Hosain_Sabag_Castillo
-13,Coalición por el Cambio,UDI,"('Víctor', 'Perez', 'Varela')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Víctor_Pérez_Varela
-13,Concertación y Juntos Podemos por más Democracia,PDC,"('Mariano', 'Ruiz-Esquide', 'Jara')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Sergio_Mariano_Ruiz-Esquide_Jara
-14,Coalición por el Cambio,RN,"('Alberto', 'Espina', 'Otero')",52082,38.51,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alberto_Espina_Otero
-14,Concertación y Juntos Podemos por más Democracia,PPD,"('Jaime', 'Quintana', 'Leal')",40120,29.66,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jaime_Quintana_Leal
-15,Coalición por el Cambio,RN,"('José', 'García', 'Ruminot')",57439,22.44,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Gilberto_García_Ruminot
-15,Concertación y Juntos Podemos por más Democracia,PPD,"('Eugenio', 'Tuma', 'Zedan')",74403,29.07,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eugenio_Tuma_Zedan
-16,Coalición por el Cambio,RN,"('Andrés', 'Allamand', 'Zavala')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Andrés_Allamand_Zavala
-16,Concertación y Juntos Podemos por más Democracia,PDC,"('Eduardo', 'Freí', 'Ruiz-Tagle')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eduardo_Frei_Ruiz-Tagle
-17,Coalición por el Cambio,RN,"('Carlos', 'Ignacio', 'Kuschel', 'Silva')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Ignacio_Kuschel_Silva
-17,Concertación y Juntos Podemos por más Democracia,PS,"('Camilo', 'Escalona', 'Medina')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Camilo_Escalona_Medina
-18,Coalición por el Cambio,RN,"('Antonio', 'Horvath', 'Kiss')",14250,34.62,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Antonio_Horvath_Kiss
-18,Concertación y Juntos Podemos por más Democracia,PDC,"('Patricio', 'Walker', 'Prieto')",11336,27.54,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Patricio_Walker_Prieto
-19,Candidatura Independiente,IND,"('Carlos', 'Bianchi', 'Chelech')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Antonio_Karim_Bianchi_Chelech
-19,Concertación y Juntos Podemos por más Democracia,PS,"('Pedro', 'Muñoz', 'Aburto')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Héctor_Muñoz_Aburto
+Tarapacá,Coalición por el Cambio,UDI,"('Jaime', 'Orpis', 'Bouchon')",56390.0,33.49,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jaime_Orpis_Bouchon
+Tarapacá,Concertación y Juntos Podemos por más Democracia,PS,"('Fulvio', 'Rossi', 'Ciocca')",45639.0,27.1,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fulvio_Rossi_Ciocca
+Antofagasta,Coalición por el Cambio,IND,"('Carlos', 'Cantero', 'Ojeda')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Cantero_Ojeda
+Antofagasta,Concertación y Juntos Podemos por más Democracia,PRSD,"('José', 'Antonio', 'Gómez', 'Urrutia')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Antonio_Argomedo_González
+Atacama,Coalición por el Cambio,RN,"('Baldo', 'Prokurica', 'Prokurica')",34793.0,33.03,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Baldo_Prokurica_Prokurica
+Atacama,Concertación y Juntos Podemos por más Democracia,PS,"('Isabel', 'Allende', 'Bussi')",28240.0,26.81,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/María_Isabel_Allende_Bussi
+Coquimbo,Coalición por el Cambio,UDI,"('Evelyn', 'Matthei', 'Fornet')",0.0,0.0,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Evelyn_Matthei_Fornet
+Coquimbo,Coalición por el Cambio,UDI,"('Gonzalo', 'Uriarte', 'Herrera')",0.0,0.0,,*,
+Coquimbo,Concertación y Juntos Podemos por más Democracia,PDC,"('Jorge', 'Pizarro', 'Soto')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Pizarro_Soto
+Valparaíso Cordillera,Coalición por el Cambio,RN,"('Lily', 'Pérez', 'San Martín')",84556.0,23.03,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Lily_Jovanka_Pérez_San_Martín
+Valparaíso Cordillera,Concertación y Juntos Podemos por más Democracia,PDC,"('Ignacio', 'Walker', 'Prieto')",77432.0,21.09,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ignacio_Walker_Prieto
+Valparaíso Costa,Coalición por el Cambio,RN,"('Francisco', 'Chahuán', 'Chahuán')",109603.0,28.35,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Francisco_Chahuán_Chahuán
+Valparaíso Costa,Concertación y Juntos Podemos por más Democracia,PPD,"('Ricardo', 'Lagos', 'Weber')",128287.0,33.19,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ricardo_Lagos_Weber
+Santiago Poniente,Coalición por el Cambio,UDI,"('Jovino', 'Novoa', 'Vásquez')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jovino_Novoa_Vásquez
+Santiago Poniente,Concertación y Juntos Podemos por más Democracia,PPD,"('Guido', 'Girardi', 'Lavín')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Guido_Girardi_Lavín
+Santiago Oriente,Coalición por el Cambio,UDI,"('Pablo', 'Longueira', 'Montes')",0.0,0.0,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pablo_Longueira_Montes
+Santiago Oriente,Coalición por el Cambio,UDI,"('Ena', 'von Baer', 'Jahn')",0.0,0.0,,*,
+Santiago Oriente,Concertación y Juntos Podemos por más Democracia,PDC,"('Soledad', 'Alvear', 'Valenzuela')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/María_Soledad_Alvear_Valenzuela
+O'Higgins,Coalición por el Cambio,UDI,"('Andrés', 'Chadwick', 'Piñera')",0.0,0.0,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Andrés_Pío_Bernardino_Chadwick_Piñera
+O'Higgins,Coalición por el Cambio,UDI,"('Alejandro', 'García-Huidobro', 'Sanfuentes')",0.0,0.0,,*,
+O'Higgins,Concertación y Juntos Podemos por más Democracia,PS,"('Juan', 'Pablo', 'Letelier', 'Morel')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Pablo_Letelier_Morel
+Maule Norte,Coalición por el Cambio,UDI,"('Juan', 'Antonio', 'Coloma', 'Correa')",97614.0,35.22,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Antonio_Coloma_Correa
+Maule Norte,Concertación y Juntos Podemos por más Democracia,PDC,"('Andrés', 'Zaldívar', 'Larraín')",86936.0,31.37,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Andrés_Zaldívar_Larraín
+Maule Sur,Coalición por el Cambio,UDI,"('Hernán', 'Larraín', 'Fernández')",68354.0,43.12,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Hernán_Larraín_Fernández
+Maule Sur,Concertación y Juntos Podemos por más Democracia,PDC,"('Ximena', 'Rincón', 'González')",49241.0,31.06,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ximena_Rincón_González
+Bío-Bío Costa,Chile Limpio. Vote Feliz,MAS,"('Alejandro', 'Navarro', 'Brain')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alejandro_Navarro_Brain
+Bío-Bío Costa,Concertación y Juntos Podemos por más Democracia,PDC,"('Hosain', 'Sabag', 'Castillo')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Hosain_Sabag_Castillo
+Bío-Bío Cordillera,Coalición por el Cambio,UDI,"('Víctor', 'Pérez', 'Varela')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Víctor_Pérez_Varela
+Bío-Bío Cordillera,Concertación y Juntos Podemos por más Democracia,PDC,"('Sergio', 'Mariano', 'Ruiz-Esquide', 'Jara')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Sergio_Mariano_Ruiz-Esquide_Jara
+Araucanía Norte,Coalición por el Cambio,RN,"('Alberto', 'Espina', 'Otero')",52082.0,38.51,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alberto_Espina_Otero
+Araucanía Norte,Concertación y Juntos Podemos por más Democracia,PPD,"('Jaime', 'Quintana', 'Leal')",40120.0,29.66,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jaime_Quintana_Leal
+Araucanía Sur,Coalición por el Cambio,RN,"('José', 'García', 'Ruminot')",57439.0,22.44,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Gilberto_García_Ruminot
+Araucanía Sur,Concertación y Juntos Podemos por más Democracia,PPD,"('Eugenio', 'Tuma', 'Zedán')",74403.0,29.07,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eugenio_Tuma_Zedan
+Los Ríos,Coalición por el Cambio,RN,"('Andrés', 'Allamand', 'Zavala')",0.0,0.0,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Andrés_Allamand_Zavala
+Los Ríos,Coalición por el Cambio,RN,"('Carlos', 'Larraín', 'Peña')",0.0,0.0,,*,
+Los Ríos,Concertación y Juntos Podemos por más Democracia,PDC,"('Eduardo', 'Frei', 'Ruiz-Tagle')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eduardo_Frei_Ruiz-Tagle
+Los Lagos,Coalición por el Cambio,RN,"('Carlos', 'Ignacio', 'Kuschel', 'Silva')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Ignacio_Kuschel_Silva
+Los Lagos,Concertación y Juntos Podemos por más Democracia,PS,"('Camilo', 'Escalona', 'Medina')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Camilo_Escalona_Medina
+Aysén,Coalición por el Cambio,RN,"('Antonio', 'Horvath', 'Kiss')",14250.0,34.62,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Antonio_Horvath_Kiss
+Aysén,Concertación y Juntos Podemos por más Democracia,PDC,"('Patricio', 'Walker', 'Prieto')",11336.0,27.54,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Patricio_Walker_Prieto
+Magallanes,Candidatura Independiente,IND,"('Carlos', 'Bianchi', 'Chelech')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Antonio_Karim_Bianchi_Chelech
+Magallanes,Concertación y Juntos Podemos por más Democracia,PS,"('Pedro', 'Muñoz', 'Aburto')",0.0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Héctor_Muñoz_Aburto

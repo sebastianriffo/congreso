@@ -1,51 +1,51 @@
 Circunscripción,Lista/Pacto,Partido,Candidatos,Votos,Porcentaje,Electos,Electos_comp,url
-1,Concentración Nacional,PR,"('Pedro', 'Opitz', 'Velásquez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Opitz_Velásquez
-1,Concentración Nacional,PL,"('Fernando', 'Alessandri', 'Rodríguez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fernando_Alessandri_Rodríguez
-1,Concentración Nacional,PR,"('Angel', 'Custodio', 'Vásquez', 'Galdames')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Angel_Custodio_Vásquez_Galdames
-1,Falange Radical Agrario Socialista,FN,"('Radomiro', 'Tomic', 'Romero')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Radomiro_Tomic_Romero
-1,Partido Progresista Nacional,PPN,"('Elías', 'Lafertte', 'Gaviño')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Elías_Lafertte_Gaviño
-1,Partido Progresista Nacional,PPN,"('Ricardo', 'Eliecer', 'Neftalí', 'Reyes', 'Basoalto')",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ricardo_Eliecer_Neftalí_Reyes_Basoalto
-2,Concentración Nacional,PL,"('Hernán', 'Videla', 'Lira')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Hernán_Videla_Lira
-2,Concentración Nacional,PR,"('Humberto', 'Álvarez', 'Suárez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Humberto_Álvarez_Suárez
-2,Concentración Nacional,PL,"('Raúl', 'Marín', 'Balmaceda')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Raúl_Marín_Balmaceda
-2,Concentración Nacional,PR,"('Isauro', 'Torres', 'Cereceda')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Isauro_Torres_Cereceda
-2,Falange Radical Agrario Socialista,FN,"('Eduardo', 'Frei', 'Montalva')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eduardo_Frei_Montalva
-3,Concentración Nacional,PCT,"('Alfredo', 'Cerda', 'Jaraquemada')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alfredo_Cerda_Jaraquemada
-3,Concentración Nacional,PL,"('Pedro', 'Poklepovic', 'Novillo')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Poklepovic_Novillo
-3,Concentración Nacional,PR,"('Eleodoro', 'Enrique', 'Guzmán', 'Figueroa')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eleodoro_Enrique_Guzmán_Figueroa
-3,Partido Conservador Social Cristiano,PCSC,"('Manuel', 'Muñoz', 'Cornejo')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Muñoz_Cornejo
-3,Falange Radical Agrario Socialista,PS,"('Carlos', 'Alberto', 'Martínez', 'Martínez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Alberto_Martínez_Martínez
-4,Concentración Nacional,PL,"('Arturo', 'Alessandri', 'Palma')",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Arturo_Alessandri_Palma
-4,Concentración Nacional,PR,"('Ángel', 'Faivovich', 'Hitzcovich')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ángel_Faivovich_Hitzcovich
-4,Concentración Nacional,PL,"('Arturo', 'Matte', 'Larraín')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Arturo_Matte_Larraín
-4,Partido Conservador Social Cristiano,PCSC,"('Eduardo', 'Cruz-Coke', 'Lassabe')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eduardo_Cruz_Coke_Lassabe
-4,Falange Radical Agrario Socialista,PAL,"('Carlos', 'Ibáñez', 'del Campo')",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Ibáñez_del_Campo
-4,Partido Socialista Popular,PSP,"('Eugenio', 'González', 'Rojas')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eugenio_González_Rojas
-4,,PF,"('María', 'de la Cruz', 'Toledo')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/María_De_la_Cruz_Toledo
-5,Concentración Nacional,PL,"('Diego', 'Francisco', 'Bulnes', 'Correa')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Diego_Francisco_Bulnes_Correa
-5,Concentración Nacional,PR,"('Florencio', 'Durán', 'Bernales')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Florencio_Durán_Bernales
-5,Concentración Nacional,PL,"('Ladislao', 'Errázuriz', 'Pereira')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ladislao_Errázuriz_Pereira
-5,Concentración Nacional,PCT,"('Héctor', 'Rodríguez', 'de la Sotta')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Héctor_Rodríguez_de_la_Sotta
-5,Concentración Nacional,PCT,"('Sergio', 'José', 'María', 'Marcos', 'Fernández', 'Larraín')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Sergio_José_María_Marcos_Fernández_Larraín
-5,,PCon,"('Miguel', 'Cruchaga', 'Tocornal')",,,,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Miguel_Cruchaga_Tocornal
-6,Concentración Nacional,PCT,"('Julio', 'Pereira', 'Larraín')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Julio_Pereira_Larraín
-6,Concentración Nacional,PL,"('Eduardo', 'Alessandri', 'Rodríguez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eduardo_Alessandri_Rodríguez
-6,Concentración Nacional,PR,"('Ulises', 'Correa', 'Correa')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ulises_Correa_Correa
-6,Concentración Nacional,PL,"('Pedro', 'Opaso', 'Cousiño')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Opaso_Cousiño
-6,Falange Radical Agrario Socialista,PAL,"('Alberto', 'del Pedregal', 'Artigas')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alberto_Del_Pedregal_Artigas
-7,Concentración Nacional,PCT,"('Fernando', 'Aldunate', 'Errázuriz')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fernando_Aldunate_Errázuriz
-7,Concentración Nacional,PL,"('Gustavo', 'Roberto', 'Alejandro', 'Rivera', 'Baeza')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gustavo_Roberto_Alejandro_Rivera_Baeza
-7,Concentración Nacional,PDo,"('Julio', 'Eduardo', 'Martínez', 'Montt')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Julio_Eduardo_Martínez_Montt
-7,Concentración Nacional,PR,"('Alberto', 'Moller', 'Bordeu')",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alberto_Moller_Bordeu
-7,Concentración Nacional,PR,"('Fernando', 'Blas', 'Maira', 'Castellón')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fernando_Blas_Maira_Castellón
-7,Partido Progresista Nacional,PPN,"('Salvador', 'Ocampo', 'Pastene')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Salvador_Ocampo_Pastene
-8,Concentración Nacional,PR,"('Mauricio', 'Raúl', 'Rettig', 'Guissen')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Mauricio_Raúl_Rettig_Guissen
-8,Concentración Nacional,PL,"('Gregorio', 'Amunátegui', 'Jordán')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gregorio_Amunátegui_Jordán
-8,Concentración Nacional,PCT,"('Joaquín', 'Prieto', 'Concha')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Joaquín_Prieto_Concha
-8,Falange Radical Agrario Socialista,PRDe,"('Hernán', 'Alfonso', 'Figueroa', 'Anguita')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Hernán_Alfonso_Figueroa_Anguita
-8,Falange Radical Agrario Socialista,PAL,"('Jaime', 'Larraín', 'García-Moreno')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jaime_Larraín_García_Moreno
-9,Concentración Nacional,PR,"('Alfredo', 'Duhalde', 'Vásquez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alfredo_Duhalde_Vásquez
-9,Concentración Nacional,PL,"('José', 'Maza', 'Fernández')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Maza_Fernández
-9,Concentración Nacional,PR,"('Alfonso', 'Bórquez', 'Pérez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alfonso_Bórquez_Pérez
-9,Falange Radical Agrario Socialista,PS,"('Salvador', 'Allende', 'Gossens')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Salvador_Allende_Gossens
-9,Partido Liberal Progresista,PLP,"('Carlos', 'Haverbeck', 'Richter')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Haverbeck_Richter
+Tarapacá y Antofagasta,Concentración Nacional,PR,"('Pedro', 'Opitz', 'Velásquez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Opitz_Velásquez
+Tarapacá y Antofagasta,Concentración Nacional,PL,"('Fernando', 'Alessandri', 'Rodríguez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fernando_Alessandri_Rodríguez
+Tarapacá y Antofagasta,Concentración Nacional,PR,"('Ángel', 'Custodio', 'Vásquez', 'Galdames')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Angel_Custodio_Vásquez_Galdames
+Tarapacá y Antofagasta,Falange Radical Agrario Socialista,FN,"('Radomiro', 'Tomic', 'Romero')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Radomiro_Tomic_Romero
+Tarapacá y Antofagasta,Partido Progresista Nacional,PPN,"('Elías', 'Lafertte', 'Gaviño')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Elías_Lafertte_Gaviño
+Tarapacá y Antofagasta,Partido Progresista Nacional,PPN,"('Ricardo', 'Eliecer', 'Neftalí', 'Reyes', 'Basoalto')",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ricardo_Eliecer_Neftalí_Reyes_Basoalto
+Atacama y Coquimbo,Concentración Nacional,PL,"('Hernán', 'Videla', 'Lira')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Hernán_Videla_Lira
+Atacama y Coquimbo,Concentración Nacional,PR,"('Humberto', 'Álvarez', 'Suárez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Humberto_Álvarez_Suárez
+Atacama y Coquimbo,Concentración Nacional,PL,"('Raúl', 'Marín', 'Balmaceda')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Raúl_Marín_Balmaceda
+Atacama y Coquimbo,Concentración Nacional,PR,"('Isauro', 'Torres', 'Cereceda')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Isauro_Torres_Cereceda
+Atacama y Coquimbo,Falange Radical Agrario Socialista,FN,"('Eduardo', 'Frei', 'Montalva')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eduardo_Frei_Montalva
+Aconcagua y Valparaíso,Concentración Nacional,PCT,"('Alfredo', 'Cerda', 'Jaraquemada')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alfredo_Cerda_Jaraquemada
+Aconcagua y Valparaíso,Concentración Nacional,PL,"('Pedro', 'Poklepovic', 'Novillo')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Poklepovic_Novillo
+Aconcagua y Valparaíso,Concentración Nacional,PR,"('Eleodoro', 'Enrique', 'Guzmán', 'Figueroa')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eleodoro_Enrique_Guzmán_Figueroa
+Aconcagua y Valparaíso,Partido Conservador Social Cristiano,PCSC,"('Manuel', 'Muñoz', 'Cornejo')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Muñoz_Cornejo
+Aconcagua y Valparaíso,Falange Radical Agrario Socialista,PS,"('Carlos', 'Alberto', 'Martínez', 'Martínez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Alberto_Martínez_Martínez
+Santiago,Concentración Nacional,PL,"('Arturo', 'Alessandri', 'Palma')",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Arturo_Alessandri_Palma
+Santiago,Concentración Nacional,PR,"('Ángel', 'Faivovich', 'Hitzcovich')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ángel_Faivovich_Hitzcovich
+Santiago,Concentración Nacional,PL,"('Arturo', 'Matte', 'Larraín')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Arturo_Matte_Larraín
+Santiago,Partido Conservador Social Cristiano,PCSC,"('Eduardo', 'Cruz-Coke', 'Lassabe')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eduardo_Cruz_Coke_Lassabe
+Santiago,Falange Radical Agrario Socialista,PAL,"('Carlos', 'Ibáñez', 'del Campo')",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Ibáñez_del_Campo
+Santiago,Partido Socialista Popular,PSP,"('Eugenio', 'González', 'Rojas')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eugenio_González_Rojas
+Santiago,,PF,"('María', 'de la Cruz', 'Toledo')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/María_De_la_Cruz_Toledo
+O'Higgins y Colchagua,Concentración Nacional,PL,"('Diego', 'Francisco', 'Bulnes', 'Correa')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Diego_Francisco_Bulnes_Correa
+O'Higgins y Colchagua,Concentración Nacional,PR,"('Florencio', 'Durán', 'Bernales')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Florencio_Durán_Bernales
+O'Higgins y Colchagua,Concentración Nacional,PL,"('Ladislao', 'Errázuriz', 'Pereira')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ladislao_Errázuriz_Pereira
+O'Higgins y Colchagua,Concentración Nacional,PCT,"('Héctor', 'Rodríguez', 'de la Sotta')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Héctor_Rodríguez_de_la_Sotta
+O'Higgins y Colchagua,Concentración Nacional,PCT,"('Sergio', 'José', 'María', 'Marcos', 'Fernández', 'Larraín')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Sergio_José_María_Marcos_Fernández_Larraín
+O'Higgins y Colchagua,,PCon,"('Miguel', 'Cruchaga', 'Tocornal')",,,,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Miguel_Cruchaga_Tocornal
+"Curicó, Talca, Maule y Linares",Concentración Nacional,PCT,"('Julio', 'Pereira', 'Larraín')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Julio_Pereira_Larraín
+"Curicó, Talca, Maule y Linares",Concentración Nacional,PL,"('Eduardo', 'Alessandri', 'Rodríguez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eduardo_Alessandri_Rodríguez
+"Curicó, Talca, Maule y Linares",Concentración Nacional,PR,"('Ulises', 'Correa', 'Correa')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ulises_Correa_Correa
+"Curicó, Talca, Maule y Linares",Concentración Nacional,PL,"('Pedro', 'Opaso', 'Cousiño')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Opaso_Cousiño
+"Curicó, Talca, Maule y Linares",Falange Radical Agrario Socialista,PAL,"('Alberto', 'del Pedregal', 'Artigas')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alberto_Del_Pedregal_Artigas
+"Ñuble, Concepción y Arauco",Concentración Nacional,PCT,"('Fernando', 'Aldunate', 'Errázuriz')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fernando_Aldunate_Errázuriz
+"Ñuble, Concepción y Arauco",Concentración Nacional,PL,"('Gustavo', 'Roberto', 'Alejandro', 'Rivera', 'Baeza')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gustavo_Roberto_Alejandro_Rivera_Baeza
+"Ñuble, Concepción y Arauco",Concentración Nacional,PDo,"('Julio', 'Eduardo', 'Martínez', 'Montt')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Julio_Eduardo_Martínez_Montt
+"Ñuble, Concepción y Arauco",Concentración Nacional,PR,"('Alberto', 'Moller', 'Bordeu')",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alberto_Moller_Bordeu
+"Ñuble, Concepción y Arauco",Concentración Nacional,PR,"('Fernando', 'Blas', 'Maira', 'Castellón')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fernando_Blas_Maira_Castellón
+"Ñuble, Concepción y Arauco",Partido Progresista Nacional,PPN,"('Salvador', 'Ocampo', 'Pastene')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Salvador_Ocampo_Pastene
+"Bío-Bío, Malleco y Cautín",Concentración Nacional,PR,"('Mauricio', 'Raúl', 'Rettig', 'Guissen')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Mauricio_Raúl_Rettig_Guissen
+"Bío-Bío, Malleco y Cautín",Concentración Nacional,PL,"('Gregorio', 'Amunátegui', 'Jordán')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gregorio_Amunátegui_Jordán
+"Bío-Bío, Malleco y Cautín",Concentración Nacional,PCT,"('Joaquín', 'Prieto', 'Concha')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Joaquín_Prieto_Concha
+"Bío-Bío, Malleco y Cautín",Falange Radical Agrario Socialista,PRDe,"('Hernán', 'Alfonso', 'Figueroa', 'Anguita')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Hernán_Alfonso_Figueroa_Anguita
+"Bío-Bío, Malleco y Cautín",Falange Radical Agrario Socialista,PAL,"('Jaime', 'Larraín', 'García-Moreno')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jaime_Larraín_García_Moreno
+"Valdivia, Osorno, Llanquihue, Chiloé, Aysén y Magallanes",Concentración Nacional,PR,"('Alfredo', 'Duhalde', 'Vásquez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alfredo_Duhalde_Vásquez
+"Valdivia, Osorno, Llanquihue, Chiloé, Aysén y Magallanes",Concentración Nacional,PL,"('José', 'Maza', 'Fernández')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Maza_Fernández
+"Valdivia, Osorno, Llanquihue, Chiloé, Aysén y Magallanes",Concentración Nacional,PR,"('Alfonso', 'Bórquez', 'Pérez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alfonso_Bórquez_Pérez
+"Valdivia, Osorno, Llanquihue, Chiloé, Aysén y Magallanes",Falange Radical Agrario Socialista,PS,"('Salvador', 'Allende', 'Gossens')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Salvador_Allende_Gossens
+"Valdivia, Osorno, Llanquihue, Chiloé, Aysén y Magallanes",Partido Liberal Progresista,PLP,"('Carlos', 'Haverbeck', 'Richter')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Haverbeck_Richter

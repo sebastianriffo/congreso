@@ -1,21 +1,25 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Establece las divisiones electorales (distritos o circunscripciones) de Chile
-desde 1932 en adelante. La función que lleva esto a cabo es *Division_electoral_shp*, 
-la cual construye dichas divisiones de dos maneras, dependiendo del período : 
+Establece las divisiones electorales (distritos o circunscripciones) de Chile.
 
-- en 1932-1973, mediante un shapefile de los departamentos de Chile en 1973 
-(elaboración  propia, aún en revisión), al cual se le agrega/modifica información 
-usando la función *deptos1932_1973*.
+La función *Division_electoral_shp* entrega un shapefile con dichas divisiones, 
+el cual es construido de dos maneras, dependiendo del período : 
+    - 1932-1973, mediante un shapefile de los departamentos de Chile en 1973 
+    (elaboración  propia, aún en revisión), al cual se le agrega/modifica
+    información usando la función *deptos1932_1973*.
 
-- En 1989-2021, gracias al shapefile de comunas presente en el sitio de la BCN.  
-Ya que este archivo no está al día, la función *comunas1989_presente* lo actualiza 
-y luego agrega la información relativa a la creación de comunas, 
-cambios en distritos, circunscripciones y regiones desde 1989 a la fecha. 
-La división electoral usada en 1989-2018 se extrae de wikipedia por medio 
-de la función *Division_electoral_1989_2018*.
+    - 1989-2021, gracias al shapefile de comunas presente en el sitio de la BCN.  
+    Ya que este archivo no está al día, la función *comunas1989_presente* 
+    lo actualiza y luego agrega la información relativa a la creación de comunas, 
+    cambios en distritos, circunscripciones y regiones desde 1989 a la fecha. 
+    La división electoral usada en 1989-2018 se extrae de wikipedia por medio 
+    de la función *Division_electoral_1989_2018*.
 
+El listado de nombres de dichas divisiones es generado por *provincias_chile*, 
+que contiene los nombres desde 1828 a la fecha, ordenados de norte a sur. 
+Es utilizado para nombrar los polígonos del shapefile antes mencionado, al igual 
+que los datos electorales, y así garantizar la coherencia entre ambos.
 """ 
 
 import geopandas as gpd
@@ -87,7 +91,11 @@ def Division_electoral_shp(path_input, eleccion, rep):
         
         return div_electoral
 
-    ## GENERAR POLÍGONOS       
+#%% GENERAR POLÍGONOS
+    # nombres de distritos/circunscripciones
+    provincias = provincias_chile(eleccion, rep)
+    reg = num_prov(provincias, eleccion, rep)
+       
     if eleccion >= 1989:
         comunas1989_presente(path_input / 'shapes/source')
         
@@ -100,25 +108,16 @@ def Division_electoral_shp(path_input, eleccion, rep):
         div_electoral['geometry'] = div_electoral['geometry'].simplify(125)
         
         div_electoral['nombre'] = div_electoral.index                    
-        
-        if rep == 0:
-            # nombres de distritos/circunscripciones
+                
+        if rep == 0:                                   
             regiones = {15:"Arica y Parinacota", 1:"Tarapacá", 2:"Antofagasta", 3:"Atacama", 4:"Coquimbo",
                         5:"Valparaíso", 13:"Santiago", 6:"O'Higgins", 7:"Maule", 8:"Bío-Bío", 16:"Ñuble",
                         9:"Araucanía", 14:"Los Ríos", 10:"Los Lagos", 11:"Aysén", 12:"Magallanes"} 
                         
-            div_electoral['nombre'] = div_electoral.apply(lambda row : ''.join(['D', str(row['nombre']),' (',regiones[row['codregion']],')']), axis=1)            
-
-        elif (rep == 1 and eleccion >= 2017):
-            div_electoral['nombre'] = div_electoral['nombre'].replace({1:"Arica y Parinacota", 2:"Tarapacá", 3:"Antofagasta", 4:"Atacama", 5:"Coquimbo", 
-                                                                       6:"Valparaíso", 7:"Santiago", 8:"O'Higgins", 9:"Maule", 10:"Bío-Bío",
-                                                                       11:"Araucanía", 12:"Los Ríos", 13:"Los Lagos", 14:"Aysén", 15:"Magallanes", 16:"Ñuble"}).astype(str)            
+            div_electoral['nombre'] = div_electoral.apply(lambda row : ''.join(['D', str(row['nombre']),' (',regiones[row['codregion']],')']), axis=1)
         else:
-            div_electoral['nombre'] = div_electoral['nombre'].replace({1:"Tarapacá", 2:"Antofagasta", 3:"Atacama", 4:"Coquimbo", 
-                                                                       5:"Valparaíso Cordillera", 6:"Valparaíso Costa", 7:"Santiago Poniente", 8:"Santiago Oriente", 9:"O'Higgins", 
-                                                                       10:"Maule Norte", 11:"Maule Sur", 12:"Bío-Bío Costa", 13:"Bío-Bío Cordillera",
-                                                                       14:"Araucanía Norte", 15:"Araucanía Sur", 16:"Los Ríos", 17:"Los Lagos", 18:"Aysén", 19:"Magallanes"}).astype(str)
-
+            div_electoral['nombre'] = div_electoral['nombre'].replace(dict(zip(reg, provincias)))            
+        
         #reducir tamaños de geometrías y limpiar impurezas
         r = div_electoral['nombre'].str.contains('Tarapacá|Aysén|Magallanes') 
 
@@ -142,27 +141,8 @@ def Division_electoral_shp(path_input, eleccion, rep):
                    
         div_electoral = divCHILE.dissolve(by={0:'dis_elec',1:'cir_sena'}[rep])[['geometry']]    
 
-        # nombres de agrupaciones
-        if rep == 0:
-            provincias = flatten_list(['Tarapacá', 'Antofagasta', 'Atacama', 'Coquimbo', 'Aconcagua', 'Valparaíso', 
-                                       ['Santiago-1', 'Santiago-2', 'Santiago-3', 'Santiago-4'], "O'Higgins", 'Colchagua', 'Curicó', 'Talca', 'Maule', 'Linares',
-                                       ['Ñuble-1', 'Ñuble-2'], 'Concepción', 'Arauco', 'Bío-Bío', 'Malleco', 'Cautín', 
-                                       'Valdivia', ['Osorno', 'Llanquihue', 'Chiloé', 'Aysén'] if eleccion >= 1969 else (['Osorno', 'Llanquihue y Aysén', 'Chiloé'] if eleccion >= 1941 else ['Llanquihue y Aysén', 'Chiloé']), 
-                                       'Magallanes'])
-        
-            reg = list(range(1, len(provincias)-1))
-            reg[7:7] = [71,72,73]
-            reg.remove(7)        
-        else:
-            provincias = flatten_list(['Tarapacá y Antofagasta', 'Atacama y Coquimbo', 'Aconcagua y Valparaíso', 'Santiago', 
-                                       "O'Higgins y Colchagua", 'Curicó, Talca, Maule y Linares', 'Ñuble, Concepción y Arauco', 'Bío-Bío, Malleco y Cautín',
-                                       ['Valdivia, Osorno y Llanquihue', 'Chiloé, Aysén y Magallanes'] if eleccion >= 1969 else ('Valdivia, Osorno, Llanquihue, Chiloé, Aysén y Magallanes' if eleccion >= 1941 else 'Valdivia, Llanquihue, Chiloé, Aysén y Magallanes')
-                                       ])           
-            reg = list(range(1, len(provincias)+1))
-        label = dict(zip(reg, provincias))
-        
-        div_electoral['nombre'] = div_electoral.index            
-        div_electoral['nombre'] = div_electoral['nombre'].replace(label)
+        div_electoral['nombre'] = div_electoral.index                                                    
+        div_electoral['nombre'] = div_electoral['nombre'].replace(dict(zip(reg, provincias)))
 
         #reducir tamaños de geometrías
         r = list(filter(re.compile('Aysén|Magallanes|Santiago-1|Santiago-2|Santiago-3').findall, provincias))
@@ -177,6 +157,7 @@ def Division_electoral_shp(path_input, eleccion, rep):
     div_electoral.to_file((path_shapes / (div_folder+{0:'_distritos.shp',1:'_circunscripciones.shp'}[rep])))
     
     return div_electoral
+
 
 #%% MODIFICACIONES DESDE 1989
 #%%
@@ -259,7 +240,7 @@ def comunas1989_presente(path_input_shapes):
     # dist2021 : comunas de Cabrero y Yumbel cambian de distrito (19 al 21)     
     #
     # circ1989 : 19 circunscripciones, ley 18700 de 1988
-    # circ2009 : el distrito 55 cambia de circunscripción (16 a 17)    
+    # circ2009 : el distrito 55 cambia de circunscripción (16 a 17). 
     # circ2017 : 15 circunscripciones, reforma electoral de 2015 
     # circ2021 : nueva circunscripción (16) por la creación de la región de Ñuble
 
@@ -560,3 +541,129 @@ def deptos1932_1973(path_input_shapes):
     divCHILE.to_file(path_input_shapes/'div_1973.shp')
     
     return divCHILE
+
+#%% DISTRITOS Y CIRCUNSCRIPCIONES
+#%%
+def provincias_chile(eleccion, rep):
+    """
+    
+    Parámetros
+    ----------
+    eleccion : int
+        Año de la elección.
+    rep : int
+        Elección de diputados (0) o senadores (1).
+
+    Entrega
+    -------
+    provincias : list[str]
+        Listado de distritos o circunscripciones, según el año y elección, 
+        ordenados de norte a sur.
+
+    """
+    
+    flatten_list = lambda test:[element for item in test for element in flatten_list(item)] if type(test) is list else [test]
+    
+    if (rep == 0):
+        if eleccion >= 1989:
+            provincias = ['D'+str(x) for x in list(range(1,28*(eleccion >= 2017) +60*(eleccion < 2017) +1,1))]
+            
+        elif 1925 <= eleccion <= 1973:
+            provincias = flatten_list(['Tarapacá', 'Antofagasta', 'Atacama', 'Coquimbo', 'Aconcagua', 'Valparaíso', 
+                                       ['Santiago-1', 'Santiago-2', 'Santiago-3', 'Santiago-4'] if eleccion >= 1932 else ['Santiago', 'La Victoria'],
+                                       "O'Higgins", 'Colchagua', 'Curicó', 'Talca', 'Maule', 'Linares',
+                                       ['Ñuble-1', 'Ñuble-2'] if eleccion >= 1932 else 'Ñuble', 
+                                       'Concepción' if eleccion >= 1932 else ['Concepción', 'Puchacay'], 
+                                       'Arauco', 'Bío-Bío', 'Malleco', 'Cautín', 
+                                       ['Valdivia', 'Osorno'] if eleccion >= 1941 else ['Valdivia'],
+                                       ['Llanquihue', 'Chiloé', 'Aysén'] if eleccion >= 1969 else (['Llanquihue y Aysén', 'Chiloé'] if eleccion >= 1932 else ['Llanquihue', 'Chiloé']), 
+                                       'Magallanes' if eleccion >= 1932 else '',
+                                       ])
+                            
+        elif 1891 <= eleccion <= 1924 :
+            provincias = flatten_list(['Tarapacá', 
+                                       ['Antofagasta', 'Taltal'] if eleccion >= 1912 else 'Antofagasta', 
+                                       'Copiapó', 
+                                       'La Serena', 'Ovalle', 
+                                       'Petorca', 'San Felipe', 'Quillota', 'Valparaíso',
+                                       'Santiago', 'La Victoria', 
+                                       'Rancagua', 'Caupolicán', 'San Fernando',
+                                       ['Curicó', 'Santa Cruz'] if eleccion >= 1912 else 'Curicó', 
+                                       ['Talca', 'Lontué'] if eleccion >= 1912 else 'Talca', 
+                                       ['Linares', 'Parral'] if eleccion >= 1912 else 'Linares', 
+                                       'Constitución', 'Itata', 
+                                       ['San Carlos', 'Chillán'] if eleccion >= 1912 else 'Chillán', 'Yungay', 
+                                       ['Coelemu', 'Rere', 'Concepción', 'Lautaro'] if eleccion >= 1912 else ['Rere', 'Concepción'],
+                                       'Arauco', 'Laja', ['Angol', 'Collipulli'] if eleccion >= 1912 else 'Angol', 'Temuco',
+                                       'Valdivia', 
+                                       ['Osorno', 'Llanquihue'] if eleccion >= 1912 else 'Osorno', 
+                                       ['Ancud', 'Castro'] if eleccion >= 1912 else 'Ancud' 
+                                       ])
+        else:
+            provincias = flatten_list([['Pisagua', 'Tarapacá', 'Antofagasta', 'Taltal', 'Copiapó'] if eleccion >= 1885 else (['Caldera', 'Copiapó'] if 1864 < eleccion < 1876 else 'Copiapó'), 
+                                       ['Vallenar', 'Freirina'] if eleccion >= 1855 else 'Vallenar',
+                                       ['La Serena', 'Coquimbo'] if eleccion >= 1867 else 'La Serena', 'Elqui', 'Ovalle' if eleccion >= 1834 else '', ['Combarbalá', 'Illapel'] if eleccion >= 1855 else 'Illapel',
+                                       'Petorca', 'La Ligua', 'Los Andes', ['San Felipe', 'Putaendo'] if eleccion >= 1834 else 'Aconcagua',
+                                       'Quillota', ['Limache', 'Valparaíso'] if eleccion >= 1867 else 'Valparaíso', 'Casablanca', 
+                                       ['Santiago', 'La Victoria'] if eleccion >= 1855 else 'Santiago', 'Melipilla', 
+                                       ['Maipo', 'Rancagua', 'Cachapoal'] if eleccion >= 1885 else 'Rancagua', 
+                                       'Caupolicán' if eleccion >= 1834 else '', 'San Fernando', 
+                                       ['Vichuquén', 'Curicó'] if eleccion >= 1867 else 'Curicó', 
+                                       ['Talca', 'Curepto', 'Lontué'] if eleccion >= 1885 else (['Talca', 'Lontué'] if eleccion >= 1855 else 'Talca'), 
+                                       'Linares', ['Loncomilla', 'Parral'] if eleccion >= 1876 else 'Parral', 
+                                       ['Cauquenes', 'Constitución'] if eleccion >= 1867 else 'Cauquenes', 'Itata',  
+                                       'San Carlos', ['Chillán', 'Bulnes', 'Yungay'] if eleccion >= 1885 else 'Chillán', 
+                                       'Coelemu', 'Puchacay', 'Rere', 'Lautaro', 'Concepción',
+                                       ['Arauco',  'Lebu', 'Cañete'] if eleccion >= 1876 else ('Arauco' if eleccion >= 1867 else ''),
+                                       ['Nacimiento', 'Laja', 'Mulchén'] if eleccion >= 1876 else (['Nacimiento', 'Laja'] if eleccion >= 1855 else 'Los Ángeles'),
+                                       ['Angol', 'Collipulli', 'Traiguén', 'Temuco', 'Imperial'] if eleccion >= 1888 else ('Angol' if eleccion >= 1876 else ''),
+                                       ['Valdivia', 'La Unión'] if eleccion >= 1867 else 'Valdivia', 'Osorno',                                            
+                                       ['Llanquihue', 'Carelmapu'] if (eleccion >= 1876 or eleccion == 1864) else ('Carelmapu' if eleccion > 1864 else ''),  
+                                       'Quinchao' if 1876 <= eleccion < 1888 else ['Quinchao', 'Ancud'], 'Castro'
+                                       ])
+                                                         
+    else:        
+        if eleccion >= 2017:
+            provincias = ["Arica y Parinacota", "Tarapacá", "Antofagasta", "Atacama", "Coquimbo", 
+                          "Valparaíso", "Santiago", "O'Higgins", "Maule", "Ñuble", "Bío-Bío",
+                          "Araucanía", "Los Ríos", "Los Lagos", "Aysén", "Magallanes"]            
+        elif eleccion >= 1989:
+            provincias = ["Tarapacá", "Antofagasta", "Atacama", "Coquimbo",
+                          "Valparaíso Cordillera", "Valparaíso Costa", "Santiago Poniente", "Santiago Oriente", "O'Higgins", 
+                          "Maule Norte", "Maule Sur", "Bío-Bío Costa", "Bío-Bío Cordillera",
+                          "Araucanía Norte", "Araucanía Sur", "Los Ríos" if eleccion >= 2009 else "Los Lagos Norte", "Los Lagos" if eleccion >= 2009 else "Los Lagos Sur", "Aysén", "Magallanes"]                            
+        elif 1925 <= eleccion <= 1973:
+            provincias = flatten_list(['Tarapacá y Antofagasta', 'Atacama y Coquimbo', 'Aconcagua y Valparaíso', 'Santiago', 
+                                       "O'Higgins y Colchagua", 'Curicó, Talca, Maule y Linares', 'Ñuble, Concepción y Arauco', 'Bío-Bío, Malleco y Cautín',
+                                       ['Valdivia, Osorno y Llanquihue', 'Chiloé, Aysén y Magallanes'] if eleccion >= 1969 else ('Valdivia, Osorno, Llanquihue, Chiloé, Aysén y Magallanes' if eleccion >= 1941 else 'Valdivia, Llanquihue, Chiloé, Aysén y Magallanes')
+                                       ])                       
+        elif eleccion > 1828:
+            provincias = flatten_list([['Antofagasta','Tarapacá','Atacama'] if eleccion >= 1891 else (['Tarapacá','Atacama'] if eleccion >= 1885 else 'Atacama'), 'Coquimbo', 
+                                       'Aconcagua', 'Valparaíso', ['Santiago', "O'Higgins"] if eleccion >= 1885 else 'Santiago',                                              
+                                       'Colchagua', 'Curicó', 'Talca', 'Linares', 'Maule', 'Ñuble', 
+                                       'Concepción', 'Bío-Bío', ['Malleco', 'Cautín', 'Arauco'] if eleccion >= 1888 else 'Arauco', 
+                                       'Valdivia', 'Llanquihue', 'Chiloé'
+                                       ]) if (eleccion >= 1876 or eleccion <= 1831) else ['Nacional']
+                                      
+            if eleccion in {1876,1879}: provincias.append('Nacional')
+        else:
+            provincias = ['Copiapó', 'Illapel', 'Quillota', 'Valparaíso', 'Santiago', 'Rancagua', 'Colchagua',
+                          'Talca', 'Parral', 'Puchacay', 'Rere', 'Cauquenes', 'Osorno', 'Chiloé']
+    
+    return list(filter(lambda x: x != '', provincias))
+
+#%% 
+def num_prov(provincias, eleccion, rep):
+    if (rep == 0 and eleccion >= 1989) or (rep == 1 and 1989 <= eleccion < 2017):
+        reg = list(map(int, range(1, len(provincias)+1)))
+    elif (rep == 1 and eleccion >= 2017):
+        reg = list(range(1, len(provincias)))
+        reg[9:9] = [16]
+    elif (rep == 0) and (1932 <= eleccion <= 1973):
+        reg = list(range(1, len(provincias)-1))
+        reg[7:7] = [71,72,73]
+        reg.remove(7)        
+    else:
+        reg = list(map(int, range(1, len(provincias)+1)))
+
+    return reg

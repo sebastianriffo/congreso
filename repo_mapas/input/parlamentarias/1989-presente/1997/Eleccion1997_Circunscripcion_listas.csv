@@ -1,51 +1,61 @@
 Circunscripción,Lista/Pacto,Candidaturas,Votos,Porcentaje,Electos
-2,Unión por Chile,2,54825,32.85,1
-2,Concertación de Partidos por la Democracia,2,101974,61.11,1
-2,La Izquierda,1,10079,6.04,0
-2,Válidamente emitidos,0,166878,100.0,0
-4,Partido Humanista,1,8439,3.91,0
-4,Unión por Chile,2,83893,38.9,1
-4,Concertación de Partidos por la Democracia,2,123326,57.19,1
-4,Válidamente emitidos,0,215658,100.0,0
-7,Partido Humanista,2,26794,2.41,0
-7,Unión por Chile,2,382286,34.32,1
-7,Concertación de Partidos por la Democracia,2,487335,43.75,1
-7,La Izquierda,1,174780,15.69,0
-7,Chile 2000,2,42771,3.84,0
-7,Válidamente emitidos,0,1113966,100.0,0
-8,Partido Humanista,2,34048,2.82,0
-8,Unión por Chile,2,526663,43.68,1
-8,Concertación de Partidos por la Democracia,2,549172,45.54,1
-8,La Izquierda,2,95974,7.96,0
-8,Válidamente emitidos,0,1205857,100.0,0
-9,Partido Humanista,2,8685,2.62,0
-9,Unión por Chile,2,85854,25.94,1
-9,Concertación de Partidos por la Democracia,2,158880,48.0,1
-9,La Izquierda,1,20390,6.16,0
-9,Chile 2000,2,57184,17.28,0
-9,Válidamente emitidos,0,330993,100.0,0
-12,Partido Humanista,1,7288,1.7,0
-12,Unión por Chile,2,118812,27.78,0
-12,Concertación de Partidos por la Democracia,2,263039,61.49,2
-12,La Izquierda,1,27386,6.4,0
-12,Chile 2000,2,11218,2.62,0
-12,Válidamente emitidos,0,427743,100.0,0
-13,Unión por Chile,1,96935,31.71,1
-13,Concertación de Partidos por la Democracia,2,188608,61.7,1
-13,La Izquierda,1,20158,6.59,0
-13,Válidamente emitidos,0,305701,100.0,0
-16,Partido Humanista,1,4240,1.96,0
-16,Unión por Chile,2,91036,42.1,1
-16,Concertación de Partidos por la Democracia,2,112001,51.8,1
-16,La Izquierda,1,8949,4.14,0
-16,Válidamente emitidos,0,216226,100.0,0
-17,Partido Humanista,1,3424,1.73,0
-17,Unión por Chile,2,91569,46.33,1
-17,Concertación de Partidos por la Democracia,2,96151,48.65,1
-17,La Izquierda,1,6508,3.29,0
-17,Válidamente emitidos,0,197652,100.0,0
-19,Partido Humanista,1,1198,2.04,0
-19,Unión por Chile,2,21319,36.32,1
-19,Concertación de Partidos por la Democracia,2,34168,58.22,1
-19,La Izquierda,1,2007,3.42,0
-19,Válidamente emitidos,0,58692,100.0,0
+Antofagasta,Partido Humanista,0,0,0.0,0
+Antofagasta,Unión por Chile,2,54825,32.85,1
+Antofagasta,Concertación de Partidos por la Democracia,2,101974,61.11,1
+Antofagasta,La Izquierda,1,10079,6.04,0
+Antofagasta,Chile 2000,0,0,0.0,0
+Antofagasta,Válidamente emitidos,0,166878,100.0,0
+Coquimbo,Partido Humanista,1,8439,3.91,0
+Coquimbo,Unión por Chile,2,83893,38.9,1
+Coquimbo,Concertación de Partidos por la Democracia,2,123326,57.19,1
+Coquimbo,La Izquierda,0,0,0.0,0
+Coquimbo,Chile 2000,0,0,0.0,0
+Coquimbo,Válidamente emitidos,0,215658,100.0,0
+Santiago Poniente,Partido Humanista,2,26794,2.41,0
+Santiago Poniente,Unión por Chile,2,382286,34.32,1
+Santiago Poniente,Concertación de Partidos por la Democracia,2,487335,43.75,1
+Santiago Poniente,La Izquierda,1,174780,15.69,0
+Santiago Poniente,Chile 2000,2,42771,3.84,0
+Santiago Poniente,Válidamente emitidos,0,1113966,100.0,0
+Santiago Oriente,Partido Humanista,2,34048,2.82,0
+Santiago Oriente,Unión por Chile,2,526663,43.68,1
+Santiago Oriente,Concertación de Partidos por la Democracia,2,549172,45.54,1
+Santiago Oriente,La Izquierda,2,95974,7.96,0
+Santiago Oriente,Chile 2000,0,0,0.0,0
+Santiago Oriente,Válidamente emitidos,0,1205857,100.0,0
+O'Higgins,Partido Humanista,2,8685,2.62,0
+O'Higgins,Unión por Chile,2,85854,25.94,1
+O'Higgins,Concertación de Partidos por la Democracia,2,158880,48.0,1
+O'Higgins,La Izquierda,1,20390,6.16,0
+O'Higgins,Chile 2000,2,57184,17.28,0
+O'Higgins,Válidamente emitidos,0,330993,100.0,0
+Bío-Bío Costa,Partido Humanista,1,7288,1.7,0
+Bío-Bío Costa,Unión por Chile,2,118812,27.78,0
+Bío-Bío Costa,Concertación de Partidos por la Democracia,2,263039,61.49,2
+Bío-Bío Costa,La Izquierda,1,27386,6.4,0
+Bío-Bío Costa,Chile 2000,2,11218,2.62,0
+Bío-Bío Costa,Válidamente emitidos,0,427743,100.0,0
+Bío-Bío Cordillera,Partido Humanista,0,0,0.0,0
+Bío-Bío Cordillera,Unión por Chile,1,96935,31.71,1
+Bío-Bío Cordillera,Concertación de Partidos por la Democracia,2,188608,61.7,1
+Bío-Bío Cordillera,La Izquierda,1,20158,6.59,0
+Bío-Bío Cordillera,Chile 2000,0,0,0.0,0
+Bío-Bío Cordillera,Válidamente emitidos,0,305701,100.0,0
+Los Lagos Norte,Partido Humanista,1,4240,1.96,0
+Los Lagos Norte,Unión por Chile,2,91036,42.1,1
+Los Lagos Norte,Concertación de Partidos por la Democracia,2,112001,51.8,1
+Los Lagos Norte,La Izquierda,1,8949,4.14,0
+Los Lagos Norte,Chile 2000,0,0,0.0,0
+Los Lagos Norte,Válidamente emitidos,0,216226,100.0,0
+Los Lagos Sur,Partido Humanista,1,3424,1.73,0
+Los Lagos Sur,Unión por Chile,2,91569,46.33,1
+Los Lagos Sur,Concertación de Partidos por la Democracia,2,96151,48.65,1
+Los Lagos Sur,La Izquierda,1,6508,3.29,0
+Los Lagos Sur,Chile 2000,0,0,0.0,0
+Los Lagos Sur,Válidamente emitidos,0,197652,100.0,0
+Magallanes,Partido Humanista,1,1198,2.04,0
+Magallanes,Unión por Chile,2,21319,36.32,1
+Magallanes,Concertación de Partidos por la Democracia,2,34168,58.22,1
+Magallanes,La Izquierda,1,2007,3.42,0
+Magallanes,Chile 2000,0,0,0.0,0
+Magallanes,Válidamente emitidos,0,58692,100.0,0

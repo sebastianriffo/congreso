@@ -1,50 +1,102 @@
 Circunscripción,Lista/Pacto,Partido,Candidaturas,Votos,Porcentaje,Electos
-1,Partido Comunista,PC,1,4808,3.11,0
-1,Partido Humanista,PH,1,1323,0.86,0
-1,Alianza por Chile,RN,1,24844,16.08,0
-1,Alianza por Chile,UDI,1,38093,24.65,1
-1,Concertación,PPD,1,47159,30.51,1
-1,Concertación,PDC,1,13754,8.9,0
-1,Candidatura Independiente,IND,1,24569,15.9,0
-1,Válidamente emitidos,,0,154550,100.0,0
-3,Alianza por Chile,RN,1,38212,38.9,1
-3,Concertación,PDC,1,17750,18.07,0
-3,Concertación,PS,1,42263,43.03,1
-3,Válidamente emitidos,,0,98225,100.0,0
-5,Partido Comunista,PC,1,11909,3.7,0
-5,Alianza por Chile,RN,2,137167,42.66,1
-5,Concertación,PS,1,92419,28.74,1
-5,Concertación,PDC,1,80042,24.89,0
-5,Válidamente emitidos,,0,321537,100.0,0
-6,Partido Comunista,PC,2,9163,2.57,0
-6,Partido Humanista,PH,1,5142,1.44,0
-6,Concertación,PDC,1,67957,19.1,0
-6,Concertación,PPD,1,137125,38.53,1
-6,Válidamente emitidos,,0,355851,100.0,0
-10,Partido Comunista,PC,1,7211,2.83,0
-10,Alianza por Chile,UDI,1,104179,40.84,1
-10,Concertación,PDC,1,61754,24.21,0
-10,Concertación,PS,1,77828,30.51,1
-10,Válidamente emitidos,,0,255107,100.0,0
-11,Partido Comunista,PC,1,1988,1.32,0
-11,Alianza por Chile,UDI,1,66767,44.22,1
-11,Partido Liberal,PL,1,1407,0.93,0
-11,Concertación,PDC,1,34502,22.85,0
-11,Concertación,PS,1,42395,28.08,1
-11,Válidamente emitidos,,0,151003,100.0,0
-14,Partido Comunista,PC,1,4004,3.09,0
-14,Alianza por Chile,RN,1,62813,48.5,1
-14,Concertación,PDC,1,27645,21.35,0
-14,Concertación,PPD,1,35051,27.06,1
-14,Válidamente emitidos,,0,129513,100.0,0
-15,Partido Comunista,PC,1,5553,2.42,0
-15,Alianza por Chile,RN,1,79009,34.48,1
-15,Alianza por Chile,UDI,1,53996,23.56,0
-15,Concertación,PDC,1,81022,35.36,1
-15,Concertación,PRSD,1,9557,4.17,0
-15,Válidamente emitidos,,0,229137,100.0,0
-18,Partido Comunista,PC,1,1099,2.93,0
-18,Concertación,PDC,1,11302,30.15,1
-18,Concertación,PRSD,1,9468,25.25,0
-18,Candidatura Independiente,IND,1,2527,6.74,0
-18,Válidamente emitidos,,0,37492,100.0,0
+Tarapacá,Partido Comunista,PC,1,4808,3.11,0
+Tarapacá,Partido Humanista,PH,1,1323,0.86,0
+Tarapacá,Alianza por Chile,UDI,1,38093,24.65,1
+Tarapacá,Alianza por Chile,RN,1,24844,16.08,0
+Tarapacá,Partido Liberal,PL,0,0,0.0,0
+Tarapacá,Concertación,PDC,1,13754,8.9,0
+Tarapacá,Concertación,PS,0,0,0.0,0
+Tarapacá,Concertación,PRSD,0,0,0.0,0
+Tarapacá,Concertación,PPD,1,47159,30.51,1
+Tarapacá,Candidatura Independiente,IND,1,24569,15.9,0
+Tarapacá,Válidamente emitidos,,0,154550,100.0,0
+Tarapacá,,PR,0,0,0.0,0
+Atacama,Partido Comunista,PC,0,0,0.0,0
+Atacama,Partido Humanista,PH,0,0,0.0,0
+Atacama,Alianza por Chile,RN,1,38212,38.9,1
+Atacama,Alianza por Chile,UDI,0,0,0.0,0
+Atacama,Partido Liberal,PL,0,0,0.0,0
+Atacama,Concertación,PDC,1,17750,18.07,0
+Atacama,Concertación,PPD,0,0,0.0,0
+Atacama,Concertación,PRSD,0,0,0.0,0
+Atacama,Concertación,PS,1,42263,43.03,1
+Atacama,Válidamente emitidos,,0,98225,100.0,0
+Atacama,,PR,0,0,0.0,0
+Valparaíso Cordillera,Partido Comunista,PC,1,11909,3.7,0
+Valparaíso Cordillera,Partido Humanista,PH,0,0,0.0,0
+Valparaíso Cordillera,Alianza por Chile,UDI,0,0,0.0,0
+Valparaíso Cordillera,Alianza por Chile,RN,2,137167,42.66,1
+Valparaíso Cordillera,Partido Liberal,PL,0,0,0.0,0
+Valparaíso Cordillera,Concertación,PDC,1,80042,24.89,0
+Valparaíso Cordillera,Concertación,PRSD,0,0,0.0,0
+Valparaíso Cordillera,Concertación,PS,1,92419,28.74,1
+Valparaíso Cordillera,Concertación,PPD,0,0,0.0,0
+Valparaíso Cordillera,Válidamente emitidos,,0,321537,100.0,0
+Valparaíso Cordillera,,PR,0,0,0.0,0
+Valparaíso Costa,Partido Comunista,PC,2,9163,2.57,0
+Valparaíso Costa,Partido Humanista,PH,1,5142,1.44,0
+Valparaíso Costa,Alianza por Chile,RN,0,0,0.0,0
+Valparaíso Costa,Alianza por Chile,UDI,0,0,0.0,0
+Valparaíso Costa,Partido Liberal,PL,0,0,0.0,0
+Valparaíso Costa,Concertación,PDC,1,67957,19.1,0
+Valparaíso Costa,Concertación,PRSD,0,0,0.0,0
+Valparaíso Costa,Concertación,PS,0,0,0.0,0
+Valparaíso Costa,Concertación,PPD,1,137125,38.53,1
+Valparaíso Costa,Válidamente emitidos,,0,355851,100.0,0
+Valparaíso Costa,,PR,0,0,0.0,0
+Maule Norte,Partido Comunista,PC,1,7211,2.83,0
+Maule Norte,Partido Humanista,PH,0,0,0.0,0
+Maule Norte,Alianza por Chile,UDI,1,104179,40.84,1
+Maule Norte,Alianza por Chile,RN,0,0,0.0,0
+Maule Norte,Partido Liberal,PL,0,0,0.0,0
+Maule Norte,Concertación,PDC,1,61754,24.21,0
+Maule Norte,Concertación,PPD,0,0,0.0,0
+Maule Norte,Concertación,PRSD,0,0,0.0,0
+Maule Norte,Concertación,PS,1,77828,30.51,1
+Maule Norte,Válidamente emitidos,,0,255107,100.0,0
+Maule Norte,,PR,0,0,0.0,0
+Maule Sur,Partido Comunista,PC,1,1988,1.32,0
+Maule Sur,Partido Humanista,PH,0,0,0.0,0
+Maule Sur,Alianza por Chile,RN,0,0,0.0,0
+Maule Sur,Alianza por Chile,UDI,1,66767,44.22,1
+Maule Sur,Partido Liberal,PL,1,1407,0.93,0
+Maule Sur,Concertación,PRSD,0,0,0.0,0
+Maule Sur,Concertación,PS,1,42395,28.08,1
+Maule Sur,Concertación,PDC,1,34502,22.85,0
+Maule Sur,Concertación,PPD,0,0,0.0,0
+Maule Sur,Válidamente emitidos,,0,151003,100.0,0
+Maule Sur,,PR,0,0,0.0,0
+Araucanía Norte,Partido Comunista,PC,1,4004,3.09,0
+Araucanía Norte,Partido Humanista,PH,0,0,0.0,0
+Araucanía Norte,Alianza por Chile,UDI,0,0,0.0,0
+Araucanía Norte,Alianza por Chile,RN,1,62813,48.5,1
+Araucanía Norte,Partido Liberal,PL,0,0,0.0,0
+Araucanía Norte,Concertación,PRSD,0,0,0.0,0
+Araucanía Norte,Concertación,PPD,1,35051,27.06,1
+Araucanía Norte,Concertación,PS,0,0,0.0,0
+Araucanía Norte,Concertación,PDC,1,27645,21.35,0
+Araucanía Norte,Válidamente emitidos,,0,129513,100.0,0
+Araucanía Norte,,PR,0,0,0.0,0
+Araucanía Sur,Partido Comunista,PC,1,5553,2.42,0
+Araucanía Sur,Partido Humanista,PH,0,0,0.0,0
+Araucanía Sur,Alianza por Chile,RN,1,79009,34.48,1
+Araucanía Sur,Alianza por Chile,UDI,1,53996,23.56,0
+Araucanía Sur,Partido Liberal,PL,0,0,0.0,0
+Araucanía Sur,Concertación,PDC,1,81022,35.36,1
+Araucanía Sur,Concertación,PPD,0,0,0.0,0
+Araucanía Sur,Concertación,PS,0,0,0.0,0
+Araucanía Sur,Concertación,PRSD,1,9557,4.17,0
+Araucanía Sur,Válidamente emitidos,,0,229137,100.0,0
+Araucanía Sur,,PR,0,0,0.0,0
+Aysén,Partido Comunista,PC,1,1099,2.93,0
+Aysén,Partido Humanista,PH,0,0,0.0,0
+Aysén,Alianza por Chile,UDI,0,0,0.0,0
+Aysén,Alianza por Chile,RN,0,0,0.0,0
+Aysén,Partido Liberal,PL,0,0,0.0,0
+Aysén,Concertación,PPD,0,0,0.0,0
+Aysén,Concertación,PRSD,1,9468,25.25,0
+Aysén,Concertación,PDC,1,11302,30.15,1
+Aysén,Concertación,PS,0,0,0.0,0
+Aysén,Candidatura Independiente,IND,1,2527,6.74,0
+Aysén,Válidamente emitidos,,0,37492,100.0,0
+Aysén,,PR,0,0,0.0,0

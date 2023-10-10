@@ -140,13 +140,14 @@ def siglas_partidos():
               'Partido Republicano': 'REPUBLICANO',
               #
               'Candidatura Independiente':'IND',
+              '^$':'^$',
               }
     return siglas
 
 #%%
 def pactos_electorales(eleccion):
     """
-    Información de pactos electorales en el período 1941-2021.
+    Información de pactos electorales en el período 1932-2021.
     Notar que para las elecciones de 1961-1969 los pactos no estaban permitidos, 
     sin embargo, estos existían por omisión.
 
@@ -238,7 +239,7 @@ def pactos_electorales(eleccion):
 
     elif eleccion == 1973: 
         partidos = ['PDC', 'PN', 'DR', 'PIR', 'PADENA', 'VL-CODE',
-                    'PS', 'PC', 'PR', 'MAPU', 'IC', 'API', 'VL-UP,'
+                    'PS', 'PC', 'PR', 'MAPU', 'IC', 'API', 'VL-UP',
                     'USOPO', 'VL-USOPO']
 
         listas = ['Confederación de la Democracia']*6 + ['Unidad Popular']*7 +['Unión Socialista Popular']*2 
@@ -344,17 +345,16 @@ def pactos_electorales(eleccion):
                  ['Asociación Gremial de Empleados de Chile']
         
     # elif eleccion == 1930:
-    #     liberales
-        
+    #     liberales        
     #     ibanistas: PD, parte del PC, CRAC
-
 
     # elif eleccion == 1925:
     #     Pacto Civil / Unidad Nacional Tradicionalista : PR PL PCon PLDe       
     #     Pacto Socialista-Republicano PD USRACH PS NAP PC PR disidentes
         
     else:
-        raise Exception('El año ingresado no corresponde a una elección, o bien el pacto asociado no se encuentra disponible')
+        return None        
+        # raise Exception('El año ingresado no corresponde a una elección, o bien el pacto asociado no se encuentra disponible')
          
     if partidos:    
         pactos = dict(zip(partidos, listas)) 

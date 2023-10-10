@@ -1,399 +1,552 @@
 Distrito,Lista/Pacto,Partido,Candidaturas,Votos,Porcentaje,Electos
-1,Confederación de la Democracia,VL-CODE,0,449,0.58,0
-1,Confederación de la Democracia,PN,2,16672,21.68,1
-1,Confederación de la Democracia,PDC,2,20340,26.45,1
-1,Unidad Popular,PC,2,26327,34.24,2
-1,Unidad Popular,PR,1,2985,3.88,0
-1,Unidad Popular,PS,1,7915,10.29,0
-1,Unidad Popular,VL-UP,0,510,0.66,0
-1,Unión Socialista Popular,VL-USOPO,0,31,0.04,0
-1,Unión Socialista Popular,USOPO,4,535,0.7,0
-1,Válidamente emitidos,,0,75764,98.53,0
-1,Nulos,,0,914,1.19,0
-1,Blancos,,0,219,0.28,0
-1,Total,,0,76897,100.0,0
-2,Confederación de la Democracia,PADENA,1,122,0.11,0
-2,Confederación de la Democracia,PDC,3,30516,27.58,2
-2,Confederación de la Democracia,PIR,1,2540,2.3,0
-2,Confederación de la Democracia,PN,2,19178,17.33,1
-2,Confederación de la Democracia,VL-CODE,0,524,0.47,0
-2,Unidad Popular,IC,1,212,0.19,0
-2,Unidad Popular,MAPU,1,1349,1.22,0
-2,Unidad Popular,PC,2,23696,21.42,2
-2,Unidad Popular,PR,1,8186,7.4,1
-2,Unidad Popular,PS,2,20980,18.96,1
-2,Unidad Popular,VL-UP,0,543,0.49,0
-2,Unión Socialista Popular,USOPO,5,1282,1.16,0
-2,Unión Socialista Popular,VL-USOPO,0,52,0.05,0
-2,Válidamente emitidos,,0,109180,98.68,0
-2,Nulos,,0,1144,1.03,0
-2,Blancos,,0,320,0.29,0
-2,Total,,0,110644,100.0,0
-3,Confederación de la Democracia,VL-CODE,0,379,0.63,0
-3,Confederación de la Democracia,PDC,1,19424,32.16,1
-3,Confederación de la Democracia,PIR,1,6883,11.4,0
-3,Unidad Popular,PR,1,5304,8.78,0
-3,Unidad Popular,VL-UP,0,502,0.83,0
-3,Unidad Popular,PS,1,26515,43.9,1
-3,Válidamente emitidos,,0,59007,97.7,0
-3,Nulos,,0,921,1.52,0
-3,Blancos,,0,470,0.78,0
-3,Total,,0,60398,100.0,0
-4,Confederación de la Democracia,PIR,1,4181,3.21,0
-4,Confederación de la Democracia,VL-CODE,0,688,0.53,0
-4,Confederación de la Democracia,PN,3,17004,13.07,0
-4,Confederación de la Democracia,PDC,3,36170,27.81,3
-4,Unidad Popular,IC,1,875,0.67,0
-4,Unidad Popular,API,1,12142,9.34,1
-4,Unidad Popular,MAPU,1,1380,1.06,0
-4,Unidad Popular,PC,1,22933,17.63,1
-4,Unidad Popular,PS,2,21060,16.19,1
-4,Unidad Popular,PR,1,9555,7.35,1
-4,Unidad Popular,VL-UP,0,996,0.77,0
-4,Válidamente emitidos,,0,126984,97.63,0
-4,Nulos,,0,1917,1.47,0
-4,Blancos,,0,1164,0.89,0
-4,Total,,0,130065,100.0,0
-5,Confederación de la Democracia,VL-CODE,0,601,0.83,0
-5,Confederación de la Democracia,PN,1,16538,22.78,1
-5,Confederación de la Democracia,PDC,2,21720,29.92,1
-5,Unidad Popular,VL-UP,0,588,0.81,0
-5,Unidad Popular,API,1,808,1.11,0
-5,Unidad Popular,PC,1,17259,23.78,1
-5,Unidad Popular,PS,1,13012,17.93,0
-5,Unión Socialista Popular,VL-USOPO,0,72,0.1,0
-5,Unión Socialista Popular,USOPO,2,864,1.19,0
-5,Válidamente emitidos,,0,71462,98.45,0
-5,Nulos,,0,873,1.2,0
-5,Blancos,,0,250,0.34,0
-5,Total,,0,72585,100.0,0
-6,Confederación de la Democracia,DR,1,5835,1.63,0
-6,Confederación de la Democracia,PIR,1,3597,1.01,0
-6,Confederación de la Democracia,PDC,6,102905,28.82,3
-6,Confederación de la Democracia,VL-CODE,0,4397,1.23,0
-6,Confederación de la Democracia,PN,4,90474,25.34,4
-6,Unidad Popular,PC,4,77784,21.78,3
-6,Unidad Popular,PR,1,11412,3.2,0
-6,Unidad Popular,PS,4,38992,10.92,2
-6,Unidad Popular,VL-UP,0,3610,1.01,0
-6,Unidad Popular,MAPU,1,7807,2.19,0
-6,Unidad Popular,IC,1,5279,1.48,0
-6,Unidad Popular,API,1,845,0.24,0
-6,Válidamente emitidos,,0,352937,98.85,0
-6,Nulos,,0,3132,0.88,0
-6,Blancos,,0,990,0.28,0
-6,Total,,0,357059,100.0,0
-8,Confederación de la Democracia,VL-CODE,0,1242,0.87,0
-8,Confederación de la Democracia,PIR,1,3118,2.19,0
-8,Confederación de la Democracia,PN,2,29682,20.83,1
-8,Confederación de la Democracia,PDC,2,45893,32.2,2
-8,Unidad Popular,MAPU,1,1785,1.25,0
-8,Unidad Popular,API,1,433,0.3,0
-8,Unidad Popular,PC,1,28195,19.78,1
-8,Unidad Popular,PR,1,8519,5.98,0
-8,Unidad Popular,VL-UP,0,1455,1.02,0
-8,Unidad Popular,PS,1,19515,13.69,1
-8,Válidamente emitidos,,0,139837,98.12,0
-8,Nulos,,0,1667,1.17,0
-8,Blancos,,0,1010,0.71,0
-8,Total,,0,142514,100.0,0
-9,Confederación de la Democracia,PDC,3,35924,28.28,2
-9,Confederación de la Democracia,PN,2,26578,20.92,1
-9,Confederación de la Democracia,VL-CODE,0,1047,0.82,0
-9,Confederación de la Democracia,DR,1,1120,0.88,0
-9,Unidad Popular,IC,1,471,0.37,0
-9,Unidad Popular,MAPU,1,1297,1.02,0
-9,Unidad Popular,PC,1,20691,16.29,1
-9,Unidad Popular,PR,1,8215,6.47,1
-9,Unidad Popular,PS,1,28717,22.61,1
-9,Unidad Popular,VL-UP,0,874,0.69,0
-9,Válidamente emitidos,,0,124934,98.35,0
-9,Nulos,,0,1624,1.28,0
-9,Blancos,,0,477,0.38,0
-9,Total,,0,127035,100.0,0
-10,Confederación de la Democracia,PDC,2,16950,26.5,1
-10,Confederación de la Democracia,VL-CODE,0,280,0.44,0
-10,Confederación de la Democracia,PN,2,18691,29.22,1
-10,Unidad Popular,MAPU,1,4152,6.49,0
-10,Unidad Popular,PS,1,13264,20.73,1
-10,Unidad Popular,VL-UP,0,306,0.48,0
-10,Unidad Popular,PC,1,5735,8.97,1
-10,Unidad Popular,PR,1,3661,5.72,0
-10,Unión Socialista Popular,USOPO,1,201,0.31,0
-10,Válidamente emitidos,,0,63240,98.86,0
-10,Nulos,,0,534,0.83,0
-10,Blancos,,0,196,0.31,0
-10,Total,,0,63970,100.0,0
-11,Confederación de la Democracia,VL-CODE,0,280,0.59,0
-11,Confederación de la Democracia,DR,1,2517,5.32,0
-11,Confederación de la Democracia,PDC,1,14114,29.81,1
-11,Confederación de la Democracia,PN,1,7419,15.67,1
-11,Unidad Popular,PC,1,10291,21.73,1
-11,Unidad Popular,PR,1,2511,5.3,0
-11,Unidad Popular,PS,1,8194,17.3,0
-11,Unidad Popular,VL-UP,0,403,0.85,0
-11,Unión Socialista Popular,VL-USOPO,0,50,0.11,0
-11,Unión Socialista Popular,USOPO,2,445,0.94,0
-11,Válidamente emitidos,,0,46224,97.62,0
-11,Nulos,,0,737,1.56,0
-11,Blancos,,0,392,0.83,0
-11,Total,,0,47353,100.0,0
-12,Confederación de la Democracia,VL-CODE,0,514,0.59,0
-12,Confederación de la Democracia,PN,2,19800,22.77,2
-12,Confederación de la Democracia,PDC,2,19413,22.33,1
-12,Confederación de la Democracia,DR,1,3376,3.88,0
-12,Unidad Popular,MAPU,1,4633,5.33,0
-12,Unidad Popular,PR,1,2662,3.06,0
-12,Unidad Popular,PS,1,16904,19.44,1
-12,Unidad Popular,VL-UP,0,722,0.83,0
-12,Unidad Popular,API,1,368,0.42,0
-12,Unidad Popular,PC,1,16724,19.23,1
-12,Válidamente emitidos,,0,85116,97.9,0
-12,Nulos,,0,1148,1.32,0
-12,Blancos,,0,682,0.78,0
-12,Total,,0,86946,100.0,0
-13,Confederación de la Democracia,VL-CODE,0,436,1.19,0
-13,Confederación de la Democracia,PN,1,10054,27.36,1
-13,Confederación de la Democracia,PIR,1,2113,5.75,0
-13,Confederación de la Democracia,PDC,1,8680,23.62,1
-13,Unidad Popular,API,3,13866,37.74,1
-13,Unidad Popular,VL-UP,0,409,1.11,0
-13,Unión Socialista Popular,USOPO,1,169,0.46,0
-13,Válidamente emitidos,,0,35727,97.24,0
-13,Nulos,,0,602,1.64,0
-13,Blancos,,0,413,1.12,0
-13,Total,,0,36742,100.0,0
-14,Confederación de la Democracia,VL-CODE,0,497,0.67,0
-14,Confederación de la Democracia,PN,1,18341,24.67,1
-14,Confederación de la Democracia,PDC,2,19769,26.59,1
-14,Confederación de la Democracia,PIR,1,4191,5.64,0
-14,Unidad Popular,VL-UP,0,634,0.85,0
-14,Unidad Popular,API,1,633,0.85,0
-14,Unidad Popular,MAPU,1,8381,11.27,1
-14,Unidad Popular,PR,1,3063,4.12,0
-14,Unidad Popular,PS,1,16848,22.66,1
-14,Unión Socialista Popular,USOPO,1,252,0.34,0
-14,Válidamente emitidos,,0,72609,97.67,0
-14,Nulos,,0,1111,1.49,0
-14,Blancos,,0,620,0.83,0
-14,Total,,0,74340,100.0,0
-15,Confederación de la Democracia,DR,1,4383,12.04,0
-15,Confederación de la Democracia,PDC,1,13054,35.85,1
-15,Confederación de la Democracia,PN,1,6582,18.08,1
-15,Confederación de la Democracia,VL-CODE,0,175,0.48,0
-15,Unidad Popular,PR,1,2256,6.2,0
-15,Unidad Popular,PS,1,7798,21.42,1
-15,Unidad Popular,VL-UP,0,221,0.61,0
-15,Unidad Popular,IC,1,1522,4.18,0
-15,Válidamente emitidos,,0,35991,98.85,0
-15,Nulos,,0,287,0.79,0
-15,Blancos,,0,131,0.36,0
-15,Total,,0,36409,100.0,0
-16,Confederación de la Democracia,PDC,2,25377,30.24,2
-16,Confederación de la Democracia,PN,2,19204,22.88,1
-16,Confederación de la Democracia,PIR,1,3097,3.69,0
-16,Confederación de la Democracia,VL-CODE,0,424,0.51,0
-16,Unidad Popular,IC,1,472,0.56,0
-16,Unidad Popular,MAPU,1,1389,1.66,0
-16,Unidad Popular,PC,1,11442,13.63,1
-16,Unidad Popular,PR,1,2738,3.26,0
-16,Unidad Popular,VL-UP,0,362,0.43,0
-16,Unidad Popular,PS,1,18514,22.06,1
-16,Válidamente emitidos,,0,83019,98.93,0
-16,Nulos,,0,658,0.78,0
-16,Blancos,,0,244,0.29,0
-16,Total,,0,83921,100.0,0
-17,Confederación de la Democracia,VL-CODE,0,1387,0.53,0
-17,Confederación de la Democracia,PN,2,31483,12.07,1
-17,Confederación de la Democracia,PIR,1,4583,1.76,0
-17,Confederación de la Democracia,PDC,4,76377,29.28,3
-17,Confederación de la Democracia,PADENA,1,927,0.36,0
-17,Unidad Popular,MAPU,1,17632,6.76,1
-17,Unidad Popular,PC,3,55918,21.43,2
-17,Unidad Popular,IC,1,1828,0.7,0
-17,Unidad Popular,PS,3,51008,19.55,2
-17,Unidad Popular,VL-UP,0,2374,0.91,0
-17,Unidad Popular,PR,1,13404,5.14,0
-17,Unión Socialista Popular,VL-USOPO,0,167,0.06,0
-17,Unión Socialista Popular,USOPO,5,1057,0.41,0
-17,Válidamente emitidos,,0,258145,98.95,0
-17,Nulos,,0,1993,0.76,0
-17,Blancos,,0,736,0.28,0
-17,Total,,0,260874,100.0,0
-18,Confederación de la Democracia,VL-CODE,0,184,0.49,0
-18,Confederación de la Democracia,PDC,1,8245,21.96,1
-18,Confederación de la Democracia,DR,1,4209,11.21,0
-18,Unidad Popular,PC,1,18372,48.93,1
-18,Unidad Popular,PR,1,5101,13.59,0
-18,Unidad Popular,VL-UP,0,583,1.55,0
-18,Unión Socialista Popular,USOPO,1,158,0.42,0
-18,Válidamente emitidos,,0,36852,98.15,0
-18,Nulos,,0,513,1.37,0
-18,Blancos,,0,182,0.48,0
-18,Total,,0,37547,100.0,0
-19,Confederación de la Democracia,PN,2,19088,26.46,1
-19,Confederación de la Democracia,PDC,2,19411,26.91,1
-19,Confederación de la Democracia,VL-CODE,0,535,0.74,0
-19,Unidad Popular,VL-UP,0,783,1.09,0
-19,Unidad Popular,PR,1,1994,2.76,0
-19,Unidad Popular,PS,1,9156,12.69,1
-19,Unidad Popular,MAPU,1,2012,2.79,0
-19,Unidad Popular,PC,1,17078,23.68,1
-19,Válidamente emitidos,,0,70057,97.12,0
-19,Nulos,,0,1483,2.06,0
-19,Blancos,,0,591,0.82,0
-19,Total,,0,72131,100.0,0
-20,Confederación de la Democracia,PDC,2,14583,21.78,2
-20,Confederación de la Democracia,PIR,1,7352,10.98,1
-20,Confederación de la Democracia,PN,3,15696,23.44,1
-20,Confederación de la Democracia,VL-CODE,0,449,0.67,0
-20,Unidad Popular,PR,1,8288,12.38,1
-20,Unidad Popular,VL-UP,0,491,0.73,0
-20,Unidad Popular,MAPU,1,2106,3.15,0
-20,Unidad Popular,IC,1,751,1.12,0
-20,Unidad Popular,API,1,277,0.41,0
-20,Unidad Popular,PC,1,6898,10.3,0
-20,Unidad Popular,PS,1,8302,12.4,1
-20,Unión Socialista Popular,USOPO,1,143,0.21,0
-20,Válidamente emitidos,,0,65336,97.58,0
-20,Nulos,,0,938,1.4,0
-20,Blancos,,0,683,1.02,0
-20,Total,,0,66957,100.0,0
-21,Confederación de la Democracia,DR,1,6661,4.76,1
-21,Confederación de la Democracia,PDC,4,42237,30.17,4
-21,Confederación de la Democracia,VL-CODE,0,801,0.57,0
-21,Confederación de la Democracia,PN,4,37066,26.48,2
-21,Confederación de la Democracia,PIR,1,2269,1.62,0
-21,Unidad Popular,PR,2,5387,3.85,1
-21,Unidad Popular,PC,2,16058,11.47,1
-21,Unidad Popular,MAPU,1,2596,1.85,0
-21,Unidad Popular,IC,2,3842,2.74,0
-21,Unidad Popular,PS,3,18389,13.14,1
-21,Unidad Popular,VL-UP,0,1218,0.87,0
-21,Unión Socialista Popular,VL-USOPO,0,89,0.06,0
-21,Unión Socialista Popular,USOPO,3,733,0.52,0
-21,Válidamente emitidos,,0,137346,98.12,0
-21,Nulos,,0,1398,1.0,0
-21,Blancos,,0,1236,0.88,0
-21,Total,,0,139980,100.0,0
-22,Confederación de la Democracia,VL-CODE,0,412,0.41,0
-22,Confederación de la Democracia,PN,2,26828,26.64,2
-22,Confederación de la Democracia,PIR,1,1651,1.64,0
-22,Confederación de la Democracia,PDC,2,22828,22.67,1
-22,Unidad Popular,PS,2,30607,30.39,2
-22,Unidad Popular,PC,1,12630,12.54,0
-22,Unidad Popular,MAPU,1,1745,1.73,0
-22,Unidad Popular,VL-UP,0,626,0.62,0
-22,Unidad Popular,PR,1,2147,2.13,0
-22,Válidamente emitidos,,0,99474,98.78,0
-22,Nulos,,0,949,0.94,0
-22,Blancos,,0,280,0.28,0
-22,Total,,0,100703,100.0,0
-23,Confederación de la Democracia,PDC,1,13088,22.48,1
-23,Confederación de la Democracia,VL-CODE,0,243,0.42,0
-23,Confederación de la Democracia,PIR,1,4717,8.1,0
-23,Confederación de la Democracia,PN,1,14934,25.65,1
-23,Unidad Popular,PC,1,12441,21.37,1
-23,Unidad Popular,PS,1,9082,15.6,0
-23,Unidad Popular,PR,1,2553,4.39,0
-23,Unidad Popular,VL-UP,0,315,0.54,0
-23,Unión Socialista Popular,USOPO,1,234,0.4,0
-23,Válidamente emitidos,,0,57607,98.95,0
-23,Nulos,,0,469,0.81,0
-23,Blancos,,0,140,0.24,0
-23,Total,,0,58216,100.0,0
-24,Confederación de la Democracia,PDC,1,16591,28.43,1
-24,Confederación de la Democracia,PIR,1,2861,4.9,0
-24,Confederación de la Democracia,PN,1,16091,27.57,1
-24,Confederación de la Democracia,VL-CODE,0,450,0.77,0
-24,Unidad Popular,PS,1,12322,21.11,1
-24,Unidad Popular,VL-UP,0,361,0.62,0
-24,Unidad Popular,PC,1,6465,11.08,0
-24,Unidad Popular,MAPU,1,2481,4.25,0
-24,Unión Socialista Popular,USOPO,1,104,0.18,0
-24,Válidamente emitidos,,0,57726,98.91,0
-24,Nulos,,0,437,0.75,0
-24,Blancos,,0,199,0.34,0
-24,Total,,0,58362,100.0,0
-25,Confederación de la Democracia,PDC,1,7977,23.9,1
-25,Confederación de la Democracia,VL-CODE,0,93,0.28,0
-25,Confederación de la Democracia,PN,1,7731,23.17,1
-25,Confederación de la Democracia,DR,1,3079,9.23,0
-25,Unidad Popular,PC,1,1799,5.39,0
-25,Unidad Popular,PR,1,4509,13.51,0
-25,Unidad Popular,PS,1,7223,21.64,1
-25,Unidad Popular,VL-UP,0,89,0.27,0
-25,Válidamente emitidos,,0,32500,97.39,0
-25,Nulos,,0,448,1.34,0
-25,Blancos,,0,424,1.27,0
-25,Total,,0,33372,100.0,0
-26,Confederación de la Democracia,PDC,1,6322,34.95,1
-26,Confederación de la Democracia,VL-CODE,0,54,0.3,0
-26,Confederación de la Democracia,PN,1,4103,22.68,0
-26,Unidad Popular,VL-UP,0,51,0.28,0
-26,Unidad Popular,PC,1,2894,16.0,0
-26,Unidad Popular,PS,1,3963,21.91,1
-26,Unión Socialista Popular,USOPO,1,386,2.13,0
-26,Válidamente emitidos,,0,17773,98.24,0
-26,Nulos,,0,197,1.09,0
-26,Blancos,,0,121,0.67,0
-26,Total,,0,18091,100.0,0
-27,Confederación de la Democracia,VL-CODE,0,306,0.77,0
-27,Confederación de la Democracia,PDC,1,13966,35.18,1
-27,Confederación de la Democracia,DR,1,5178,13.04,0
-27,Unidad Popular,VL-UP,0,453,1.14,0
-27,Unidad Popular,IC,1,1420,3.58,0
-27,Unidad Popular,PS,1,14721,37.08,1
-27,Unión Socialista Popular,VL-USOPO,0,52,0.13,0
-27,Unión Socialista Popular,USOPO,2,2672,6.73,0
-27,Válidamente emitidos,,0,38768,97.65,0
-27,Nulos,,0,567,1.43,0
-27,Blancos,,0,364,0.92,0
-27,Total,,0,39699,100.0,0
-71,Confederación de la Democracia,VL-CODE,0,5296,1.35,0
-71,Confederación de la Democracia,PN,6,86827,22.15,5
-71,Confederación de la Democracia,DR,2,23552,6.01,1
-71,Confederación de la Democracia,PADENA,1,959,0.24,0
-71,Confederación de la Democracia,PDC,8,127044,32.41,6
-71,Confederación de la Democracia,PIR,1,3827,0.98,0
-71,Unidad Popular,IC,1,14092,3.59,1
-71,Unidad Popular,API,1,600,0.15,0
-71,Unidad Popular,MAPU,1,4145,1.06,0
-71,Unidad Popular,PC,3,53222,13.58,2
-71,Unidad Popular,VL-UP,0,4502,1.15,0
-71,Unidad Popular,PS,3,52726,13.45,3
-71,Unidad Popular,PR,1,9839,2.51,0
-71,Unión Socialista Popular,USOPO,1,539,0.14,0
-71,Válidamente emitidos,,0,387170,98.76,0
-71,Nulos,,0,2453,0.63,0
-71,Blancos,,0,2410,0.61,0
-71,Total,,0,392033,100.0,0
-72,Confederación de la Democracia,VL-CODE,0,4288,1.32,0
-72,Confederación de la Democracia,PADENA,1,11341,3.5,0
-72,Confederación de la Democracia,PIR,1,3186,0.98,0
-72,Confederación de la Democracia,PN,1,52639,16.24,1
-72,Confederación de la Democracia,PDC,2,88891,27.43,2
-72,Unidad Popular,VL-UP,0,3984,1.23,0
-72,Unidad Popular,PS,1,90508,27.92,1
-72,Unidad Popular,PR,1,3631,1.12,0
-72,Unidad Popular,PC,1,45661,14.09,1
-72,Unidad Popular,MAPU,1,8887,2.74,0
-72,Unidad Popular,IC,1,5186,1.6,0
-72,Válidamente emitidos,,0,318202,98.18,0
-72,Nulos,,0,3564,1.1,0
-72,Blancos,,0,2349,0.72,0
-72,Total,,0,324115,100.0,0
-73,Confederación de la Democracia,DR,1,6821,1.19,0
-73,Confederación de la Democracia,PDC,2,162309,28.32,2
-73,Confederación de la Democracia,VL-CODE,0,7494,1.31,0
-73,Confederación de la Democracia,PN,2,155628,27.15,1
-73,Unidad Popular,VL-UP,0,6773,1.18,0
-73,Unidad Popular,IC,1,5639,0.98,0
-73,Unidad Popular,PS,1,112556,19.64,1
-73,Unidad Popular,PR,1,5825,1.02,0
-73,Unidad Popular,PC,1,83225,14.52,1
-73,Unidad Popular,MAPU,1,18815,3.28,0
-73,Válidamente emitidos,,0,565085,98.59,0
-73,Nulos,,0,4961,0.87,0
-73,Blancos,,0,3124,0.55,0
-73,Total,,0,573170,100.0,0
+Tarapacá,Confederación de la Democracia,PDC,2,20340,26.45,1
+Tarapacá,Confederación de la Democracia,PADENA,0,0,0.0,0
+Tarapacá,Confederación de la Democracia,PIR,0,0,0.0,0
+Tarapacá,Confederación de la Democracia,PN,2,16672,21.68,1
+Tarapacá,Confederación de la Democracia,VL-CODE,0,449,0.58,0
+Tarapacá,Confederación de la Democracia,DR,0,0,0.0,0
+Tarapacá,Unidad Popular,API,0,0,0.0,0
+Tarapacá,Unidad Popular,VL-UP,0,510,0.66,0
+Tarapacá,Unidad Popular,PS,1,7915,10.29,0
+Tarapacá,Unidad Popular,PR,1,2985,3.88,0
+Tarapacá,Unidad Popular,PC,2,26327,34.24,2
+Tarapacá,Unidad Popular,MAPU,0,0,0.0,0
+Tarapacá,Unidad Popular,IC,0,0,0.0,0
+Tarapacá,Unión Socialista Popular,VL-USOPO,0,31,0.04,0
+Tarapacá,Unión Socialista Popular,USOPO,4,535,0.7,0
+Tarapacá,Válidamente emitidos,,0,75764,98.53,0
+Tarapacá,Nulos,,0,914,1.19,0
+Tarapacá,Blancos,,0,219,0.28,0
+Tarapacá,Total,,0,76897,100.0,0
+Antofagasta,Confederación de la Democracia,PADENA,1,122,0.11,0
+Antofagasta,Confederación de la Democracia,PN,2,19178,17.33,1
+Antofagasta,Confederación de la Democracia,PIR,1,2540,2.3,0
+Antofagasta,Confederación de la Democracia,PDC,3,30516,27.58,2
+Antofagasta,Confederación de la Democracia,DR,0,0,0.0,0
+Antofagasta,Confederación de la Democracia,VL-CODE,0,524,0.47,0
+Antofagasta,Unidad Popular,API,0,0,0.0,0
+Antofagasta,Unidad Popular,IC,1,212,0.19,0
+Antofagasta,Unidad Popular,VL-UP,0,543,0.49,0
+Antofagasta,Unidad Popular,PS,2,20980,18.96,1
+Antofagasta,Unidad Popular,PR,1,8186,7.4,1
+Antofagasta,Unidad Popular,MAPU,1,1349,1.22,0
+Antofagasta,Unidad Popular,PC,2,23696,21.42,2
+Antofagasta,Unión Socialista Popular,VL-USOPO,0,52,0.05,0
+Antofagasta,Unión Socialista Popular,USOPO,5,1282,1.16,0
+Antofagasta,Válidamente emitidos,,0,109180,98.68,0
+Antofagasta,Nulos,,0,1144,1.03,0
+Antofagasta,Blancos,,0,320,0.29,0
+Antofagasta,Total,,0,110644,100.0,0
+Atacama,Confederación de la Democracia,PIR,1,6883,11.4,0
+Atacama,Confederación de la Democracia,PDC,1,19424,32.16,1
+Atacama,Confederación de la Democracia,PADENA,0,0,0.0,0
+Atacama,Confederación de la Democracia,VL-CODE,0,379,0.63,0
+Atacama,Confederación de la Democracia,DR,0,0,0.0,0
+Atacama,Confederación de la Democracia,PN,0,0,0.0,0
+Atacama,Unidad Popular,VL-UP,0,502,0.83,0
+Atacama,Unidad Popular,PS,1,26515,43.9,1
+Atacama,Unidad Popular,PR,1,5304,8.78,0
+Atacama,Unidad Popular,PC,0,0,0.0,0
+Atacama,Unidad Popular,MAPU,0,0,0.0,0
+Atacama,Unidad Popular,IC,0,0,0.0,0
+Atacama,Unidad Popular,API,0,0,0.0,0
+Atacama,Unión Socialista Popular,VL-USOPO,0,0,0.0,0
+Atacama,Unión Socialista Popular,USOPO,0,0,0.0,0
+Atacama,Válidamente emitidos,,0,59007,97.7,0
+Atacama,Nulos,,0,921,1.52,0
+Atacama,Blancos,,0,470,0.78,0
+Atacama,Total,,0,60398,100.0,0
+Coquimbo,Confederación de la Democracia,VL-CODE,0,688,0.53,0
+Coquimbo,Confederación de la Democracia,DR,0,0,0.0,0
+Coquimbo,Confederación de la Democracia,PADENA,0,0,0.0,0
+Coquimbo,Confederación de la Democracia,PDC,3,36170,27.81,3
+Coquimbo,Confederación de la Democracia,PIR,1,4181,3.21,0
+Coquimbo,Confederación de la Democracia,PN,3,17004,13.07,0
+Coquimbo,Unidad Popular,API,1,12142,9.34,1
+Coquimbo,Unidad Popular,VL-UP,0,996,0.77,0
+Coquimbo,Unidad Popular,IC,1,875,0.67,0
+Coquimbo,Unidad Popular,PS,2,21060,16.19,1
+Coquimbo,Unidad Popular,PR,1,9555,7.35,1
+Coquimbo,Unidad Popular,PC,1,22933,17.63,1
+Coquimbo,Unidad Popular,MAPU,1,1380,1.06,0
+Coquimbo,Unión Socialista Popular,VL-USOPO,0,0,0.0,0
+Coquimbo,Unión Socialista Popular,USOPO,0,0,0.0,0
+Coquimbo,Válidamente emitidos,,0,126984,97.63,0
+Coquimbo,Nulos,,0,1917,1.47,0
+Coquimbo,Blancos,,0,1164,0.89,0
+Coquimbo,Total,,0,130065,100.0,0
+Aconcagua,Confederación de la Democracia,DR,0,0,0.0,0
+Aconcagua,Confederación de la Democracia,PADENA,0,0,0.0,0
+Aconcagua,Confederación de la Democracia,PDC,2,21720,29.92,1
+Aconcagua,Confederación de la Democracia,PN,1,16538,22.78,1
+Aconcagua,Confederación de la Democracia,VL-CODE,0,601,0.83,0
+Aconcagua,Confederación de la Democracia,PIR,0,0,0.0,0
+Aconcagua,Unidad Popular,MAPU,0,0,0.0,0
+Aconcagua,Unidad Popular,PR,0,0,0.0,0
+Aconcagua,Unidad Popular,PS,1,13012,17.93,0
+Aconcagua,Unidad Popular,IC,0,0,0.0,0
+Aconcagua,Unidad Popular,API,1,808,1.11,0
+Aconcagua,Unidad Popular,VL-UP,0,588,0.81,0
+Aconcagua,Unidad Popular,PC,1,17259,23.78,1
+Aconcagua,Unión Socialista Popular,VL-USOPO,0,72,0.1,0
+Aconcagua,Unión Socialista Popular,USOPO,2,864,1.19,0
+Aconcagua,Válidamente emitidos,,0,71462,98.45,0
+Aconcagua,Nulos,,0,873,1.2,0
+Aconcagua,Blancos,,0,250,0.34,0
+Aconcagua,Total,,0,72585,100.0,0
+Valparaíso,Confederación de la Democracia,VL-CODE,0,4397,1.23,0
+Valparaíso,Confederación de la Democracia,PDC,6,102905,28.82,3
+Valparaíso,Confederación de la Democracia,DR,1,5835,1.63,0
+Valparaíso,Confederación de la Democracia,PN,4,90474,25.34,4
+Valparaíso,Confederación de la Democracia,PIR,1,3597,1.01,0
+Valparaíso,Confederación de la Democracia,PADENA,0,0,0.0,0
+Valparaíso,Unidad Popular,API,1,845,0.24,0
+Valparaíso,Unidad Popular,IC,1,5279,1.48,0
+Valparaíso,Unidad Popular,MAPU,1,7807,2.19,0
+Valparaíso,Unidad Popular,PC,4,77784,21.78,3
+Valparaíso,Unidad Popular,PR,1,11412,3.2,0
+Valparaíso,Unidad Popular,PS,4,38992,10.92,2
+Valparaíso,Unidad Popular,VL-UP,0,3610,1.01,0
+Valparaíso,Unión Socialista Popular,USOPO,0,0,0.0,0
+Valparaíso,Unión Socialista Popular,VL-USOPO,0,0,0.0,0
+Valparaíso,Válidamente emitidos,,0,352937,98.85,0
+Valparaíso,Nulos,,0,3132,0.88,0
+Valparaíso,Blancos,,0,990,0.28,0
+Valparaíso,Total,,0,357059,100.0,0
+Santiago-1,Confederación de la Democracia,VL-CODE,0,5296,1.35,0
+Santiago-1,Confederación de la Democracia,DR,2,23552,6.01,1
+Santiago-1,Confederación de la Democracia,PDC,8,127044,32.41,6
+Santiago-1,Confederación de la Democracia,PIR,1,3827,0.98,0
+Santiago-1,Confederación de la Democracia,PN,6,86827,22.15,5
+Santiago-1,Confederación de la Democracia,PADENA,1,959,0.24,0
+Santiago-1,Unidad Popular,IC,1,14092,3.59,1
+Santiago-1,Unidad Popular,MAPU,1,4145,1.06,0
+Santiago-1,Unidad Popular,PC,3,53222,13.58,2
+Santiago-1,Unidad Popular,PR,1,9839,2.51,0
+Santiago-1,Unidad Popular,PS,3,52726,13.45,3
+Santiago-1,Unidad Popular,VL-UP,0,4502,1.15,0
+Santiago-1,Unidad Popular,API,1,600,0.15,0
+Santiago-1,Unión Socialista Popular,VL-USOPO,0,0,0.0,0
+Santiago-1,Unión Socialista Popular,USOPO,1,539,0.14,0
+Santiago-1,Válidamente emitidos,,0,387170,98.76,0
+Santiago-1,Nulos,,0,2453,0.63,0
+Santiago-1,Blancos,,0,2410,0.61,0
+Santiago-1,Total,,0,392033,100.0,0
+Santiago-2,Confederación de la Democracia,PADENA,1,11341,3.5,0
+Santiago-2,Confederación de la Democracia,PDC,2,88891,27.43,2
+Santiago-2,Confederación de la Democracia,PIR,1,3186,0.98,0
+Santiago-2,Confederación de la Democracia,PN,1,52639,16.24,1
+Santiago-2,Confederación de la Democracia,VL-CODE,0,4288,1.32,0
+Santiago-2,Confederación de la Democracia,DR,0,0,0.0,0
+Santiago-2,Unidad Popular,VL-UP,0,3984,1.23,0
+Santiago-2,Unidad Popular,PS,1,90508,27.92,1
+Santiago-2,Unidad Popular,PR,1,3631,1.12,0
+Santiago-2,Unidad Popular,API,0,0,0.0,0
+Santiago-2,Unidad Popular,IC,1,5186,1.6,0
+Santiago-2,Unidad Popular,MAPU,1,8887,2.74,0
+Santiago-2,Unidad Popular,PC,1,45661,14.09,1
+Santiago-2,Unión Socialista Popular,USOPO,0,0,0.0,0
+Santiago-2,Unión Socialista Popular,VL-USOPO,0,0,0.0,0
+Santiago-2,Válidamente emitidos,,0,318202,98.18,0
+Santiago-2,Nulos,,0,3564,1.1,0
+Santiago-2,Blancos,,0,2349,0.72,0
+Santiago-2,Total,,0,324115,100.0,0
+Santiago-3,Confederación de la Democracia,PN,2,155628,27.15,1
+Santiago-3,Confederación de la Democracia,DR,1,6821,1.19,0
+Santiago-3,Confederación de la Democracia,PADENA,0,0,0.0,0
+Santiago-3,Confederación de la Democracia,PDC,2,162309,28.32,2
+Santiago-3,Confederación de la Democracia,PIR,0,0,0.0,0
+Santiago-3,Confederación de la Democracia,VL-CODE,0,7494,1.31,0
+Santiago-3,Unidad Popular,API,0,0,0.0,0
+Santiago-3,Unidad Popular,IC,1,5639,0.98,0
+Santiago-3,Unidad Popular,MAPU,1,18815,3.28,0
+Santiago-3,Unidad Popular,PC,1,83225,14.52,1
+Santiago-3,Unidad Popular,PR,1,5825,1.02,0
+Santiago-3,Unidad Popular,PS,1,112556,19.64,1
+Santiago-3,Unidad Popular,VL-UP,0,6773,1.18,0
+Santiago-3,Unión Socialista Popular,VL-USOPO,0,0,0.0,0
+Santiago-3,Unión Socialista Popular,USOPO,0,0,0.0,0
+Santiago-3,Válidamente emitidos,,0,565085,98.59,0
+Santiago-3,Nulos,,0,4961,0.87,0
+Santiago-3,Blancos,,0,3124,0.55,0
+Santiago-3,Total,,0,573170,100.0,0
+Santiago-4,Confederación de la Democracia,VL-CODE,0,1242,0.87,0
+Santiago-4,Confederación de la Democracia,PN,2,29682,20.83,1
+Santiago-4,Confederación de la Democracia,PDC,2,45893,32.2,2
+Santiago-4,Confederación de la Democracia,PIR,1,3118,2.19,0
+Santiago-4,Confederación de la Democracia,DR,0,0,0.0,0
+Santiago-4,Confederación de la Democracia,PADENA,0,0,0.0,0
+Santiago-4,Unidad Popular,API,1,433,0.3,0
+Santiago-4,Unidad Popular,IC,0,0,0.0,0
+Santiago-4,Unidad Popular,MAPU,1,1785,1.25,0
+Santiago-4,Unidad Popular,PR,1,8519,5.98,0
+Santiago-4,Unidad Popular,PS,1,19515,13.69,1
+Santiago-4,Unidad Popular,VL-UP,0,1455,1.02,0
+Santiago-4,Unidad Popular,PC,1,28195,19.78,1
+Santiago-4,Unión Socialista Popular,USOPO,0,0,0.0,0
+Santiago-4,Unión Socialista Popular,VL-USOPO,0,0,0.0,0
+Santiago-4,Válidamente emitidos,,0,139837,98.12,0
+Santiago-4,Nulos,,0,1667,1.17,0
+Santiago-4,Blancos,,0,1010,0.71,0
+Santiago-4,Total,,0,142514,100.0,0
+O'Higgins,Confederación de la Democracia,DR,1,1120,0.88,0
+O'Higgins,Confederación de la Democracia,PADENA,0,0,0.0,0
+O'Higgins,Confederación de la Democracia,PDC,3,35924,28.28,2
+O'Higgins,Confederación de la Democracia,PIR,0,0,0.0,0
+O'Higgins,Confederación de la Democracia,PN,2,26578,20.92,1
+O'Higgins,Confederación de la Democracia,VL-CODE,0,1047,0.82,0
+O'Higgins,Unidad Popular,PS,1,28717,22.61,1
+O'Higgins,Unidad Popular,API,0,0,0.0,0
+O'Higgins,Unidad Popular,IC,1,471,0.37,0
+O'Higgins,Unidad Popular,MAPU,1,1297,1.02,0
+O'Higgins,Unidad Popular,PC,1,20691,16.29,1
+O'Higgins,Unidad Popular,PR,1,8215,6.47,1
+O'Higgins,Unidad Popular,VL-UP,0,874,0.69,0
+O'Higgins,Unión Socialista Popular,VL-USOPO,0,0,0.0,0
+O'Higgins,Unión Socialista Popular,USOPO,0,0,0.0,0
+O'Higgins,Válidamente emitidos,,0,124934,98.35,0
+O'Higgins,Nulos,,0,1624,1.28,0
+O'Higgins,Blancos,,0,477,0.38,0
+O'Higgins,Total,,0,127035,100.0,0
+Colchagua,Confederación de la Democracia,DR,0,0,0.0,0
+Colchagua,Confederación de la Democracia,PADENA,0,0,0.0,0
+Colchagua,Confederación de la Democracia,PDC,2,16950,26.5,1
+Colchagua,Confederación de la Democracia,PIR,0,0,0.0,0
+Colchagua,Confederación de la Democracia,PN,2,18691,29.22,1
+Colchagua,Confederación de la Democracia,VL-CODE,0,280,0.44,0
+Colchagua,Unidad Popular,API,0,0,0.0,0
+Colchagua,Unidad Popular,IC,0,0,0.0,0
+Colchagua,Unidad Popular,MAPU,1,4152,6.49,0
+Colchagua,Unidad Popular,PC,1,5735,8.97,1
+Colchagua,Unidad Popular,PR,1,3661,5.72,0
+Colchagua,Unidad Popular,PS,1,13264,20.73,1
+Colchagua,Unidad Popular,VL-UP,0,306,0.48,0
+Colchagua,Unión Socialista Popular,USOPO,1,201,0.31,0
+Colchagua,Unión Socialista Popular,VL-USOPO,0,0,0.0,0
+Colchagua,Válidamente emitidos,,0,63240,98.86,0
+Colchagua,Nulos,,0,534,0.83,0
+Colchagua,Blancos,,0,196,0.31,0
+Colchagua,Total,,0,63970,100.0,0
+Curicó,Confederación de la Democracia,DR,1,2517,5.32,0
+Curicó,Confederación de la Democracia,PADENA,0,0,0.0,0
+Curicó,Confederación de la Democracia,PDC,1,14114,29.81,1
+Curicó,Confederación de la Democracia,PIR,0,0,0.0,0
+Curicó,Confederación de la Democracia,PN,1,7419,15.67,1
+Curicó,Confederación de la Democracia,VL-CODE,0,280,0.59,0
+Curicó,Unidad Popular,API,0,0,0.0,0
+Curicó,Unidad Popular,IC,0,0,0.0,0
+Curicó,Unidad Popular,MAPU,0,0,0.0,0
+Curicó,Unidad Popular,PR,1,2511,5.3,0
+Curicó,Unidad Popular,PS,1,8194,17.3,0
+Curicó,Unidad Popular,PC,1,10291,21.73,1
+Curicó,Unidad Popular,VL-UP,0,403,0.85,0
+Curicó,Unión Socialista Popular,USOPO,2,445,0.94,0
+Curicó,Unión Socialista Popular,VL-USOPO,0,50,0.11,0
+Curicó,Válidamente emitidos,,0,46224,97.62,0
+Curicó,Nulos,,0,737,1.56,0
+Curicó,Blancos,,0,392,0.83,0
+Curicó,Total,,0,47353,100.0,0
+Talca,Confederación de la Democracia,DR,1,3376,3.88,0
+Talca,Confederación de la Democracia,PADENA,0,0,0.0,0
+Talca,Confederación de la Democracia,PDC,2,19413,22.33,1
+Talca,Confederación de la Democracia,PN,2,19800,22.77,2
+Talca,Confederación de la Democracia,VL-CODE,0,514,0.59,0
+Talca,Confederación de la Democracia,PIR,0,0,0.0,0
+Talca,Unidad Popular,VL-UP,0,722,0.83,0
+Talca,Unidad Popular,PR,1,2662,3.06,0
+Talca,Unidad Popular,PS,1,16904,19.44,1
+Talca,Unidad Popular,PC,1,16724,19.23,1
+Talca,Unidad Popular,API,1,368,0.42,0
+Talca,Unidad Popular,MAPU,1,4633,5.33,0
+Talca,Unidad Popular,IC,0,0,0.0,0
+Talca,Unión Socialista Popular,USOPO,0,0,0.0,0
+Talca,Unión Socialista Popular,VL-USOPO,0,0,0.0,0
+Talca,Válidamente emitidos,,0,85116,97.9,0
+Talca,Nulos,,0,1148,1.32,0
+Talca,Blancos,,0,682,0.78,0
+Talca,Total,,0,86946,100.0,0
+Maule,Confederación de la Democracia,VL-CODE,0,436,1.19,0
+Maule,Confederación de la Democracia,PIR,1,2113,5.75,0
+Maule,Confederación de la Democracia,PN,1,10054,27.36,1
+Maule,Confederación de la Democracia,DR,0,0,0.0,0
+Maule,Confederación de la Democracia,PADENA,0,0,0.0,0
+Maule,Confederación de la Democracia,PDC,1,8680,23.62,1
+Maule,Unidad Popular,API,3,13866,37.74,1
+Maule,Unidad Popular,MAPU,0,0,0.0,0
+Maule,Unidad Popular,PC,0,0,0.0,0
+Maule,Unidad Popular,PR,0,0,0.0,0
+Maule,Unidad Popular,PS,0,0,0.0,0
+Maule,Unidad Popular,VL-UP,0,409,1.11,0
+Maule,Unidad Popular,IC,0,0,0.0,0
+Maule,Unión Socialista Popular,VL-USOPO,0,0,0.0,0
+Maule,Unión Socialista Popular,USOPO,1,169,0.46,0
+Maule,Válidamente emitidos,,0,35727,97.24,0
+Maule,Nulos,,0,602,1.64,0
+Maule,Blancos,,0,413,1.12,0
+Maule,Total,,0,36742,100.0,0
+Linares,Confederación de la Democracia,DR,0,0,0.0,0
+Linares,Confederación de la Democracia,PADENA,0,0,0.0,0
+Linares,Confederación de la Democracia,PDC,2,19769,26.59,1
+Linares,Confederación de la Democracia,PIR,1,4191,5.64,0
+Linares,Confederación de la Democracia,PN,1,18341,24.67,1
+Linares,Confederación de la Democracia,VL-CODE,0,497,0.67,0
+Linares,Unidad Popular,API,1,633,0.85,0
+Linares,Unidad Popular,IC,0,0,0.0,0
+Linares,Unidad Popular,MAPU,1,8381,11.27,1
+Linares,Unidad Popular,PC,0,0,0.0,0
+Linares,Unidad Popular,PR,1,3063,4.12,0
+Linares,Unidad Popular,PS,1,16848,22.66,1
+Linares,Unidad Popular,VL-UP,0,634,0.85,0
+Linares,Unión Socialista Popular,USOPO,1,252,0.34,0
+Linares,Unión Socialista Popular,VL-USOPO,0,0,0.0,0
+Linares,Válidamente emitidos,,0,72609,97.67,0
+Linares,Nulos,,0,1111,1.49,0
+Linares,Blancos,,0,620,0.83,0
+Linares,Total,,0,74340,100.0,0
+Ñuble-1,Confederación de la Democracia,DR,1,4383,12.04,0
+Ñuble-1,Confederación de la Democracia,PADENA,0,0,0.0,0
+Ñuble-1,Confederación de la Democracia,PDC,1,13054,35.85,1
+Ñuble-1,Confederación de la Democracia,PIR,0,0,0.0,0
+Ñuble-1,Confederación de la Democracia,PN,1,6582,18.08,1
+Ñuble-1,Confederación de la Democracia,VL-CODE,0,175,0.48,0
+Ñuble-1,Unidad Popular,API,0,0,0.0,0
+Ñuble-1,Unidad Popular,IC,1,1522,4.18,0
+Ñuble-1,Unidad Popular,MAPU,0,0,0.0,0
+Ñuble-1,Unidad Popular,PC,0,0,0.0,0
+Ñuble-1,Unidad Popular,PR,1,2256,6.2,0
+Ñuble-1,Unidad Popular,PS,1,7798,21.42,1
+Ñuble-1,Unidad Popular,VL-UP,0,221,0.61,0
+Ñuble-1,Unión Socialista Popular,VL-USOPO,0,0,0.0,0
+Ñuble-1,Unión Socialista Popular,USOPO,0,0,0.0,0
+Ñuble-1,Válidamente emitidos,,0,35991,98.85,0
+Ñuble-1,Nulos,,0,287,0.79,0
+Ñuble-1,Blancos,,0,131,0.36,0
+Ñuble-1,Total,,0,36409,100.0,0
+Ñuble-2,Confederación de la Democracia,PN,2,19204,22.88,1
+Ñuble-2,Confederación de la Democracia,PIR,1,3097,3.69,0
+Ñuble-2,Confederación de la Democracia,PDC,2,25377,30.24,2
+Ñuble-2,Confederación de la Democracia,PADENA,0,0,0.0,0
+Ñuble-2,Confederación de la Democracia,VL-CODE,0,424,0.51,0
+Ñuble-2,Confederación de la Democracia,DR,0,0,0.0,0
+Ñuble-2,Unidad Popular,MAPU,1,1389,1.66,0
+Ñuble-2,Unidad Popular,PC,1,11442,13.63,1
+Ñuble-2,Unidad Popular,VL-UP,0,362,0.43,0
+Ñuble-2,Unidad Popular,PS,1,18514,22.06,1
+Ñuble-2,Unidad Popular,PR,1,2738,3.26,0
+Ñuble-2,Unidad Popular,IC,1,472,0.56,0
+Ñuble-2,Unidad Popular,API,0,0,0.0,0
+Ñuble-2,Unión Socialista Popular,VL-USOPO,0,0,0.0,0
+Ñuble-2,Unión Socialista Popular,USOPO,0,0,0.0,0
+Ñuble-2,Válidamente emitidos,,0,83019,98.93,0
+Ñuble-2,Nulos,,0,658,0.78,0
+Ñuble-2,Blancos,,0,244,0.29,0
+Ñuble-2,Total,,0,83921,100.0,0
+Concepción,Confederación de la Democracia,PN,2,31483,12.07,1
+Concepción,Confederación de la Democracia,PIR,1,4583,1.76,0
+Concepción,Confederación de la Democracia,PDC,4,76377,29.28,3
+Concepción,Confederación de la Democracia,PADENA,1,927,0.36,0
+Concepción,Confederación de la Democracia,DR,0,0,0.0,0
+Concepción,Confederación de la Democracia,VL-CODE,0,1387,0.53,0
+Concepción,Unidad Popular,MAPU,1,17632,6.76,1
+Concepción,Unidad Popular,IC,1,1828,0.7,0
+Concepción,Unidad Popular,API,0,0,0.0,0
+Concepción,Unidad Popular,PR,1,13404,5.14,0
+Concepción,Unidad Popular,PS,3,51008,19.55,2
+Concepción,Unidad Popular,VL-UP,0,2374,0.91,0
+Concepción,Unidad Popular,PC,3,55918,21.43,2
+Concepción,Unión Socialista Popular,VL-USOPO,0,167,0.06,0
+Concepción,Unión Socialista Popular,USOPO,5,1057,0.41,0
+Concepción,Válidamente emitidos,,0,258145,98.95,0
+Concepción,Nulos,,0,1993,0.76,0
+Concepción,Blancos,,0,736,0.28,0
+Concepción,Total,,0,260874,100.0,0
+Arauco,Confederación de la Democracia,VL-CODE,0,184,0.49,0
+Arauco,Confederación de la Democracia,PN,0,0,0.0,0
+Arauco,Confederación de la Democracia,PIR,0,0,0.0,0
+Arauco,Confederación de la Democracia,PDC,1,8245,21.96,1
+Arauco,Confederación de la Democracia,PADENA,0,0,0.0,0
+Arauco,Confederación de la Democracia,DR,1,4209,11.21,0
+Arauco,Unidad Popular,MAPU,0,0,0.0,0
+Arauco,Unidad Popular,PC,1,18372,48.93,1
+Arauco,Unidad Popular,IC,0,0,0.0,0
+Arauco,Unidad Popular,PR,1,5101,13.59,0
+Arauco,Unidad Popular,API,0,0,0.0,0
+Arauco,Unidad Popular,VL-UP,0,583,1.55,0
+Arauco,Unidad Popular,PS,0,0,0.0,0
+Arauco,Unión Socialista Popular,VL-USOPO,0,0,0.0,0
+Arauco,Unión Socialista Popular,USOPO,1,158,0.42,0
+Arauco,Válidamente emitidos,,0,36852,98.15,0
+Arauco,Nulos,,0,513,1.37,0
+Arauco,Blancos,,0,182,0.48,0
+Arauco,Total,,0,37547,100.0,0
+Bío-Bío,Confederación de la Democracia,VL-CODE,0,535,0.74,0
+Bío-Bío,Confederación de la Democracia,PN,2,19088,26.46,1
+Bío-Bío,Confederación de la Democracia,PIR,0,0,0.0,0
+Bío-Bío,Confederación de la Democracia,PDC,2,19411,26.91,1
+Bío-Bío,Confederación de la Democracia,PADENA,0,0,0.0,0
+Bío-Bío,Confederación de la Democracia,DR,0,0,0.0,0
+Bío-Bío,Unidad Popular,PR,1,1994,2.76,0
+Bío-Bío,Unidad Popular,API,0,0,0.0,0
+Bío-Bío,Unidad Popular,IC,0,0,0.0,0
+Bío-Bío,Unidad Popular,MAPU,1,2012,2.79,0
+Bío-Bío,Unidad Popular,PC,1,17078,23.68,1
+Bío-Bío,Unidad Popular,PS,1,9156,12.69,1
+Bío-Bío,Unidad Popular,VL-UP,0,783,1.09,0
+Bío-Bío,Unión Socialista Popular,USOPO,0,0,0.0,0
+Bío-Bío,Unión Socialista Popular,VL-USOPO,0,0,0.0,0
+Bío-Bío,Válidamente emitidos,,0,70057,97.12,0
+Bío-Bío,Nulos,,0,1483,2.06,0
+Bío-Bío,Blancos,,0,591,0.82,0
+Bío-Bío,Total,,0,72131,100.0,0
+Malleco,Confederación de la Democracia,VL-CODE,0,449,0.67,0
+Malleco,Confederación de la Democracia,PN,3,15696,23.44,1
+Malleco,Confederación de la Democracia,PDC,2,14583,21.78,2
+Malleco,Confederación de la Democracia,PADENA,0,0,0.0,0
+Malleco,Confederación de la Democracia,DR,0,0,0.0,0
+Malleco,Confederación de la Democracia,PIR,1,7352,10.98,1
+Malleco,Unidad Popular,IC,1,751,1.12,0
+Malleco,Unidad Popular,MAPU,1,2106,3.15,0
+Malleco,Unidad Popular,PC,1,6898,10.3,0
+Malleco,Unidad Popular,PR,1,8288,12.38,1
+Malleco,Unidad Popular,PS,1,8302,12.4,1
+Malleco,Unidad Popular,VL-UP,0,491,0.73,0
+Malleco,Unidad Popular,API,1,277,0.41,0
+Malleco,Unión Socialista Popular,USOPO,1,143,0.21,0
+Malleco,Unión Socialista Popular,VL-USOPO,0,0,0.0,0
+Malleco,Válidamente emitidos,,0,65336,97.58,0
+Malleco,Nulos,,0,938,1.4,0
+Malleco,Blancos,,0,683,1.02,0
+Malleco,Total,,0,66957,100.0,0
+Cautín,Confederación de la Democracia,PADENA,0,0,0.0,0
+Cautín,Confederación de la Democracia,DR,1,6661,4.76,1
+Cautín,Confederación de la Democracia,PDC,4,42237,30.17,4
+Cautín,Confederación de la Democracia,VL-CODE,0,801,0.57,0
+Cautín,Confederación de la Democracia,PN,4,37066,26.48,2
+Cautín,Confederación de la Democracia,PIR,1,2269,1.62,0
+Cautín,Unidad Popular,PC,2,16058,11.47,1
+Cautín,Unidad Popular,PR,2,5387,3.85,1
+Cautín,Unidad Popular,PS,3,18389,13.14,1
+Cautín,Unidad Popular,VL-UP,0,1218,0.87,0
+Cautín,Unidad Popular,MAPU,1,2596,1.85,0
+Cautín,Unidad Popular,IC,2,3842,2.74,0
+Cautín,Unidad Popular,API,0,0,0.0,0
+Cautín,Unión Socialista Popular,USOPO,3,733,0.52,0
+Cautín,Unión Socialista Popular,VL-USOPO,0,89,0.06,0
+Cautín,Válidamente emitidos,,0,137346,98.12,0
+Cautín,Nulos,,0,1398,1.0,0
+Cautín,Blancos,,0,1236,0.88,0
+Cautín,Total,,0,139980,100.0,0
+Valdivia,Confederación de la Democracia,VL-CODE,0,412,0.41,0
+Valdivia,Confederación de la Democracia,PN,2,26828,26.64,2
+Valdivia,Confederación de la Democracia,PIR,1,1651,1.64,0
+Valdivia,Confederación de la Democracia,PDC,2,22828,22.67,1
+Valdivia,Confederación de la Democracia,DR,0,0,0.0,0
+Valdivia,Confederación de la Democracia,PADENA,0,0,0.0,0
+Valdivia,Unidad Popular,API,0,0,0.0,0
+Valdivia,Unidad Popular,IC,0,0,0.0,0
+Valdivia,Unidad Popular,MAPU,1,1745,1.73,0
+Valdivia,Unidad Popular,PC,1,12630,12.54,0
+Valdivia,Unidad Popular,PR,1,2147,2.13,0
+Valdivia,Unidad Popular,PS,2,30607,30.39,2
+Valdivia,Unidad Popular,VL-UP,0,626,0.62,0
+Valdivia,Unión Socialista Popular,VL-USOPO,0,0,0.0,0
+Valdivia,Unión Socialista Popular,USOPO,0,0,0.0,0
+Valdivia,Válidamente emitidos,,0,99474,98.78,0
+Valdivia,Nulos,,0,949,0.94,0
+Valdivia,Blancos,,0,280,0.28,0
+Valdivia,Total,,0,100703,100.0,0
+Osorno,Confederación de la Democracia,DR,0,0,0.0,0
+Osorno,Confederación de la Democracia,PADENA,0,0,0.0,0
+Osorno,Confederación de la Democracia,VL-CODE,0,243,0.42,0
+Osorno,Confederación de la Democracia,PN,1,14934,25.65,1
+Osorno,Confederación de la Democracia,PDC,1,13088,22.48,1
+Osorno,Confederación de la Democracia,PIR,1,4717,8.1,0
+Osorno,Unidad Popular,MAPU,0,0,0.0,0
+Osorno,Unidad Popular,VL-UP,0,315,0.54,0
+Osorno,Unidad Popular,PS,1,9082,15.6,0
+Osorno,Unidad Popular,PR,1,2553,4.39,0
+Osorno,Unidad Popular,API,0,0,0.0,0
+Osorno,Unidad Popular,PC,1,12441,21.37,1
+Osorno,Unidad Popular,IC,0,0,0.0,0
+Osorno,Unión Socialista Popular,VL-USOPO,0,0,0.0,0
+Osorno,Unión Socialista Popular,USOPO,1,234,0.4,0
+Osorno,Válidamente emitidos,,0,57607,98.95,0
+Osorno,Nulos,,0,469,0.81,0
+Osorno,Blancos,,0,140,0.24,0
+Osorno,Total,,0,58216,100.0,0
+Llanquihue,Confederación de la Democracia,VL-CODE,0,450,0.77,0
+Llanquihue,Confederación de la Democracia,PN,1,16091,27.57,1
+Llanquihue,Confederación de la Democracia,PIR,1,2861,4.9,0
+Llanquihue,Confederación de la Democracia,DR,0,0,0.0,0
+Llanquihue,Confederación de la Democracia,PDC,1,16591,28.43,1
+Llanquihue,Confederación de la Democracia,PADENA,0,0,0.0,0
+Llanquihue,Unidad Popular,PR,0,0,0.0,0
+Llanquihue,Unidad Popular,PC,1,6465,11.08,0
+Llanquihue,Unidad Popular,MAPU,1,2481,4.25,0
+Llanquihue,Unidad Popular,IC,0,0,0.0,0
+Llanquihue,Unidad Popular,API,0,0,0.0,0
+Llanquihue,Unidad Popular,PS,1,12322,21.11,1
+Llanquihue,Unidad Popular,VL-UP,0,361,0.62,0
+Llanquihue,Unión Socialista Popular,USOPO,1,104,0.18,0
+Llanquihue,Unión Socialista Popular,VL-USOPO,0,0,0.0,0
+Llanquihue,Válidamente emitidos,,0,57726,98.91,0
+Llanquihue,Nulos,,0,437,0.75,0
+Llanquihue,Blancos,,0,199,0.34,0
+Llanquihue,Total,,0,58362,100.0,0
+Chiloé,Confederación de la Democracia,PADENA,0,0,0.0,0
+Chiloé,Confederación de la Democracia,DR,1,3079,9.23,0
+Chiloé,Confederación de la Democracia,PDC,1,7977,23.9,1
+Chiloé,Confederación de la Democracia,PIR,0,0,0.0,0
+Chiloé,Confederación de la Democracia,VL-CODE,0,93,0.28,0
+Chiloé,Confederación de la Democracia,PN,1,7731,23.17,1
+Chiloé,Unidad Popular,VL-UP,0,89,0.27,0
+Chiloé,Unidad Popular,PS,1,7223,21.64,1
+Chiloé,Unidad Popular,PR,1,4509,13.51,0
+Chiloé,Unidad Popular,PC,1,1799,5.39,0
+Chiloé,Unidad Popular,MAPU,0,0,0.0,0
+Chiloé,Unidad Popular,IC,0,0,0.0,0
+Chiloé,Unidad Popular,API,0,0,0.0,0
+Chiloé,Unión Socialista Popular,USOPO,0,0,0.0,0
+Chiloé,Unión Socialista Popular,VL-USOPO,0,0,0.0,0
+Chiloé,Válidamente emitidos,,0,32500,97.39,0
+Chiloé,Nulos,,0,448,1.34,0
+Chiloé,Blancos,,0,424,1.27,0
+Chiloé,Total,,0,33372,100.0,0
+Aysén,Confederación de la Democracia,VL-CODE,0,54,0.3,0
+Aysén,Confederación de la Democracia,PADENA,0,0,0.0,0
+Aysén,Confederación de la Democracia,PDC,1,6322,34.95,1
+Aysén,Confederación de la Democracia,DR,0,0,0.0,0
+Aysén,Confederación de la Democracia,PIR,0,0,0.0,0
+Aysén,Confederación de la Democracia,PN,1,4103,22.68,0
+Aysén,Unidad Popular,PC,1,2894,16.0,0
+Aysén,Unidad Popular,PR,0,0,0.0,0
+Aysén,Unidad Popular,VL-UP,0,51,0.28,0
+Aysén,Unidad Popular,PS,1,3963,21.91,1
+Aysén,Unidad Popular,MAPU,0,0,0.0,0
+Aysén,Unidad Popular,IC,0,0,0.0,0
+Aysén,Unidad Popular,API,0,0,0.0,0
+Aysén,Unión Socialista Popular,VL-USOPO,0,0,0.0,0
+Aysén,Unión Socialista Popular,USOPO,1,386,2.13,0
+Aysén,Válidamente emitidos,,0,17773,98.24,0
+Aysén,Nulos,,0,197,1.09,0
+Aysén,Blancos,,0,121,0.67,0
+Aysén,Total,,0,18091,100.0,0
+Magallanes,Confederación de la Democracia,DR,1,5178,13.04,0
+Magallanes,Confederación de la Democracia,PADENA,0,0,0.0,0
+Magallanes,Confederación de la Democracia,PIR,0,0,0.0,0
+Magallanes,Confederación de la Democracia,VL-CODE,0,306,0.77,0
+Magallanes,Confederación de la Democracia,PN,0,0,0.0,0
+Magallanes,Confederación de la Democracia,PDC,1,13966,35.18,1
+Magallanes,Unidad Popular,VL-UP,0,453,1.14,0
+Magallanes,Unidad Popular,PC,0,0,0.0,0
+Magallanes,Unidad Popular,PR,0,0,0.0,0
+Magallanes,Unidad Popular,MAPU,0,0,0.0,0
+Magallanes,Unidad Popular,IC,1,1420,3.58,0
+Magallanes,Unidad Popular,API,0,0,0.0,0
+Magallanes,Unidad Popular,PS,1,14721,37.08,1
+Magallanes,Unión Socialista Popular,VL-USOPO,0,52,0.13,0
+Magallanes,Unión Socialista Popular,USOPO,2,2672,6.73,0
+Magallanes,Válidamente emitidos,,0,38768,97.65,0
+Magallanes,Nulos,,0,567,1.43,0
+Magallanes,Blancos,,0,364,0.92,0
+Magallanes,Total,,0,39699,100.0,0

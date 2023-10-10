@@ -1,82 +1,97 @@
 Circunscripción,Lista/Pacto,Candidaturas,Votos,Porcentaje,Electos
-2,Nueva Mayoría,2,91112,51.59,2
-2,Partido Humanista,1,3919,2.22,0
-2,Nueva Constitución para Chile,1,4218,2.39,0
-2,Alianza,1,39387,22.3,0
-2,Candidatura Independiente,1,9931,5.62,0
-2,Candidatura Independiente,1,18416,10.43,0
-2,Válidamente emitidos,0,166983,94.55,0
-2,Nulos,0,5031,2.85,0
-2,Blancos,0,4595,2.6,0
-2,Total,0,176609,100.0,0
-4,Nueva Mayoría,2,152275,58.6,2
-4,Partido Humanista,1,15574,5.99,0
-4,Alianza,2,72486,27.9,0
-4,Válidamente emitidos,0,240335,92.49,0
-4,Nulos,0,8475,3.26,0
-4,Blancos,0,11027,4.24,0
-4,Total,0,259837,100.0,0
-7,Nueva Mayoría,2,583663,45.33,1
-7,Partido Humanista,2,62854,4.88,0
-7,Nueva Constitución para Chile,2,90538,7.03,0
-7,Alianza,2,453999,35.26,1
-7,Válidamente emitidos,0,1191054,92.5,0
-7,Nulos,0,51283,3.98,0
-7,Blancos,0,45314,3.52,0
-7,Total,0,1287651,100.0,0
-8,Nueva Mayoría,2,541686,39.56,1
-8,Partido Humanista,2,37430,2.73,0
-8,Nueva Constitución para Chile,2,42183,3.08,0
-8,"Si tú quieres, Chile cambia",2,61288,4.48,0
-8,Alianza,2,611863,44.68,1
-8,Válidamente emitidos,0,1294450,94.53,0
-8,Nulos,0,42567,3.11,0
-8,Blancos,0,32389,2.37,0
-8,Total,0,1369406,100.0,0
-9,Nueva Mayoría,2,208103,56.77,1
-9,Partido Humanista,1,17530,4.78,0
-9,Alianza,2,113740,31.03,1
-9,Válidamente emitidos,0,339373,92.58,0
-9,Nulos,0,12207,3.33,0
-9,Blancos,0,15003,4.09,0
-9,Total,0,366583,100.0,0
-12,Nueva Mayoría,2,238486,47.94,1
-12,Partido Humanista,1,15088,3.03,0
-12,Nueva Constitución para Chile,2,19625,3.94,0
-12,"Si tú quieres, Chile cambia",2,48414,9.73,0
-12,Alianza,2,139336,28.01,1
-12,Válidamente emitidos,0,460949,92.65,0
-12,Nulos,0,17289,3.48,0
-12,Blancos,0,19274,3.87,0
-12,Total,0,497512,100.0,0
-13,Nueva Mayoría,2,174743,49.04,1
-13,Nueva Constitución para Chile,1,15372,4.31,0
-13,Alianza,2,114678,32.18,1
-13,Candidatura Independiente,1,16937,4.75,0
-13,Válidamente emitidos,0,321730,90.28,0
-13,Nulos,0,13622,3.82,0
-13,Blancos,0,20999,5.89,0
-13,Total,0,356351,100.0,0
-16,Nueva Mayoría,2,153204,47.39,1
-16,Partido Humanista,1,7882,2.44,0
-16,Nueva Constitución para Chile,1,7958,2.46,0
-16,Alianza,2,118262,36.58,1
-16,Candidatura Independiente,1,12240,3.79,0
-16,Válidamente emitidos,0,299546,92.65,0
-16,Nulos,0,7876,2.44,0
-16,Blancos,0,15892,4.92,0
-16,Total,0,323314,100.0,0
-17,Nueva Mayoría,2,376012,59.89,1
-17,Alianza,2,193980,30.9,1
-17,Válidamente emitidos,0,569992,90.79,0
-17,Nulos,0,20230,3.22,0
-17,Blancos,0,37612,5.99,0
-17,Total,0,627834,100.0,0
-19,Nueva Mayoría,2,28078,44.82,1
-19,Alianza,2,14091,22.49,0
-19,Candidatura Independiente,1,972,1.55,0
-19,Candidatura Independiente,1,16330,26.07,1
-19,Válidamente emitidos,0,59471,94.94,0
-19,Nulos,0,1875,2.99,0
-19,Blancos,0,1296,2.07,0
-19,Total,0,62642,100.0,0
+Antofagasta,Nueva Mayoría,2,91112,51.59,2
+Antofagasta,Partido Humanista,1,3919,2.22,0
+Antofagasta,Nueva Constitución para Chile,1,4218,2.39,0
+Antofagasta,"Si tú quieres, Chile cambia",0,0,0.0,0
+Antofagasta,Alianza,1,39387,22.3,0
+Antofagasta,Candidatura Independiente,1,18416,10.43,0
+Antofagasta,Candidatura Independiente,1,9931,5.62,0
+Antofagasta,Válidamente emitidos,0,166983,94.55,0
+Antofagasta,Nulos,0,5031,2.85,0
+Antofagasta,Blancos,0,4595,2.6,0
+Antofagasta,Total,0,176609,100.0,0
+Coquimbo,Nueva Mayoría,2,152275,58.6,2
+Coquimbo,Partido Humanista,1,15574,5.99,0
+Coquimbo,Nueva Constitución para Chile,0,0,0.0,0
+Coquimbo,"Si tú quieres, Chile cambia",0,0,0.0,0
+Coquimbo,Alianza,2,72486,27.9,0
+Coquimbo,Válidamente emitidos,0,240335,92.49,0
+Coquimbo,Nulos,0,8475,3.26,0
+Coquimbo,Blancos,0,11027,4.24,0
+Coquimbo,Total,0,259837,100.0,0
+Santiago Poniente,Nueva Mayoría,2,583663,45.33,1
+Santiago Poniente,Partido Humanista,2,62854,4.88,0
+Santiago Poniente,Nueva Constitución para Chile,2,90538,7.03,0
+Santiago Poniente,"Si tú quieres, Chile cambia",0,0,0.0,0
+Santiago Poniente,Alianza,2,453999,35.26,1
+Santiago Poniente,Válidamente emitidos,0,1191054,92.5,0
+Santiago Poniente,Nulos,0,51283,3.98,0
+Santiago Poniente,Blancos,0,45314,3.52,0
+Santiago Poniente,Total,0,1287651,100.0,0
+Santiago Oriente,Nueva Mayoría,2,541686,39.56,1
+Santiago Oriente,Partido Humanista,2,37430,2.73,0
+Santiago Oriente,Nueva Constitución para Chile,2,42183,3.08,0
+Santiago Oriente,"Si tú quieres, Chile cambia",2,61288,4.48,0
+Santiago Oriente,Alianza,2,611863,44.68,1
+Santiago Oriente,Válidamente emitidos,0,1294450,94.53,0
+Santiago Oriente,Nulos,0,42567,3.11,0
+Santiago Oriente,Blancos,0,32389,2.37,0
+Santiago Oriente,Total,0,1369406,100.0,0
+O'Higgins,Nueva Mayoría,2,208103,56.77,1
+O'Higgins,Partido Humanista,1,17530,4.78,0
+O'Higgins,Nueva Constitución para Chile,0,0,0.0,0
+O'Higgins,"Si tú quieres, Chile cambia",0,0,0.0,0
+O'Higgins,Alianza,2,113740,31.03,1
+O'Higgins,Válidamente emitidos,0,339373,92.58,0
+O'Higgins,Nulos,0,12207,3.33,0
+O'Higgins,Blancos,0,15003,4.09,0
+O'Higgins,Total,0,366583,100.0,0
+Bío-Bío Costa,Nueva Mayoría,2,238486,47.94,1
+Bío-Bío Costa,Partido Humanista,1,15088,3.03,0
+Bío-Bío Costa,Nueva Constitución para Chile,2,19625,3.94,0
+Bío-Bío Costa,"Si tú quieres, Chile cambia",2,48414,9.73,0
+Bío-Bío Costa,Alianza,2,139336,28.01,1
+Bío-Bío Costa,Válidamente emitidos,0,460949,92.65,0
+Bío-Bío Costa,Nulos,0,17289,3.48,0
+Bío-Bío Costa,Blancos,0,19274,3.87,0
+Bío-Bío Costa,Total,0,497512,100.0,0
+Bío-Bío Cordillera,Nueva Mayoría,2,174743,49.04,1
+Bío-Bío Cordillera,Partido Humanista,0,0,0.0,0
+Bío-Bío Cordillera,Nueva Constitución para Chile,1,15372,4.31,0
+Bío-Bío Cordillera,"Si tú quieres, Chile cambia",0,0,0.0,0
+Bío-Bío Cordillera,Alianza,2,114678,32.18,1
+Bío-Bío Cordillera,Candidatura Independiente,1,16937,4.75,0
+Bío-Bío Cordillera,Válidamente emitidos,0,321730,90.28,0
+Bío-Bío Cordillera,Nulos,0,13622,3.82,0
+Bío-Bío Cordillera,Blancos,0,20999,5.89,0
+Bío-Bío Cordillera,Total,0,356351,100.0,0
+Los Ríos,Nueva Mayoría,2,153204,47.39,1
+Los Ríos,Partido Humanista,1,7882,2.44,0
+Los Ríos,Nueva Constitución para Chile,1,7958,2.46,0
+Los Ríos,"Si tú quieres, Chile cambia",0,0,0.0,0
+Los Ríos,Alianza,2,118262,36.58,1
+Los Ríos,Candidatura Independiente,1,12240,3.79,0
+Los Ríos,Válidamente emitidos,0,299546,92.65,0
+Los Ríos,Nulos,0,7876,2.44,0
+Los Ríos,Blancos,0,15892,4.92,0
+Los Ríos,Total,0,323314,100.0,0
+Los Lagos,Nueva Mayoría,2,376012,59.89,1
+Los Lagos,Partido Humanista,0,0,0.0,0
+Los Lagos,Nueva Constitución para Chile,0,0,0.0,0
+Los Lagos,"Si tú quieres, Chile cambia",0,0,0.0,0
+Los Lagos,Alianza,2,193980,30.9,1
+Los Lagos,Válidamente emitidos,0,569992,90.79,0
+Los Lagos,Nulos,0,20230,3.22,0
+Los Lagos,Blancos,0,37612,5.99,0
+Los Lagos,Total,0,627834,100.0,0
+Magallanes,Nueva Mayoría,2,28078,44.82,1
+Magallanes,Partido Humanista,0,0,0.0,0
+Magallanes,Nueva Constitución para Chile,0,0,0.0,0
+Magallanes,"Si tú quieres, Chile cambia",0,0,0.0,0
+Magallanes,Alianza,2,14091,22.49,0
+Magallanes,Candidatura Independiente,1,972,1.55,0
+Magallanes,Candidatura Independiente,1,16330,26.07,1
+Magallanes,Válidamente emitidos,0,59471,94.94,0
+Magallanes,Nulos,0,1875,2.99,0
+Magallanes,Blancos,0,1296,2.07,0
+Magallanes,Total,0,62642,100.0,0

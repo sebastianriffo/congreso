@@ -87,9 +87,17 @@ def mapa_elecciones_folium(path_mapas, eleccion, rep, listas, candidatos, div_el
         colors = (1 + len(labels)//11)*[x.replace(' ', '') for x in px.colors.qualitative.Pastel]
         leyenda = dict(zip(labels, colors[:len(labels)]))
 
-    ## votacion_div_electoral : geometrías de todos los distritos/circunscripciones
+#%% Geometrías de distritos/circunscripciones
+    subdivrow = {0:'Distrito',1:'Circunscripción'}[rep]
+    
+    if rep == 0 and eleccion >= 1989:
+        div_electoral[subdivrow] = div_electoral['nombre'].map(lambda x: x.split()[0])
+    else:
+        div_electoral[subdivrow] = div_electoral['nombre']
+    div_electoral = div_electoral.reset_index().set_index(subdivrow)
+
     if listas is not None:
-        if (rep == 0) or (rep == 1 and candidatos.index.levels[0].equals(listas.index.levels[0])):
+        if (rep == 0) or (rep == 1 and candidatos.index.get_level_values(subdivrow).unique().equals(listas.index.get_level_values(subdivrow).unique()) ): 
             votacion_div_electoral = pd.merge(div_electoral,
                                               listas.where(listas.where(
                                                   listas.groupby(level=0)['Electos'].transform(lambda x: x == x.max()).astype(bool))
@@ -104,13 +112,10 @@ def mapa_elecciones_folium(path_mapas, eleccion, rep, listas, candidatos, div_el
         votacion_div_electoral = pd.merge(div_electoral,
                                           candidatos.groupby(level=[0,1]).agg({'Candidatos':'count'}).groupby(level=0).transform(lambda x: x == x.max()).astype(bool).reset_index(level=1).query('Candidatos == True')['Lista/Pacto'],
                                           left_index=True, right_index=True)
-                
-    votacion_div_electoral.index.names = ['dis_elec']
-    votacion_div_electoral = votacion_div_electoral.reset_index()    
-    votacion_div_electoral = votacion_div_electoral.set_index('dis_elec', drop=False)
 
     votacion_div_electoral = votacion_div_electoral[~votacion_div_electoral.index.duplicated(keep='first')]
-                
+
+#%% COORDENADAS                
     ## posición inicial del mapa
     pos = list(filter(re.compile('|'.join(['Valparaíso', "O'Higgins"])).findall, div_electoral['nombre'])) if eleccion >= 1989 else (['Aconcagua', 'Colchagua'] if rep == 0 else ['Santiago'])
     lim = votacion_div_electoral.loc[votacion_div_electoral['nombre'].isin(pos)].to_crs("epsg:4326").bounds
@@ -146,7 +151,7 @@ def mapa_elecciones_folium(path_mapas, eleccion, rep, listas, candidatos, div_el
         lim.loc[(u.index).intersection(lim.index)] = u.loc[(u.index).intersection(lim.index)].to_crs("epsg:4326").bounds
         votacion_div_electoral.loc[u.index,'marker'] = u.centroid.to_crs("epsg:4326")   
 
-    ## GENERAR MAPA
+#%% GENERAR MAPA
     # centro (to_crs : coordinate reference system)
     lat_map, long_map = (lim['miny'].min() + lim['maxy'].max())/2, (lim['minx'].min() + lim['maxx'].max())/2 -1
 
@@ -164,11 +169,11 @@ def mapa_elecciones_folium(path_mapas, eleccion, rep, listas, candidatos, div_el
     if listas is not None:
         debug = False  # verificar si los datos construidos coinciden
         votacion_div_electoral, datos_nac = resultados_subdiv(eleccion, rep, votacion_div_electoral, listas, leyenda, debug)
-        cols_div_json = ['dis_elec', 'nombre', 'geometry', 'Lista/Pacto', 'table']
+        cols_div_json = ['nombre', 'geometry', 'Lista/Pacto', 'table']        
     else: 
         datos_nac = None
-        cols_div_json = ['dis_elec', 'nombre', 'geometry', 'Lista/Pacto']
-        
+        cols_div_json = ['nombre', 'geometry', 'Lista/Pacto']
+                        
     # colormap
     def color_listas(x):
         return leyenda[x] if (x in leyenda.keys()) else ('#e5e4e2' if x == 'senado' else '#a04000')
@@ -198,7 +203,7 @@ def mapa_elecciones_folium(path_mapas, eleccion, rep, listas, candidatos, div_el
     for j in votacion_div_electoral.index:
         ## MARCADORES
         escanos_subdiv = (candidatos['Electos'].loc[j] == '*').sum() if 'Electos' in candidatos.columns else (candidatos.loc[j]['Candidatos'].notna()).sum()            
-        listas_subdiv = listas.loc[j]['Electos'] if (listas is not None and j in listas.index.levels[0]) else candidatos.groupby(level=[0,1]).agg({'Candidatos':'count'}).loc[j]
+        listas_subdiv = listas.loc[j]['Electos'] if (listas is not None and j in listas.index.get_level_values(subdivrow).unique()) else candidatos.groupby(level=[0,1]).agg({'Candidatos':'count'}).loc[j]
         
         x_loc = votacion_div_electoral['marker'].y[j] 
         y_loc = votacion_div_electoral['marker'].x[j] 
@@ -257,8 +262,8 @@ def mapa_elecciones_folium(path_mapas, eleccion, rep, listas, candidatos, div_el
     sample_map.save(path_mapas/filename)
     webbrowser.open(str(path_mapas/filename))
 
-# %% FUNCIONES VARIAS
-# %%
+#%%
+#%% FUNCIONES VARIAS
 
 def marker_subdiv(escanos, listas, color_listas):
     """
@@ -458,13 +463,14 @@ def popup_resultados_subdiv(eleccion, rep, escanos, candidatos, j, leyenda):
     # tablesorter (sin Iframe): http://www.loyno.edu/assets/shared/js/tablesorter/docs/index.html
 
     if eleccion >= 1989:
-        title = {0:('Diputados Distrito '+str(j)), 1:''.join(['Senadores ',str(j),'ª Circunscripción'])}[rep]
+        # title = {0:('Diputados Distrito '+str(j)), 1:''.join(['Senadores ',str(j),'ª Circunscripción'])}[rep]
+        title = {0:('Diputados Distrito '+str(j)[1:]), 1:''.join(['Senadores ',str(j)])}[rep]
     else:
-        if j >= 71:
-            title = {0: 'Diputados 7ᵃ Agrupación Departamental, ', 1: 'Senadores 7ª Agrupación Senatorial, '}[rep]
-            title += '2ᵒ Distrito' if(j % 10 == 2) else str(j % 10)+'ᵉʳ Distrito'
-        else:
-            title = {0: 'Diputados ', 1: 'Senadores '}[rep] + str(j) + {0: 'ᵃ Agrupación Departamental ', 1: 'ª Agrupación Senatorial '}[rep]
+        # if j >= 71:
+        #     title = {0: 'Diputados 7ᵃ Agrupación Departamental, ', 1: 'Senadores 7ª Agrupación Senatorial, '}[rep]
+        #     title += '2ᵒ Distrito' if(j % 10 == 2) else str(j % 10)+'ᵉʳ Distrito'
+        # else:
+            title = {0: 'Diputados ', 1: 'Senadores '}[rep] + j #str(j) + {0: 'ᵃ Agrupación Departamental ', 1: 'ª Agrupación Senatorial '}[rep]
 
     if (rep == 1) and (candidatos.loc[j]['Votos'].sum() == 0):
         cols = ['Candidatos']
@@ -834,7 +840,7 @@ def resultados_subdiv(eleccion, rep, votacion_subdiv, listas, leyenda, debug):
     """
     subdivrow = {0: 'Distrito', 1: 'Circunscripción'}[rep]
 
-    estadistica = [x for x in listas.index.get_level_values('Lista/Pacto').drop_duplicates().tolist() if x in['Válidamente emitidos', 'Nulos', 'Blancos', 'Blancos/Nulos','Total']]
+    estadistica = [x for x in listas.index.get_level_values('Lista/Pacto').drop_duplicates().tolist() if x in ['Válidamente emitidos', 'Nulos', 'Blancos', 'Blancos/Nulos','Total']]
     
     editar = dict(zip([f"""<td>{key}</td>""" for key in leyenda.keys()], [f"""<td class="coalicion"><span style='background:{leyenda[key]};'></span>{key }</td>""" for key in leyenda.keys()]))
     editar['<td>Otros</td>'] = """<td class="coalicion"><span style='background: #a04000;'></span> Otros</td>"""
@@ -861,10 +867,10 @@ def resultados_subdiv(eleccion, rep, votacion_subdiv, listas, leyenda, debug):
 
     if eleccion <= 1969 and (rep == 0):
         # (santiago y nuble a veces están repetidos)
-        if len(set(listas[(listas.index.get_level_values('Distrito').isin([71, 72, 73, 8])) & (listas.index.get_level_values('Lista/Pacto').isin(estadistica[-1:]))]['Votos'].values)) == 1:
-            reg.extend([72, 73, 8])
-        if len(set(listas[(listas.index.get_level_values('Distrito').isin([15, 16])) & (listas.index.get_level_values('Lista/Pacto').isin(estadistica[-1:]))]['Votos'].values)) == 1:
-            reg.extend([16])
+        if len(set(listas[(listas.index.get_level_values('Distrito').isin([''])) & (listas.index.get_level_values('Lista/Pacto').isin(estadistica[-1:]))]['Votos'].values)) == 1:
+            reg.extend(['Santiago-2', 'Santiago-3', 'Santiago-4'])
+        if len(set(listas[(listas.index.get_level_values('Distrito').isin(['Ñuble-1', 'Ñuble-2'])) & (listas.index.get_level_values('Lista/Pacto').isin(estadistica[-1:]))]['Votos'].values)) == 1:            
+            reg.extend(['Ñuble-2'])
 
     # total nacional
     listas_nac = listas_display[~listas_display[subdivrow].isin(reg)].groupby('Lista/Pacto').agg({'Votos': 'sum', 'Electos': 'sum'}).reset_index()
@@ -876,6 +882,7 @@ def resultados_subdiv(eleccion, rep, votacion_subdiv, listas, leyenda, debug):
     listas_nac['Porcentaje'] = (100*listas_nac['Votos']/listas_nac.loc[estadistica[-1]]['Votos']).round(2)
 
     listas_nac = listas_nac.reset_index()
+    listas_nac = listas_nac[listas_nac['Lista/Pacto'].notna()]
     
     if debug:
         datos_nac = listas_nac[['Lista/Pacto', 'Votos', 'Porcentaje']].to_html(
@@ -890,13 +897,10 @@ def resultados_subdiv(eleccion, rep, votacion_subdiv, listas, leyenda, debug):
     # totales por division electoral
     listas_reg = listas_display.groupby([subdivrow, 'Lista/Pacto']).agg({'Votos': 'sum', 'Porcentaje': 'sum', 'Electos': 'sum'}).reset_index()
 
-    listas_reg['Lista/Pacto'] = pd.Categorical(
-        listas_reg['Lista/Pacto'], categories=cat, ordered=True)
-    listas_reg = listas_reg.sort_values(
-        [subdivrow, 'Lista/Pacto'], ascending=[True, True]).set_index([subdivrow, 'Lista/Pacto'])
+    listas_reg['Lista/Pacto'] = pd.Categorical(listas_reg['Lista/Pacto'], categories=cat, ordered=True)
+    listas_reg = listas_reg.sort_values([subdivrow, 'Lista/Pacto'], ascending=[True, True]).set_index([subdivrow, 'Lista/Pacto'])
 
     listas_reg['Votos'] = listas_reg['Votos'].astype(int)
-
     
     if debug: 
         listas_reg = listas_reg.reset_index().set_index([subdivrow])
@@ -908,9 +912,9 @@ def resultados_subdiv(eleccion, rep, votacion_subdiv, listas, leyenda, debug):
 
     datos = []
 
-    for i in votacion_subdiv.index.unique():# listas_reg.index.unique():
+    for i in votacion_subdiv.index.unique():
         datos.append(pattern.sub(lambda m: editar[m.group(0)], 
-                                 listas_reg.loc[i][['Lista/Pacto', 'Votos', 'Porcentaje']].to_html(justify='center', index=False, bold_rows=False, border=0, table_id='info_display')) if i in listas_reg.index else datos_nac
+                                 listas_reg.loc[i][['Lista/Pacto', 'Votos', 'Porcentaje']].to_html(justify='center', index=False, bold_rows=False, border=0, table_id='info_display')) if i in listas.index.get_level_values(subdivrow).unique() else datos_nac #listas_reg.index else datos_nac
                      )
     votacion_subdiv['table'] = datos
 
@@ -945,7 +949,6 @@ def editar_template(sample_map, layer_dist, marker_cluster, datos_nac, panel):
         Mapa cuyo template fue modificado para agregar los elementos listados.
 
     """
-
     # SOURCE : https://leafletjs.com/examples/choropleth/
 
     map_id = '#map_'+sample_map._id
@@ -1437,16 +1440,18 @@ def dist_eleccion(eleccion, rep, subdivision, electos, leyenda, color_listas):
                                                             ).to_frame()
 
     if rep == 1:        
-        mask = (~data_chart['Circunscripción'].isin(subdivision)) & (data_chart['Circunscripción'] != 101)
+        mask = (~data_chart['Circunscripción'].isin(subdivision)) & (~data_chart['Circunscripción'].isin(['Designados'])) #(data_chart['Circunscripción'] != 101)
         data_chart.loc[mask,'Candidatos'] = '* ' + data_chart[mask]['Candidatos']
-        data_chart.loc[data_chart['Circunscripción'] == 101, 'Candidatos'] = '** ' + data_chart[data_chart['Circunscripción'] == 101]['Candidatos']
-
-    # senadores : separar los electos (subdivision) de los ya instalados y designados (circ. 101)
+        data_chart.loc[data_chart['Circunscripción'].isin(['Designados']), 'Candidatos'] = '** ' + data_chart[data_chart['Circunscripción'].isin(['Designados'])]['Candidatos']
+        # data_chart.loc[data_chart['Circunscripción'] == 101, 'Candidatos'] = '** ' + data_chart[data_chart['Circunscripción'] == 101]['Candidatos']
+        
+    # senadores : separar los electos (subdivision) de los ya instalados y designados 
     data_chart['Electos_total'] = 1
     data_chart['Electos_periodo'] = 1
 
     if rep == 1:
-        data_chart.loc[(~data_chart['Circunscripción'].isin(subdivision)) | (data_chart['Circunscripción'] == 101), 'Electos_periodo'] = 0
+        # data_chart.loc[(~data_chart['Circunscripción'].isin(subdivision)) | (data_chart['Circunscripción'] == 101), 'Electos_periodo'] = 0
+        data_chart.loc[(~data_chart['Circunscripción'].isin(subdivision)) | (data_chart['Circunscripción'].isin(['Designados'])), 'Electos_periodo'] = 0
         data_chart['Circunscripción'] = pd.Categorical(data_chart['Circunscripción'], categories=(subdivision.tolist() +[x for x in electos.index.levels[0] if x not in subdivision.tolist()]), ordered=True)
         data_chart = data_chart.sort_values(['Circunscripción'],ascending=[True])
 

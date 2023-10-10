@@ -10,10 +10,9 @@ from operator import itemgetter
 from ast import literal_eval
 
 from pactos import pactos_electorales, siglas_partidos
-from resultados_miscelaneo import nombres_formato
 
 #%%    
-def resultados1925_1969(candidatos, eleccion, rep, pactos, siglas):        
+def resultados1925_1969(candidatos, eleccion, rep, pactos, siglas, provincias):        
     """
     A partir de las listas de candidatos y pactos, se construye un dataframe
     con los resultados de partidos, entre los años 1932 y 1969. 
@@ -44,7 +43,7 @@ def resultados1925_1969(candidatos, eleccion, rep, pactos, siglas):
         columnas = ['Candidaturas', 'Votos', 'Porcentaje', 'Electos']
 
     """        
-    if ((rep == 0) and eleccion in {1932,1937,1953,1957}) or ((rep == 1) and eleccion not in {1941}):        
+    if ((rep == 0) and eleccion in {1925,1930,1932,1937,1953,1957}) or ((rep == 1) and eleccion not in {1941}):        
         return None
 
     subdivrow = {0:'Distrito',1:'Circunscripción'}[rep] 
@@ -52,59 +51,13 @@ def resultados1925_1969(candidatos, eleccion, rep, pactos, siglas):
 
     pl = list(pactos.items())    
     pl.extend([('','Válidamente emitidos'),('','Blancos/Nulos'),('','Total')] if (eleccion not in {1941, 1945, 1949}) else [('','Válidamente emitidos')] )
-        
-    if rep == 0:
-        provincias = flatten_list(['Tarapacá', 'Antofagasta', 'Atacama', 'Coquimbo', 'Aconcagua', 'Valparaíso', 
-                                   ['Santiago-1', 'Santiago-2', 'Santiago-3', 'Santiago-4'], "O'Higgins", 'Colchagua', 'Curicó', 'Talca', 'Maule', 'Linares',
-                                   ['Ñuble-1', 'Ñuble-2'], 'Concepción', 'Arauco', 'Bío-Bío', 'Malleco', 'Cautín', 
-                                   ['Valdivia', 'Osorno', 'Llanquihue', 'Chiloé', 'Aysén'] if eleccion >= 1941 else ['Valdivia', 'Llanquihue-Aysén', 'Chiloé'], 
-                                   'Magallanes'])
-    
-        reg = list(range(1, len(provincias)-1 -(1941 <= eleccion <= 1965)))
-        reg[7:7] = [71,72,73]
-        reg.remove(7)        
-    else:
-        circ = flatten_list(['Tarapacá y Antofagasta', 'Atacama y Coquimbo', 'Aconcagua y Valparaíso', 'Santiago', 
-                             "O'Higgins y Colchagua", 'Curicó, Talca, Maule y Linares', 'Ñuble, Concepción y Arauco', 'Bío-Bío, Malleco y Cautín',
-                             'Valdivia, Llanquihue, Chiloé, Aysén y Magallanes' if eleccion <= 1937 else (('Valdivia, Osorno, Llanquihue, Chiloé, Aysén y Magallanes') if eleccion < 1969 else ['Valdivia, Osorno y Llanquihue', 'Chiloé, Aysén y Magallanes']) 
-                             ])
-        r = list(filter(re.compile('Tarapacá|Aconcagua|Colchagua|Concepción|Valdivia|Chiloé').findall, circ))
-        
-        provincias = r if ((eleccion-1937)%8 == 0) else [x for x in circ if x not in r]
-                
-        reg = list(range(1 if ((eleccion-1937)%8 == 0) else 2,10,2))
-        if eleccion == 1969 : reg.append(10)
-    
+
     ## datos
-    (pp, agg) = votaciones(eleccion, rep, provincias, pl, siglas)
-
-    ## los datos de santiago (71,72,73,8) y nuble (15,16) vienen por agrupacion departamental, pero en general los totales son provinciales
-    if agg[0] == 1:
-        aux = pp[(pp['Provincias'].str.contains('Santiago')) & (pp['Partido'] != '')].groupby(['Lista/Pacto', 'Partido']).agg({'Votos':'sum'}).reset_index()   
-        pp.loc[(pp['Provincias'] == 'Santiago-1') & (pp['Partido'] != ''), aux.columns.tolist()] = aux.loc[:, aux.columns.tolist()].values
-        pp.loc[(pp['Provincias'] == 'Santiago-2') & (pp['Partido'] != ''), aux.columns.tolist()] = aux.loc[:, aux.columns.tolist()].values
-        pp.loc[(pp['Provincias'] == 'Santiago-3') & (pp['Partido'] != ''), aux.columns.tolist()] = aux.loc[:, aux.columns.tolist()].values
-        pp.loc[(pp['Provincias'] == 'Santiago-4') & (pp['Partido'] != ''), aux.columns.tolist()] = aux.loc[:, aux.columns.tolist()].values   
-      
-    if agg[1] == 1:
-        aux = pp[(pp['Provincias'].str.contains('Ñuble')) & (pp['Partido'] != '')].groupby(['Lista/Pacto', 'Partido']).agg({'Votos':'sum'}).reset_index()   
-        pp.loc[(pp['Provincias'] == 'Ñuble-1') & (pp['Partido'] != ''), aux.columns.tolist()] = aux.loc[:, aux.columns.tolist()].values
-        pp.loc[(pp['Provincias'] == 'Ñuble-2') & (pp['Partido'] != ''), aux.columns.tolist()] = aux.loc[:, aux.columns.tolist()].values
-
-    if rep == 0:    
-        ## las provincias de Llanquihue y Aysen forman una agrupación departamental
-        if 1941 <= eleccion <= 1965:
-            pp['Provincias'] = pp['Provincias'].replace({'Llanquihue':'Llanquihue-Aysén', 'Aysén':'Llanquihue-Aysén'})
-            pp = pp.groupby(['Provincias', 'Lista/Pacto', 'Partido']).sum().reset_index()
-    
-            provincias.remove('Aysén') 
-            provincias[-3] = 'Llanquihue-Aysén'
-
-    # reemplazar provincias por distrito numerado
-    pp[subdivrow] = pp['Provincias'].replace(dict(zip(provincias, reg)))
+    pp = votaciones1925_1969(eleccion, rep, pl, siglas)    
+    pp[subdivrow] = pp['Provincias']    
     
     # estadística    
-    pp.loc[pp['Lista/Pacto'] == 'Válidamente emitidos','Votos'] = pp.groupby(['Provincias'], sort=False).agg({'Votos':'sum'}).values            
+    pp.loc[pp['Lista/Pacto'] == 'Válidamente emitidos','Votos'] = pp.groupby([subdivrow], sort=False).agg({'Votos':'sum'}).values            
     
     if (eleccion not in {1941, 1945, 1949}):
         pp.loc[pp['Lista/Pacto'] == 'Total','Votos'] = pp[pp['Lista/Pacto'] == 'Total']['Total']
@@ -112,24 +65,27 @@ def resultados1925_1969(candidatos, eleccion, rep, pactos, siglas):
 
     # calcular porcentajes
     pp['Porcentaje'] = (100*pp['Votos']/pp['Total']).round(2)
-
+    
     pp = pd.merge(pp,
                   pd.concat([candidatos[(candidatos['Lista/Pacto'] != 'Candidatura Independiente') & (candidatos['Partido'] == 'IND') 
-                                        & (candidatos[subdivrow].isin(reg)) & (candidatos['Electos'] == '*') ].groupby([subdivrow, 'Lista/Pacto']).agg({'Partido':'first', 'Electos':'count'}).reset_index(),
+                                        & (candidatos[subdivrow].isin(provincias)) & (candidatos['Electos'] == '*') ].groupby([subdivrow, 'Lista/Pacto']).agg({'Partido':'first', 'Electos':'count'}).reset_index(),
                             candidatos[(candidatos['Partido'] != 'IND') 
-                                       & (candidatos[subdivrow].isin(reg)) & (candidatos['Electos'] == '*')].groupby([subdivrow, 'Partido']).agg({'Lista/Pacto':'first', 'Electos':'count'}).reset_index(),
+                                       & (candidatos[subdivrow].isin(provincias)) & (candidatos['Electos'] == '*')].groupby([subdivrow, 'Partido']).agg({'Lista/Pacto':'first', 'Electos':'count'}).reset_index(),
                             candidatos[(candidatos['Lista/Pacto'] == 'Candidatura Independiente') 
-                                       & (candidatos[subdivrow].isin(reg)) & (candidatos['Electos'] == '*')]
+                                       & (candidatos[subdivrow].isin(provincias)) & (candidatos['Electos'] == '*')]
                             ])[[subdivrow,'Partido','Electos']],
-                  how="outer").fillna(0)
-    
+                   how="outer")#.fillna(0)
+    pp = pp[pp['Provincias'].notna()].fillna(0)
+        
     pp['Electos'] = pp['Electos'].map(lambda x: 1 if x == '*'else x).astype(int)        
-          
+
+    # pp[subdivrow] = pd.Categorical(pp[subdivrow], categories=provincias, ordered=False)
+    pp[subdivrow] = pd.Categorical(pp[subdivrow], categories=pp['Circunscripción'].unique().tolist(), ordered=False)    
     return pp[[subdivrow, 'Lista/Pacto', 'Partido', 'Electos', 'Porcentaje', 'Votos']]
 
 
 #%%
-def votaciones(eleccion, rep, provincias, pl, siglas):
+def votaciones1925_1969(eleccion, rep, pl, siglas):
     """
     Fuentes : 
     - Urzua Valenzuela
@@ -162,7 +118,23 @@ def votaciones(eleccion, rep, provincias, pl, siglas):
     if eleccion < 1937:
         Exception()
 
-    flatten_list = lambda test:[element for item in test for element in flatten_list(item)] if type(test) is list else [test]    
+    flatten_list = lambda test:[element for item in test for element in flatten_list(item)] if type(test) is list else [test]
+    
+    if rep == 0:
+        provincias = flatten_list(['Tarapacá', 'Antofagasta', 'Atacama', 'Coquimbo', 'Aconcagua', 'Valparaíso', 
+                                   ['Santiago-1', 'Santiago-2', 'Santiago-3', 'Santiago-4'], "O'Higgins", 'Colchagua', 'Curicó', 'Talca', 'Maule', 'Linares',
+                                   ['Ñuble-1', 'Ñuble-2'], 'Concepción', 'Arauco', 'Bío-Bío', 'Malleco', 'Cautín', 
+                                   ['Valdivia', 'Osorno', 'Llanquihue', 'Chiloé', 'Aysén'] if eleccion >= 1941 else ['Valdivia', 'Llanquihue y Aysén', 'Chiloé'], 
+                                   'Magallanes'])    
+    else:
+        circ = flatten_list(['Tarapacá y Antofagasta', 'Atacama y Coquimbo', 'Aconcagua y Valparaíso', 'Santiago', 
+                             "O'Higgins y Colchagua", 'Curicó, Talca, Maule y Linares', 'Ñuble, Concepción y Arauco', 'Bío-Bío, Malleco y Cautín',
+                             'Valdivia, Llanquihue, Chiloé, Aysén y Magallanes' if eleccion <= 1937 else (('Valdivia, Osorno, Llanquihue, Chiloé, Aysén y Magallanes') if eleccion < 1969 else ['Valdivia, Osorno y Llanquihue', 'Chiloé, Aysén y Magallanes']) 
+                             ])
+        r = list(filter(re.compile('Tarapacá|Aconcagua|Colchagua|Concepción|Valdivia|Chiloé').findall, circ))
+        
+        provincias = r if ((eleccion-1937)%8 == 0) else [x for x in circ if x not in r]
+
     agg = [0,0]    
             
     if eleccion == 1969:        
@@ -201,7 +173,6 @@ def votaciones(eleccion, rep, provincias, pl, siglas):
                                                                                                   [86,354], 3731, 182, 1053, 460, 4990, 1219, 477, 455, 79, 105, 396]) 
             pp.loc[pp['Partido'] == siglas['Candidatura Independiente'],'Votos'] = flatten_list([0, 0, 0, 0, 0, 0, [2104,0,0,0], 0, 0, 0, 0, 0, 0,
                                                                                    [0]*2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
-        return (pp, agg)
 
     if eleccion == 1965:        
         # TOTALES DIPUTADOS (Aldunate, p.217 y 221).
@@ -262,8 +233,7 @@ def votaciones(eleccion, rep, provincias, pl, siglas):
                                                                                                 [0]*2, 0, 0, 0, 0, 406, 0, 0, 0, 0, 0, 0])        
         pp.loc[pp['Partido'] == siglas['Candidatura Independiente'],'Votos'] = flatten_list([0, 0, 0, 0, 0, 1324, [0]*4, 0, 0, 0, 0, 0, 0,
                                                                                [0]*2, 0, 0, 0, 0, 0, 0, 4345, 0, 0, 0, 0])
-        return (pp, agg)
-    
+
     if eleccion == 1961:
         # TOTALES DIPUTADOS (Aldunate p.213; p.215 y 219 totales varones y mujeres)       
         # En Coquimbo y Curicó se usa la suma entre varones y mujeres, diff de +10 y +20, que cuadra los votos totales.
@@ -302,9 +272,8 @@ def votaciones(eleccion, rep, provincias, pl, siglas):
         pp.loc[pp['Partido'] == siglas['Unión Nacional Laborista'],'Votos'] = flatten_list([0, 0, 0, 0, 0, 3255, [0]*4, 0, 0, 0, 102, 0, 37,
                                                                                           [0]*2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])   
         pp.loc[pp['Partido'] == siglas['Candidatura Independiente'],'Votos'] = flatten_list([0, 0, 0, 0, 0, 0, [0]*4, 0, 0, 0, 0, 0, 0,
-                                                                               [0]*2, 0, 0, 0, 2720, 0, 0, 0, 0, 0, 0, 0])              
-        return (pp, agg)        
-        
+                                                                               [0]*2, 0, 0, 0, 2720, 0, 0, 0, 0, 0, 0, 0])                      
+
     if eleccion == 1957:        
         # TOTALES DIPUTADOS (Aldunate, p.211). 
         # Colchagua : 37948 en vez de 22948 (coincide con totales de Nohlen y porcentajes de Aldunate).
@@ -391,7 +360,6 @@ def votaciones(eleccion, rep, provincias, pl, siglas):
                                                                                             [520]*2, 6728, 2398, 2667, 1757, 2596, 2236, 2379, 0, 1495, 0, 4396])  
         pp.loc[pp['Partido'] == siglas['Candidatura Independiente'],'Votos'] = flatten_list([0, 0, 0, 0, 0, 9443, [5248,0,0,0], 0, 0, 0, 0, 0, 0,
                                                                                [0]*2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2613]) 
-        return (pp, agg)       
            
     if eleccion == 1953:           
         # TOTALES DIPUTADOS (Aldunate, p.194)  
@@ -463,7 +431,6 @@ def votaciones(eleccion, rep, provincias, pl, siglas):
         # partido nacional araucano : 303
         # independientes : 2359
 
-        return (pp, agg)
 
     if eleccion == 1949:         
         # TOTALES DIPUTADOS (Aldunate, p.192)
@@ -525,7 +492,6 @@ def votaciones(eleccion, rep, provincias, pl, siglas):
                                                                                        [0]*2, 2, 382, 2, 0, 2, 541, 0, 0, 0, 0, 0])              
             pp.loc[pp['Partido'] == siglas['Movimiento Social Cristiano'],'Votos'] = flatten_list([0, 0, 0, 0, 0, 0, [296,150,43,0], 0, 0, 0, 0, 1529, 0,
                                                                                                  [0]*2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])            
-        return (pp, agg)
     
     if eleccion == 1945:    
         # TOTALES DIPUTADOS (Aldunate, p.179)
@@ -574,7 +540,6 @@ def votaciones(eleccion, rep, provincias, pl, siglas):
                                                                                               [36,595], 212, 40, 1066, 333, 1144, 3871, 1196, 593, 39, 77, 102])
         pp.loc[pp['Partido'] == siglas['Candidatura Independiente'],'Votos'] = flatten_list([0, 0, 0, 0, 0, 1367, [0]*4, 0, 0, 0, 0, 0, 0,
                                                                                [0]*2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2658])             
-        return (pp, agg)
         
     if eleccion == 1941:    
         # TOTALES DIPUTADOS (Aldunate, p.177)
@@ -632,7 +597,6 @@ def votaciones(eleccion, rep, provincias, pl, siglas):
                                                                                                         [0,380], 3368, 0, 0, 0, 54, 313, 75, 0, 0, 0, 1])
             pp.loc[pp['Partido'] == siglas['Vanguardia Popular Socialista'],'Votos'] = flatten_list([68, 0, 0, 0, 0, 1447, [3468,292,1682,464], 269, 0, 0, 368, 0, 0,
                                                                                                    [0]*2, 753, 0, 0, 474, 820, 745, 325, 0, 0, 0, 0])
-        return (pp, agg)
     
     if eleccion == 1937:         
         # TOTALES DIPUTADOS (Urzúa Valenzuela, p.495).
@@ -673,4 +637,24 @@ def votaciones(eleccion, rep, provincias, pl, siglas):
         pp.loc[pp['Partido'] == siglas['Candidatura Independiente'],'Votos'] = flatten_list([3212, 1224, 1, 0, 0, 391, [2885,0,972,0], 0, 2596, 0, 0, 0, 0,
                                                                                 [0]*2, 3171, 0, 0, 0, 586, 3, 0, 668, 1330]) if (rep == 0) else [0, 2578, 0, 0, 0]
 
-        return (pp, agg)
+
+    if rep == 0:    
+        ## los datos de santiago y nuble vienen por agrupacion departamental, pero en general los totales son provinciales
+        if agg[0] == 1:
+            aux = pp[(pp['Provincias'].str.contains('Santiago')) & (pp['Partido'] != '')].groupby(['Lista/Pacto', 'Partido']).agg({'Votos':'sum'}).reset_index()   
+            pp.loc[(pp['Provincias'] == 'Santiago-1') & (pp['Partido'] != ''), aux.columns.tolist()] = aux.loc[:, aux.columns.tolist()].values
+            pp.loc[(pp['Provincias'] == 'Santiago-2') & (pp['Partido'] != ''), aux.columns.tolist()] = aux.loc[:, aux.columns.tolist()].values
+            pp.loc[(pp['Provincias'] == 'Santiago-3') & (pp['Partido'] != ''), aux.columns.tolist()] = aux.loc[:, aux.columns.tolist()].values
+            pp.loc[(pp['Provincias'] == 'Santiago-4') & (pp['Partido'] != ''), aux.columns.tolist()] = aux.loc[:, aux.columns.tolist()].values   
+          
+        if agg[1] == 1:
+            aux = pp[(pp['Provincias'].str.contains('Ñuble')) & (pp['Partido'] != '')].groupby(['Lista/Pacto', 'Partido']).agg({'Votos':'sum'}).reset_index()   
+            pp.loc[(pp['Provincias'] == 'Ñuble-1') & (pp['Partido'] != ''), aux.columns.tolist()] = aux.loc[:, aux.columns.tolist()].values
+            pp.loc[(pp['Provincias'] == 'Ñuble-2') & (pp['Partido'] != ''), aux.columns.tolist()] = aux.loc[:, aux.columns.tolist()].values
+
+        ## las provincias de Llanquihue y Aysen forman una agrupación departamental
+        if 1941 <= eleccion <= 1965:
+            pp['Provincias'] = pp['Provincias'].replace({'Llanquihue':'Llanquihue y Aysén', 'Aysén':'Llanquihue y Aysén'})
+            pp = pp.groupby(['Provincias', 'Lista/Pacto', 'Partido']).sum().reset_index()
+    
+    return pp

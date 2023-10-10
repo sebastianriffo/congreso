@@ -1,72 +1,90 @@
 Circunscripción,Lista/Pacto,Candidaturas,Votos,Porcentaje,Electos
-1,Por Todo Chile,2,1796,2.4,0
-1,Frente Amplio,3,13498,18.02,0
-1,La Fuerza de la Mayoría,2,22660,30.25,1
-1,Convergencia Democrática,1,813,1.09,0
-1,Chile Vamos,3,17825,23.8,1
-1,Candidatura Independiente,1,14824,19.79,0
-1,Válidamente emitidos,0,71416,95.34,0
-1,Nulos,0,1936,2.58,0
-1,Blancos,0,1555,2.08,0
-1,Total,0,74907,100.0,0
-2,Frente Amplio,1,3878,4.03,0
-2,Sumemos,3,4337,4.5,0
-2,La Fuerza de la Mayoría,3,35003,36.36,1
-2,Chile Vamos,3,26865,27.9,1
-2,Candidatura Independiente,1,22398,23.26,0
-2,Válidamente emitidos,0,92481,96.06,0
-2,Nulos,0,2152,2.24,0
-2,Blancos,0,1643,1.71,0
-2,Total,0,96276,100.0,0
-4,Frente Amplio,1,4175,4.15,0
-4,Coalición Regionalista Verde,2,2397,2.38,0
-4,La Fuerza de la Mayoría,3,23465,23.3,0
-4,Convergencia Democrática,1,32598,32.36,1
-4,Chile Vamos,2,31893,31.66,1
-4,Candidatura Independiente,1,650,0.65,0
-4,Válidamente emitidos,0,95178,94.49,0
-4,Nulos,0,2603,2.58,0
-4,Blancos,0,2942,2.92,0
-4,Total,0,100723,100.0,0
-6,Por Todo Chile,3,11337,1.56,0
-6,Frente Amplio,4,96419,13.29,1
-6,Sumemos,6,42554,5.87,0
-6,Unión Patriótica,3,7273,1.0,0
-6,La Fuerza de la Mayoría,6,182846,25.2,2
-6,Convergencia Democrática,3,49438,6.81,0
-6,Chile Vamos,6,244623,33.72,2
-6,Candidatura Independiente,1,29404,4.05,0
-6,Válidamente emitidos,0,663894,91.51,0
-6,Nulos,0,31651,4.36,0
-6,Blancos,0,29964,4.13,0
-6,Total,0,725509,100.0,0
-9,Por Todo Chile,3,19514,2.38,0
-9,Frente Amplio,6,73842,9.01,0
-9,Sumemos,5,91068,11.11,0
-9,La Fuerza de la Mayoría,6,109928,13.41,1
-9,Convergencia Democrática,2,136696,16.68,1
-9,Chile Vamos,6,308420,37.62,3
-9,Válidamente emitidos,0,739468,90.21,0
-9,Nulos,0,34300,4.18,0
-9,Blancos,0,45986,5.61,0
-9,Total,0,819754,100.0,0
-11,Frente Amplio,6,28287,7.57,0
-11,Sumemos,4,20054,5.37,0
-11,La Fuerza de la Mayoría,5,49991,13.38,1
-11,Convergencia Democrática,2,76164,20.38,1
-11,Chile Vamos,6,141148,37.77,3
-11,Candidatura Independiente,1,22074,5.91,0
-11,Válidamente emitidos,0,337718,90.37,0
-11,Nulos,0,14570,3.9,0
-11,Blancos,0,21435,5.74,0
-11,Total,0,373723,100.0,0
-14,Frente Amplio,2,1087,2.86,0
-14,Sumemos,2,416,1.09,0
-14,Coalición Regionalista Verde,2,518,1.36,0
-14,La Fuerza de la Mayoría,3,11253,29.59,1
-14,Convergencia Democrática,3,10818,28.45,0
-14,Chile Vamos,3,11606,30.52,1
-14,Válidamente emitidos,0,35698,93.87,0
-14,Nulos,0,948,2.49,0
-14,Blancos,0,1384,3.64,0
-14,Total,0,38030,100.0,0
+Arica y Parinacota,Por Todo Chile,2,1796,2.4,0
+Arica y Parinacota,Frente Amplio,3,13498,18.02,0
+Arica y Parinacota,Sumemos,0,0,0.0,0
+Arica y Parinacota,Coalición Regionalista Verde,0,0,0.0,0
+Arica y Parinacota,Unión Patriótica,0,0,0.0,0
+Arica y Parinacota,La Fuerza de la Mayoría,2,22660,30.25,1
+Arica y Parinacota,Convergencia Democrática,1,813,1.09,0
+Arica y Parinacota,Chile Vamos,3,17825,23.8,1
+Arica y Parinacota,Candidatura Independiente,1,14824,19.79,0
+Arica y Parinacota,Válidamente emitidos,0,71416,95.34,0
+Arica y Parinacota,Nulos,0,1936,2.58,0
+Arica y Parinacota,Blancos,0,1555,2.08,0
+Arica y Parinacota,Total,0,74907,100.0,0
+Tarapacá,Por Todo Chile,0,0,0.0,0
+Tarapacá,Frente Amplio,1,3878,4.03,0
+Tarapacá,Sumemos,3,4337,4.5,0
+Tarapacá,Coalición Regionalista Verde,0,0,0.0,0
+Tarapacá,Unión Patriótica,0,0,0.0,0
+Tarapacá,La Fuerza de la Mayoría,3,35003,36.36,1
+Tarapacá,Convergencia Democrática,0,0,0.0,0
+Tarapacá,Chile Vamos,3,26865,27.9,1
+Tarapacá,Candidatura Independiente,1,22398,23.26,0
+Tarapacá,Válidamente emitidos,0,92481,96.06,0
+Tarapacá,Nulos,0,2152,2.24,0
+Tarapacá,Blancos,0,1643,1.71,0
+Tarapacá,Total,0,96276,100.0,0
+Atacama,Por Todo Chile,0,0,0.0,0
+Atacama,Frente Amplio,1,4175,4.15,0
+Atacama,Sumemos,0,0,0.0,0
+Atacama,Coalición Regionalista Verde,2,2397,2.38,0
+Atacama,Unión Patriótica,0,0,0.0,0
+Atacama,La Fuerza de la Mayoría,3,23465,23.3,0
+Atacama,Convergencia Democrática,1,32598,32.36,1
+Atacama,Chile Vamos,2,31893,31.66,1
+Atacama,Candidatura Independiente,1,650,0.65,0
+Atacama,Válidamente emitidos,0,95178,94.49,0
+Atacama,Nulos,0,2603,2.58,0
+Atacama,Blancos,0,2942,2.92,0
+Atacama,Total,0,100723,100.0,0
+Valparaíso,Por Todo Chile,3,11337,1.56,0
+Valparaíso,Frente Amplio,4,96419,13.29,1
+Valparaíso,Sumemos,6,42554,5.87,0
+Valparaíso,Coalición Regionalista Verde,0,0,0.0,0
+Valparaíso,Unión Patriótica,3,7273,1.0,0
+Valparaíso,La Fuerza de la Mayoría,6,182846,25.2,2
+Valparaíso,Convergencia Democrática,3,49438,6.81,0
+Valparaíso,Chile Vamos,6,244623,33.72,2
+Valparaíso,Candidatura Independiente,1,29404,4.05,0
+Valparaíso,Válidamente emitidos,0,663894,91.51,0
+Valparaíso,Nulos,0,31651,4.36,0
+Valparaíso,Blancos,0,29964,4.13,0
+Valparaíso,Total,0,725509,100.0,0
+Maule,Por Todo Chile,3,19514,2.38,0
+Maule,Frente Amplio,6,73842,9.01,0
+Maule,Sumemos,5,91068,11.11,0
+Maule,Coalición Regionalista Verde,0,0,0.0,0
+Maule,Unión Patriótica,0,0,0.0,0
+Maule,La Fuerza de la Mayoría,6,109928,13.41,1
+Maule,Convergencia Democrática,2,136696,16.68,1
+Maule,Chile Vamos,6,308420,37.62,3
+Maule,Válidamente emitidos,0,739468,90.21,0
+Maule,Nulos,0,34300,4.18,0
+Maule,Blancos,0,45986,5.61,0
+Maule,Total,0,819754,100.0,0
+Araucanía,Por Todo Chile,0,0,0.0,0
+Araucanía,Frente Amplio,6,28287,7.57,0
+Araucanía,Sumemos,4,20054,5.37,0
+Araucanía,Coalición Regionalista Verde,0,0,0.0,0
+Araucanía,Unión Patriótica,0,0,0.0,0
+Araucanía,La Fuerza de la Mayoría,5,49991,13.38,1
+Araucanía,Convergencia Democrática,2,76164,20.38,1
+Araucanía,Chile Vamos,6,141148,37.77,3
+Araucanía,Candidatura Independiente,1,22074,5.91,0
+Araucanía,Válidamente emitidos,0,337718,90.37,0
+Araucanía,Nulos,0,14570,3.9,0
+Araucanía,Blancos,0,21435,5.74,0
+Araucanía,Total,0,373723,100.0,0
+Aysén,Por Todo Chile,0,0,0.0,0
+Aysén,Frente Amplio,2,1087,2.86,0
+Aysén,Sumemos,2,416,1.09,0
+Aysén,Coalición Regionalista Verde,2,518,1.36,0
+Aysén,Unión Patriótica,0,0,0.0,0
+Aysén,La Fuerza de la Mayoría,3,11253,29.59,1
+Aysén,Convergencia Democrática,3,10818,28.45,0
+Aysén,Chile Vamos,3,11606,30.52,1
+Aysén,Válidamente emitidos,0,35698,93.87,0
+Aysén,Nulos,0,948,2.49,0
+Aysén,Blancos,0,1384,3.64,0
+Aysén,Total,0,38030,100.0,0

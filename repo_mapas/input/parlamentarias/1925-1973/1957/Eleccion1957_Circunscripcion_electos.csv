@@ -1,48 +1,48 @@
 Circunscripción,Lista/Pacto,Partido,Candidatos,Votos,Porcentaje,Electos,Electos_comp,url
-1,Partido Radical,PR,"('Marcial', 'Mora', 'Miranda')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Marcial_Mora_Miranda
-1,Partido Liberal,PL,"('Fernando', 'Alessandri', 'Rodríguez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fernando_Alessandri_Rodríguez
-1,Frente de Acción Popular,PSP,"('Raúl', 'Galvarino', 'Ampuero', 'Díaz')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Raúl_Galvarino_Ampuero_Díaz
-1,Frente de Acción Popular,PS,"('Salvador', 'Allende', 'Gossens')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Salvador_Allende_Gossens
-1,Partido Agrario Laborista,PAL,"('Guillermo', 'Paulino', 'Izquierdo', 'Araya')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Guillermo_Paulino_Izquierdo_Araya
-2,Partido Radical,PR,"('Isauro', 'Torres', 'Cereceda')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Isauro_Torres_Cereceda
-2,Partido Radical,PR,"('Humberto', 'Álvarez', 'Suárez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Humberto_Álvarez_Suárez
-2,Partido Liberal,PL,"('Hernán', 'Videla', 'Lira')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Hernán_Videla_Lira
-2,Partido Liberal,PL,"('Hugo', 'Alejandro', 'Zepeda', 'Barrios')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Hugo_Alejandro_Zepeda_Barrios
-2,Partido Liberal,PL,"('Raúl', 'Marín', 'Balmaceda')",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Raúl_Marín_Balmaceda
-2,Frente de Acción Popular,PSP,"('Alejandro', 'Chelén', 'Rojas')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alejandro_Chelén_Rojas
-3,Partido Radical,PR,"('Luis', 'Bossay', 'Leiva')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Bossay_Leiva
-3,Partido Liberal,PL,"('Pedro', 'Poklepovic', 'Novillo')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Poklepovic_Novillo
-3,Frente de Acción Popular,PSP,"('Carlos', 'Alberto', 'Martínez', 'Martínez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Alberto_Martínez_Martínez
-3,Partido Conservador Unido,PCU,"('Alfredo', 'Cerda', 'Jaraquemada')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alfredo_Cerda_Jaraquemada
-3,Movimiento Republicano,MR,"('Manuel', 'Armando', 'Videla', 'Ibáñez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Armando_Videla_Ibáñez
-4,Partido Radical,PR,"('Ángel', 'Faivovich', 'Hitzcovich')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ángel_Faivovich_Hitzcovich
-4,Partido Radical,PR,"('Francisco', 'Alejandro', 'Roberto', 'Wachholtz', 'Araya')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Francisco_Alejandro_Roberto_Wachholtz_Araya
-4,Frente de Acción Popular,PS,"('Luis', 'Alberto', 'Quinteros', 'Tricot')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Alberto_Quinteros_Tricot
-4,Partido Conservador Unido,PCU,"('Bernardo', 'Larraín', 'Vial')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Bernardo_Larraín_Vial
-4,Federación Social Cristiana,FN,"('Eduardo', 'Frei', 'Montalva')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eduardo_Frei_Montalva
-4,Candidatura Independiente,IND,"('Jorge', 'Alessandri', 'Rodríguez')",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Alessandri_Rodríguez
-5,Partido Liberal,PL,"('Eduardo', 'Pompeyo', 'Moore', 'Montero')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eduardo_Pompeyo_Moore_Montero
-5,Frente de Acción Popular,PS,"('Gerardo', 'Ahumada', 'Pacheco')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gerardo_Ahumada_Pacheco
-5,Partido Conservador Unido,PCU,"('Juan', 'Antonio', 'Coloma', 'Mellado')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Antonio_Coloma_Mellado
-5,Partido Conservador Unido,PCU,"('Francisco', 'Bulnes', 'Sanfuentes')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Francisco_Bulnes_Sanfuentes
-5,Partido Nacional,PN,"('Guillermo', 'Pérez de Arce', 'Plummer')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Guillermo_Pérez_de_Arce_Plummer
-6,Partido Radical,PR,"('Ulises', 'Correa', 'Correa')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ulises_Correa_Correa
-6,Partido Liberal,PL,"('Eduardo', 'Alessandri', 'Rodríguez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eduardo_Alessandri_Rodríguez
-6,Partido Conservador Unido,PCU,"('Luis', 'Felipe', 'Letelier', 'Icaza')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Felipe_Letelier_Icaza
-6,Federación Social Cristiana,PCSC,"('Carlos', 'Augusto', 'Vial', 'Espantoso')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Augusto_Vial_Espantoso
-6,Partido Agrario Laborista,PAL,"('Rafael', 'Roberto', 'Tarud', 'Siwady')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rafael_Roberto_Tarud_Siwady
-7,Partido Radical,PR,"('Humberto', 'Aguirre', 'Doolan')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Humberto_Aguirre_Doolan
-7,Partido Liberal,PL,"('Gustavo', 'Roberto', 'Alejandro', 'Rivera', 'Baeza')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gustavo_Roberto_Alejandro_Rivera_Baeza
-7,Frente de Acción Popular,PDo,"('Humberto', 'Martones', 'Quezada')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Humberto_Martones_Quezada
-7,Partido Conservador Unido,PCU,"('Enrique', 'Curti', 'Cannobio')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Enrique_Curti_Cannobio
-7,Partido Agrario Laborista,PAL,"('Blas', 'Bellolio', 'Zappettini')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Blas_Bellolio_Zappettini
-8,Partido Radical,PR,"('Julio', 'Antonio', 'Gastón', 'Durán', 'Neumann')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Julio_Antonio_Gastón_Durán_Neumann
-8,Partido Liberal,PL,"('Gregorio', 'Amunátegui', 'Jordán')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gregorio_Amunátegui_Jordán
-8,Frente de Acción Popular,PSP,"('Galvarino', 'Palacios', 'González')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Galvarino_Palacios_González
-8,Partido Agrario Laborista,PAL,"('Edgardo', 'Barrueto', 'Reeve')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Edgardo_Barrueto_Reeve
-8,Partido Nacional,PN,"('Julián', 'Abel', 'Echavarri', 'Elorza')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Julián_Abel_Echavarri_Elorza
-9,Partido Radical,PR,"('Exequiel', 'González', 'Madariaga')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Exequiel_González_Madariaga
-9,Partido Liberal,PL,"('Carlos', 'Acharán', 'Pérez de Arce')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Acharán_Pérez_de_Arce
-9,Frente de Acción Popular,PSP,"('Aniceto', 'Rodríguez', 'Arenas')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Aniceto_Rodríguez_Arenas
-9,Partido Agrario Laborista,PAL,"('José', 'García', 'González')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_García_González
-9,Partido Nacional,PN,"('Jorge', 'Lavandero', 'Eyzaguirre')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Lavandero_Eyzaguirre
+Tarapacá y Antofagasta,Partido Radical,PR,"('Marcial', 'Mora', 'Miranda')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Marcial_Mora_Miranda
+Tarapacá y Antofagasta,Partido Liberal,PL,"('Fernando', 'Alessandri', 'Rodríguez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fernando_Alessandri_Rodríguez
+Tarapacá y Antofagasta,Frente de Acción Popular,PSP,"('Raúl', 'Galvarino', 'Ampuero', 'Díaz')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Raúl_Galvarino_Ampuero_Díaz
+Tarapacá y Antofagasta,Frente de Acción Popular,PS,"('Salvador', 'Allende', 'Gossens')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Salvador_Allende_Gossens
+Tarapacá y Antofagasta,Partido Agrario Laborista,PAL,"('Guillermo', 'Paulino', 'Izquierdo', 'Araya')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Guillermo_Paulino_Izquierdo_Araya
+Atacama y Coquimbo,Partido Radical,PR,"('Isauro', 'Torres', 'Cereceda')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Isauro_Torres_Cereceda
+Atacama y Coquimbo,Partido Radical,PR,"('Humberto', 'Álvarez', 'Suárez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Humberto_Álvarez_Suárez
+Atacama y Coquimbo,Partido Liberal,PL,"('Hernán', 'Videla', 'Lira')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Hernán_Videla_Lira
+Atacama y Coquimbo,Partido Liberal,PL,"('Hugo', 'Alejandro', 'Zepeda', 'Barrios')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Hugo_Alejandro_Zepeda_Barrios
+Atacama y Coquimbo,Partido Liberal,PL,"('Raúl', 'Marín', 'Balmaceda')",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Raúl_Marín_Balmaceda
+Atacama y Coquimbo,Frente de Acción Popular,PSP,"('Alejandro', 'Chelén', 'Rojas')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alejandro_Chelén_Rojas
+Aconcagua y Valparaíso,Partido Radical,PR,"('Luis', 'Bossay', 'Leiva')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Bossay_Leiva
+Aconcagua y Valparaíso,Partido Liberal,PL,"('Pedro', 'Poklepovic', 'Novillo')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Poklepovic_Novillo
+Aconcagua y Valparaíso,Frente de Acción Popular,PSP,"('Carlos', 'Alberto', 'Martínez', 'Martínez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Alberto_Martínez_Martínez
+Aconcagua y Valparaíso,Partido Conservador Unido,PCU,"('Alfredo', 'Cerda', 'Jaraquemada')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alfredo_Cerda_Jaraquemada
+Aconcagua y Valparaíso,Movimiento Republicano,MR,"('Manuel', 'Armando', 'Videla', 'Ibáñez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Armando_Videla_Ibáñez
+Santiago,Partido Radical,PR,"('Ángel', 'Faivovich', 'Hitzcovich')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ángel_Faivovich_Hitzcovich
+Santiago,Partido Radical,PR,"('Francisco', 'Alejandro', 'Roberto', 'Wachholtz', 'Araya')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Francisco_Alejandro_Roberto_Wachholtz_Araya
+Santiago,Frente de Acción Popular,PS,"('Luis', 'Alberto', 'Quinteros', 'Tricot')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Alberto_Quinteros_Tricot
+Santiago,Partido Conservador Unido,PCU,"('Bernardo', 'Larraín', 'Vial')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Bernardo_Larraín_Vial
+Santiago,Federación Social Cristiana,FN,"('Eduardo', 'Frei', 'Montalva')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eduardo_Frei_Montalva
+Santiago,Candidatura Independiente,IND,"('Jorge', 'Alessandri', 'Rodríguez')",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Alessandri_Rodríguez
+O'Higgins y Colchagua,Partido Liberal,PL,"('Eduardo', 'Pompeyo', 'Moore', 'Montero')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eduardo_Pompeyo_Moore_Montero
+O'Higgins y Colchagua,Frente de Acción Popular,PS,"('Gerardo', 'Ahumada', 'Pacheco')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gerardo_Ahumada_Pacheco
+O'Higgins y Colchagua,Partido Conservador Unido,PCU,"('Juan', 'Antonio', 'Coloma', 'Mellado')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Antonio_Coloma_Mellado
+O'Higgins y Colchagua,Partido Conservador Unido,PCU,"('Francisco', 'Bulnes', 'Sanfuentes')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Francisco_Bulnes_Sanfuentes
+O'Higgins y Colchagua,Partido Nacional,PN,"('Guillermo', 'Pérez de Arce', 'Plummer')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Guillermo_Pérez_de_Arce_Plummer
+"Curicó, Talca, Maule y Linares",Partido Radical,PR,"('Ulises', 'Correa', 'Correa')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ulises_Correa_Correa
+"Curicó, Talca, Maule y Linares",Partido Liberal,PL,"('Eduardo', 'Alessandri', 'Rodríguez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eduardo_Alessandri_Rodríguez
+"Curicó, Talca, Maule y Linares",Partido Conservador Unido,PCU,"('Luis', 'Felipe', 'Letelier', 'Icaza')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Felipe_Letelier_Icaza
+"Curicó, Talca, Maule y Linares",Federación Social Cristiana,PCSC,"('Carlos', 'Augusto', 'Vial', 'Espantoso')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Augusto_Vial_Espantoso
+"Curicó, Talca, Maule y Linares",Partido Agrario Laborista,PAL,"('Rafael', 'Roberto', 'Tarud', 'Siwady')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rafael_Roberto_Tarud_Siwady
+"Ñuble, Concepción y Arauco",Partido Radical,PR,"('Humberto', 'Aguirre', 'Doolan')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Humberto_Aguirre_Doolan
+"Ñuble, Concepción y Arauco",Partido Liberal,PL,"('Gustavo', 'Roberto', 'Alejandro', 'Rivera', 'Baeza')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gustavo_Roberto_Alejandro_Rivera_Baeza
+"Ñuble, Concepción y Arauco",Frente de Acción Popular,PDo,"('Humberto', 'Martones', 'Quezada')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Humberto_Martones_Quezada
+"Ñuble, Concepción y Arauco",Partido Conservador Unido,PCU,"('Enrique', 'Curti', 'Cannobio')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Enrique_Curti_Cannobio
+"Ñuble, Concepción y Arauco",Partido Agrario Laborista,PAL,"('Blas', 'Bellolio', 'Zappettini')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Blas_Bellolio_Zappettini
+"Bío-Bío, Malleco y Cautín",Partido Radical,PR,"('Julio', 'Antonio', 'Gastón', 'Durán', 'Neumann')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Julio_Antonio_Gastón_Durán_Neumann
+"Bío-Bío, Malleco y Cautín",Partido Liberal,PL,"('Gregorio', 'Amunátegui', 'Jordán')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gregorio_Amunátegui_Jordán
+"Bío-Bío, Malleco y Cautín",Frente de Acción Popular,PSP,"('Galvarino', 'Palacios', 'González')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Galvarino_Palacios_González
+"Bío-Bío, Malleco y Cautín",Partido Agrario Laborista,PAL,"('Edgardo', 'Barrueto', 'Reeve')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Edgardo_Barrueto_Reeve
+"Bío-Bío, Malleco y Cautín",Partido Nacional,PN,"('Julián', 'Abel', 'Echavarri', 'Elorza')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Julián_Abel_Echavarri_Elorza
+"Valdivia, Osorno, Llanquihue, Chiloé, Aysén y Magallanes",Partido Radical,PR,"('Exequiel', 'González', 'Madariaga')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Exequiel_González_Madariaga
+"Valdivia, Osorno, Llanquihue, Chiloé, Aysén y Magallanes",Partido Liberal,PL,"('Carlos', 'Acharán', 'Pérez de Arce')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Acharán_Pérez_de_Arce
+"Valdivia, Osorno, Llanquihue, Chiloé, Aysén y Magallanes",Frente de Acción Popular,PSP,"('Aniceto', 'Rodríguez', 'Arenas')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Aniceto_Rodríguez_Arenas
+"Valdivia, Osorno, Llanquihue, Chiloé, Aysén y Magallanes",Partido Agrario Laborista,PAL,"('José', 'García', 'González')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_García_González
+"Valdivia, Osorno, Llanquihue, Chiloé, Aysén y Magallanes",Partido Nacional,PN,"('Jorge', 'Lavandero', 'Eyzaguirre')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Lavandero_Eyzaguirre

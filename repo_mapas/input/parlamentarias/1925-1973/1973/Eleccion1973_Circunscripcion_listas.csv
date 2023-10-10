@@ -1,31 +1,36 @@
 Circunscripción,Lista/Pacto,Candidaturas,Votos,Porcentaje,Electos
-2,Confederación de la Democracia,3,83073,43.6,2
-2,Unidad Popular,4,103224,54.18,3
-2,Válidamente emitidos,-1,186297,97.78,0
-2,Nulos,-1,2901,1.52,0
-2,Blancos,-1,1331,0.7,0
-2,Total,-1,190529,100.0,0
-4,Confederación de la Democracia,5,826640,57.68,3
-4,Unidad Popular,4,586561,40.93,2
-4,Válidamente emitidos,-1,1413201,98.6,0
-4,Nulos,-1,15300,1.07,0
-4,Blancos,-1,4721,0.33,0
-4,Total,-1,1433222,100.0,0
-6,Confederación de la Democracia,5,132091,53.72,3
-6,Unidad Popular,3,108185,44.0,2
-6,Válidamente emitidos,-1,240276,97.72,0
-6,Nulos,-1,3525,1.43,0
-6,Blancos,-1,2077,0.84,0
-6,Total,-1,245878,100.0,0
-8,Confederación de la Democracia,5,167983,60.15,3
-8,Unidad Popular,3,105066,37.62,2
-8,Válidamente emitidos,-1,273049,97.77,0
-8,Nulos,-1,4064,1.46,0
-8,Blancos,-1,2154,0.77,0
-8,Total,-1,279267,100.0,0
-10,Confederación de la Democracia,4,49556,54.38,3
-10,Unidad Popular,3,39476,43.32,2
-10,Válidamente emitidos,-1,89032,97.71,0
-10,Nulos,-1,1443,1.58,0
-10,Blancos,-1,648,0.71,0
-10,Total,-1,91123,100.0,0
+Atacama y Coquimbo,Confederación de la Democracia,3,83073,43.6,2
+Atacama y Coquimbo,Unidad Popular,4,103224,54.18,3
+Atacama y Coquimbo,Unión Socialista Popular,0,0,0.0,0
+Atacama y Coquimbo,Válidamente emitidos,0,186297,97.78,0
+Atacama y Coquimbo,Nulos,0,2901,1.52,0
+Atacama y Coquimbo,Blancos,0,1331,0.7,0
+Atacama y Coquimbo,Total,0,190529,100.0,0
+Santiago,Confederación de la Democracia,5,826640,57.68,3
+Santiago,Unidad Popular,4,586561,40.93,2
+Santiago,Unión Socialista Popular,0,0,0.0,0
+Santiago,Válidamente emitidos,0,1413201,98.6,0
+Santiago,Nulos,0,15300,1.07,0
+Santiago,Blancos,0,4721,0.33,0
+Santiago,Total,0,1433222,100.0,0
+"Curicó, Talca, Maule y Linares",Confederación de la Democracia,5,132091,53.72,3
+"Curicó, Talca, Maule y Linares",Unidad Popular,3,108185,44.0,2
+"Curicó, Talca, Maule y Linares",Unión Socialista Popular,0,0,0.0,0
+"Curicó, Talca, Maule y Linares",Válidamente emitidos,0,240276,97.72,0
+"Curicó, Talca, Maule y Linares",Nulos,0,3525,1.43,0
+"Curicó, Talca, Maule y Linares",Blancos,0,2077,0.84,0
+"Curicó, Talca, Maule y Linares",Total,0,245878,100.0,0
+"Bío-Bío, Malleco y Cautín",Confederación de la Democracia,5,167983,60.15,3
+"Bío-Bío, Malleco y Cautín",Unidad Popular,3,105066,37.62,2
+"Bío-Bío, Malleco y Cautín",Unión Socialista Popular,0,0,0.0,0
+"Bío-Bío, Malleco y Cautín",Válidamente emitidos,0,273049,97.77,0
+"Bío-Bío, Malleco y Cautín",Nulos,0,4064,1.46,0
+"Bío-Bío, Malleco y Cautín",Blancos,0,2154,0.77,0
+"Bío-Bío, Malleco y Cautín",Total,0,279267,100.0,0
+"Chiloé, Aysén y Magallanes",Confederación de la Democracia,4,49556,54.38,3
+"Chiloé, Aysén y Magallanes",Unidad Popular,3,39476,43.32,2
+"Chiloé, Aysén y Magallanes",Unión Socialista Popular,0,0,0.0,0
+"Chiloé, Aysén y Magallanes",Válidamente emitidos,0,89032,97.71,0
+"Chiloé, Aysén y Magallanes",Nulos,0,1443,1.58,0
+"Chiloé, Aysén y Magallanes",Blancos,0,648,0.71,0
+"Chiloé, Aysén y Magallanes",Total,0,91123,100.0,0

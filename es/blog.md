@@ -6,7 +6,7 @@ title: Blog
 lang: es
 ref: blog
 
-published: false
+published: True
 order: 6
 ---
 
