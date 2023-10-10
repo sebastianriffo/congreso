@@ -7,7 +7,7 @@ lang: es
 ref: fuentes
 
 published: true
-order: 5
+order: 6
 ---
 
 ### Resultados electorales
@@ -16,7 +16,7 @@ Dependiendo del período, los resultados de cada votación fueron obtenidos de
 
 * **1989-presente**. [Resultados históricos](https://historico.servel.cl/). Archivo Histórico del Servicio Electoral de Chile.
 * **1973**. [Resultados de las elecciones parlamentarias de Chile de 1973 (Anexo)](https://es.wikipedia.org/wiki/Anexo:Resultados_de_las_elecciones_parlamentarias_de_Chile_de_1973). Wikipedia.
-* **1941-1969**.
+* **1932-1969**.
   + Por partidos y coaliciones :
     - Germán Urzúa Valenzuela. [*Historia política de Chile y su evolución electoral: desde 1810 a 1992*](https://books.google.fr/books?id=ac9AhNVyCCoC&printsec=frontcover#v=onepage&q&f=false). Editorial Jurídica de Chile, 1992.
     - Adolfo Aldunate y Ana Rita Díaz-Muñoz. [*Las provincias de Chile a través de indicadores: una infraestructura para los análisis causales y de procesos*](https://repositorio.cepal.org/handle/11362/8017?show=full). Programa de Intercambio CELADE-ELAS, 1972. 
@@ -26,10 +26,15 @@ Dependiendo del período, los resultados de cada votación fueron obtenidos de
     - [*Partido Nacional. Antecedentes elecciones de Senadores y Diputados 1969, Presidencial 1970 y Regidores 1971*](https://repositorio.uai.cl/handle/20.500.12858/268?show=full). Fondo Pedro Ibáñez Ojeda, Universidad Adolfo Ibáñez.
     - Michael J. Coppedge, [*A Classification of Latin American Political Parties*](https://kellogg.nd.edu/documents/1539). 1997. 
   + Listado de parlamentarios por período legislativo:
-    - [Diarios de Sesiones del Congreso Nacional, 1925-1973](https://www.bcn.cl/historiapolitica/corporaciones/periodos_legislativos?periodo=1925-1973). Biblioteca del Congreso Nacional de Chile.
+    - [Diarios de Sesiones del Congreso Nacional](https://www.bcn.cl/historiapolitica/corporaciones/index.html). Biblioteca del Congreso Nacional de Chile.
     - [Diario La Nación](https://culturadigital.udp.cl/index.php/lanacion/). Cultura Digital, Universidad Diego Portales.
     - Respectivos artículos en la categoría [Elecciones parlamentarias de Chile](https://es.wikipedia.org/wiki/Categoría:Elecciones_parlamentarias_de_Chile), Wikipedia.
     - [Elecciones extraordinarias 1938-1971](https://archivo.servel.cl/index.php/elecciones-extraordinarias-1938-1971). Archivo Histórico del Servicio Electoral de Chile.
+* **1828-1930**. 
+  + Listado de parlamentarios por período legislativo:
+    - [Diarios de Sesiones del Congreso Nacional](https://www.bcn.cl/historiapolitica/corporaciones/index.html). Biblioteca del Congreso Nacional de Chile.
+    - Luis Valencia Avaria. [*Anales de la República : textos constitucionales de Chile y registro de los ciudadanos que han integrado los poderes ejecutivo y legislativo desde 1810*](https://www.bcn.cl/Books/Anales_de_la_Republica//index.html#p=2), tomo II. Imprenta Universitaria, 1951.
+
 
 ### Divisiones Territoriales
 Los polígonos de cada división electoral fueron construidos a partir de
