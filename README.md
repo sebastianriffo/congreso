@@ -11,9 +11,9 @@ Los resultados electorales se obtuvieron principalmente por web scraping, a trav
 A continuación, una breve descripción de los módulos y datos disponibles, presentes en **/repo_mapas**.
 
 ## Módulos
-Agrupados en la carpeta **/modulos**, entregan los resultados electorales y la división electoral de cada elección. Su finalidad es la siguiente.
+Agrupados en la carpeta **/modulos**, entregan los resultados electorales y la división asociada a cada elección. Su finalidad es la siguiente.
 * *division_politica.py* : genera los polígonos de distritos o circunscripciones.
-* *resultados_elecciones.py* : extrae, formatea y corrige los resultados electorales. Un conjunto de scripts asociados se encuentra en **/modulos/resultados**.
+* *resultados_elecciones.py* : extrae, formatea y corrige los resultados electorales. Un conjunto de scripts relacionados se encuentra en **/modulos/resultados**.
 * *pactos.py* : grupo de funciones referentes a siglas de partidos, pactos electorales y leyendas a utilizar en la visualización.
 * *mapa_folium.py* : genera el mapa antes mencionado.
   Una descripción más detallada se encuentra en cada archivo.
@@ -22,9 +22,9 @@ Por último, el script *visualizaciones.py* crea uno o más mapas, buscando o ge
 
 ## Datos
 Los resultados electorales y polígonos de cada división político-electoral están reunidos en **/input**, organizados por
-* **/parlamentarias** : resultados de cada elección parlamentaria en formato *.csv*. Fueron obtenidos mediante web scraping y diversas fuentes bibliográficas, las cuales pueden ser consultadas [aquí]((https://sebastianriffo.github.io/congreso-chile/es/fuentes.html).  
+* **/parlamentarias** : resultados de cada elección parlamentaria en formato *.csv*. Fueron obtenidos mediante web scraping y diversas fuentes bibliográficas, las cuales pueden ser consultadas [aquí](https://sebastianriffo.github.io/congreso-chile/es/fuentes.html).  
 
-  A nivel de candidatos, la información completa de la elección se tiene desde 1973 en adelante, mientras que entre 1932 y 1969 se dispone de un listado de parlamentarios. La información del período 1828-1930 es preliminar, pues aún se encuentra en revisión. Una explicación más detallada se encuentra [aquí]((https://sebastianriffo.github.io/congreso-chile/es/datos.html).  
+  A nivel de candidatos, la información completa de la elección se tiene desde 1973 en adelante, mientras que entre 1932 y 1969 se dispone de un listado de parlamentarios. La información del período 1828-1930 es preliminar, pues aún se encuentra en revisión. Una explicación más detallada se encuentra [aquí](https://sebastianriffo.github.io/congreso-chile/es/datos.html).  
 	    
 * **/shapes** : shapefiles (*.shp*) de las divisiones político-electorales para cada elección, desde 1989 a la fecha. Aquellos del período 1932-1973 se encuentran en revisión.
   	
