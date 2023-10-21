@@ -46,11 +46,8 @@ Los polígonos de cada división electoral fueron construidos a partir de
 * **1932-1973**.
   + José Ignacio González, José Compan y Rafael Sagredo Baeza. [*La política en el espacio. Atlas histórico de las divisiones político-administrativas de Chile, 1810-1940*](https://www.centrobarrosarana.gob.cl/622/w3-article-71237.html?_noredirect=1){:target="_blank"}. Centro de Investigaciones Diego Barros Arana, 2017.
   + Orlando Zamudio Vargasene. [*Chile, historia de la división político administrativa 1810-2000*](https://bibliotecadigital.ciren.cl/handle/20.500.13082/14812){:target="_blank"}. Instituto Nacional de Estadísticas (Chile), 2001.
-  + Miguel Kast y Sergio Molina. *Mapa de extrema pobreza*. Oficina de Planificación Nacional (Odeplan), 1975. 
-<!--
-Available at:
-http://www.desarrollosocialyfamilia.gob.cl/btca/txtcompleto/DIGITALIZADOS/ODEPL
-AN/O32Pm-1975-mapaextpobr.pdf. (Accessed: 03.01.2019). -->
+  + Miguel Kast y Sergio Molina. [*Mapa de extrema pobreza*](http://www.desarrollosocialyfamilia.gob.cl/btca/txtcompleto/DIGITALIZADOS/ODEPL
+AN/O32Pm-1975-mapaextpobr.pdf){:target="_blank"}. Oficina de Planificación Nacional (Odeplan), 1975. 
   + [División electoral de Chile](https://es.wikipedia.org/wiki/División_electoral_de_Chile#1925-1973){:target="_blank"}. Wikipedia.
   + [Crecimiento de Santiago 1541-1940](http://www.bibliotecanacionaldigital.gob.cl/bnd/631/w3-article-347813.html){:target="_blank"}. Biblioteca Nacional de Chile.
   + [Guía y planos del Gran Santiago](https://www.flickr.com/photos/stgonostalgico/9887015914){:target="_blank"}. Instituto Geográfico Militar, 1947.

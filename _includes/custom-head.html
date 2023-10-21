@@ -15,6 +15,13 @@
 		<a href="{{ '/en/home.html' | relative_url }}"> Home </a> 
 	{%- endif -%} </li>
 
+	<li class="resp"> 
+	{%- if page.lang == "es" -%} 		
+		<a href="{{ '/es/about.html' | relative_url }}" style="color:#FDFEFE"> Proyecto </a>
+	{%- else -%}			
+		<a href="{{ '/en/about.html' | relative_url }}" style="color:#FDFEFE"> About </a>
+	{%- endif -%} </li>
+	
 	<li class="diputados">
 		<input id="dropcheck-dip" type="checkbox">
 		<label for="dropcheck-dip" class="dropbtn"> {%- if page.lang == "es" -%} Mapas Diputados {%- else -%} Chamber of Deputies {%- endif -%} </label> 
@@ -82,7 +89,7 @@
 	{% for page in navigation %}
 		<li class="resp"> <a href="{{ page.url  | relative_url }}" style="color:#FDFEFE">{{page.title}}</a>
 	{% endfor %}		
-	<li class="resp"> <a href="https://github.com/sebastianriffo/congreso-chile" style="color:#FDFEFE" target="_blank"> {%- if page.lang == "es" -%} Repositorio {%- else -%} Repository {%- endif -%} </a> </li> 
+	<li class="resp"> <a href="https://github.com/sebastianriffo/congreso-chile" style="color:#FDFEFE" target="_blank"> GitHub </a> </li> 
 
 	<!-- language selector -->	
 	{%- if page.layout != "mapa" -%}

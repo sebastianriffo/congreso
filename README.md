@@ -15,7 +15,7 @@ Agrupados en la carpeta **/modulos**, entregan los resultados electorales y la d
 * *division_politica.py* : genera los polígonos de distritos o circunscripciones.
 * *resultados_elecciones.py* : extrae, formatea y corrige los resultados electorales. Un conjunto de scripts relacionados se encuentra en **/modulos/resultados**.
 * *pactos.py* : grupo de funciones referentes a siglas de partidos, pactos electorales y leyendas a utilizar en la visualización.
-* *mapa_folium.py* : genera el mapa antes mencionado.
+* *mapa_folium.py* : genera el mapa antes mencionado.  
   Una descripción más detallada se encuentra en cada archivo.
 
 Por último, el script *visualizaciones.py* crea uno o más mapas, buscando o generando los polígonos y datos de una elección parlamentaria, según sea el caso. Por medio del módulo *mapa_folium* los produce y guarda en formato *.html*.   
