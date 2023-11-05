@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
+@author: Sebastián RIFFO
+
 Establece las divisiones electorales (distritos o circunscripciones) de Chile.
 
 La función *Division_electoral_shp* entrega un shapefile con dichas divisiones, 

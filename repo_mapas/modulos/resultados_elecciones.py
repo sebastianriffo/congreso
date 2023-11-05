@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
+@author: Sebastián RIFFO
+
 Extrae/construye la información electoral usando diversas fuentes, mediante 
 la función *resultados_parlamentarias*. La información varía según la elección, 
 por lo que se observan dos períodos : 
@@ -17,6 +19,14 @@ Diversas informaciones relativas a los parlamentarios son corregidas mediante
 estos se agregan usando la función *resultados1925_1969*.
 
 """
+from modulos.pactos import pactos_electorales, siglas_partidos
+from modulos.division_politica import provincias_chile, num_prov
+
+from modulos.resultados.webscraping import webscraping_parlamentarios, biografiasBCN
+from modulos.resultados.nombres import nombres_unicode, nombres_formato_v2
+from modulos.resultados.parlamentarios1973_presente import parlamentarios1973_presente
+from modulos.resultados.parlamentarios1834_1969 import parlamentarios1834_1969
+from modulos.resultados.resultados1925_1969 import resultados1925_1969
 
 import pandas as pd
 pd.options.mode.chained_assignment = None
@@ -25,17 +35,6 @@ from pathlib import Path
 import re
 from ast import literal_eval
 from itertools import chain
-
-from pactos import pactos_electorales, siglas_partidos
-
-from division_politica import provincias_chile, num_prov
-from resultados.webscraping import webscraping_parlamentarios, biografiasBCN
-from resultados.nombres import nombres_unicode, nombres_formato_v2
-
-from resultados.parlamentarios1973_presente import parlamentarios1973_presente
-from resultados.parlamentarios1834_1969 import parlamentarios1834_1969
-
-from resultados.resultados1925_1969 import resultados1925_1969
 
 def resultados_parlamentarias(path_datos, eleccion, rep):    
     """
@@ -71,8 +70,7 @@ def resultados_parlamentarias(path_datos, eleccion, rep):
         indice = ['Distrito' o 'Circunscripción', 'Lista/Pacto', 'Partido']
         columnas = ['Candidatos', 'Votos', 'Porcentaje', 'Electos', 'Electos_comp', 'url']  
         
-    (Notar que 'Distrito'/'Circunscripción' y 'Lista/Pacto' siguen un orden categórico.)
-    
+    (Notar que 'Distrito'/'Circunscripción' y 'Lista/Pacto' siguen un orden categórico.)    
     """        
 
     if not eleccion in list(chain({1828,1829},range(1831,1925,3),{1925,1930,1932},range(1937,1974,4), range(1989,2022,4))):

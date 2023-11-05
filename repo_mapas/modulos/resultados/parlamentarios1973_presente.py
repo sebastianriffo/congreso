@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+from modulos.pactos import pactos_electorales, siglas_partidos
 
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -18,8 +19,6 @@ from pathlib import Path
 import re
 from operator import itemgetter
 from ast import literal_eval
-
-from pactos import pactos_electorales, siglas_partidos
 
 def parlamentarios1973_presente(path_datos, candidatos, eleccion, rep):
     """

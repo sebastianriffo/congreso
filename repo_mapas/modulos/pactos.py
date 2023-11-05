@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
+@author: Sebastián RIFFO
+
 Funciones referentes a partidos y pactos electorales.
     - siglas_partidos
     - pactos_electorales

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+from modulos.pactos import pactos_electorales, siglas_partidos
 
 import pandas as pd
 pd.options.mode.chained_assignment = None
@@ -8,8 +9,6 @@ from pathlib import Path
 import re
 from operator import itemgetter
 from ast import literal_eval
-
-from pactos import pactos_electorales, siglas_partidos
 
 #%%    
 def resultados1925_1969(candidatos, eleccion, rep, pactos, siglas, provincias):        

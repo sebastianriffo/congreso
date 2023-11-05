@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+from modulos.pactos import pactos_electorales, siglas_partidos
+from modulos.resultados.correcciones1925_1969 import correcciones1925_1969
+from modulos.resultados.correcciones1891_1924 import correcciones1891_1924
+from modulos.resultados.correcciones1833_1888 import correcciones1833_1888
 
 import pandas as pd
 pd.options.mode.chained_assignment = None
@@ -8,11 +12,6 @@ from pathlib import Path
 import re
 from operator import itemgetter
 from ast import literal_eval
-
-from pactos import pactos_electorales, siglas_partidos
-from resultados.correcciones1925_1969 import correcciones1925_1969
-from resultados.correcciones1891_1924 import correcciones1891_1924
-from resultados.correcciones1833_1888 import correcciones1833_1888
 
 def parlamentarios1834_1969(path_datos, candidatos, eleccion, rep, siglas=None):
     """
