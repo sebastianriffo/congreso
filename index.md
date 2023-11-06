@@ -29,7 +29,7 @@ La información de cada elección se presenta en tres niveles:
   </div>
 
   <div class="column">
-    <a href="https://sebastianriffo.github.io/congreso-chile/es/mapas/2022-2026_Diputados.html"><img src="../fig/home-3a.png"></a>
+    <a href="https://sebastianriffo.github.io/congreso-chile/es/mapas/2022-2026_Diputados.html"><img src="./fig/home-3a.png"></a>
     <div class="text"> <h4> Distribución de escaños </h4> 
     La composición de la cámara en cuestión se expone en un diagrama, cuyos escaños están coloreados por coalición y agrupados por partidos. Estos últimos contienen el listado de sus parlamentarios. </div>
   </div>
