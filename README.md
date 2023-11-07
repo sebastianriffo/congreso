@@ -63,7 +63,7 @@ Reunidos en */input*, están organizados de la siguiente manera.
 │   │   ├── shapes
 ```
 
-Cabe mencionar que los resultados electorales, según el año, se agrupan en los períodos *1828-1891* (repúblicas conservadora y liberal), *1891-1924* (república parlamentaria), *1925-1973* (república presidencial) y *1989-presente* (retorno a la democracia).
+Cabe mencionar que los resultados electorales, según el año, se agrupan en los períodos: *1828-1891* (repúblicas conservadora y liberal), *1891-1924* (república parlamentaria), *1925-1973* (república presidencial) y *1989-presente* (retorno a la democracia).
 
 
 <!--

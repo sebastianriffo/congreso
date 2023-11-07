@@ -1,15 +1,3 @@
----
-layout: default
-
-title: readme
-
-lang: en
-ref: readme
-
-published: true
-order: 7
----
-
 # congreso-Chile
 [![en](https://img.shields.io/badge/lang-es-blueviolet.svg)](https://github.com/sebastianriffo/congreso-chile/blob/main/README.md)
 
