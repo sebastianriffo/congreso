@@ -1323,6 +1323,19 @@ body {
 	<article class="markdown-body"> 	
 		{%- if page.layout != "mapa" -%}
 		<h2> {{ page.title }} </h2>
+		
+		{% for v in languages %}
+			{% unless v.lang contains page.lang %}
+				<a href="{{ v.url  | relative_url }}">
+					{%- if v.lang == "es" -%}
+					<img src="https://img.shields.io/badge/lang-es-blueviolet.svg">
+					{% else %}
+					<img src="https://img.shields.io/badge/lang-en-blueviolet.svg">
+					{% endif %}	
+					</a>
+			{% endunless %}	
+		{% endfor %}
+    
 		{% endif %}
 
 		{{ content }}

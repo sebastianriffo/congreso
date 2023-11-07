@@ -91,7 +91,7 @@
 	{% endfor %}		
 	<li class="resp"> <a href="https://github.com/sebastianriffo/congreso-chile" style="color:#FDFEFE" target="_blank"> GitHub </a> </li> 
 
-	<!-- language selector -->	
+	<!-- language selector
 	{%- if page.layout != "mapa" -%}
 		{% assign languages=site.pages | where:"ref", page.ref | sort: 'lang' %}
 	{% comment %}
@@ -105,6 +105,7 @@
 			<li class="lang"> <a href="{{ v.url  | relative_url }}">({{v.lang}})</a>
 		{% endunless %}	
 	{% endfor %}
+	-->
 </ul>	
 </nav>  
 

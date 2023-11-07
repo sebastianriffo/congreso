@@ -1,4 +1,6 @@
 # congreso-Chile
+[![en](https://img.shields.io/badge/lang-en-blueviolet.svg)](https://github.com/sebastianriffo/congreso-chile/blob/main/README-en.md)
+
 Módulos en python para generar visualizaciones interactivas de las elecciones de la Cámara de Diputados y el Senado de Chile, desde 1932 en adelante.  
 
 La representación consiste en un mapa elaborado a partir de [Folium](https://python-visualization.github.io/folium/), el cual contiene:
@@ -6,7 +8,7 @@ La representación consiste en un mapa elaborado a partir de [Folium](https://py
 * una leyenda o cuadro lateral, con las votaciones por coalición a nivel territorial y nacional, 
 * un diagrama de la composición de la camára respectiva (hecho en [Highcharts](https://www.highcharts.com/)).  
 
-Si bien este repositorio contiene los datos necesarios, es posible generarlos y formatearlos usando los módulos aquí presentes. Los resultados electorales se obtuvieron principalmente mediante web scraping, a través de [beautiful soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/); mientras que los polígonos propios de cada división electoral fueron tratados usando [shapely](https://shapely.readthedocs.io/en/stable/manual.html).
+Si bien este repositorio contiene los datos necesarios, es posible generarlos y formatearlos usando los módulos aquí presentes. Los resultados electorales se obtuvieron principalmente mediante web scraping, a través de [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/); mientras que los polígonos propios de cada división electoral fueron tratados usando [Shapely](https://shapely.readthedocs.io/en/stable/manual.html).
 
 <!--
 ## Code Example
@@ -17,7 +19,7 @@ Si bien este repositorio contiene los datos necesarios, es posible generarlos y 
 ## Uso
 Módulos y datos se encuentran en */repo_mapas*, pudiendo ser usados directamente. De momento este proyecto no requiere instalación.  
 
-El script **visualizacion** crea un mapa de una elección *de principio a fin*, vale decir, reuniendo los datos, procesándolos y produciendo una representación en formato html. Los resultados electorales y polígonos de cada división electoral están reunidos en */input*. Las funciones necesarias, ya sea para generar estos datos (en caso de no estar almacenados), consultar informaciones referentes a partidos y coaliciones, además de la creación misma del mapa, están agrupadas en la carpeta */modulos*. Finalmente, en */output* se guardan los distintos mapas generados.
+El script **visualizacion** crea un mapa de una elección *de principio a fin*, vale decir, reuniendo los datos, procesándolos y produciendo una representación en formato HTML. Los resultados electorales y polígonos de cada división electoral están reunidos en */input*. Las funciones necesarias, ya sea para generar estos datos (en caso de no estar almacenados), consultar informaciones referentes a partidos y coaliciones, además de la creación misma del mapa, están agrupadas en la carpeta */modulos*. Finalmente, en */output* se guardan los distintos mapas generados.
 
 ```
 ├── repo_mapas
@@ -40,13 +42,13 @@ Una descripción más detallada se encuentra en cada archivo.
 ## Datos
 Reunidos en */input*, están organizados de la siguiente manera.
 
-* */parlamentarias* : resultados de cada elección parlamentaria en formato *.csv*. Fueron obtenidos mediante web scraping y diversas fuentes bibliográficas, las cuales pueden ser consultadas [aquí](https://sebastianriffo.github.io/congreso-chile/es/fuentes.html).  
+* */parlamentarias* : resultados de cada elección parlamentaria en formato CSV. Fueron obtenidos mediante web scraping y diversas fuentes bibliográficas, las cuales pueden ser consultadas [aquí](https://sebastianriffo.github.io/congreso-chile/es/fuentes.html).  
 
   A nivel de candidatos, la información completa de la elección se tiene desde 1973 en adelante, mientras que entre 1932 y 1969 se dispone de un listado de parlamentarios. Si bien la información del período 1828-1930 se encuentra disponible, tiene carácter preliminar pues aún se encuentra en revisión. 
 	    
-* */shapes* : shapefiles (*.shp*) de las divisiones político-electorales para cada elección, desde 1989 a la fecha. Aquellos del período 1932-1973 se encuentran en revisión.
+* */shapes* : shapefiles de las divisiones político-electorales para cada elección, desde 1989 a la fecha. Aquellos del período 1932-1973 se encuentran en revisión.
   	
-  Se consideran las divisiones de **1932**, corregidas para las elecciones de **1941** y **1961** y una nueva versión de **1969**; la usada por el sistema binominal en **1989** y rectificada el **2009**; y finalmente la del sistema proporcional de **2017**, que sufrió algunos cambios en **2021**. Una explicación más detallada de los territorios y sus cambios se encuentra [aquí](https://sebastianriffo.github.io/congreso-chile/es/sistemas.html). 
+  Se consideran las divisiones de **1932**, corregidas para las elecciones de **1941** y **1961** y una nueva versión de **1969**; la usada por el sistema binominal desde **1989** y rectificada el **2009**; y finalmente la del sistema proporcional iniciada en **2017**, que sufrió algunos cambios en **2021**. Una explicación más detallada de los territorios y sus cambios se encuentra [aquí](https://sebastianriffo.github.io/congreso-chile/es/sistemas.html). 
 
   * */source* : shapefile con el cual se generaron las divisiones entre 1989 y 2021. 
 
