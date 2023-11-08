@@ -9,10 +9,50 @@ ref: about
 published: true
 order: 2
 ---
-Made by <a href="https://sebastianriffo.github.io/" style="color:#E91E63" target="_blank">Sebastián RIFFO</a> as an open source project. A GitHub repository, containing scripts, data and shapefiles, is available [here](https://github.com/sebastianriffo/congreso-chile){:target="_blank"}.
+Inspired by [DecideChile](https://2021.decidechile.cl/#/ev/2021.nov/ct/2021.nov.D/){:target="_blank"}, [SERVEL](https://www.servel.cl/centro-de-datos/resultados-electorales-historicos-gw3/){:target="_blank"}, and [Wikipedia](https://es.wikipedia.org/wiki/Elecciones_parlamentarias_de_Chile_de_2021){:target="_blank"}, this project aims to develop
+an interactive visualization of Chilean parliamentary elections for both chambers of Congress using Python, QGIS, Highcharts, and integrating several public sources. Created by <a href="https://sebastianriffo.github.io/" style="color:#E91E63" target="_blank">Sebastián RIFFO</a> as an open-source product, its codes, data, and shapefiles produced are available in this github [repository](https://github.com/sebastianriffo/congreso-chile){:target="_blank"}.
+
+<!--
+<div class="row">
+  <a class=mapbutton href="https://sebastianriffo.github.io/congreso-chile/en/maps/2022-2026_Diputados.html" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Cámara_de_Diputadas_y_Diputados_de_Chile.svg" height="125">
+    <div class="text" style="padding: 0px 0px 0px 0px;"> <h4> Chamber of Deputies </h4> </div>
+  </a> 
+
+  <a class=mapbutton href="https://sebastianriffo.github.io/congreso-chile/en/maps/2022-2026_Senadores.html" target="_blank"> 
+    <img src="https://www.bcn.cl/portal/assets/images/logo-senado.svg" height="125">
+    <div class="text" style="padding: 0px 0px 0px 0px;"> <h4> Senate </h4> </div>
+  </a>
+</div>
+-->
+
+### Visualization
+
+For every election, information is portrayed at three different levels:
+
+<div class="row">
+  <div class="column">
+    <img src="../fig/home-1.png">
+    <div class="text"> <h4> Individual results </h4> 
+    Each icon represents the number of seats in the respective electoral division. If available, the detailed results are displayed, being possible to sort and filter them according to the elected members. </div>
+  </div>
+  
+  <div class="column">
+    <img src="../fig/home-2.png">
+    <div class="text"> <h4> Results by electoral divisions </h4> 
+    When interacting with an electoral district or senatorial constituency, the local results obtained by the main alliances are depicted. Otherwise, these are replaced by their overall votes. </div>
+  </div>
+  
+  <div class="column">
+    <img src="../fig/home-3a.png">
+    <div class="text"> <h4> Seat distribution </h4> 
+    The composition of a chamber is presented in a apportionment diagram, with seats color-coded by alliances. These are further grouped by parties, each containing a list of their elected legislators. </div>
+  </div>
+</div>
+
 
 ### The project
-In the beginning, I just wanted to practice Python and challenge myself with something interesting. Instead of jumping into a competition, I decided to begin with my own project from scratch to see where it would lead me. Working on election data visualizations seemed suitable at the time, as I was committed to learning about apportionment methods. Soon enough, I realized I needed more tools to develop what I had in mind. 
+In the beginning, I just wanted to practice Python and challenge myself with something interesting, but instead of jumping into a competition, I decided to start my own project from scratch and see where it would lead me. Working on election data visualizations seemed suitable at the time, as I was committed to learning about apportionment methods. Soon enough, I realized I would need a large toolkit for developing what I had in mind, which is described below.
 
 Web scraping, data cleansing and formatting was carried out using [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/){:target="_blank"} and [Pandas](https://pandas.pydata.org/docs/user_guide/index.html){:target="_blank"}, both well-known Python libraries. The visualization part, which prioritizes interacting with constituencies rather than just data, was built on [Folium](https://python-visualization.github.io/folium/latest/){:target="_blank"}. For a newcomer like me, this library allows you to draw maps quickly, however its functionalities are quite rigid. A bit of JavaScript was necessary to tweak some, as well as HTML5/CSS to personalize certain elements. Since voting results are displayed on a table, [TableSorter (Mottie's fork)](https://mottie.github.io/tablesorter/docs/){:target="_blank"} came in handy. [Highcharts](https://www.highcharts.com/){:target="_blank"} was really helpful to construct an apportionment diagram and provide a broader view of an election.
 

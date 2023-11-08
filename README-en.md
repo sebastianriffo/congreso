@@ -20,7 +20,7 @@ Although this repository contains all the necessary data, you can also generate 
 ## Usage
 The Modules and data are stored in */repo_mapas* and can be used directly. Currently, this project does not require any installation.
 
-The script **visualizacion** creates an election map *from scratch*. This involves collecting and processing data, to then generate a representation in HTML format. Electoral data and constituencies' shapes can be found in */input*. Modules to generate this data (if it's not available), retrieve information from parties and alliances, and construct the aforementioned map are placed in */modulos*, see Modules](#modules) below. Finally, the resulting maps are stored in */output*.
+The script **visualizacion** creates an election map *from scratch*. This involves collecting and processing data, to then generate a representation in HTML format. Electoral data and constituencies' shapes can be found in */input*. Modules to generate this data (if it's not available), retrieve information from parties and alliances, and construct the aforementioned map are placed in */modulos*, see [Modules](#modules) below. Finally, the resulting maps are stored in */output*.
 
 ```
 ├── repo_mapas
@@ -40,7 +40,7 @@ The script **visualizacion** creates an election map *from scratch*. This involv
 A more detailed description of each module can be found in their respective files.
 
 ## Data
-Stored in */input*, it is organized as follows.
+Stored in */input*, it's organized as follows.
 
 * */parlamentarias* : this directory contains electoral results in CSV format,  obtained through web scraping and from multiple sources, which can be further explored [here](https://sebastianriffo.github.io/congreso-chile/en/sources.html).  
 
@@ -50,7 +50,7 @@ Stored in */input*, it is organized as follows.
   
   The constituencies used in **1932** are considered, with adjustments made in **1941** and **1961**, followed by a new version from **1969**. It also includes the electoral districts utilized from **1989** and amended in **2009**, when the binomial voting was in place. Finally, with the implementation of the proportional representation system, a new division was introduced in **2017** and later rectified in **2021**.
  
-   A more detailed explanation of these changes can be found [here](https://sebastianriffo.github.io/congreso-chile/es/sistemas.html) (however, it is available only in spanish).
+   A more detailed explanation of these changes can be found [here](https://sebastianriffo.github.io/congreso-chile/es/sistemas.html) (in spanish).
 
   * */source* : it contains the shapefile used to generate the divisions between 1989 and 2021. 
 
@@ -65,7 +65,7 @@ Stored in */input*, it is organized as follows.
 │   │   ├── shapes
 ```
 
-It should be noted that electoral data is grouped into the following periods: *1828-1891* (conservative and liberal republics), *1891-1924* (parlamentary republic), *1925-1973* (presidential republic) y *1989-presente* (so-called transition to democracy).
+It should be noted that electoral data is grouped into the following periods: *1828-1891* (conservative and liberal republics), *1891-1924* (parliamentary republic), *1925-1973* (presidential republic) y *1989-presente* (so-called transition to democracy).
 
 
 <!--

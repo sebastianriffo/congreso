@@ -259,24 +259,58 @@ input:checked ~ .dropdown-submenu {
 		margin: 0 5px 5px 5px;
 		border-radius: 10px;	
 		border: 1px solid rgba(0,0,0,.1);
+	}	
+		
+	.mapbutton {
+		text-align: center;
+		background: #e0ffff;
+
+		/*	color:inherit !important; */
+		text-decoration: none !important;
+				
+		flex:1;
+		width: 50%;
+		float: left;
+		margin: 0 5px 5px 5px;
+		border-radius: 10px;	
+		border: 1px solid rgba(0,0,0,.1);
+	}
+	.mapbutton:hover {
+		box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, 
+					rgba(17, 17, 26, 0.1) 0px 0px 8px;
 	}
 }
 
 @media screen and (max-width: 660px) {
 	.row {
-		display: table;  
+		display: flex;
+		flex-direction: column;		
+		
+		align-items: center;
+		justify-content: center;		
 	}	
 	
 	.column {
 		display: block;
+		width: 100%;
 		max-width: 400px;
-		float: left;
-		/* margin: 0px 0px 10px 0px; */
-		margin: 0px max(0px, min(15%, calc((100vw - 400px)/2))) 10px max(0px, min(15%, calc((100vw - 400px)/2)));
-					
+		margin: 0px 0px 10px 0px;
+							
 		border-radius: 10px;	
 		border: 1px solid rgba(0,0,0,.1);
 	}
+	
+	.mapbutton {
+		text-align: center;
+
+		display: block;
+		min-width: 300px;
+		margin: 0px 0px 10px 0px;
+
+		border-radius: 10px;	
+		border: 1px solid rgba(0,0,0,.1);
+	}	
+	
 }
 
 .column > img {
@@ -966,7 +1000,7 @@ body {
 }
 
 .markdown-body hr {
-  height: .25em;
+  height: 1px; /*.25em; */
   padding: 0;
   margin: 24px 0;
   background-color: #e1e4e8;

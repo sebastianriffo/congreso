@@ -9,11 +9,15 @@
 	<li class="icon" onclick="myFunction()"> <a> <i class="fa fa-bars"></i> </a>		
 	
 	<li class="resp"> 
+	{% comment %}
 	{%- if page.lang == "es" -%} 
 		<a href="{{ 'index.html' | relative_url }}" style="color:#FDFEFE"> Inicio </a> 
-	{%- else -%} 
+	{%- endif -%}
+
+	{%- if page.lang == "en" -%}	
 		<a href="{{ '/en/home.html' | relative_url }}"> Home </a> 
 	{%- endif -%} </li>
+	{% endcomment %}	
 
 	<li class="resp"> 
 	{%- if page.lang == "es" -%} 		
