@@ -1,22 +1,21 @@
 Circunscripción,Lista/Pacto,Partido,Candidatos,Votos,Porcentaje,Electos,Electos_comp,url
-Nacional,,,"('Juan', 'Agustín', 'Alcalde', 'Bascuñán')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Agustín_Alcalde_Bascuñán
-Nacional,,,"('Agustín', 'Vial', 'Santelices')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Agustín_Vial_Santelices
-Nacional,,,"('Ramón', 'Subercaseaux', 'Mercado')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ramón_Subercaseaux_Mercado
-Nacional,,,"('Manuel', 'Rengifo', 'Cárdenas')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Rengifo_Cárdenas
-Nacional,,,"('Diego', 'Portales', 'Palazuelos')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Diego_Portales_Palazuelos
-Nacional,,,"('Pedro', 'Ovalle', 'Landa')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Ovalle_y_Landa
-Nacional,,,"('Francisco', 'Ignacio', 'Ossa', 'Mercado')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Francisco_Ignacio_Ossa_Mercado
-Nacional,,,"('José', 'Manuel', 'Ortúzar', 'Formas')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Manuel_Ortúzar_Formas
-Nacional,,,"('Juan', 'de Dios', 'Vial', 'del Río')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_de_Dios_Vial_del_Río
-Nacional,,,"('Manuel', 'José', 'Gandarillas', 'Guzmán')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_José_Gandarillas_Guzmán
-Nacional,,,"('Fernando', 'Antonio', 'Elizalde', 'Marticorena')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fernando_Antonio_Elizalde_Marticorena
-Nacional,,,"('José', 'Miguel', 'del Solar', 'Marín')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Miguel_Del_Solar_Marín
-Nacional,,,"('Ramón', 'de la Cavareda', 'Trucíos')",,, ,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ramón_De_la_Cavareda_Trucíos
-Nacional,,,"('Rafael', 'Correa de Saa', 'Lazón')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rafael_Correa_de_Saa_Lazón
-Nacional,,,"('Diego', 'José', 'Benavente', 'Bustamante')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Diego_José_Benavente_Bustamante
-Nacional,,,"('Andrés', 'de Jesús', 'María y José', 'Bello', 'López')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Andrés_de_Jesús_María_y_José_Bello_López
-Nacional,,,"('Diego', 'Antonio', 'Barros', 'Fernández')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Diego_Antonio_Barros_Fernández
-Nacional,,,"('Ramón', 'Formas', 'Patiño')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ramón_Formas_Patiño
-Nacional,,,"('José', 'Miguel', 'Irarrázaval', 'Alcalde')",,, ,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Miguel_Yrarrázaval_Alcalde
-Nacional,Pelucon,Pelucon,"('Juan', 'Francisco', 'Meneses', 'Echanes')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Francisco_Meneses_Echanes
-Nacional,Pelucon,Pelucon,"('Mariano', 'Egaña', 'Fabres')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Mariano_Egaña_Fabres
+Nacional-1,,,"('Juan', 'Agustín', 'Alcalde', 'Bascuñán')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Agustín_Alcalde_Bascuñán
+Nacional-1,,,"('José', 'Miguel', 'Irarrázaval', 'Alcalde')",,, ,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Miguel_Yrarrázaval_Alcalde
+Nacional-1,,,"('Diego', 'Antonio', 'Barros', 'Fernández')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Diego_Antonio_Barros_Fernández
+Nacional-1,,,"('Rafael', 'Correa de Saa', 'Lazón')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rafael_Correa_de_Saa_Lazón
+Nacional-1,,,"('Pedro', 'Ovalle', 'Landa')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Ovalle_y_Landa
+Nacional-1,,,"('Ramón', 'Subercaseaux', 'Mercado')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ramón_Subercaseaux_Mercado
+Nacional-1,Pelucon,Pelucon,"('Juan', 'Francisco', 'Meneses', 'Echanes')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Francisco_Meneses_Echanes
+Nacional-2,,,"('Juan', 'de Dios', 'Vial', 'del Río')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_de_Dios_Vial_del_Río
+Nacional-2,,,"('José', 'Miguel', 'del Solar', 'Marín')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Miguel_Del_Solar_Marín
+Nacional-2,,,"('Andrés', 'de Jesús', 'María y José', 'Bello', 'López')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Andrés_de_Jesús_María_y_José_Bello_López
+Nacional-2,,,"('Ramón', 'Formas', 'Patiño')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ramón_Formas_Patiño
+Nacional-2,,,"('Estanislao', 'Segundo', 'Portales', 'Larraín')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Estanislao_Segundo_Portales_Larraín
+Nacional-2,,,"('Francisco', 'Ignacio', 'Ossa', 'Mercado')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Francisco_Ignacio_Ossa_Mercado
+Nacional-2,,,"('Ramón', 'de la Cavareda', 'Trucíos')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ramón_De_la_Cavareda_Trucíos
+Nacional-3,,,"('Santiago', 'Echevers', 'Santelices')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Santiago_de_Etcheverz_Santelices
+Nacional-3,,,"('José', 'Manuel', 'Ortúzar', 'Formas')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Manuel_Ortúzar_Formas
+Nacional-3,,,"('Manuel', 'José', 'Gandarillas', 'Guzmán')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_José_Gandarillas_Guzmán
+Nacional-3,,,"('José', 'Gabriel', 'Tocornal', 'Jiménez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Gabriel_Tocornal_Jiménez
+Nacional-3,,,"('Diego', 'José', 'Benavente', 'Bustamante')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Diego_José_Benavente_Bustamante
+Nacional-3,Pelucon,Pelucon,"('Mariano', 'Egaña', 'Fabres')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Mariano_Egaña_Fabres

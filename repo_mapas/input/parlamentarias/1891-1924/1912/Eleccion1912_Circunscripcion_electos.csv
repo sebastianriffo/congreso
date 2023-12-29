@@ -1,41 +1,39 @@
 Circunscripción,Lista/Pacto,Partido,Candidatos,Votos,Porcentaje,Electos,Electos_comp,url
-Antofagasta,Partido Liberal,PL,"('Jorge', 'Buchanan', 'Leese')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Buchanan_Leese
 Tarapacá,Partido Liberal Democrático,PLDe,"('Arturo', 'del Río', 'Racet')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Arturo_Del_Río_Racet
+Antofagasta,Partido Liberal,PL,"('Jorge', 'Buchanan', 'Leese')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Buchanan_Leese
 Atacama,Partido Radical,PR,"('Enrique', 'Mac-Iver', 'Rodríguez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Enrique_Mac_Iver_Rodríguez
 Coquimbo,Partido Liberal Democrático,PLDe,"('Juan', 'Eduardo', 'Mackenna', 'Astorga')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Eduardo_Mackenna_Astorga
 Coquimbo,Partido Liberal Democrático,PLDe,"('Daniel', 'Oliva', 'Figueroa')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Daniel_Oliva_Figueroa
-Coquimbo,Partido Liberal Democrático,PLDe,"('José', 'Rafael', 'del Carmen', 'Balmaceda', 'Fernández')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Rafael_del_Carmen_Balmaceda_Fernández
 Aconcagua,Partido Liberal Democrático,PLDe,"('Ignacio', 'Silva', 'Ureta')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ignacio_Silva_Ureta
 Aconcagua,Partido Liberal,PL,"('Luis', 'Claro', 'Solar')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Claro_Solar
 Valparaíso,Partido Liberal,PL,"('Guillermo', 'Rivera', 'Cotapos')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Guillermo_Rivera_Cotapos
 Valparaíso,Partido Liberal Doctrinario,PLDo,"('Joaquín', 'Figueroa', 'Larraín')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Joaquín_Figueroa_Larraín
 Valparaíso,Partido Democrático,PDo,"('Ángel', 'Guarello', 'Costa')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Angel_Guarello_Costa
-Santiago,Partido Conservador,PCon,"('José', 'Adolfo', 'Ricardo', 'Matte', 'Pérez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Adolfo_Ricardo_Matte_Pérez
-Santiago,Partido Conservador,PCon,"('José', 'Luis', 'Tocornal', 'Jordán')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Luis_Tocornal_Jordán
+Santiago,Partido Liberal,PL,"('Francisco', 'Valdés', 'Vergara')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Francisco_Valdés_Vergara
 Santiago,Partido Radical,PR,"('Ascanio', 'Bascuñán', 'Santa María')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ascanio_Bascuñán_Santa_María
-Santiago,Partido Liberal,PL,"('Francisco', 'Valdés', 'Vergara')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Francisco_Valdés_Vergara
-Santiago,Partido Liberal Doctrinario,PLDo,"('Víctor', 'Ismael', 'Valdés', 'Valdés')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Víctor_Ismael_Valdés_Valdés
 Santiago,Partido Liberal Doctrinario,PLDo,"('Pedro', 'Vicente', 'Reyes', 'Palazuelos')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Vicente_Reyes_Palazuelos
+Santiago,Partido Liberal Doctrinario,PLDo,"('Víctor', 'Ismael', 'Valdés', 'Valdés')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Víctor_Ismael_Valdés_Valdés
+Santiago,Partido Conservador,PCon,"('José', 'Adolfo', 'Ricardo', 'Matte', 'Pérez')",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Adolfo_Ricardo_Matte_Pérez
+Santiago,Partido Conservador,PCon,"('José', 'Luis', 'Tocornal', 'Jordán')",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Luis_Tocornal_Jordán
 Santiago,Candidatura Independiente,IND,"('Joaquín', 'Walker', 'Martínez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Joaquín_Walker_Martinez
 O'Higgins,Partido Conservador,PCon,"('Carlos', 'Aldunate', 'Solar')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Aldunate_Solar
 Colchagua,Partido Liberal Doctrinario,PLDo,"('Eduardo', 'Charme', 'Fernández')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eduardo_Charme_Fernández
 Colchagua,Partido Liberal Doctrinario,PLDo,"('José', 'María', 'Valderrama', 'Lira')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_María_Valderrama_Lira
 Curicó,Partido Liberal,PL,"('Fernando', 'Liborio', 'Lazcano', 'Echaurren')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fernando_Liborio_Lazcano_Echaurren
-Talca,Partido Conservador,PCon,"('Pedro', 'Correa', 'Ovalle')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Correa_Ovalle
 Talca,Partido Liberal Democrático,PLDe,"('Pedro', 'Segundo', 'Letelier', 'Silva')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Segundo_Letelier_Silva
+Talca,Partido Conservador,PCon,"('Pedro', 'Correa', 'Ovalle')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Correa_Ovalle
 Linares,Partido Conservador,PCon,"('Joaquín', 'Echenique', 'Gandarillas')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Joaquín_Echenique_Gandarillas
-Maule,Partido Nacional o Monttvarista,PN,"('Arturo', 'Besa', 'Navarro')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Arturo_Besa_Navarro
 Maule,Partido Liberal,PL,"('Pedro', 'García de la Huerta', 'Izquierdo')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_García_de_la_Huerta_Izquierdo
-Ñuble,Partido Conservador,PCon,"('Gonzalo', 'Urrejola', 'Unzueta')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gonzalo_Urrejola_y_Unzueta
+Maule,Partido Nacional,PN,"('Arturo', 'Besa', 'Navarro')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Arturo_Besa_Navarro
 Ñuble,Partido Liberal Democrático,PLDe,"('José', 'Elías', 'Balmaceda', 'Fernández')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Elías_Balmaceda_Fernández
-Concepción,Partido Conservador,PCon,"('Javier', 'Eyzaguirre', 'Echaurren')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Javier_Eyzaguirre_Echaurren
+Ñuble,Partido Conservador,PCon,"('Gonzalo', 'Urrejola', 'Unzueta')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gonzalo_Urrejola_y_Unzueta
 Concepción,Partido Liberal Democrático,PLDe,"('Juan', 'Luis', 'Sanfuentes', 'Andonaegui')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Luis_Sanfuentes_Andonaegui
-Concepción,Partido Radical,PR,"('Alfredo', 'Escobar', 'Campaña')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alfredo_Escobar_Campaña
 Concepción,Partido Radical,PR,"('Gregorio', 'Burgos', 'Figueroa')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gregorio_Burgos_Figueroa
+Concepción,Partido Conservador,PCon,"('Javier', 'Eyzaguirre', 'Echaurren')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Javier_Eyzaguirre_Echaurren
 Bío-Bío,Partido Liberal Democrático,PLDe,"('Pedro', 'Nicolás', 'Montenegro', 'Onel')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Nicolás_Montenegro_Onel
 Malleco,,,"('Gonzalo', 'Bulnes', 'Pinto')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gonzalo_Bulnes_Pinto
 Cautín,Partido Liberal Democrático,PLDe,"('Manuel', 'Salinas', 'González')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Salinas_González
-Arauco,Partido Nacional o Monttvarista,PN,"('Miguel', 'Alberto', 'Urrutia', 'Barbosa')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Miguel_Alberto_Urrutia_Barbosa
+Arauco,Partido Nacional,PN,"('Miguel', 'Alberto', 'Urrutia', 'Barbosa')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Miguel_Alberto_Urrutia_Barbosa
 Valdivia,Partido Liberal Doctrinario,PLDo,"('Eliodoro', 'Yáñez', 'Ponce de León')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eliodoro_Yáñez_Ponce_de_León
 Llanquihue,Partido Conservador,PCon,"('Alfredo', 'Barros', 'Errázuriz')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alfredo_Barros_Errázuriz
 Chiloé,Partido Conservador,PCon,"('Silvestre', 'Ochagavía', 'Echaurren')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Silvestre_Ochagavía_Echaurren

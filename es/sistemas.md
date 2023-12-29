@@ -102,7 +102,7 @@ En todos estos casos, los mecanismos utilizados son variantes del método de D'H
   + se calcula la *cifra repartidora* mediante el método de D'Hondt, otorgando a cada lista un número de escaños resultante de la división entre sus votos totales (la suma de votos de lista y votaciones individuales) y dicho valor.
   + Si producto de lo anterior un escaño se repartiera entre varias listas, este es asignado a aquella que obtuviera la mayor votación. En caso de empate, se considera a la lista que posea la primera mayoría individual, y de existir un nuevo empate este se resuelve por sorteo.
   + Para elegir a los candidatos por lista, 
-    - de coincidir su número los escaños atribuídos, se escogen todos. 
+    - de coincidir su número con los escaños atribuídos, se escogen todos. 
     - En caso que sobraran escaños, la diferencia se reparte entre las demás listas como si se tratara de una nueva elección (teniendo que calcular una nueva cifra repartidora sólo para ese fin).  
     - Sino, se declaran electos a quienes hayan obtenido más votos que la cifra repartidora, sumando los votos de lista al candidato que va primero en la papeleta. De quedar cupos por repartir, 
       * se efectúa el *derrame*: los votos sobrantes de cada candidato electo (la diferencia entre su votación y la cifra repartidora) se agregan al primer candidato entre los restantes, quién de resultar elegido, traspasa el nuevo excedente de votos al siguiente, y así consecutivamente según el orden de precedencia.  

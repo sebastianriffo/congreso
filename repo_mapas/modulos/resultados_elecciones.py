@@ -25,7 +25,7 @@ from modulos.division_politica import provincias_chile, num_prov
 from modulos.resultados.webscraping import webscraping_parlamentarios, biografiasBCN
 from modulos.resultados.nombres import nombres_unicode, nombres_formato_v2
 from modulos.resultados.parlamentarios1973_presente import parlamentarios1973_presente
-from modulos.resultados.parlamentarios1834_1969 import parlamentarios1834_1969
+from modulos.resultados.parlamentarios1828_1969 import parlamentarios1828_1969
 from modulos.resultados.resultados1925_1969 import resultados1925_1969
 
 import pandas as pd
@@ -87,7 +87,7 @@ def resultados_parlamentarias(path_datos, eleccion, rep):
     if datos_filenames:
         flag_reload = True
 
-        if (rep == 1 and eleccion < 2005):
+        if (rep == 1 and 1989 <= eleccion < 2005):
             provincias.append('Designados')
                 
         for file in datos_filenames: 
@@ -119,8 +119,20 @@ def resultados_parlamentarias(path_datos, eleccion, rep):
                                             
         ## division electoral
         candidatos = subdiv_prov(provincias, candidatos, eleccion, rep)
+
                 
 #%% DFs CANDIDATOS, PACTOS, LISTAS
+    if (rep == 1) and not (eleccion > 1879 or eleccion <= 1831):
+        candidatos.loc[candidatos[subdivrow].isin(['Nacional']), subdivrow] = 'Nacional-1'
+    elif (rep == 1) and (eleccion == 1828):
+        candidatos.loc[candidatos[subdivrow].isin(['Copiapó', 'Illapel']), subdivrow] = 'Coquimbo'
+        candidatos.loc[candidatos[subdivrow].isin(['Quillota']), subdivrow] = 'Aconcagua'
+        candidatos.loc[candidatos[subdivrow].isin(['Valparaíso', 'Rancagua']), subdivrow] = 'Santiago'
+        candidatos.loc[candidatos[subdivrow].isin(['Talca']), subdivrow] = 'Colchagua'
+        candidatos.loc[candidatos[subdivrow].isin(['Parral', 'Cauquenes']), subdivrow] = 'Maule'
+        candidatos.loc[candidatos[subdivrow].isin(['Puchacay', 'Rere']), subdivrow] = 'Concepción'
+        candidatos.loc[candidatos[subdivrow].isin(['Osorno']), subdivrow] = 'Valdivia' 
+
     candidatos[subdivrow] = pd.Categorical(candidatos[subdivrow], categories=provincias, ordered=False)
 
     # corrección de tildes, caracteres especiales, apellidos compuestos
@@ -241,10 +253,11 @@ def resultados_parlamentarias(path_datos, eleccion, rep):
         siglas_re = re.compile("|".join(siglas)) 
 
         ## corregir inconsistencias de la BCN, agregar senadores del período anterior
-        candidatos = parlamentarios1834_1969(path_datos, candidatos, eleccion, rep, siglas if flag_reload else None)
+        candidatos = parlamentarios1828_1969(path_datos, candidatos, eleccion, rep, siglas if flag_reload else None)
 
         if pactos:
-            candidatos['Partido'] = candidatos['Partido'].map(lambda y: siglas[siglas_re.findall(y)[0]] if siglas_re.findall(y) else y)            
+            # candidatos['Partido'] = candidatos['Partido'].map(lambda y: siglas[siglas_re.findall(y)[0]] if siglas_re.findall(y) else y)
+            candidatos.loc[candidatos['Partido'] != '', 'Partido'] = candidatos.loc[candidatos['Partido'] != '', 'Partido'].map(lambda y: siglas[siglas_re.findall(y)[0]] if siglas_re.findall(y) else y)            
             candidatos['Lista/Pacto'] = candidatos['Partido'].map(lambda y: pactos[y] if y in pactos.keys() else '')        
         else:
             siglas_inv = {v: k for k, v in siglas.items()}    

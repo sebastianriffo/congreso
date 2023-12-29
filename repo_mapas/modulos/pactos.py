@@ -55,7 +55,11 @@ def siglas_partidos():
               'Partido Demócrata': 'PD',
               #
               'Partido Liberal Democrático': 'PLDe',
+              'Partido Liberal Democrático Aliancista': 'PLDe-A',
+              'Partido Liberal Democrático Unionista': 'PLDe-U',              
               'Partido Liberal Doctrinario': 'PLDo',
+              'Partido Liberal Aliancista':'PL-A',
+              'Partido Liberal Unionista':'PL-U',              
               'Partido Liberal Unido': 'PLU',
               'Partido Liberal Progresista': 'PLP',
               'Partido Liberal': 'PL',
@@ -67,7 +71,9 @@ def siglas_partidos():
               'Vanguardia Popular Socialista':'VPS',
               #
               'Partido Nacional Cristiano':'PNC',        
-              'Partido Nacional':'PN',                
+              #
+              'Partido Nacional Aliancista':'PN-A',
+              'Partido Nacional':'PN',
               #
               'Partido Conservador Unido': 'PCU',                
               'Partido Conservador Tradicionalista': 'PCT',
@@ -353,6 +359,30 @@ def pactos_electorales(eleccion):
     # elif eleccion == 1925:
     #     Pacto Civil / Unidad Nacional Tradicionalista : PR PL PCon PLDe       
     #     Pacto Socialista-Republicano PD USRACH PS NAP PC PR disidentes
+        
+    elif eleccion == 1924:
+        partidos = ['PR', 'PL-A', 'PLDe-A', 'PD',
+                    'PCon', 'PL-U', 'PLDe-U', 'PN']
+        
+        listas = ['Alianza Liberal']*4 +['Unión Nacional']*4
+        
+    elif eleccion == 1921:
+        partidos = ['PR', 'PL-A', 'PLDe-A', 'PD', 'POS', 'PN-A',
+                    'PCon', 'PL-U', 'PLDe-U', 'PN']
+        
+        listas = ['Alianza Liberal']*6 +['Unión Nacional']*4        
+
+    elif eleccion == 1918:
+        partidos = ['PR', 'PL', 'PLDe-A', 'PD', 'PN-A',
+                    'PCon', 'PLDe', 'PN']
+        
+        listas = ['Alianza Liberal']*5 +['Coalición']*3 
+    
+    elif eleccion == 1915:
+        partidos = ['PR', 'PL', 'PD', 'PLDo',
+                    'PCon', 'PLDe', 'PN']
+        
+        listas = ['Alianza Liberal']*4 +['Coalición']*3 
         
     else:
         return None        

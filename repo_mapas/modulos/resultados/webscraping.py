@@ -324,7 +324,6 @@ def biografiasBCN(eleccion, rep, electos):
      
     url_mask = (electos['url'].str.contains('bcn') == False) & ((electos['Electos'] == '*') | (electos['Electos_comp'] == '*')) &\
                 ((~electos.index.get_level_values(0).isin(['Designados'])) if subdivrow in electos.index.names else (~electos[subdivrow].isin(['Designados'])))
-                # ((electos.index.get_level_values(0) < 100) if subdivrow in electos.index.names else (electos[subdivrow] < 100))
                 
     if (url_mask.sum() == 0):
         return None

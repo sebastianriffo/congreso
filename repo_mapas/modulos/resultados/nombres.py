@@ -274,7 +274,7 @@ def nombres_formato_v2(candidatos, column='Candidatos', formato=True):
                              'Fernández de Braga':'Fernández+de+Braga', 'Fernández de Castro':'Fernández+de+Castro', 'Fernández de Cienfuegos':'Fernández+de+Cienfuegos', 
                              'Fernández de Gandarillas':'Fernández+de+Gandarillas', 'Fernández de Leiva':'Fernández+de+Leiva', 'Fernández de Muras':'Fernández+de+Muras',
                              'Fernández de Palazuelos':'Fernández+de+Palazuelos', 'Fernández de Valdivieso':'Fernández+de+Valdivieso',
-                             'López de Linares':'López+de+Linares', 'López de Sotomayor':'López+de+Sotomayor',
+                             'Lazo de la Vega':'Lazo+de+la+Vega', 'López de Linares':'López+de+Linares', 'López de Sotomayor':'López+de+Sotomayor',
                              'Martínez de Aldunate':'Martínez+de+Aldunate', 'Martínez de Luco':'Martínez+de+Luco', 'Martínez de Matta':'Martínez+de+Matta', 'Martínez de Rozas':'Martínez+de+Rozas', 'Martínez de Vergara':'Martínez+de+Vergara',
                              'Montero de Amaya':'Montero+de+Amaya',
                              'Núñez de Guzmán':'Núñez+de+Guzmán', 'Núñez de Silva':'Núñez+de+Silva',

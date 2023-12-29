@@ -30,6 +30,10 @@ def correcciones1925_1969(candidatos, eleccion, rep):
         DESCRIPTION.
 
     """
+    
+    
+    #28/11/2023: las elecciones complementarios fueraon revisadas entre 1925 y 1973
+    
     candidatos.loc[candidatos['Partido'] == 'Independiente', 'Partido'] = 'Candidatura Independiente'
 
     reemplazados = {0:['^$'], 1:['^$']}[rep]
@@ -38,8 +42,8 @@ def correcciones1925_1969(candidatos, eleccion, rep):
     partidos = {'^$': {0:['^$'], 1:['^$']}[rep]}    
     
     if eleccion == 1969:
-        reemplazados = {0:['Pontigo Urrutia', 'Lacoste Navarro', 'Avendaño Ortúzar'], 1:['Isla Hevia']}[rep]
-        reemplazantes = {0:['Altamirano Guerrero', 'Marín Socías', 'Diez Urzúa'], 1:['Moreno Rojas']}[rep]
+        reemplazados = {0:['Pontigo Urrutia', 'Lacoste Navarro', 'Avendaño Ortúzar'], 1:['Isla Hevia', 'Salvador Allende Gossens']}[rep]
+        reemplazantes = {0:['Altamirano Guerrero', 'Marín Socías', 'Diez Urzúa'], 1:['Moreno Rojas', 'Adonis Ramón Sepúlveda Acuña']}[rep]
 
         partidos = {'Partido Socialista': {0:['Sabat Gozalo'], 1:['^$']}[rep],
                     'Partido Social Demócrata': {0:['^$'], 1:['Luengo Escalona']}[rep],
@@ -49,8 +53,12 @@ def correcciones1925_1969(candidatos, eleccion, rep):
                     }
 
         if (rep == 0) and not sum(candidatos['Candidatos'].str.contains('Juan Bautista Segundo Argandoña Cortéz')):        
-            candidatos.loc[len(candidatos.index),:] = 2,'','Juan Bautista Segundo Argandoña Cortéz','Partido Demócrata Cristiano','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Bautista_Segundo_Argandoña_Cortéz'
-            candidatos.loc[len(candidatos.index),:] = 71,'','Alvaro Erich Schnake Silva','Partido Socialista','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alvaro_Erich_Schnake_Silva'
+            candidatos.loc[len(candidatos.index),:] = 'Antofagasta','','Juan Bautista Segundo Argandoña Cortéz','Partido Demócrata Cristiano','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Bautista_Segundo_Argandoña_Cortéz'
+            candidatos.loc[len(candidatos.index),:] = 'Santiago-1','','Alvaro Erich Schnake Silva','Partido Socialista','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alvaro_Erich_Schnake_Silva'
+        
+        if (rep == 1) and not sum(candidatos['Candidatos'].str.contains('Adonis Ramón Sepúlveda Acuña')):        
+            candidatos.loc[len(candidatos.index),:] = 'Chiloé, Aysén y Magallanes','','Adonis Ramón Sepúlveda Acuña','Partido Socialista','','',None,'*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Adonis_Ramón_Sepúlveda_Acuña'
+
 
     elif eleccion == 1965:
         reemplazados = {0:['Muñoz Horz', 'Coñuepán Huenchual'], 1:['Corbalán González', 'García González']}[rep]
@@ -63,10 +71,10 @@ def correcciones1925_1969(candidatos, eleccion, rep):
                     }
 
         if (rep == 0) and not sum(candidatos['Candidatos'].str.contains('Juan Bautista Segundo Argandoña Cortéz')):
-            candidatos.loc[len(candidatos.index),:] = 2,'','Juan Bautista Segundo Argandoña Cortéz','Partido Demócrata Cristiano','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Bautista_Segundo_Argandoña_Cortéz'
+            candidatos.loc[len(candidatos.index),:] = 'Antofagasta','','Juan Bautista Segundo Argandoña Cortéz','Partido Demócrata Cristiano','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Bautista_Segundo_Argandoña_Cortéz'
         if (rep == 1) and not sum(candidatos['Candidatos'].str.contains('Carrera Villavicencio')): 
-            candidatos.loc[max(candidatos.index)+1,:] = 5,'','María Elena Carrera Villavicencio','Partido Socialista','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/María_Elena_Carrera_Villavicencio'
-            candidatos.loc[max(candidatos.index)+1,:] = 6,'','José Antonio Foncea Aedo','Partido Demócrata Cristiano','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Antonio_Foncea_Aedo'
+            candidatos.loc[max(candidatos.index)+1,:] = "O'Higgins y Colchagua",'','María Elena Carrera Villavicencio','Partido Socialista','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/María_Elena_Carrera_Villavicencio'
+            candidatos.loc[max(candidatos.index)+1,:] = 'Curicó, Talca, Maule y Linares','','José Antonio Foncea Aedo','Partido Demócrata Cristiano','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Antonio_Foncea_Aedo'
 
     elif eleccion == 1961: 
         candidatos = candidatos[~candidatos['Candidatos'].str.contains('Jorge Wachholtz Araya')]
@@ -83,11 +91,11 @@ def correcciones1925_1969(candidatos, eleccion, rep):
                     }
 
         if (rep == 0) and not sum(candidatos['Candidatos'].str.contains('Ramón Augusto Silva Ulloa')):        
-            candidatos.loc[len(candidatos.index),:] = 2,'','Juan Bautista Segundo Argandoña Cortéz','Partido Demócrata Cristiano','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Bautista_Segundo_Argandoña_Cortéz'
-            candidatos.loc[len(candidatos.index),:] = 2,'','Ramón Augusto Silva Ulloa','Partido Socialista','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ramón_Augusto_Silva_Ulloa'
-            candidatos.loc[len(candidatos.index),:] = 6,'','Guillermo Rivera Bustos','Partido Liberal','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Guillermo_Rivera_Bustos' 
-            candidatos.loc[len(candidatos.index),:] = 6,'','Alonso Zumaeta Faune','Partido Socialista','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alonso_Zumaeta_Faune'
-            candidatos.loc[len(candidatos.index),:] = 21,'','Juan Tuma Masso','Partido Democrático Nacional','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Tuma_Masso'        
+            candidatos.loc[len(candidatos.index),:] = 'Antofagasta','','Juan Bautista Segundo Argandoña Cortéz','Partido Demócrata Cristiano','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Bautista_Segundo_Argandoña_Cortéz'
+            candidatos.loc[len(candidatos.index),:] = 'Antofagasta','','Ramón Augusto Silva Ulloa','Partido Socialista','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ramón_Augusto_Silva_Ulloa'
+            candidatos.loc[len(candidatos.index),:] = 'Valparaíso','','Guillermo Rivera Bustos','Partido Liberal','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Guillermo_Rivera_Bustos' 
+            candidatos.loc[len(candidatos.index),:] = 'Valparaíso','','Alonso Zumaeta Faune','Partido Socialista','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alonso_Zumaeta_Faune'
+            candidatos.loc[len(candidatos.index),:] = 'Cautín','','Juan Tuma Masso','Partido Democrático Nacional','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Tuma_Masso'        
 
     elif eleccion == 1957:
         candidatos.loc[candidatos['Partido'] == 'Partido Comunista de Chile', 'Partido'] = 'Partido del Trabajo'
@@ -115,17 +123,18 @@ def correcciones1925_1969(candidatos, eleccion, rep):
                     }
             
         if (rep == 0) and not sum(candidatos['Candidatos'].str.contains('Ramón Augusto Silva Ulloa')):
-            candidatos.loc[len(candidatos.index),:] = 2,'','Ramón Augusto Silva Ulloa','Partido Socialista Popular','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ramón_Augusto_Silva_Ulloa'
-            candidatos.loc[len(candidatos.index),:] = 6,'','Alonso Zumaeta Faune','Partido Socialista','','',None,'*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alonso_Zumaeta_Faune'
-            candidatos.loc[len(candidatos.index),:] = 71,'','Luis Pareto González','Partido Agrario Laborista','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Pareto_González'        
+            candidatos.loc[len(candidatos.index),:] = 'Antofagasta','','Ramón Augusto Silva Ulloa','Partido Socialista Popular','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ramón_Augusto_Silva_Ulloa'
+            candidatos.loc[len(candidatos.index),:] = 'Valparaíso','','Alonso Zumaeta Faune','Partido Socialista','','',None,'*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alonso_Zumaeta_Faune'
+            candidatos.loc[len(candidatos.index),:] = 'Santiago-1','','Luis Pareto González','Partido Agrario Laborista','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Pareto_González'        
         if (rep == 1) and not sum(candidatos['Candidatos'].str.contains('Barrueto Reeve')): 
-            candidatos.loc[max(candidatos.index)+1,:] = 8,'','Edgardo Barrueto Reeve','Partido Agrario Laborista','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Edgardo_Barrueto_Reeve'
+            candidatos.loc[max(candidatos.index)+1,:] = 'Bío-Bío, Malleco y Cautín','','Edgardo Barrueto Reeve','Partido Agrario Laborista','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Edgardo_Barrueto_Reeve'
 
     elif eleccion == 1953:
         reemplazados = {0:['Zárate Andreu', 'Montero Soto', 'Pizarro Cabezas', 'Benaprés Lafourcade', 'Nazar Feres', 'Recabarren Valenzuela','Muñoz San Martín'],
                         1:['Cruz Toledo']}[rep]
         reemplazantes = {0:['Maurás Novella', 'Flores Álvarez', 'Corral Garrido', 'Pumarino Fuentes', 'Muñoz Horz', 'Gumucio Vives', 'Barja Blanco'],
                          1:['Quinteros Tricot']}[rep]
+        presuntivos = {0:['Jaime Barros Pérez-Cotapos'], 1:['^$']}[rep]
 
         #fuente : la nacion, 3/3/1953, pp.6 y 8
         partidos = {'Partido Conservador Social Cristiano': {0:['Palma Sanguinetti', 'Palma Gallardo'], 1:['^$']}[rep],
@@ -141,11 +150,13 @@ def correcciones1925_1969(candidatos, eleccion, rep):
                     }
 
         if (rep == 0) and not sum(candidatos['Candidatos'].str.contains('Ramón Augusto Silva Ulloa')):
-            candidatos.loc[len(candidatos.index),:] = 2,'','Ramón Augusto Silva Ulloa','Partido Socialista Popular','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ramón_Augusto_Silva_Ulloa'        
-            candidatos.loc[len(candidatos.index),:] = 17,'','Adán Puentes Gómez','Partido Democrático del Pueblo','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Adán_Puentes_Gómez'        
-            candidatos.loc[len(candidatos.index),:] = 19,'','Jorge Rigo-Righi Caridi','Partido Agrario Laborista','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Rigo_Righi_Caridi'        
-            candidatos.loc[len(candidatos.index),:] = 21,'','Edgardo Barrueto Reeve','Partido Agrario Laborista','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Edgardo_Barrueto_Reeve'               
-            candidatos.loc[len(candidatos.index),:] = 71,'','Eduardo Maass Jensen','Partido Socialista Popular','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Edgardo_Maass_Jensen'        
+            candidatos.loc[len(candidatos.index),:] = 'Antofagasta','','Ramón Augusto Silva Ulloa','Partido Socialista Popular','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ramón_Augusto_Silva_Ulloa'        
+            candidatos.loc[len(candidatos.index),:] = 'Concepción','','Adán Puentes Gómez','Partido Democrático del Pueblo','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Adán_Puentes_Gómez'        
+            candidatos.loc[len(candidatos.index),:] = 'Bío-Bío','','Jorge Rigo-Righi Caridi','Partido Agrario Laborista','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Rigo_Righi_Caridi'        
+            candidatos.loc[len(candidatos.index),:] = 'Bío-Bío','','Edgardo Barrueto Reeve','Partido Agrario Laborista','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Edgardo_Barrueto_Reeve'               
+            candidatos.loc[len(candidatos.index),:] = 'Santiago-1','','Eduardo Maass Jensen','Partido Socialista Popular','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Edgardo_Maass_Jensen'        
+
+        candidatos.loc[len(candidatos.index),:] = 'Valparaíso','','Jaime Barros Pérez-Cotapos','Partido Comunista','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jaime_Barros_Pérez-Cotapos'
 
     elif eleccion == 1949: 
         candidatos = candidatos[~candidatos['Candidatos'].str.contains('Quinteros Tricot')]
@@ -174,12 +185,12 @@ def correcciones1925_1969(candidatos, eleccion, rep):
                     }
 
         if (rep == 0) and not sum(candidatos['Candidatos'].str.contains('Edgardo Barrueto Reeve')):                        
-            candidatos.loc[len(candidatos.index),:] = 21,'','Edgardo Barrueto Reeve','Partido Liberal Progresista','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Edgardo_Barrueto_Reeve'               
-            candidatos.loc[len(candidatos.index),:] = 24,'','José Edesio García Setz','Partido Conservador Social Cristiano','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Edesio_García_Setz'        
+            candidatos.loc[len(candidatos.index),:] = 'Bío-Bío','','Edgardo Barrueto Reeve','Partido Liberal Progresista','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Edgardo_Barrueto_Reeve'               
+            candidatos.loc[len(candidatos.index),:] = 'Llanquihue y Aysén','','José Edesio García Setz','Partido Conservador Social Cristiano','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Edesio_García_Setz'        
 
     elif eleccion == 1945:
         if rep == 1: 
-            candidatos = candidatos[~candidatos['Candidatos'].str.contains('Tomic Romero|Fernández Larraín|Maira Castellón')]
+            candidatos = candidatos[~candidatos['Candidatos'].str.contains('Tomic Romero|Fernández Larraín|Maira Castellón|Barrueto Molinet')]
         
         candidatos.loc[candidatos['Partido'] == 'Partido Comunista de Chile', 'Partido'] = 'Partido Progresista Nacional'
         candidatos.loc[candidatos['Partido'] == 'Partido Agrario Laborista', 'Partido'] = 'Partido Agrario'
@@ -193,7 +204,7 @@ def correcciones1925_1969(candidatos, eleccion, rep):
         #fuente : la nación, 5/3/1945, p.4
         partidos = {'Partido Socialista': {0:['Rossetti Colombino'], 1:['^$']}[rep],
                     'Partido Socialista Auténtico': {0:['^$'], 1:['Domínguez Domínguez', 'Marmaduke Grove Vallejo']}[rep],
-                    'Partido Agrario': {0:['Echavarri Elorza'], 1:['^$']}[rep],
+                    'Partido Agrario': {0:['Echavarri Elorza'], 1:['Jaime Larraín García-Moreno']}[rep],
                     'Partido Conservador': {0:['Escala Garnham'], 1:['Cerda Jaraquemada']}[rep],
                     'Partido Progresista Nacional': {0:['Godoy Urrutia'], 1:['^$']}[rep], 
                     'Alianza Popular Libertadora': {0:['Coñuepán Huenchual'], 1:['^$']}[rep], 
@@ -203,17 +214,17 @@ def correcciones1925_1969(candidatos, eleccion, rep):
                     }
 
         if (rep == 0) and not sum(candidatos['Candidatos'].str.contains('Héctor Zañartu Urrutia')):
-            candidatos.loc[len(candidatos.index),:] = 16,'','Héctor Zañartu Urrutia','Partido Conservador','','',None,'*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Héctor_Zañartu_Urrutia'
-            candidatos.loc[len(candidatos.index),:] = 21,'','Braulio Sandoval Muñoz','Partido Agrario','','',None,'*',''            
-            candidatos.loc[len(candidatos.index),:] = 25,'','Juan Rafael Del Canto Medán','Partido Liberal Democrático','','','*',None,'https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Rafael_Del_Canto_Medán'
-            candidatos.loc[len(candidatos.index),:] = 71,'','Roberto Barros Torres','Partido Liberal','','','*',None,'https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Roberto_Barros_Torres'
+            candidatos.loc[len(candidatos.index),:] = 'Ñuble-2','','Héctor Zañartu Urrutia','Partido Conservador','','',None,'*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Héctor_Zañartu_Urrutia'
+            candidatos.loc[len(candidatos.index),:] = 'Cautín','','Braulio Sandoval Muñoz','Partido Agrario','','',None,'*',''            
+            candidatos.loc[len(candidatos.index),:] = 'Chiloé','','Juan Rafael Del Canto Medán','Partido Liberal Democrático','','','*',None,'https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Rafael_Del_Canto_Medán'
+            candidatos.loc[len(candidatos.index),:] = 'Santiago-1','','Roberto Barros Torres','Partido Liberal','','','*',None,'https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Roberto_Barros_Torres'
 
         if (rep == 1) and not sum(candidatos['Candidatos'].str.contains('Vásquez Galdames')): 
-            candidatos.loc[max(candidatos.index)+1,:] = 1,'','Angel Custodio Vásquez Galdames','Partido Radical','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Angel_Custodio_Vásquez_Galdames'
+            candidatos.loc[max(candidatos.index)+1,:] = 'Tarapacá y Antofagasta','','Angel Custodio Vásquez Galdames','Partido Radical','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Angel_Custodio_Vásquez_Galdames'
 
     elif eleccion == 1941: 
-        candidatos = candidatos[~candidatos['Candidatos'].str.contains('Vásquez Galdames|Ballesteros Reyes')]                
-        
+        candidatos = candidatos[~candidatos['Candidatos'].str.contains('Vásquez Galdames|Ballesteros Reyes|Larraín García-Moreno')]                
+            
         candidatos.loc[candidatos['Partido'] == 'Partido Comunista de Chile', 'Partido'] = 'Partido Progresista Nacional'
 
         reemplazados = {0:['Muñoz Ayling', 'Rosende Verdugo', 'Rossetti Colombino', 'Montecinos Matus', 'Labarca Moreno', 'Ernst Martínez', 'Castelblanco Agüero'],
@@ -237,12 +248,12 @@ def correcciones1925_1969(candidatos, eleccion, rep):
                     }
 
         if (rep == 0) and not sum(candidatos['Candidatos'].str.contains('César Godoy Urrutia')):
-            candidatos.loc[len(candidatos.index),:] = 24,'','Alfonso Campos Menéndez','Partido Liberal','','',None,'*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alfonso_Campos_Menéndez'            
-            candidatos.loc[len(candidatos.index),:] = 25,'','Juan Rafael del Canto Medán','Partido Liberal Democrático','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Rafael_Del_Canto_Medán'
-            candidatos.loc[len(candidatos.index),:] = 71,'','César Godoy Urrutia','Partido Progresista Nacional','','',None,'*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/César_Godoy_Urrutia'
+            candidatos.loc[len(candidatos.index),:] = 'Llanquihue y Aysén','','Alfonso Campos Menéndez','Partido Liberal','','',None,'*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alfonso_Campos_Menéndez'            
+            candidatos.loc[len(candidatos.index),:] = 'Chiloé','','Juan Rafael del Canto Medán','Partido Liberal Democrático','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Rafael_Del_Canto_Medán'
+            candidatos.loc[len(candidatos.index),:] = 'Santiago-1','','César Godoy Urrutia','Partido Progresista Nacional','','',None,'*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/César_Godoy_Urrutia'
                     
         if (rep == 1) and not sum(candidatos['Candidatos'].str.contains('Ortega Mason')): 
-            candidatos.loc[max(candidatos.index)+1,:] = 8,'','Rudecindo Ortega Mason','Partido Radical','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rudecindo_Ortega_Mason'
+            candidatos.loc[max(candidatos.index)+1,:] = 'Bío-Bío, Malleco y Cautín','','Rudecindo Ortega Mason','Partido Radical','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rudecindo_Ortega_Mason'
                                                
     elif eleccion == 1937:  
         candidatos = candidatos[~candidatos['Candidatos'].str.contains('Vásquez Galdames|Ballesteros Reyes|Guzmán Cortés')]
@@ -250,8 +261,8 @@ def correcciones1925_1969(candidatos, eleccion, rep):
         candidatos.loc[candidatos['Partido'] == 'Partido Comunista de Chile', 'Partido'] = 'Partido Nacional Democrático'
         if rep == 0:
             candidatos.loc[candidatos['Partido'] == 'Partido Democrático', 'Partido'] = 'Partido Demócrata'
-            candidatos.loc[candidatos['Candidatos'].str.contains('Latcham Alfaro'), 'Distrito'] = 71
-            candidatos.loc[candidatos['Candidatos'].str.contains('Baeza Herrera'), ['Distrito','Partido']] = [72,'Partido Socialista']
+            candidatos.loc[candidatos['Candidatos'].str.contains('Latcham Alfaro'), 'Distrito'] = 'Santiago-1'
+            candidatos.loc[candidatos['Candidatos'].str.contains('Baeza Herrera'), ['Distrito','Partido']] = ['Santiago-2','Partido Socialista']
             
         reemplazados = {0:['Alfonso Barrios', 'Martínez Martínez', 'Ortega Mason', 'Melo Hermosilla', 'Cifuentes Solar', 'González Videla', 'Allende Gossens', 'Merino Reyes', 'Álvarez Suárez', 'Pezoa Estrada', 'Luna Verdugo'],
                         1:['Schnake Vergara', 'Gatica Silva', 'Santa María Cerveró', 'Pradenas Muñoz', 'Meza Rivera', 'Sáenz Cerda']}[rep]
@@ -273,27 +284,29 @@ def correcciones1925_1969(candidatos, eleccion, rep):
                     }
 
         if (rep == 0) and not sum(candidatos['Candidatos'].str.contains('del Canto Medán')):
-            candidatos.loc[len(candidatos.index),:] = 71,'','Gerardo López Urbina','Partido Socialista','','',None,'*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gerardo_López_Urbina'
-            candidatos.loc[len(candidatos.index),:] = 21,'','Rudecindo Ortega Mason','Partido Radical','','','*',None,'https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rudecindo_Ortega_Mason'
-            candidatos.loc[len(candidatos.index),:] = 24,'','Juan Rafael del Canto Medán','Partido Liberal','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Rafael_Del_Canto_Medán'
+            candidatos.loc[len(candidatos.index),:] = 'Santiago-1','','Gerardo López Urbina','Partido Socialista','','',None,'*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gerardo_López_Urbina'
+            candidatos.loc[len(candidatos.index),:] = 'Cautín','','Rudecindo Ortega Mason','Partido Radical','','','*',None,'https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rudecindo_Ortega_Mason'
+            candidatos.loc[len(candidatos.index),:] = 'Chiloé','','Juan Rafael del Canto Medán','Partido Liberal','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Rafael_Del_Canto_Medán'
         
         if (rep == 1) and not sum(candidatos['Candidatos'].str.contains('Ortega Mason')):
-            candidatos.loc[len(candidatos.index),:] = 2,'','José Manuel Ríos Arias','Partido Liberal','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Manuel_Ríos_Arias'
-            candidatos.loc[len(candidatos.index),:] = 3,'','Enrique Bravo Ortiz','Partido Liberal','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Enrique_Bravo_Ortiz'
-            candidatos.loc[len(candidatos.index),:] = 4,'','Máximo Venegas Sepúlveda','Partido Democrático','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Máximo_Venegas_Sepúlveda'
-            candidatos.loc[len(candidatos.index),:] = 6,'','Matías Silva Sepúlveda','Partido Liberal','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Matías_Silva_Sepúlveda'
-            candidatos.loc[len(candidatos.index),:] = 8,'','Rudecindo Ortega Mason','Partido Radical','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rudecindo_Ortega_Mason'
+            candidatos.loc[len(candidatos.index),:] = 'Atacama y Coquimbo','','José Manuel Ríos Arias','Partido Liberal','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Manuel_Ríos_Arias'
+            candidatos.loc[len(candidatos.index),:] = 'Aconcagua y Valparaíso','','Enrique Bravo Ortiz','Partido Liberal','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Enrique_Bravo_Ortiz'
+            candidatos.loc[len(candidatos.index),:] = 'Santiago','','Máximo Venegas Sepúlveda','Partido Democrático','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Máximo_Venegas_Sepúlveda'
+            candidatos.loc[len(candidatos.index),:] = 'Curicó, Talca, Maule y Linares','','Matías Silva Sepúlveda','Partido Liberal','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Matías_Silva_Sepúlveda'
+            candidatos.loc[len(candidatos.index),:] = 'Bío-Bío, Malleco y Cautín','','Rudecindo Ortega Mason','Partido Radical','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rudecindo_Ortega_Mason'
+            #
+            candidatos.loc[len(candidatos.index),:] = 'Atacama y Coquimbo','','Jerónimo Méndez Arancibia','Partido Radical','','',None,'*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jerónimo_Méndez_Arancibia'
 
     elif eleccion == 1932:
         candidatos = candidatos[~candidatos['Candidatos'].str.contains('Alfredo Rosende')]        
         
         if rep == 0:
-            candidatos.loc[candidatos['Distrito'] == 1, 'Partido'] = 'Partido Radical Socialista' 
-            candidatos.loc[candidatos['Candidatos'].str.contains('Chaparro Ruminot'), ['Distrito','Partido']] = [25, 'Partido Regionalista de Magallanes']                
+            candidatos.loc[candidatos['Distrito'] == 'Tarapacá', 'Partido'] = 'Partido Radical Socialista' 
+            candidatos.loc[candidatos['Candidatos'].str.contains('Chaparro Ruminot'), ['Distrito','Partido']] = ['Magallanes', 'Partido Regionalista de Magallanes']                
         
         reemplazados = {0:['Bustamante Cordero', 'Serani Burgos', 'Acuña Robert', 'Becker Valdevellano', 'Álvarez Suárez', 'Prieto Concha', 'Elgueta González'],
-                        1:['Núñez Morgado', 'Marambio Montt', 'Ugalde Naranjo', 'Matte Hurtado', 'Dagnino Olivieri', 'Gutiérrez Vidal']}[rep]
-        reemplazantes = {0:['Raúl Cáceres', 'Freeman Caris',  'Döll Rojas', 'Sandoval Muñoz', 'Lyon Otaegui'],
+                        1:['Núñez Morgado', 'Marambio Montt', 'Ugalde Naranjo', 'Matte Hurtado', 'Dagnino Olivieri', 'Gutiérrez Vidal', 'Viel Cavero']}[rep]
+        reemplazantes = {0:['Raúl Cáceres', 'Freeman Caris',  'Döll Rojas', 'Sandoval Muñoz', 'Lyon Otaegui', 'Arturo Alessandri Palma'],
                          1:['Alessandri Rodríguez', 'Ríos Arias', 'Ureta Echazarreta', 'Marmaduke Grove Vallejo', 'Aldunate Errázuriz', 'Sáenz Cerda']}[rep]
         presuntivos = {0:['Grossert', 'Pinochet Alvis', 'Durán Morales', 'Mardones Guerrero', 'Gómez Pérez', 'González Quiroga'], 1:['^$']}[rep]
 
@@ -315,11 +328,12 @@ def correcciones1925_1969(candidatos, eleccion, rep):
                     }
             
         if (rep == 0) and not sum(candidatos['Candidatos'].str.contains('del Canto Medán')):
-            candidatos.loc[len(candidatos.index),:] = 21,'','Rudecindo Ortega Mason','Partido Radical','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rudecindo_Ortega_Mason'
-            candidatos.loc[len(candidatos.index),:] = 24,'','Juan Rafael del Canto Medán','Partido Liberal Democrático','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Rafael_Del_Canto_Medán'
+            candidatos.loc[len(candidatos.index),:] = 'Cautín','','Rudecindo Ortega Mason','Partido Radical','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rudecindo_Ortega_Mason'
+            candidatos.loc[len(candidatos.index),:] = 'Chiloé','','Juan Rafael del Canto Medán','Partido Liberal Democrático','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Rafael_Del_Canto_Medán'
+            candidatos.loc[len(candidatos.index),:] = 'Cautín','','Braulio Sandoval Muñoz','Partido Agrario','','',None,'*',''
         
         if (rep == 1) and not sum(candidatos['Candidatos'].str.contains('Hugo Grove Vallejo')):
-            candidatos.loc[len(candidatos.index),:] = 3,'','Hugo Grove Vallejo','Nueva Acción Pública','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Hugo_Grove_Vallejo'
+            candidatos.loc[len(candidatos.index),:] = 'Aconcagua y Valparaíso','','Hugo Grove Vallejo','Nueva Acción Pública','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Hugo_Grove_Vallejo'
             
     elif eleccion == 1930:
         candidatos.loc[candidatos['Partido'].str.contains('Partido Democrático'), 'Partido'] = 'Partido Demócrata'
@@ -329,9 +343,9 @@ def correcciones1925_1969(candidatos, eleccion, rep):
         candidatos.loc[candidatos['Partido'] == 'PLDe', 'Partido'] = 'Partido Liberal Unido'
         
         reemplazados = {0:['Puelma Laval', 'Tamayo Torres', 'Ríos Arias', 'Wilson Hernández', 'Lillo Pacheco', 'Gutiérrez Reveco'],
-                        1:['Viel Cavero', 'Azócar Álvarez']}[rep]
+                        1:['Viel Cavero', 'Azócar Álvarez', 'Luis Enrique Concha González']}[rep]
         reemplazantes = {0:['Elguín Morales', 'Ruiz-Tagle Solar', 'Acuña Robert', 'Errázuriz Larraín', 'de Ferari Valdés', 'Barros Hurtado'],
-                         1:['Arturo Alessandri Palma', 'Concha Stuardo']}[rep]
+                         1:['Arturo Alessandri Palma', 'Concha Stuardo', 'Gonzalo Urrejola Unzueta']}[rep]
         
         # fuente: https://es-academic.com/dic.nsf/eswiki/294010
         partidos = {'Partido Radical': {0:['Gallo Sapiaín', 'Elguín Morales'], 1:['^$']}[rep],
@@ -347,10 +361,10 @@ def correcciones1925_1969(candidatos, eleccion, rep):
             candidatos.loc[len(candidatos.index),:] = 'Chiloé','','Juan Rafael del Canto Medán','Partido Liberal Democrático','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Rafael_Del_Canto_Medán'
 
         if (rep == 1) and not sum(candidatos['Candidatos'].str.contains('Arturo Alessandri Palma')):
-            candidatos.loc[len(candidatos.index),:] = 1,'','Arturo Alessandri Palma','Partido Liberal Unido','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Arturo_Alessandri_Palma'
+            candidatos.loc[len(candidatos.index),:] = 'Tarapacá y Antofagasta','','Arturo Alessandri Palma','Partido Liberal Unido','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Arturo_Alessandri_Palma'
 
     elif eleccion == 1925:
-        candidatos = candidatos[~candidatos['Candidatos'].str.contains('Armando José Domingo Jaramillo Lyon')]              
+        candidatos = candidatos[~candidatos['Candidatos'].isin(['Armando José Domingo Jaramillo Lyon', 'Pedro Félix Vicuña Aguirre'])]              
          
         candidatos.loc[candidatos['Partido'].str.contains('Partido Democrático'), 'Partido'] = 'Partido Demócrata'
         candidatos.loc[candidatos['Partido'] == 'Unión Social Republicana de los Asalariados de Chile', 'Partido'] = 'Unión Social Republicana de Asalariados de Chile'
@@ -380,10 +394,12 @@ def correcciones1925_1969(candidatos, eleccion, rep):
             candidatos.loc[len(candidatos.index),:] = 'Cautín','','Rudecindo Ortega Mason','Partido Radical','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rudecindo_Ortega_Mason'
             candidatos.loc[len(candidatos.index),:] = 'Cautín','','Juan Picasso Stagno','Partido Radical','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Picasso_Stagno'
             candidatos.loc[len(candidatos.index),:] = 'Chiloé','','Juan Rafael del Canto Medán','Partido Liberal Democrático','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Rafael_Del_Canto_Medán'
-        
+            candidatos.loc[len(candidatos.index),:] = 'Chiloé','','Luis Cabrera Ferrada','Partido Conservador','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Cabrera_Ferrada'
+            candidatos.loc[len(candidatos.index),:] = 'Coquimbo','','Pedro Félix Vicuña Novoa','','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Félix_Vicuña_Novoa'
+
         if (rep == 1) and not sum(candidatos['Candidatos'].str.contains('Werner Richter')):
             candidatos.loc[candidatos['Candidatos'].str.contains('Urrejola y Unzueta'), 'Circunscripción'] = 6
-            candidatos.loc[len(candidatos.index),:] = 8,'','Carlos Werner Richter','Partido Liberal','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Werner_Richter'
+            candidatos.loc[len(candidatos.index),:] = 'Bío-Bío, Malleco y Cautín','','Carlos Werner Richter','Partido Liberal','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Werner_Richter'
             
     #no considera como duplicados los agregados para corregir 
     candidatos = candidatos.drop_duplicates(subset=['Candidatos'], keep="last")

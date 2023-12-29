@@ -7,7 +7,7 @@ lang: en
 ref: about
 
 published: true
-order: 2
+order: 1
 ---
 Inspired by [DecideChile](https://2021.decidechile.cl/#/ev/2021.nov/ct/2021.nov.D/){:target="_blank"}, [SERVEL](https://www.servel.cl/centro-de-datos/resultados-electorales-historicos-gw3/){:target="_blank"}, and [Wikipedia](https://es.wikipedia.org/wiki/Elecciones_parlamentarias_de_Chile_de_2021){:target="_blank"}, this project aims to develop
 an interactive visualization of Chilean parliamentary elections for both chambers of Congress using Python, QGIS, Highcharts, and integrating several public sources. Created by <a href="https://sebastianriffo.github.io/" style="color:#E91E63" target="_blank">Sebastián RIFFO</a> as an open-source product, its codes, data, and shapefiles produced are available in this github [repository](https://github.com/sebastianriffo/congreso-chile){:target="_blank"}.
@@ -62,6 +62,10 @@ Once finished, it made sense to extend the project to cover elections before 198
 
 ### Kwown issues
 * SERVEL (electoral service) updated its website recently, displaying voting results for 1989-2021 in a different manner. Web scraping scripts now need to be adapted accordingly.
+
+<!--
+Ongoing developments
+-->
 
 ### Future work
 * The composition of Congress during the 1828-1930 period is also available, yet several details require validation. When completed, this will help in developing a comprehensive legislators' database spanning all legislative terms.

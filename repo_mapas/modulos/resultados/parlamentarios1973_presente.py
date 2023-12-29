@@ -53,13 +53,10 @@ def parlamentarios1973_presente(path_datos, candidatos, eleccion, rep):
             electos_prev = pd.read_csv(datos_filenames[0]) 
     
             if eleccion >= 2021:
-                # electos_prev = electos_prev[electos_prev['Circunscripción'].isin([1,2,4,6,9,11,14] if (eleccion-2021)%8 == 0 else [3,5,7,8,10,12,13,15,16]) & (electos_prev['Electos_comp'] == '*')]
                 electos_prev = electos_prev[electos_prev['Circunscripción'].isin(["Arica y Parinacota", "Tarapacá", "Atacama", "Valparaíso", "Maule", "Araucanía", "Aysén"])*((eleccion-2021)%8 == 0) & (electos_prev['Electos_comp'] == '*')]
             elif eleccion >= 1993: 
-                # electos_prev = electos_prev[electos_prev['Circunscripción'].isin([2,4,7,8,9,12,13,16,17,19] if (eleccion-1993)%8 == 0 else [1,3,5,6,10,11,14,15,18]) & (electos_prev['Electos_comp'] == '*')]
                 electos_prev = electos_prev[electos_prev['Circunscripción'].isin(["Tarapacá", "Atacama", "Valparaíso Cordillera", "Valparaíso Costa", "Maule Norte", "Maule Sur", "Araucanía Norte", "Araucanía Sur", "Aysén"])*((eleccion-1993)%8 != 0) & (electos_prev['Electos_comp'] == '*')]
             elif eleccion == 1973:
-                # electos_prev = electos_prev[electos_prev['Circunscripción'].isin([1,3,5,7,9]) & (electos_prev['Electos_comp'] == '*')]
                 electos_prev = electos_prev[electos_prev['Circunscripción'].isin(['Tarapacá y Antofagasta', 'Aconcagua y Valparaíso', "O'Higgins y Colchagua", 'Ñuble, Concepción y Arauco', 'Valdivia, Osorno y Llanquihue']) & (electos_prev['Electos_comp'] == '*')]
                 electos_prev['Electos'] = '*'
                 

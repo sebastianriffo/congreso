@@ -4,21 +4,21 @@ Atacama y Coquimbo,Confederación de la Democracia,PIR,0,0,0.0,0
 Atacama y Coquimbo,Confederación de la Democracia,VL-CODE,0,976,0.51,0
 Atacama y Coquimbo,Confederación de la Democracia,PN,0,0,0.0,0
 Atacama y Coquimbo,Confederación de la Democracia,PDC,2,60008,31.5,2
-Atacama y Coquimbo,Unidad Popular,PR,1,12627,6.63,1
-Atacama y Coquimbo,Unidad Popular,PC,1,47002,24.67,1
-Atacama y Coquimbo,Unidad Popular,MAPU,1,3871,2.03,0
 Atacama y Coquimbo,Unidad Popular,PS,1,38513,20.21,1
 Atacama y Coquimbo,Unidad Popular,VL-UP,0,1211,0.64,0
+Atacama y Coquimbo,Unidad Popular,PC,1,47002,24.67,1
+Atacama y Coquimbo,Unidad Popular,PR,1,12627,6.63,1
+Atacama y Coquimbo,Unidad Popular,MAPU,1,3871,2.03,0
 Atacama y Coquimbo,Unión Socialista Popular,USOPO,0,0,0.0,0
 Atacama y Coquimbo,Válidamente emitidos,,0,186297,97.78,0
 Atacama y Coquimbo,Nulos,,0,2901,1.52,0
 Atacama y Coquimbo,Blancos,,0,1331,0.7,0
 Atacama y Coquimbo,Total,,0,190529,100.0,0
-Santiago,Confederación de la Democracia,PIR,1,26790,1.87,0
-Santiago,Confederación de la Democracia,PN,2,282637,19.72,1
-Santiago,Confederación de la Democracia,VL-CODE,0,9661,0.67,0
-Santiago,Confederación de la Democracia,DR,0,0,0.0,0
 Santiago,Confederación de la Democracia,PDC,2,507552,35.41,2
+Santiago,Confederación de la Democracia,VL-CODE,0,9661,0.67,0
+Santiago,Confederación de la Democracia,PN,2,282637,19.72,1
+Santiago,Confederación de la Democracia,PIR,1,26790,1.87,0
+Santiago,Confederación de la Democracia,DR,0,0,0.0,0
 Santiago,Unidad Popular,PS,1,234232,16.34,1
 Santiago,Unidad Popular,PR,1,76037,5.31,0
 Santiago,Unidad Popular,MAPU,1,21320,1.49,0
@@ -29,16 +29,16 @@ Santiago,Válidamente emitidos,,0,1413201,98.6,0
 Santiago,Nulos,,0,15300,1.07,0
 Santiago,Blancos,,0,4721,0.33,0
 Santiago,Total,,0,1433222,100.0,0
-"Curicó, Talca, Maule y Linares",Confederación de la Democracia,VL-CODE,0,1605,0.65,0
-"Curicó, Talca, Maule y Linares",Confederación de la Democracia,PN,1,59503,24.2,1
-"Curicó, Talca, Maule y Linares",Confederación de la Democracia,PIR,1,7544,3.07,0
-"Curicó, Talca, Maule y Linares",Confederación de la Democracia,PDC,3,63439,25.8,2
 "Curicó, Talca, Maule y Linares",Confederación de la Democracia,DR,0,0,0.0,0
-"Curicó, Talca, Maule y Linares",Unidad Popular,MAPU,0,0,0.0,0
-"Curicó, Talca, Maule y Linares",Unidad Popular,VL-UP,0,1991,0.81,0
-"Curicó, Talca, Maule y Linares",Unidad Popular,PS,1,53483,21.75,1
-"Curicó, Talca, Maule y Linares",Unidad Popular,PR,1,9941,4.04,0
+"Curicó, Talca, Maule y Linares",Confederación de la Democracia,PDC,3,63439,25.8,2
+"Curicó, Talca, Maule y Linares",Confederación de la Democracia,PIR,1,7544,3.07,0
+"Curicó, Talca, Maule y Linares",Confederación de la Democracia,PN,1,59503,24.2,1
+"Curicó, Talca, Maule y Linares",Confederación de la Democracia,VL-CODE,0,1605,0.65,0
 "Curicó, Talca, Maule y Linares",Unidad Popular,PC,1,42770,17.39,1
+"Curicó, Talca, Maule y Linares",Unidad Popular,PR,1,9941,4.04,0
+"Curicó, Talca, Maule y Linares",Unidad Popular,PS,1,53483,21.75,1
+"Curicó, Talca, Maule y Linares",Unidad Popular,VL-UP,0,1991,0.81,0
+"Curicó, Talca, Maule y Linares",Unidad Popular,MAPU,0,0,0.0,0
 "Curicó, Talca, Maule y Linares",Unión Socialista Popular,USOPO,0,0,0.0,0
 "Curicó, Talca, Maule y Linares",Válidamente emitidos,,0,240276,97.72,0
 "Curicó, Talca, Maule y Linares",Nulos,,0,3525,1.43,0
@@ -59,16 +59,16 @@ Santiago,Total,,0,1433222,100.0,0
 "Bío-Bío, Malleco y Cautín",Nulos,,0,4064,1.46,0
 "Bío-Bío, Malleco y Cautín",Blancos,,0,2154,0.77,0
 "Bío-Bío, Malleco y Cautín",Total,,0,279267,100.0,0
-"Chiloé, Aysén y Magallanes",Confederación de la Democracia,VL-CODE,0,357,0.39,0
 "Chiloé, Aysén y Magallanes",Confederación de la Democracia,PN,1,11418,12.53,1
 "Chiloé, Aysén y Magallanes",Confederación de la Democracia,PIR,0,0,0.0,0
 "Chiloé, Aysén y Magallanes",Confederación de la Democracia,PDC,2,29621,32.51,2
 "Chiloé, Aysén y Magallanes",Confederación de la Democracia,DR,1,8160,8.95,0
+"Chiloé, Aysén y Magallanes",Confederación de la Democracia,VL-CODE,0,357,0.39,0
+"Chiloé, Aysén y Magallanes",Unidad Popular,PC,1,10996,12.07,1
+"Chiloé, Aysén y Magallanes",Unidad Popular,MAPU,0,0,0.0,0
+"Chiloé, Aysén y Magallanes",Unidad Popular,VL-UP,0,554,0.61,0
 "Chiloé, Aysén y Magallanes",Unidad Popular,PS,1,20416,22.4,1
 "Chiloé, Aysén y Magallanes",Unidad Popular,PR,1,7510,8.24,0
-"Chiloé, Aysén y Magallanes",Unidad Popular,VL-UP,0,554,0.61,0
-"Chiloé, Aysén y Magallanes",Unidad Popular,MAPU,0,0,0.0,0
-"Chiloé, Aysén y Magallanes",Unidad Popular,PC,1,10996,12.07,1
 "Chiloé, Aysén y Magallanes",Unión Socialista Popular,USOPO,0,0,0.0,0
 "Chiloé, Aysén y Magallanes",Válidamente emitidos,,0,89032,97.71,0
 "Chiloé, Aysén y Magallanes",Nulos,,0,1443,1.58,0

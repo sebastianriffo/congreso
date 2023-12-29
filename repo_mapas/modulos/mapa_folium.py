@@ -22,9 +22,9 @@ y agrega además otras funcionalidades.
 
 """
 
-from mapa.markers import markers
-from mapa.legends import resultados_subdiv, categorical_legend
-from mapa.apportionment import dist_eleccion
+from modulos.mapa.markers import markers
+from modulos.mapa.legends import resultados_subdiv, categorical_legend
+from modulos.mapa.apportionment import dist_eleccion
 
 import folium
 from folium.plugins import Geocoder
@@ -148,6 +148,7 @@ def mapa_elecciones_folium(path_mapas, eleccion, rep, listas, candidatos, div_el
     if listas is None:            
         cat_legend = categorical_legend(leyenda, listas.groupby(level=1).agg({'Electos': 'sum'}).query('Electos> 0') if (listas is not None) else candidatos.groupby(level=1).agg({'Candidatos': 'count'}))            
         sample_map.get_root().add_child(cat_legend)
+        datos_nac = None
 
     ## panel lateral : resultados detallados, listeners    
     sample_map = editar_template(sample_map, layer_dist, marker_cluster, datos_nac)
@@ -221,14 +222,6 @@ def geodata(eleccion, rep, listas, candidatos, div_electoral):
 
     votacion_div_electoral = votacion_div_electoral[~votacion_div_electoral.index.duplicated(keep='first')]
 
-    ## elecciones al senado
-    if (rep == 1) and eleccion not in {1932, 1989}:
-        mask = votacion_div_electoral['Lista/Pacto'].isna() if listas is not None else votacion_div_electoral['nombre'].str.contains('Tarapacá|Aconcagua|Colchagua|Concepción|Valdivia' +'|Chiloé'*(eleccion == 1969)).apply(lambda x: not(x) if ((eleccion-1937)%8 == 0) else x)
-       
-        votacion_div_electoral['Lista/Pacto'] = votacion_div_electoral['Lista/Pacto'].astype(str)
-        votacion_div_electoral.loc[mask,'nombre'] = 'nacionales'            
-        votacion_div_electoral.loc[mask,'Lista/Pacto'] = 'senado'
-
     ## posición inicial del mapa
     pos = list(filter(re.compile('|'.join(['Valparaíso', "O'Higgins"])).findall, div_electoral['nombre'])) if eleccion >= 1989 else (['Aconcagua', 'Colchagua'] if rep == 0 else ['Santiago'])
     lim = votacion_div_electoral.loc[votacion_div_electoral['nombre'].isin(pos)].to_crs("epsg:4326").bounds
@@ -265,6 +258,15 @@ def geodata(eleccion, rep, listas, candidatos, div_electoral):
         lim.loc[(u.index).intersection(lim.index)] = u.loc[(u.index).intersection(lim.index)].to_crs("epsg:4326").bounds
         votacion_div_electoral.loc[u.index,'marker'] = u.centroid.to_crs("epsg:4326")   
         
+        
+    ## elecciones al senado
+    if (rep == 1) and eleccion not in {1932, 1989}:
+        mask = votacion_div_electoral['Lista/Pacto'].isna() if listas is not None else votacion_div_electoral['nombre'].str.contains('Tarapacá|Aconcagua|Colchagua|Concepción|Valdivia' +'|Chiloé'*(eleccion == 1969)).apply(lambda x: not(x) if ((eleccion-1937)%8 == 0) else x)
+       
+        votacion_div_electoral['Lista/Pacto'] = votacion_div_electoral['Lista/Pacto'].astype(str)
+        votacion_div_electoral.loc[mask,'nombre'] = 'nacionales'            
+        votacion_div_electoral.loc[mask,'Lista/Pacto'] = 'senado'
+                
     return votacion_div_electoral[['nombre', 'geometry', 'Lista/Pacto', 'marker']], lim
 
 #%%
@@ -294,7 +296,6 @@ def editar_template(sample_map, layer_dist, marker_cluster, datos_nac=None):
 
     """
     # SOURCE : https://leafletjs.com/examples/choropleth/
-
     map_id = '#map_'+sample_map._id
     geojson_id = 'geo_json_'+layer_dist._id
     marker_cluster_id = 'marker_cluster_'+marker_cluster._id
@@ -302,6 +303,15 @@ def editar_template(sample_map, layer_dist, marker_cluster, datos_nac=None):
     # SOURCE : https://github.com/python-visualization/folium/issues/781
     html_source = sample_map.get_root().render()
 
+    
+    u = """            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />"""
+    v = """            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <meta name="author" content="Sebastián RIFFO" />
+            <meta name="description" content="Visualización interactiva de las elecciones parlamentarias chilenas" />"""
+    html_source = html_source.replace(u, v)    
+    
     if datos_nac is not None:
         # customizar el panel
         u = f"""                {map_id} {{

@@ -1,90 +1,49 @@
 Distrito,Lista/Pacto,Partido,Candidatos,Votos,Porcentaje,Electos,Electos_comp,url
-25,Partido Regionalista de Magallanes,PRM,"('Manuel', 'Chaparro', 'Ruminot')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Chaparro_Ruminot
-Aconcagua,Liberales,PL,"('Rodolfo', 'Enrique', 'Guillermo', 'Döll', 'Rojas')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rodolfo_Enrique_Guillermo_Doll_Rojas
-Aconcagua,Liberales,PL,"('Samuel', 'Guzmán', 'García')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Samuel_Guzmán_García
-Aconcagua,Partido Conservador,PCon,"('Eugenio', 'Torres', 'Larrañaga')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eugenio_Torres_Larrañaga
-Aconcagua,Radicales,PR,"('Benigno', 'Acuña', 'Robert')",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Benigno_Acuña_Robert
+Tarapacá,Radicales,PRS,"('Humberto', 'Arellano', 'Figueroa')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Humberto_Arellano_Figueroa
+Tarapacá,Radicales,PRS,"('Juan', 'Luis', 'Mery', 'Frías')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Luis_Mery_Frías
+Tarapacá,Radicales,PRS,"('Carlos', 'Müller', 'Rivera')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Muller_Rivera
+Tarapacá,Radicales,PRS,"('Raúl', 'Cáceres')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Raúl_Cáceres
+Tarapacá,Radicales,PRS,"('Ernesto', 'Torres', 'Galdames')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ernesto_Torres_Galdames
 Antofagasta,Liberales,PL,"('Edmundo', 'Fuenzalida', 'Espinosa')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Edmundo_Fuenzalida_Espinosa
-Antofagasta,Radicales,PRS,"('Pedro', 'Eduardo', 'González', 'García')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Eduardo_González_García
-Antofagasta,Radicales,PRS,"('Jorge', 'Pío', 'Parodi', 'Blayfus')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Pío_Parodi_Blayfus
-Antofagasta,Radicales,PR,"('Pedro', 'Opitz', 'Velásquez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Opitz_Velásquez
-Antofagasta,Radicales,PRS,"('Juan', 'de Dios', 'Valenzuela', 'Rodríguez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_de_Dios_Valenzuela_Rodríguez
 Antofagasta,Radicales,PR,"('Miguel', 'Ángel', 'Concha', 'Muñoz')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Miguel_Ángel_Concha_Muñoz
+Antofagasta,Radicales,PRS,"('Juan', 'de Dios', 'Valenzuela', 'Rodríguez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_de_Dios_Valenzuela_Rodríguez
+Antofagasta,Radicales,PR,"('Pedro', 'Opitz', 'Velásquez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Opitz_Velásquez
+Antofagasta,Radicales,PRS,"('Jorge', 'Pío', 'Parodi', 'Blayfus')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Pío_Parodi_Blayfus
+Antofagasta,Radicales,PRS,"('Pedro', 'Eduardo', 'González', 'García')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Eduardo_González_García
 Antofagasta,Candidatura Independiente,IND,"('José', 'Vega', 'Díaz')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Vega_Díaz
-Arauco,Partido Agrario,PA,"('Jorge', 'Carlos', 'Ebensperger', 'Richter')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Carlos_Ebensperger_Richter
-Arauco,Democráticos,PDo,"('Pedro', 'Antonio', 'Morales', 'Vivanco')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Antonio_Morales_Vivanco
-Arauco,Radicales,PR,"('Carlos', 'Roberto', 'Elgueta', 'González')",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Roberto_Elgueta_González
-Arauco,Radicales,PR,"('Juan', 'Antonio', 'Ríos', 'Morales')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Antonio_Ríos_Morales
-Atacama,Radicales,PR,"('Arturo', 'Hiparco', 'Lois', 'Fraga')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Arturo_Hiparco_Lois_Fraga
 Atacama,Radicales,PR,"('Isauro', 'Torres', 'Cereceda')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Isauro_Torres_Cereceda
-Bío-Bío,Liberales,PL,"('Julio', 'René', 'de la Jara', 'Zúñiga')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Julio_René_De_la_Jara_Zúñiga
-Bío-Bío,Partido Conservador,PCon,"('Juan', 'Antonio', 'Coloma', 'Mellado')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Antonio_Coloma_Mellado
-Bío-Bío,Democráticos,PDo,"('Carlos', 'Andrés', 'Cifuentes', 'Sobarzo')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Andrés_Cifuentes_Sobarzo
-Bío-Bío,Democráticos,PDo,"('Alejandro', 'Serani', 'Burgos')",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alejandro_Serani_Burgos
-Bío-Bío,Radicales,PR,"('Alberto', 'Moller', 'Bordeu')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alberto_Moller_Bordeu
-Bío-Bío,Radicales,PR,"('Pedro', 'Hernán', 'Freeman', 'Caris')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Hernán_Freeman_Caris
-Bío-Bío,Radicales,PR,"('José', 'Luis', 'Osorio', 'Navarrete')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Luis_Osorio_Navarrete
-Cautín,Partido Conservador,PCon,"('Fernando', 'Varas', 'Contreras')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fernando_Varas_Contreras
-Cautín,Partido Agrario,PA,"('Fortunato', 'Navarro', 'Herrera')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fortunato_Navarro_Herrera
-Cautín,Partido Agrario,PA,"('Manuel', 'Bart', 'Herrera')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Bart_Herrera
-Cautín,Partido Demócrata,PD,"('Armando', 'Zúñiga', 'Dueñas')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Armando_Zuñiga_Dueñas
-Cautín,Partido Demócrata,PD,"('Saturio', 'Indalicio', 'Bosch', 'Forgas')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Saturio_Indalicio_Bosch_Forgas
-Cautín,Partido Demócrata,PD,"('Aníbal', 'Gutiérrez', 'Romero')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Aníbal_Gutiérrez_Romero
-Cautín,Radicales,PR,"('Cristiáno', 'Becker', 'Valdevellano')",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Cristiano_Becker_Valdevellano
-Cautín,Radicales,PR,"('Ramón', 'Olave', 'Acuña')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ramón_Olave_Acuña
-Cautín,Radicales,PR,"('Rudecindo', 'Ortega', 'Mason')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rudecindo_Ortega_Mason
-Chiloé,Liberales,PLDe,"('Juan', 'Rafael', 'del Canto', 'Medán')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Rafael_Del_Canto_Medán
-Chiloé,Radicales,PR,"('Enrique', 'Lyon', 'Otaegui')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Enrique_Lyon_Otaegui
-Chiloé,Radicales,PR,"('Jorge', 'Urzúa', 'Urzúa')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Urzúa_Urzúa
-Chiloé,Candidatura Independiente,IND,"('Raúl', 'Morales', 'Beltramí')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Raúl_Morales_Beltramí
-Colchagua,Liberales,PL,"('Eduardo', 'Pompeyo', 'Moore', 'Montero')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eduardo_Pompeyo_Moore_Montero
-Colchagua,Liberales,PL,"('Néstor', 'Valenzuela', 'Valdés')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Néstor_Valenzuela_Valdés
-Colchagua,Partido Conservador,PCon,"('Gustavo', 'Errázuriz', 'Larraín')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gustavo_Errázuriz_Larraín
-Colchagua,Partido Conservador,PCon,"('Óscar', 'Gajardo', 'Villarroel')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Oscar_Gajardo_Villarroel
-Concepción,Partido Conservador,PCon,"('Abraham', 'Romero', 'Garrido')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Abraham_Romero_Garrido
-Concepción,Partido Demócrata,PD,"('Juan', 'Bautista', 'Bustos', 'Valenzuela')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Bautista_Bustos_Valenzuela
-Concepción,Democráticos,PDo,"('Dionisio', 'Segundo', 'Garrido', 'Segura')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Dionisio_Segundo_Garrido_Segura
-Concepción,Democráticos,PDo,"('Julio', 'Eduardo', 'Martínez', 'Montt')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Julio_Eduardo_Martínez_Montt
-Concepción,Democráticos,PDo,"('Pedro', 'Pablo', 'Vaillant', 'Rodríguez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Pablo_Vaillant_Rodríguez
-Concepción,Radicales,PR,"('Fernando', 'Blas', 'Maira', 'Castellón')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fernando_Blas_Maira_Castellón
-Concepción,Socialistas,NAP,"('Rolando', 'Merino', 'Reyes')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rolando_Merino_Reyes
+Atacama,Radicales,PR,"('Arturo', 'Hiparco', 'Lois', 'Fraga')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Arturo_Hiparco_Lois_Fraga
 Coquimbo,Liberales,PLU,"('Hugo', 'Alejandro', 'Zepeda', 'Barrios')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Hugo_Alejandro_Zepeda_Barrios
 Coquimbo,Liberales,PL,"('Félix', 'Elorza', 'Monardes')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Félix_Elorza_Monardes
 Coquimbo,Liberales,PL,"('Domingo', 'Núñez', 'Galeno')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Domingo_Núñez_Galeno
 Coquimbo,Partido Conservador,PCon,"('Jorge', 'Pérez', 'Gacitúa')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Pérez_Gacitúa
-Coquimbo,Radicales,PR,"('Pedro', 'Enrique', 'Alfonso', 'Barrios')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Enrique_Alfonso_Barrios
-Coquimbo,Radicales,PR,"('Humberto', 'Álvarez', 'Suárez')",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Humberto_Álvarez_Suárez
 Coquimbo,Radicales,PR,"('Gabriel', 'González', 'Videla')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gabriel_González_Videla
-Curicó,Liberales,PL,"('Guillermo', 'Correa', 'Fuenzalida')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Guillermo_Correa_Fuenzalida
-Curicó,Partido Conservador,PCon,"('José', 'Francisco', 'Urrejola', 'Menchaca')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Francisco_Urrejola_Menchaca
-Curicó,Partido Conservador,PCon,"('Leoncio', 'Toro', 'Muñoz')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Leoncio_Toro_Muñoz
-Linares,Liberales,PL,"('Carlos', 'Alberto', 'del Campo', 'Rivera')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Alberto_Del_Campo_Rivera
-Linares,Partido Conservador,PCon,"('Manuel', 'Isidoro', 'Cruz', 'Ferrada')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Isidoro_Cruz_Ferrada
-Linares,Partido Agrario,PA,"('Zenón', 'Manzano', 'Esquerra')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Zenón_Manzano_Esquerra
-Linares,Radicales,PR,"('Eduardo', 'Cañas', 'Lira')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eduardo_Cañas_Lira
-Llanquihue y Aysén,Liberales,PL,"('Ernesto', 'Hein', 'Holmberg')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ernesto_Hein_Holmberg
-Llanquihue y Aysén,Partido Conservador,PCon,"('Luis', 'Antonio', 'Silva', 'Silva')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Antonio_Silva_Silva
-Llanquihue y Aysén,Democráticos,PDo,"('Juan', 'de Dios', 'Ampuero', 'García')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_de_Dios_Ampuero_García
-Malleco,Liberales,PL,"('José', 'Manuel', 'Huerta', 'Maturana')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Manuel_Huerta_Maturana
-Malleco,Partido Demócrata,PD,"('Óscar', 'Armando', 'Chanks', 'Camus')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Oscar_Armando_Chanks_Camus
-Malleco,Democráticos,PDo,"('Arturo', 'Huenchullán', 'Medel')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Arturo_Huenchullán_Medel
-Malleco,Radicales,PR,"('Luis', 'Uribe', 'Barra')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Uribe_Barra
-Maule,Liberales,PL,"('Rafael', 'del Río', 'Gundián')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rafael_Del_Río_Gundián
-Maule,Partido Conservador,PCon,"('Enrique', 'Lira', 'Urquieta')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Enrique_Lira_Urquieta
-Maule,Radicales,PR,"('Jorge', 'Ruperto', 'Pinochet', 'Alvis')",,,,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Ruperto_Pinochet_Alvis
-O'Higgins,Liberales,PL,"('Armando', 'Celis', 'Maturana')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Armando_Celis_Maturana
-O'Higgins,Liberales,PL,"('Jorge', 'Manuel', 'Echaurren', 'Ávalos')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Manuel_Echaurren_Ávalos
-O'Higgins,Partido Conservador,PCon,"('Ignacio', 'Víctor', 'Horacio', 'Aránguiz', 'Cerda')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ignacio_Víctor_Horacio_Aránguiz_Cerda
-O'Higgins,Partido Conservador,PCon,"('Rafael', 'Irarrázaval', 'Correa')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rafael_Yrarrázaval_Correa
-O'Higgins,Democráticos,PDS,"('Raúl', 'Ferrada', 'Riquelme')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Raúl_Ferrada_Riquelme
-O'Higgins,Radicales,PR,"('Florencio', 'Durán', 'Bernales')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Florencio_Durán_Bernales
+Coquimbo,Radicales,PR,"('Humberto', 'Álvarez', 'Suárez')",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Humberto_Álvarez_Suárez
+Coquimbo,Radicales,PR,"('Pedro', 'Enrique', 'Alfonso', 'Barrios')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Enrique_Alfonso_Barrios
+Aconcagua,Liberales,PL,"('Samuel', 'Guzmán', 'García')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Samuel_Guzmán_García
+Aconcagua,Liberales,PL,"('Rodolfo', 'Enrique', 'Guillermo', 'Döll', 'Rojas')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rodolfo_Enrique_Guillermo_Doll_Rojas
+Aconcagua,Partido Conservador,PCon,"('Eugenio', 'Torres', 'Larrañaga')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eugenio_Torres_Larrañaga
+Aconcagua,Radicales,PR,"('Benigno', 'Acuña', 'Robert')",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Benigno_Acuña_Robert
+Valparaíso,Liberales,PLU,"('Gustavo', 'Roberto', 'Alejandro', 'Rivera', 'Baeza')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gustavo_Roberto_Alejandro_Rivera_Baeza
+Valparaíso,Liberales,PL,"('José', 'Manuel', 'Ríos', 'Arias')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Manuel_Ríos_Arias
+Valparaíso,Liberales,PL,"('Rafael', 'Torres', 'Maillard')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rafael_Torres_Maillard
+Valparaíso,Partido Conservador,PCon,"('Manuel', 'Muñoz', 'Cornejo')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Muñoz_Cornejo
+Valparaíso,Partido Conservador,PCon,"('Juan', 'Agustín', 'Rafael', 'Pinochet', 'Cáceres')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Agustín_Rafael_Pinochet_Cáceres
+Valparaíso,Partido Conservador,PCon,"('Pablo', 'Grossert', 'R.')",,,,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pablo_Grossert_R.
+Valparaíso,Radicales,PR,"('Eleodoro', 'Enrique', 'Guzmán', 'Figueroa')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eleodoro_Enrique_Guzmán_Figueroa
+Valparaíso,Radicales,PR,"('José', 'Efraín', 'Urrutia', 'Campos')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Efraín_Urrutia_Campos
+Valparaíso,Partido Social Republicano,PSR,"('Ismael', 'Carrasco', 'Rábago')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ismael_Carrasco_Rábago
+Valparaíso,Socialistas,PS,"('Humberto', 'Casali', 'Monreal')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Humberto_Casali_Monreal
+Valparaíso,Socialistas,NAP,"('Hipólito', 'Verdugo', 'Espinoza')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Hipólito_Verdugo_Espinoza
+Valparaíso,Asociación Gremial de Empleados de Chile,AGECh,"('Enrique', 'Aguirre', 'Pinto')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Enrique_Aguirre_Pinto
+Valparaíso,Candidatura Independiente,IND,"('Manuel', 'Nieto', 'Cacciuttolo')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Nieto_Cacciuttolo
 Santiago-1,Liberales,PLDo,"('Gregorio', 'Amunátegui', 'Jordán')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gregorio_Amunátegui_Jordán
-Santiago-1,Liberales,PLU,"('Ruperto', 'Murillo', 'Gaete')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ruperto_Murillo_Gaete
 Santiago-1,Liberales,PL,"('Roberto', 'Barros', 'Torres')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Roberto_Barros_Torres
+Santiago-1,Liberales,PLU,"('Ruperto', 'Murillo', 'Gaete')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ruperto_Murillo_Gaete
 Santiago-1,Partido Conservador,PCon,"('Carlos', 'Estévez', 'Gazmuri')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Estévez_Gazmuri
 Santiago-1,Partido Conservador,PCon,"('Jenaro', 'Prieto', 'Letelier')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jenaro_Prieto_Letelier
-Santiago-1,Partido Conservador,PCon,"('Lindor', 'Pérez', 'Gacitúa')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Lindor_Pérez_Gacitúa
 Santiago-1,Partido Conservador,PCon,"('Pablo', 'Larraín', 'Tejada')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pablo_Larraín_Tejada
+Santiago-1,Partido Conservador,PCon,"('Lindor', 'Pérez', 'Gacitúa')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Lindor_Pérez_Gacitúa
 Santiago-1,Partido Conservador,PCon,"('Enrique', 'Cañas', 'Flores')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Enrique_Cañas_Flores
 Santiago-1,Partido Demócrata,PD,"('Nicasio', 'Retamales', 'Leiva')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Nicasio_Retamales_Leiva
 Santiago-1,Democráticos,PDo,"('Luis', 'A.', 'Mardones', 'Guerrero')",,,,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_A._Mardones_Guerrero
@@ -103,24 +62,80 @@ Santiago-2,Partido Conservador,PCon,"('Enrique', 'Alcalde', 'Cruchaga')",,,*,*,h
 Santiago-2,Partido Conservador,PCon,"('Eloy', 'Rosales', 'Ávila')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eloy_Rosales_Avila
 Santiago-2,Democráticos,PDo,"('Juan', 'José', 'Florencio', 'Silva', 'Pinto')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_José_Florencio_Silva_Pinto
 Santiago-2,Socialistas,PSU,"('Emilio', 'Zapata', 'Díaz')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Emilio_Zapata_Díaz
-Santiago-3,Partido Conservador,PCon,"('Luis', 'Arturo', 'Gardeweg', 'Villegas')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Arturo_Gardeweg_Villegas
 Santiago-3,Partido Conservador,PCon,"('Julio', 'Pereira', 'Larraín')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Julio_Pereira_Larraín
+Santiago-3,Partido Conservador,PCon,"('Luis', 'Arturo', 'Gardeweg', 'Villegas')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Arturo_Gardeweg_Villegas
 Santiago-3,Democráticos,PDo,"('Arturo', 'Torres', 'Molina')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Arturo_Torres_Molina
 Santiago-3,Radicales,PR,"('Justiniano', 'Sotomayor', 'Pérez-Cotapos')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Justiniano_Sotomayor_Pérez_Cotapos
 Santiago-3,Partido Social Republicano,PSR,"('Manuel', 'Madrid', 'Arellano')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Madrid_Arellano
 Santiago-4,Liberales,PL,"('Enrique', 'Madrid', 'Osorio')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Enrique_Madrid_Osorio
-Santiago-4,Partido Conservador,PCon,"('Joaquín', 'Prieto', 'Concha')",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Joaquín_Prieto_Concha
 Santiago-4,Partido Conservador,PCon,"('Rafael', 'Moreno', 'Echavarría')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rafael_Moreno_Echavarría
 Santiago-4,Partido Conservador,PCon,"('Jorge', 'Pereira', 'Lyon')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Pereira_Lyon
+Santiago-4,Partido Conservador,PCon,"('Joaquín', 'Prieto', 'Concha')",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Joaquín_Prieto_Concha
+O'Higgins,Liberales,PL,"('Armando', 'Celis', 'Maturana')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Armando_Celis_Maturana
+O'Higgins,Liberales,PL,"('Jorge', 'Manuel', 'Echaurren', 'Ávalos')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Manuel_Echaurren_Ávalos
+O'Higgins,Partido Conservador,PCon,"('Ignacio', 'Víctor', 'Horacio', 'Aránguiz', 'Cerda')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ignacio_Víctor_Horacio_Aránguiz_Cerda
+O'Higgins,Partido Conservador,PCon,"('Rafael', 'Irarrázaval', 'Correa')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rafael_Yrarrázaval_Correa
+O'Higgins,Democráticos,PDS,"('Raúl', 'Ferrada', 'Riquelme')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Raúl_Ferrada_Riquelme
+O'Higgins,Radicales,PR,"('Florencio', 'Durán', 'Bernales')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Florencio_Durán_Bernales
+Colchagua,Liberales,PL,"('Néstor', 'Valenzuela', 'Valdés')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Néstor_Valenzuela_Valdés
+Colchagua,Liberales,PL,"('Eduardo', 'Pompeyo', 'Moore', 'Montero')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eduardo_Pompeyo_Moore_Montero
+Colchagua,Partido Conservador,PCon,"('Óscar', 'Gajardo', 'Villarroel')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Oscar_Gajardo_Villarroel
+Colchagua,Partido Conservador,PCon,"('Gustavo', 'Errázuriz', 'Larraín')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gustavo_Errázuriz_Larraín
+Curicó,Liberales,PL,"('Guillermo', 'Correa', 'Fuenzalida')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Guillermo_Correa_Fuenzalida
+Curicó,Partido Conservador,PCon,"('José', 'Francisco', 'Urrejola', 'Menchaca')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Francisco_Urrejola_Menchaca
+Curicó,Partido Conservador,PCon,"('Leoncio', 'Toro', 'Muñoz')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Leoncio_Toro_Muñoz
 Talca,Liberales,PLU,"('Alejandro', 'Dussaillant', 'Louandre')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alejandro_Dussaillant_Louandre
-Talca,Partido Conservador,PCon,"('Ricardo', 'Francisco', 'de Borja', 'Boizard', 'Bastidas')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ricardo_Francisco_de_Borja_Boizard_Bastidas
 Talca,Partido Conservador,PCon,"('Mario', 'Urrutia', 'Gazmuri')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Mario_Urrutia_Gazmuri
+Talca,Partido Conservador,PCon,"('Ricardo', 'Francisco', 'de Borja', 'Boizard', 'Bastidas')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ricardo_Francisco_de_Borja_Boizard_Bastidas
 Talca,Radicales,PR,"('Rodolfo', 'Armas', 'Riquelme')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rodolfo_Armas_Riquelme
-Tarapacá,Radicales,PRS,"('Ernesto', 'Torres', 'Galdames')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ernesto_Torres_Galdames
-Tarapacá,Radicales,PRS,"('Raúl', 'Cáceres')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Raúl_Cáceres
-Tarapacá,Radicales,PRS,"('Carlos', 'Müller', 'Rivera')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Muller_Rivera
-Tarapacá,Radicales,PRS,"('Juan', 'Luis', 'Mery', 'Frías')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Luis_Mery_Frías
-Tarapacá,Radicales,PRS,"('Humberto', 'Arellano', 'Figueroa')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Humberto_Arellano_Figueroa
+Maule,Liberales,PL,"('Rafael', 'del Río', 'Gundián')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rafael_Del_Río_Gundián
+Maule,Partido Conservador,PCon,"('Enrique', 'Lira', 'Urquieta')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Enrique_Lira_Urquieta
+Maule,Radicales,PR,"('Jorge', 'Ruperto', 'Pinochet', 'Alvis')",,,,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Ruperto_Pinochet_Alvis
+Linares,Liberales,PL,"('Carlos', 'Alberto', 'del Campo', 'Rivera')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Alberto_Del_Campo_Rivera
+Linares,Partido Conservador,PCon,"('Manuel', 'Isidoro', 'Cruz', 'Ferrada')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Isidoro_Cruz_Ferrada
+Linares,Partido Agrario,PA,"('Zenón', 'Manzano', 'Esquerra')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Zenón_Manzano_Esquerra
+Linares,Radicales,PR,"('Eduardo', 'Cañas', 'Lira')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eduardo_Cañas_Lira
+Ñuble-1,Liberales,PL,"('Guillermo', 'Subercaseaux', 'Rivas')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Guillermo_Subercaseaux_Rivas
+Ñuble-1,Radicales,PRS,"('Luis', 'Felipe', 'Terrazas', 'Orellana')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Felipe_Terrazas_Orellana
+Ñuble-1,Radicales,PR,"('Aurelio', 'Benavente', 'Arancibia')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Aurelio_Benavente_Arancibia
+Ñuble-2,Liberales,PLU,"('José', 'Miguel', 'Opaso', 'Letelier')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Miguel_Opaso_Letelier
+Ñuble-2,Partido Conservador,PCon,"('José', 'Miguel', 'Sepúlveda', 'Palacios')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Miguel_Sepúlveda_Palacios
+Ñuble-2,Partido Conservador,PCon,"('Rafael', 'Cifuentes', 'Latham')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rafael_Cifuentes_Latham
+Ñuble-2,Democráticos,PDo,"('Nemesio', 'Concha', 'Romero')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Nemesio_Concha_Romero
+Ñuble-2,Radicales,PR,"('Alfonso', 'Quintana', 'Burgos')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alfonso_Quintana_Burgos
+Ñuble-2,Radicales,PR,"('Roberto', 'Gómez', 'Pérez')",,,,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Roberto_Gómez_Pérez
+Concepción,Partido Conservador,PCon,"('Abraham', 'Romero', 'Garrido')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Abraham_Romero_Garrido
+Concepción,Partido Demócrata,PD,"('Juan', 'Bautista', 'Bustos', 'Valenzuela')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Bautista_Bustos_Valenzuela
+Concepción,Democráticos,PDo,"('Julio', 'Eduardo', 'Martínez', 'Montt')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Julio_Eduardo_Martínez_Montt
+Concepción,Democráticos,PDo,"('Dionisio', 'Segundo', 'Garrido', 'Segura')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Dionisio_Segundo_Garrido_Segura
+Concepción,Democráticos,PDo,"('Pedro', 'Pablo', 'Vaillant', 'Rodríguez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Pablo_Vaillant_Rodríguez
+Concepción,Radicales,PR,"('Fernando', 'Blas', 'Maira', 'Castellón')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fernando_Blas_Maira_Castellón
+Concepción,Socialistas,NAP,"('Rolando', 'Merino', 'Reyes')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rolando_Merino_Reyes
+Arauco,Partido Agrario,PA,"('Jorge', 'Carlos', 'Ebensperger', 'Richter')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Carlos_Ebensperger_Richter
+Arauco,Democráticos,PDo,"('Pedro', 'Antonio', 'Morales', 'Vivanco')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Antonio_Morales_Vivanco
+Arauco,Radicales,PR,"('Carlos', 'Roberto', 'Elgueta', 'González')",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Roberto_Elgueta_González
+Arauco,Radicales,PR,"('Juan', 'Antonio', 'Ríos', 'Morales')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Antonio_Ríos_Morales
+Bío-Bío,Liberales,PL,"('Julio', 'René', 'de la Jara', 'Zúñiga')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Julio_René_De_la_Jara_Zúñiga
+Bío-Bío,Partido Conservador,PCon,"('Juan', 'Antonio', 'Coloma', 'Mellado')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Antonio_Coloma_Mellado
+Bío-Bío,Democráticos,PDo,"('Carlos', 'Andrés', 'Cifuentes', 'Sobarzo')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Andrés_Cifuentes_Sobarzo
+Bío-Bío,Democráticos,PDo,"('Alejandro', 'Serani', 'Burgos')",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alejandro_Serani_Burgos
+Bío-Bío,Radicales,PR,"('José', 'Luis', 'Osorio', 'Navarrete')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Luis_Osorio_Navarrete
+Bío-Bío,Radicales,PR,"('Alberto', 'Moller', 'Bordeu')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alberto_Moller_Bordeu
+Bío-Bío,Radicales,PR,"('Pedro', 'Hernán', 'Freeman', 'Caris')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Hernán_Freeman_Caris
+Malleco,Liberales,PL,"('José', 'Manuel', 'Huerta', 'Maturana')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Manuel_Huerta_Maturana
+Malleco,Partido Demócrata,PD,"('Óscar', 'Armando', 'Chanks', 'Camus')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Oscar_Armando_Chanks_Camus
+Malleco,Democráticos,PDo,"('Arturo', 'Huenchullán', 'Medel')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Arturo_Huenchullán_Medel
+Malleco,Radicales,PR,"('Luis', 'Uribe', 'Barra')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Uribe_Barra
+Cautín,Partido Conservador,PCon,"('Fernando', 'Varas', 'Contreras')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fernando_Varas_Contreras
+Cautín,Partido Agrario,PA,"('Fortunato', 'Navarro', 'Herrera')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fortunato_Navarro_Herrera
+Cautín,Partido Agrario,PA,"('Manuel', 'Bart', 'Herrera')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Bart_Herrera
+Cautín,Partido Agrario,PA,"('Braulio', 'Sandoval', 'Muñoz')",,,,*,
+Cautín,Partido Demócrata,PD,"('Saturio', 'Indalicio', 'Bosch', 'Forgas')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Saturio_Indalicio_Bosch_Forgas
+Cautín,Partido Demócrata,PD,"('Aníbal', 'Gutiérrez', 'Romero')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Aníbal_Gutiérrez_Romero
+Cautín,Partido Demócrata,PD,"('Armando', 'Zúñiga', 'Dueñas')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Armando_Zuñiga_Dueñas
+Cautín,Radicales,PR,"('Cristiáno', 'Becker', 'Valdevellano')",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Cristiano_Becker_Valdevellano
+Cautín,Radicales,PR,"('Rudecindo', 'Ortega', 'Mason')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rudecindo_Ortega_Mason
+Cautín,Radicales,PR,"('Ramón', 'Olave', 'Acuña')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ramón_Olave_Acuña
 Valdivia,Liberales,PL,"('Carlos', 'Acharán', 'Pérez de Arce')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Acharán_Pérez_de_Arce
 Valdivia,Liberales,PLU,"('Maximiliano', 'Becerra', 'Mera')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Maximiliano_Becerra_Mera
 Valdivia,Partido Conservador,PCon,"('Rodrigo', 'Aburto', 'Oróstegui')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rodrigo_Aburto_Oróstegui
@@ -128,27 +143,13 @@ Valdivia,Democráticos,PDo,"('Clemente', 'Escobar', 'Delgado')",,,*,*,https://ww
 Valdivia,Democráticos,PDo,"('Alberto', 'González', 'Quiroga')",,,,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alberto_González_Quiroga
 Valdivia,Democráticos,PDo,"('Óscar', 'Casanova', 'Ojeda')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Oscar_Casanova_Ojeda
 Valdivia,Radicales,PR,"('Pelegrín', 'Aníbal', 'Meza', 'Loyola')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pelegrín_Aníbal_Meza_Loyola
-Valdivia,Radicales,PR,"('Alfredo', 'Duhalde', 'Vásquez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alfredo_Duhalde_Vásquez
 Valdivia,Radicales,PR,"('Pedro', 'Castelblanco', 'Agüero')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Castelblanco_Agüero
-Valparaíso,Liberales,PLU,"('Gustavo', 'Roberto', 'Alejandro', 'Rivera', 'Baeza')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gustavo_Roberto_Alejandro_Rivera_Baeza
-Valparaíso,Liberales,PL,"('Rafael', 'Torres', 'Maillard')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rafael_Torres_Maillard
-Valparaíso,Liberales,PL,"('José', 'Manuel', 'Ríos', 'Arias')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Manuel_Ríos_Arias
-Valparaíso,Partido Conservador,PCon,"('Manuel', 'Muñoz', 'Cornejo')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Muñoz_Cornejo
-Valparaíso,Partido Conservador,PCon,"('Pablo', 'Grossert', 'R.')",,,,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pablo_Grossert_R.
-Valparaíso,Partido Conservador,PCon,"('Juan', 'Agustín', 'Rafael', 'Pinochet', 'Cáceres')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Agustín_Rafael_Pinochet_Cáceres
-Valparaíso,Radicales,PR,"('Eleodoro', 'Enrique', 'Guzmán', 'Figueroa')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eleodoro_Enrique_Guzmán_Figueroa
-Valparaíso,Radicales,PR,"('José', 'Efraín', 'Urrutia', 'Campos')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Efraín_Urrutia_Campos
-Valparaíso,Partido Social Republicano,PSR,"('Ismael', 'Carrasco', 'Rábago')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ismael_Carrasco_Rábago
-Valparaíso,Socialistas,PS,"('Humberto', 'Casali', 'Monreal')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Humberto_Casali_Monreal
-Valparaíso,Socialistas,NAP,"('Hipólito', 'Verdugo', 'Espinoza')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Hipólito_Verdugo_Espinoza
-Valparaíso,Asociación Gremial de Empleados de Chile,AGECh,"('Enrique', 'Aguirre', 'Pinto')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Enrique_Aguirre_Pinto
-Valparaíso,Candidatura Independiente,IND,"('Manuel', 'Nieto', 'Cacciuttolo')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Nieto_Cacciuttolo
-Ñuble-1,Liberales,PL,"('Guillermo', 'Subercaseaux', 'Rivas')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Guillermo_Subercaseaux_Rivas
-Ñuble-1,Radicales,PRS,"('Luis', 'Felipe', 'Terrazas', 'Orellana')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Felipe_Terrazas_Orellana
-Ñuble-1,Radicales,PR,"('Aurelio', 'Benavente', 'Arancibia')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Aurelio_Benavente_Arancibia
-Ñuble-2,Liberales,PLU,"('José', 'Miguel', 'Opaso', 'Letelier')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Miguel_Opaso_Letelier
-Ñuble-2,Partido Conservador,PCon,"('Rafael', 'Cifuentes', 'Latham')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rafael_Cifuentes_Latham
-Ñuble-2,Partido Conservador,PCon,"('José', 'Miguel', 'Sepúlveda', 'Palacios')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Miguel_Sepúlveda_Palacios
-Ñuble-2,Democráticos,PDo,"('Nemesio', 'Concha', 'Romero')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Nemesio_Concha_Romero
-Ñuble-2,Radicales,PR,"('Roberto', 'Gómez', 'Pérez')",,,,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Roberto_Gómez_Pérez
-Ñuble-2,Radicales,PR,"('Alfonso', 'Quintana', 'Burgos')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alfonso_Quintana_Burgos
+Valdivia,Radicales,PR,"('Alfredo', 'Duhalde', 'Vásquez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alfredo_Duhalde_Vásquez
+Llanquihue y Aysén,Liberales,PL,"('Ernesto', 'Hein', 'Holmberg')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ernesto_Hein_Holmberg
+Llanquihue y Aysén,Partido Conservador,PCon,"('Luis', 'Antonio', 'Silva', 'Silva')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Antonio_Silva_Silva
+Llanquihue y Aysén,Democráticos,PDo,"('Juan', 'de Dios', 'Ampuero', 'García')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_de_Dios_Ampuero_García
+Chiloé,Liberales,PLDe,"('Juan', 'Rafael', 'del Canto', 'Medán')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Rafael_Del_Canto_Medán
+Chiloé,Radicales,PR,"('Enrique', 'Lyon', 'Otaegui')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Enrique_Lyon_Otaegui
+Chiloé,Radicales,PR,"('Jorge', 'Urzúa', 'Urzúa')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Urzúa_Urzúa
+Chiloé,Candidatura Independiente,IND,"('Raúl', 'Morales', 'Beltramí')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Raúl_Morales_Beltramí
+Magallanes,Partido Regionalista de Magallanes,PRM,"('Manuel', 'Chaparro', 'Ruminot')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Chaparro_Ruminot

@@ -1,18 +1,18 @@
 Circunscripción,Lista/Pacto,Partido,Candidatos,Votos,Porcentaje,Electos,Electos_comp,url
 Tarapacá y Antofagasta,Confederación de la Democracia,PDC,"('Juan', 'de Dios', 'Carmona', 'Peralta')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_de_Dios_Carmona_Peralta
 Tarapacá y Antofagasta,Confederación de la Democracia,PDC,"('Osvaldo', 'Opelio', 'Olguín', 'Zapata')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Osvaldo_Opelio_Olguín_Zapata
-Tarapacá y Antofagasta,Unidad Popular,PC,"('Víctor', 'Benito', 'Contreras', 'Tapia')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Víctor_Benito_Contreras_Tapia
 Tarapacá y Antofagasta,Unidad Popular,PC,"('Luis', 'Valente', 'Rossi')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Valente_Rossi
+Tarapacá y Antofagasta,Unidad Popular,PC,"('Víctor', 'Benito', 'Contreras', 'Tapia')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Víctor_Benito_Contreras_Tapia
 Tarapacá y Antofagasta,Unión Socialista Popular,USOPO,"('Ramón', 'Augusto', 'Silva', 'Ulloa')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ramón_Augusto_Silva_Ulloa
-Atacama y Coquimbo,Confederación de la Democracia,VL-CODE,(),976,0.52,,,
+Atacama y Coquimbo,Confederación de la Democracia,PDC,"('Alejandro', 'Noemi', 'Huerta')",22683,12.17,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alejandro_Noemi_Huerta
 Atacama y Coquimbo,Confederación de la Democracia,PDC,"('Andrés', 'Zaldívar', 'Larraín')",37325,20.03,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Andrés_Zaldívar_Larraín
 Atacama y Coquimbo,Confederación de la Democracia,DR,"('Julio', 'Mercado', 'Illanes')",22089,11.85,,,
-Atacama y Coquimbo,Confederación de la Democracia,PDC,"('Alejandro', 'Noemi', 'Huerta')",22683,12.17,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alejandro_Noemi_Huerta
-Atacama y Coquimbo,Unidad Popular,PC,"('Julieta', 'Campusano', 'Chávez')",47002,25.23,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Julieta_Campusano_Chávez
-Atacama y Coquimbo,Unidad Popular,MAPU,"('Francisco', 'González', 'del Río')",3871,2.08,,,
-Atacama y Coquimbo,Unidad Popular,PS,"('Luis', 'Ernesto', 'Aguilera', 'Báez')",38513,20.67,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Ernesto_Aguilera_Báez
-Atacama y Coquimbo,Unidad Popular,VL-UP,(),1211,0.65,,,
+Atacama y Coquimbo,Confederación de la Democracia,VL-CODE,(),976,0.52,,,
 Atacama y Coquimbo,Unidad Popular,PR,"('Hugo', 'Miranda', 'Ramírez')",12627,6.78,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Hugo_Miranda_Ramírez
+Atacama y Coquimbo,Unidad Popular,VL-UP,(),1211,0.65,,,
+Atacama y Coquimbo,Unidad Popular,PS,"('Luis', 'Ernesto', 'Aguilera', 'Báez')",38513,20.67,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Ernesto_Aguilera_Báez
+Atacama y Coquimbo,Unidad Popular,MAPU,"('Francisco', 'González', 'del Río')",3871,2.08,,,
+Atacama y Coquimbo,Unidad Popular,PC,"('Julieta', 'Campusano', 'Chávez')",47002,25.23,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Julieta_Campusano_Chávez
 Atacama y Coquimbo,Válidamente emitidos,,(),186297,97.78,,,
 Atacama y Coquimbo,Nulos,,(),2901,1.52,,,
 Atacama y Coquimbo,Blancos,,(),1331,0.7,,,
@@ -22,36 +22,36 @@ Aconcagua y Valparaíso,Confederación de la Democracia,PDC,"('Benjamín', 'Prad
 Aconcagua y Valparaíso,Confederación de la Democracia,PN,"('Pedro', 'Ibáñez', 'Ojeda')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Ibáñez_Ojeda
 Aconcagua y Valparaíso,Unidad Popular,PC,"('Luis', 'Corvalán', 'Lepe')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Corvalán_Lepe
 Aconcagua y Valparaíso,Unidad Popular,PR,"('Luis', 'Bossay', 'Leiva')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Bossay_Leiva
+Santiago,Confederación de la Democracia,PDC,"('José', 'Plácido', 'Musalem', 'Saffie')",109314,7.73,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Plácido_Musalem_Saffie
+Santiago,Confederación de la Democracia,PN,"('Sergio', 'Onofre', 'Jarpa', 'Reyes')",195472,13.83,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Sergio_Onofre_Jarpa_Reyes
 Santiago,Confederación de la Democracia,PN,"('Alberto', 'Labbé', 'Troncoso')",87165,6.17,,,
 Santiago,Confederación de la Democracia,VL-CODE,(),9661,0.68,,,
 Santiago,Confederación de la Democracia,PDC,"('Eduardo', 'Frei', 'Montalva')",398238,28.18,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eduardo_Frei_Montalva
-Santiago,Confederación de la Democracia,PN,"('Sergio', 'Onofre', 'Jarpa', 'Reyes')",195472,13.83,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Sergio_Onofre_Jarpa_Reyes
 Santiago,Confederación de la Democracia,PIR,"('Alberto', 'Baltra', 'Cortés')",26790,1.89,,,
-Santiago,Confederación de la Democracia,PDC,"('José', 'Plácido', 'Musalem', 'Saffie')",109314,7.73,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Plácido_Musalem_Saffie
-Santiago,Unidad Popular,VL-UP,(),11081,0.78,,,
-Santiago,Unidad Popular,PS,"('Carlos', 'Altamirano', 'Orrego')",234232,16.57,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Altamirano_Orrego
-Santiago,Unidad Popular,PC,"('Volodia', 'Teitelboim', 'Volosky')",243891,17.26,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Volodia_Teitelboim_Volosky
-Santiago,Unidad Popular,MAPU,"('Carmen', 'Gloria', 'Aguayo', 'Irribarra')",21320,1.51,,,
 Santiago,Unidad Popular,PR,"('Aníbal', 'Palma', 'Fourcade')",76037,5.38,,,
+Santiago,Unidad Popular,MAPU,"('Carmen', 'Gloria', 'Aguayo', 'Irribarra')",21320,1.51,,,
+Santiago,Unidad Popular,PC,"('Volodia', 'Teitelboim', 'Volosky')",243891,17.26,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Volodia_Teitelboim_Volosky
+Santiago,Unidad Popular,PS,"('Carlos', 'Altamirano', 'Orrego')",234232,16.57,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Altamirano_Orrego
+Santiago,Unidad Popular,VL-UP,(),11081,0.78,,,
 Santiago,Válidamente emitidos,,(),1413201,98.6,,,
 Santiago,Nulos,,(),15300,1.07,,,
 Santiago,Blancos,,(),4721,0.33,,,
 Santiago,Total,,(),1433222,100.0,,,
-O'Higgins y Colchagua,Confederación de la Democracia,PDC,"('Ricardo', 'Valenzuela', 'Sáez')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ricardo_Valenzuela_Saéz
 O'Higgins y Colchagua,Confederación de la Democracia,PDC,"('Rafael', 'Adolfo', 'Moreno', 'Rojas')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rafael_Adolfo_Moreno_Rojas
 O'Higgins y Colchagua,Confederación de la Democracia,PN,"('Víctor', 'Joaquín', 'García', 'Garzena')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Víctor_Joaquín_García_Garzena
+O'Higgins y Colchagua,Confederación de la Democracia,PDC,"('Ricardo', 'Valenzuela', 'Sáez')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ricardo_Valenzuela_Saéz
 O'Higgins y Colchagua,Unidad Popular,PR,"('Vladimir', 'Anselmo', 'Sule', 'Candia')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Vladimir_Anselmo_Sule_Candia
 O'Higgins y Colchagua,Unidad Popular,PS,"('María', 'Elena', 'Carrera', 'Villavicencio')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/María_Elena_Carrera_Villavicencio
 "Curicó, Talca, Maule y Linares",Confederación de la Democracia,PDC,"('Héctor', 'Valenzuela', 'Valderrama')",11708,4.87,,,
 "Curicó, Talca, Maule y Linares",Confederación de la Democracia,PN,"('Sergio', 'Eduardo', 'de Praga', 'Diez', 'Urzúa')",59503,24.76,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Sergio_Eduardo_de_Praga_Diez_Urzúa
 "Curicó, Talca, Maule y Linares",Confederación de la Democracia,PDC,"('José', 'Antonio', 'Foncea', 'Aedo')",16190,6.74,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Antonio_Foncea_Aedo
-"Curicó, Talca, Maule y Linares",Confederación de la Democracia,VL-CODE,(),1605,0.67,,,
 "Curicó, Talca, Maule y Linares",Confederación de la Democracia,PDC,"('Patricio', 'Aylwin', 'Azócar')",35541,14.79,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Patricio_Aylwin_Azócar
 "Curicó, Talca, Maule y Linares",Confederación de la Democracia,PIR,"('Eugenio', 'Velasco', 'Letelier')",7544,3.14,,,
+"Curicó, Talca, Maule y Linares",Confederación de la Democracia,VL-CODE,(),1605,0.67,,,
 "Curicó, Talca, Maule y Linares",Unidad Popular,PR,"('Jorge', 'Cabello', 'Pizarro')",9941,4.14,,,
 "Curicó, Talca, Maule y Linares",Unidad Popular,PS,"('Álvaro', 'Erich', 'Schnake', 'Silva')",53483,22.26,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alvaro_Erich_Schnake_Silva
-"Curicó, Talca, Maule y Linares",Unidad Popular,VL-UP,(),1991,0.83,,,
 "Curicó, Talca, Maule y Linares",Unidad Popular,PC,"('Alejandro', 'Enrique', 'Toro', 'Herrera')",42770,17.8,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alejandro_Enrique_Toro_Herrera
+"Curicó, Talca, Maule y Linares",Unidad Popular,VL-UP,(),1991,0.83,,,
 "Curicó, Talca, Maule y Linares",Válidamente emitidos,,(),240276,97.72,,,
 "Curicó, Talca, Maule y Linares",Nulos,,(),3525,1.43,,,
 "Curicó, Talca, Maule y Linares",Blancos,,(),2077,0.84,,,
@@ -59,14 +59,14 @@ O'Higgins y Colchagua,Unidad Popular,PS,"('María', 'Elena', 'Carrera', 'Villavi
 "Ñuble, Concepción y Arauco",Confederación de la Democracia,PDC,"('Tomás', 'Pablo', 'Elorza')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Tomás_Pablo_Elorza
 "Ñuble, Concepción y Arauco",Confederación de la Democracia,PDC,"('Alberto', 'Jorge', 'Jerez', 'Horta')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alberto_Jorge_Jerez_Horta
 "Ñuble, Concepción y Arauco",Confederación de la Democracia,PN,"('Francisco', 'Bulnes', 'Sanfuentes')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Francisco_Bulnes_Sanfuentes
-"Ñuble, Concepción y Arauco",Unidad Popular,PR,"('Humberto', 'Aguirre', 'Doolan')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Humberto_Aguirre_Doolan
 "Ñuble, Concepción y Arauco",Unidad Popular,PC,"('Jorge', 'Antonio', 'Montes', 'Moraga')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Antonio_Montes_Moraga
+"Ñuble, Concepción y Arauco",Unidad Popular,PR,"('Humberto', 'Aguirre', 'Doolan')",0,0.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Humberto_Aguirre_Doolan
 "Bío-Bío, Malleco y Cautín",Confederación de la Democracia,PDC,"('Jorge', 'Exequiel', 'Lavandero', 'Illanes')",46772,17.13,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Exequiel_Lavandero_Illanes
 "Bío-Bío, Malleco y Cautín",Confederación de la Democracia,VL-CODE,(),1833,0.67,,,
-"Bío-Bío, Malleco y Cautín",Confederación de la Democracia,PN,"('Miguel', 'Huerta', 'Muñoz')",21405,7.84,,,
 "Bío-Bío, Malleco y Cautín",Confederación de la Democracia,DR,"('Julio', 'Durán', 'Neumann')",17743,6.5,,,
 "Bío-Bío, Malleco y Cautín",Confederación de la Democracia,PDC,"('Tulio', 'Renán', 'Fuentealba', 'Moena')",37882,13.87,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Tulio_Renán_Fuentealba_Moena
 "Bío-Bío, Malleco y Cautín",Confederación de la Democracia,PN,"('Patricio', 'Phillips', 'Peñafiel')",42348,15.51,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Patricio_Phillips_Peñafiel
+"Bío-Bío, Malleco y Cautín",Confederación de la Democracia,PN,"('Miguel', 'Huerta', 'Muñoz')",21405,7.84,,,
 "Bío-Bío, Malleco y Cautín",Unidad Popular,VL-UP,(),2594,0.95,,,
 "Bío-Bío, Malleco y Cautín",Unidad Popular,PC,"('Ernesto', 'Araneda', 'Briones')",35801,13.11,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ernesto_Segundo_Araneda_Briones
 "Bío-Bío, Malleco y Cautín",Unidad Popular,PS,"('Jaime', 'Suárez', 'Bastidas')",45825,16.78,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jaime_León_Suárez_Bastidas
@@ -85,9 +85,9 @@ O'Higgins y Colchagua,Unidad Popular,PS,"('María', 'Elena', 'Carrera', 'Villavi
 "Chiloé, Aysén y Magallanes",Confederación de la Democracia,PN,"('Fernando', 'Ochagavía', 'Valdés')",11418,12.82,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fernando_Ochagavía_Valdés
 "Chiloé, Aysén y Magallanes",Confederación de la Democracia,DR,"('Raúl', 'Morales', 'Adriasola')",8160,9.16,,,
 "Chiloé, Aysén y Magallanes",Confederación de la Democracia,VL-CODE,(),357,0.4,,,
-"Chiloé, Aysén y Magallanes",Unidad Popular,VL-UP,(),554,0.62,,,
-"Chiloé, Aysén y Magallanes",Unidad Popular,PC,"('Luis', 'Godoy', 'Gómez')",10996,12.35,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Godoy_Gómez
 "Chiloé, Aysén y Magallanes",Unidad Popular,PR,"('Carlos', 'Morales', 'Abarzúa')",7510,8.43,,,
+"Chiloé, Aysén y Magallanes",Unidad Popular,PC,"('Luis', 'Godoy', 'Gómez')",10996,12.35,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Godoy_Gómez
+"Chiloé, Aysén y Magallanes",Unidad Popular,VL-UP,(),554,0.62,,,
 "Chiloé, Aysén y Magallanes",Unidad Popular,PS,"('Adonis', 'Sepúlveda', 'Acuña')",20416,22.93,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Adonis_Ramón_Sepúlveda_Acuña
 "Chiloé, Aysén y Magallanes",Válidamente emitidos,,(),89032,97.71,,,
 "Chiloé, Aysén y Magallanes",Nulos,,(),1443,1.58,,,

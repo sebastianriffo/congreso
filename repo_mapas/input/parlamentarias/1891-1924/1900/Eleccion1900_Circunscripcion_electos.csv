@@ -1,6 +1,6 @@
 Circunscripción,Lista/Pacto,Partido,Candidatos,Votos,Porcentaje,Electos,Electos_comp,url
-Antofagasta,Partido Liberal Democrático,PLDe,"('Enrique', 'Villegas', 'Encalada')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Enrique_Villegas_Encalada
 Tarapacá,Partido Liberal Democrático,PLDe,"('José', 'Elías', 'Balmaceda', 'Fernández')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Elías_Balmaceda_Fernández
+Antofagasta,Partido Liberal Democrático,PLDe,"('Enrique', 'Villegas', 'Encalada')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Enrique_Villegas_Encalada
 Atacama,Partido Radical,PR,"('Federico', 'Varela', 'Cortés-Monroy')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Federico_Varela_Cortés_de_Monroy
 Coquimbo,Partido Liberal Democrático,PLDe,"('Claudio', 'Vicuña', 'Guerrero')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Claudio_Vicuña_Guerrero
 Coquimbo,Partido Liberal Democrático,PLDe,"('Adolfo', 'Eastman', 'Quiroga')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Adolfo_Eastman_Quiroga
@@ -16,22 +16,22 @@ O'Higgins,Partido Conservador,PCon,"('Carlos', 'Irarrázaval', 'Larraín')",,,*,
 Colchagua,Partido Conservador,PCon,"('Leoncio', 'Echeverría', 'Valdés')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Leoncio_Echeverría_Valdés
 Colchagua,,,"('Alejandro', 'Vial', 'Guzmán')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alejandro_Vial_Guzmán
 Curicó,Partido Liberal,PL,"('Fernando', 'Liborio', 'Lazcano', 'Echaurren')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fernando_Liborio_Lazcano_Echaurren
-Talca,Partido Liberal Democrático,PLDe,"('Pedro', 'Segundo', 'Letelier', 'Silva')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Segundo_Letelier_Silva
-Talca,Partido Liberal,PL,"('Germán', 'Riesco', 'Errázuriz')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Germán_Riesco_Errázuriz
+Talca,Partido Liberal Democrático,PLDe,"('Pedro', 'Segundo', 'Letelier', 'Silva')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Segundo_Letelier_Silva
+Talca,Partido Liberal,PL,"('Germán', 'Riesco', 'Errázuriz')",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Germán_Riesco_Errázuriz
 Linares,Partido Liberal,PL,"('Ramón', 'Barros', 'Luco')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ramón_Barros_Luco
 Maule,Partido Radical,PR,"('Juan', 'Antonio', 'González', 'Ibieta')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Antonio_González_Ibieta
-Maule,Partido Radical,PR,"('Juan', 'Castellón', 'Larenas')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Castellón_Larenas
 Maule,Partido Liberal,PL,"('Antonio', 'Valdés', 'Cuevas')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Antonio_Valdés_Cuevas
-Ñuble,Partido Radical,PR,"('Enrique', 'Mac-Iver', 'Rodríguez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Enrique_Mac_Iver_Rodríguez
+Ñuble,Partido Radical,PR,"('Enrique', 'Mac-Iver', 'Rodríguez')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Enrique_Mac_Iver_Rodríguez
 Ñuble,,,"('Federico', 'Puga', 'Borne')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Federico_Puga_Borne
-Ñuble,,,"('Aníbal', 'Zañartu', 'Zañartu')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Aníbal_Zañartu_Zañartu
+Ñuble,,,"('Aníbal', 'Zañartu', 'Zañartu')",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Aníbal_Zañartu_Zañartu
 Concepción,Partido Conservador,PCon,"('Francisco', 'Javier', 'Errázuriz', 'Echaurren')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Javier_Errázuriz_Echaurren
 Concepción,,,"('Cornelio', 'Saavedra', 'Rivera')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Cornelio_Saavedra_Rivera
 Bío-Bío,Partido Liberal Democrático,PLDe,"('Raimundo', 'Silva', 'Cruz')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Raimundo_Silva_Cruz
 Malleco,Partido Radical,PR,"('Pedro', 'Bannen', 'Pradel')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Bannen_Pradel
 Cautín,,,"('Pedro', 'Montt', 'Montt')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Montt_Montt
-Valdivia,Partido Liberal Democrático,PLDe,"('Juan', 'Luis', 'Sanfuentes', 'Andonaegui')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Luis_Sanfuentes_Andonaegui
-Valdivia,Partido Liberal Doctrinario,PLDo,"('Eliodoro', 'Yáñez', 'Ponce de León')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eliodoro_Yáñez_Ponce_de_León
-Valdivia,Partido Liberal Doctrinario,PLDo,"('Eduardo', 'Matte', 'Pérez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eduardo_Matte_Pérez
+Arauco,Partido Liberal,PL,"('José', 'Eugenio', 'Guzmán', 'Irarrázaval')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Eugenio_Guzmán_Yrarrázaval
+Valdivia,Partido Liberal Democrático,PLDe,"('Juan', 'Luis', 'Sanfuentes', 'Andonaegui')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Luis_Sanfuentes_Andonaegui
+Valdivia,Partido Liberal Doctrinario,PLDo,"('Eliodoro', 'Yáñez', 'Ponce de León')",,,,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eliodoro_Yáñez_Ponce_de_León
+Valdivia,Partido Liberal Doctrinario,PLDo,"('Eduardo', 'Matte', 'Pérez')",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eduardo_Matte_Pérez
 Llanquihue,Partido Conservador,PCon,"('Ramón', 'Ricardo', 'Rozas', 'Garfias')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ramón_Ricardo_Rozas_Garfias
 Chiloé,Partido Conservador,PCon,"('José', 'Adolfo', 'Ricardo', 'Matte', 'Pérez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Adolfo_Ricardo_Matte_Pérez

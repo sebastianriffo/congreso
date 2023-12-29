@@ -1,62 +1,55 @@
 Circunscripción,Lista/Pacto,Partido,Candidatos,Votos,Porcentaje,Electos,Electos_comp,url
-Atacama,,,"('José', 'Antonio', 'Montt', 'Goyenechea')",,, ,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Antonio_Montt_Goyenechea
-Atacama,,,"('Benjamín', 'Vicuña', 'Mackenna')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Benjamín_Vicuña_Mackenna
+Atacama,,,"('José', 'Antonio', 'Montt', 'Goyenechea')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Antonio_Montt_Goyenechea
 Atacama,Partido Radical,PR,"('Manuel', 'Antonio', 'Matta', 'Goyenechea')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Antonio_Matta_Goyenechea
-Atacama,Partido Radical,PR,"('Pedro', 'León', 'Gallo', 'Goyenechea')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_León_Gallo_Goyenechea
-Coquimbo,,,"('Manuel', 'Jerónimo', 'Urmeneta', 'García')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Jerónimo_Urmeneta_García
-Coquimbo,Partido Nacional o Monttvarista,PN,"('Teodosio', 'Cuadros')",,, ,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Teodosio_Cuadros
-Coquimbo,Partido Nacional o Monttvarista,PN,"('Antonio', 'Varas', 'de la Barra')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Antonio_Varas_de_la_Barra
+Coquimbo,,,"('Benjamín', 'Vicuña', 'Mackenna')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Benjamín_Vicuña_Mackenna
+Coquimbo,,,"('Manuel', 'Jerónimo', 'Urmeneta', 'García')",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Jerónimo_Urmeneta_García
+Coquimbo,Partido Nacional,PN,"('Antonio', 'Varas', 'de la Barra')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Antonio_Varas_de_la_Barra
+Coquimbo,Partido Nacional,PN,"('Teodosio', 'Cuadros')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Teodosio_Cuadros
 Aconcagua,,,"('Belisario', 'Matías', 'Prats', 'Pérez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Belisario_Matías_Prats_Pérez
-Aconcagua,,,"('Miguel', 'Elizalde', 'Jiménez')",,, ,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Miguel_Elizalde_Jiménez
+Aconcagua,,,"('Miguel', 'Elizalde', 'Jiménez')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Miguel_Elizalde_Jiménez
+Aconcagua,Partido Nacional,PN,"('José', 'Eugenio', 'Vergara', 'Galeas')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Eugenio_Vergara_Galeas
 Aconcagua,Partido Conservador,PCon,"('Liborio', 'Ramón', 'Freire', 'Caldera')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Liborio_Ramón_Freire_Caldera
-Aconcagua,Partido Nacional o Monttvarista,PN,"('José', 'Eugenio', 'Vergara', 'Galeas')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Eugenio_Vergara_Galeas
+Valparaíso,,,"('José', 'María', 'Barceló', 'Carvallo')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_María_Barceló_Carvallo
 Valparaíso,,,"('Pedro', 'Nolasco', 'Marcoleta', 'Dávila')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Nolasco_Marcoleta_Dávila
-Valparaíso,,,"('José', 'María', 'Barceló', 'Carvallo')",,, ,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_María_Barceló_Carvallo
-Valparaíso,,,"('Santiago', 'Lindsay', 'Font')",,, ,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Santiago_Lindsay_Font
-Valparaíso,Partido Liberal,PL,"('José', 'Victorino', 'Lastarria', 'Santander')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Victorino_Lastarria_Santander
 Valparaíso,Partido Liberal,PL,"('Juan', 'de Dios', 'Arlegui', 'Gorbea')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_de_Dios_Arlegui_Gorbea
-Valparaíso,Partido Liberal,PL,"('Adolfo', 'Eastman', 'Quiroga')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Adolfo_Eastman_Quiroga
-Santiago,,,"('Lorenzo', 'Claro', 'Cruz')",,, ,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Lorenzo_Claro_Cruz
-Santiago,Partido Liberal,PL,"('Claudio', 'Vicuña', 'Guerrero')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Claudio_Vicuña_Guerrero
+Valparaíso,Partido Liberal,PL,"('José', 'Victorino', 'Lastarria', 'Santander')",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Victorino_Lastarria_Santander
+Santiago,,,"('Lorenzo', 'Claro', 'Cruz')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Lorenzo_Claro_Cruz
+Santiago,Partido Conservador,PCon,"('José', 'Rafael', 'Larraín', 'Moxó')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Rafael_Larraín_Moxó
+Santiago,Partido Conservador,PCon,"('Domingo', 'Atanasio', 'Fernández', 'Concha')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Domingo_Atanasio_Fernández_Concha
 Santiago,Partido Conservador,PCon,"('Francisco', 'de Borja', 'Larraín', 'Gandarillas')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Francisco_de_Borja_Larraín_Gandarillas
+Santiago,Partido Conservador,PCon,"('Manuel', 'José', 'Irarrázaval', 'Larraín')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_José_Yrarrázaval_Larraín
+Santiago,Partido Liberal,PL,"('Claudio', 'Vicuña', 'Guerrero')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Claudio_Vicuña_Guerrero
+Santiago,Partido Liberal,PL,"('Álvaro', 'José', 'Miguel', 'Covarrubias', 'Ortúzar')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Álvaro_José_Miguel_Covarrubias_Ortúzar
 Colchagua,,,"('Juan', 'José', 'Echenique', 'Bascuñán')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_José_Echenique_Bascuñán
-Colchagua,Partido Liberal,PL,"('Manuel', 'Valdés', 'Vigil')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Valdés_Vigil
+Colchagua,Partido Nacional,PN,"('José', 'Miguel', 'Ureta', 'Urriola')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Miguel_Ureta_Urriola
 Colchagua,Partido Conservador,PCon,"('Francisco', 'Javier', 'Errázuriz', 'Echaurren')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Javier_Errázuriz_Echaurren
-Colchagua,Partido Nacional o Monttvarista,PN,"('José', 'Miguel', 'Ureta', 'Urriola')",,, ,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Miguel_Ureta_Urriola
-Curicó,Partido Nacional o Monttvarista,PN,"('Waldo', 'Silva', 'Algue')",,, ,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Waldo_Silva_Algue
+Colchagua,Partido Liberal,PL,"('Manuel', 'Valdés', 'Vigil')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Valdés_Vigil
+Curicó,,,"('Manuel', 'Joaquín', 'Valenzuela', 'Castillo')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Joaquín_Valenzuela_Castillo
+Curicó,Partido Nacional,PN,"('Waldo', 'Silva', 'Algue')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Waldo_Silva_Algue
+Curicó,Partido Liberal,PL,"('Alejandro', 'Matías', 'Luis', 'Ignacio', 'Reyes', 'Cotapos')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alejandro_Matías_Luis_Ignacio_Reyes_Cotapos
 Talca,,,"('Ursicinio', 'Opaso', 'Silva')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ursicinio_Opaso_Silva
-Talca,,,"('Manuel', 'Martín', 'José', 'Recabarren', 'Rencoret')",,, ,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Martín_José_Recabarren_Rencoret
-Talca,,,"('Diego', 'Vergara', 'Albano')",,, ,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Diego_Vergara_Albano
+Talca,,,"('Manuel', 'Martín', 'José', 'Recabarren', 'Rencoret')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Martín_José_Recabarren_Rencoret
 Talca,Partido Conservador,PCon,"('Luis', 'Pereira', 'Cotapos')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Pereira_Cotapos
+Linares,,,"('José', 'Agustín', 'Salas', 'Errázuriz')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Agustín_Salas_Errázurriz
+Linares,,,"('José', 'Luis', 'Donoso', 'Cienfuegos')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Luis_Donoso_Cienfuegos
 Linares,,,"('Ramón', 'Francisco', 'Rozas', 'Mendiburú')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ramón_Francisco_Rozas_Mendiburú
-Linares,,,"('José', 'Agustín', 'Salas', 'Errázuriz')",,, ,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Agustín_Salas_Errázurriz
 Maule,,,"('Marcial', 'Martínez', 'Cuadros')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Marcial_Martínez_Cuadros
-Maule,,,"('Miguel', 'Roberto', 'Guzmán', 'Palacios')",,, ,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Miguel_Roberto_Guzmán_Palacios
+Maule,,,"('Miguel', 'Roberto', 'Guzmán', 'Palacios')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Miguel_Roberto_Guzmán_Palacios
 Maule,Partido Liberal,PL,"('José', 'Manuel', 'Encina', 'Echeverría')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Manuel_Encina_Echeverría
-Ñuble,,,"('José', 'Joaquín', 'Valdés', 'Valdés')",,, ,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Joaquín_Valdés_Valdés
+Ñuble,,,"('José', 'Joaquín', 'Valdés', 'Valdés')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Joaquín_Valdés_Valdés
 Ñuble,,,"('José', 'Joaquín', 'Blest', 'Gana')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Joaquín_Blest_Gana
 Ñuble,Partido Liberal,PL,"('Melchor', 'Concha', 'Toro')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Melchor_Concha_y_Toro
-Concepción,,,"('Pedro', 'Eulogio', 'Altamirano', 'Aracena')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Eulogio_Altamirano_Aracena
-Concepción,,,"('Ramón', 'Guerrero', 'Prado')",,, ,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ramón_Guerrero_Prado
-Concepción,,,"('Domingo', 'Santa María', 'González')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Domingo_Santa_María_González
+Concepción,,,"('Ramón', 'Guerrero', 'Prado')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ramón_Guerrero_Prado
+Concepción,,,"('Domingo', 'Santa María', 'González')",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Domingo_Santa_María_González
 Concepción,Partido Liberal,PL,"('Marcial', 'González', 'Ibieta')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Marcial_González_Ibieta
-Bío-Bío,,,"('Pedro', 'Godoy', 'Palacios')",,, ,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Godoy_Palacios
-Bío-Bío,Partido Radical,PR,"('Ricardo', 'Claro', 'Cruz')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ricardo_Claro_Cruz
-Bío-Bío,Partido Nacional o Monttvarista,PN,"('Rafael', 'Sotomayor', 'Baeza')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rafael_Sotomayor_Baeza
+Bío-Bío,,,"('Pedro', 'Godoy', 'Palacios')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Godoy_Palacios
+Bío-Bío,Partido Nacional,PN,"('Rafael', 'Sotomayor', 'Baeza')",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rafael_Sotomayor_Baeza
 Bío-Bío,Partido Liberal Democrático,PLDe,"('Javier', 'Luis', 'Zañartu', 'Larraín')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Javier_Luis_De_Zañartu_Larraín
-Arauco,,,"('Antonio', 'del Pedregal', 'Velasco')",,, ,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Antonio_Del_Pedregal_Velasco
-Arauco,,,"('Diego', 'Antonio', 'Tagle', 'Echeverría')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Diego_Antonio_Tagle_Echeverría
+Arauco,,,"('Antonio', 'del Pedregal', 'Velasco')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Antonio_Del_Pedregal_Velasco
+Arauco,,,"('Maximiano', 'Errázuriz', 'Valdivieso')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Maximiano_Errázuriz_Valdivieso
 Valdivia,,,"('Adolfo', 'Ibáñez', 'Gutiérrez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Adolfo_Ibáñez_Gutiérrez
-Valdivia,Partido Liberal,PL,"('Vicente', 'Izquierdo', 'Urmeneta')",,, ,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Vicente_Izquierdo_Urmeneta
-Llanquihue,,,"('Francisco', 'de Paula', 'Echaurren', 'González')",,, ,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Francisco_de_Paula_Echaurren_González
-Llanquihue,Partido Nacional o Monttvarista,PN,"('Vicente', 'Pérez', 'Rosales')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Vicente_Pérez_Rosales
-Nacional,,,"('José', 'Manuel', 'Pinto', 'Arias')",,, ,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Manuel_Pinto_Arias
-Nacional,,,"('Maximiano', 'Errázuriz', 'Valdivieso')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Maximiano_Errázuriz_Valdivieso
-Nacional,,,"('Guillermo', 'Cuningham', 'Blest', 'Mayben')",,, ,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Guillermo_Cuningham_Blest_Mayben
-Nacional,Partido Conservador,PCon,"('Manuel', 'Camilo', 'Vial', 'Formas')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Camilo_Vial_Formas
-Nacional,Partido Conservador,PCon,"('Juan', 'de Dios', 'Correa de Saa', 'Martínez')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_de_Dios_Correa_de_Saa_Martínez
-Nacional,Partido Conservador,PCon,"('José', 'Rafael', 'Larraín', 'Moxó')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Rafael_Larraín_Moxó
-Nacional,Partido Conservador,PCon,"('Manuel', 'José', 'Irarrázaval', 'Larraín')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_José_Yrarrázaval_Larraín
-Nacional,Partido Nacional o Monttvarista,PN,"('José', 'Joaquín', 'Pérez', 'Mascayano')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Joaquín_Pérez_Mascayano
-Nacional,Partido Nacional o Monttvarista,PN,"('Domingo', 'Matte', 'Messía')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Domingo_Matte_Messía
-Nacional,Partido Nacional o Monttvarista,PN,"('José', 'Luis', 'Donoso', 'Cienfuegos')",,, ,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Luis_Donoso_Cienfuegos
+Valdivia,Partido Liberal,PL,"('Vicente', 'Izquierdo', 'Urmeneta')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Vicente_Izquierdo_Urmeneta
+Llanquihue,,,"('Francisco', 'de Paula', 'Echaurren', 'González')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Francisco_de_Paula_Echaurren_González
+Llanquihue,Partido Nacional,PN,"('Vicente', 'Pérez', 'Rosales')",,,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Vicente_Pérez_Rosales
+Chiloé,,,"('Manuel', 'Montt', 'Torres')",,,*,,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Montt_Torres
+Chiloé,Partido Nacional o Monttvarista,PN,"('José', 'Tomás', 'Besa', 'Infantas')",,,,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Tomás_Besa_Infantas

@@ -639,18 +639,19 @@ def provincias_chile(eleccion, rep):
                                        "O'Higgins y Colchagua", 'Curicó, Talca, Maule y Linares', 'Ñuble, Concepción y Arauco', 'Bío-Bío, Malleco y Cautín',
                                        ['Valdivia, Osorno y Llanquihue', 'Chiloé, Aysén y Magallanes'] if eleccion >= 1969 else ('Valdivia, Osorno, Llanquihue, Chiloé, Aysén y Magallanes' if eleccion >= 1941 else 'Valdivia, Llanquihue, Chiloé, Aysén y Magallanes')
                                        ])                       
-        elif eleccion > 1828:
-            provincias = flatten_list([['Antofagasta','Tarapacá','Atacama'] if eleccion >= 1891 else (['Tarapacá','Atacama'] if eleccion >= 1885 else 'Atacama'), 'Coquimbo', 
+        elif eleccion >= 1828:
+            provincias = flatten_list([['Tarapacá','Antofagasta','Atacama'] if eleccion >= 1891 else (['Tarapacá','Atacama'] if eleccion >= 1885 else 'Atacama'), 'Coquimbo', 
                                        'Aconcagua', 'Valparaíso', ['Santiago', "O'Higgins"] if eleccion >= 1885 else 'Santiago',                                              
                                        'Colchagua', 'Curicó', 'Talca', 'Linares', 'Maule', 'Ñuble', 
                                        'Concepción', 'Bío-Bío', ['Malleco', 'Cautín', 'Arauco'] if eleccion >= 1888 else 'Arauco', 
                                        'Valdivia', 'Llanquihue', 'Chiloé'
-                                       ]) if (eleccion >= 1876 or eleccion <= 1831) else ['Nacional']
+                                       ]) if (eleccion >= 1876 or eleccion <= 1831) else ['Nacional-1', 'Nacional-2', 'Nacional-3']
                                       
-            if eleccion in {1876,1879}: provincias.append('Nacional')
-        else:
-            provincias = ['Copiapó', 'Illapel', 'Quillota', 'Valparaíso', 'Santiago', 'Rancagua', 'Colchagua',
-                          'Talca', 'Parral', 'Puchacay', 'Rere', 'Cauquenes', 'Osorno', 'Chiloé']
+            #revisar
+            if eleccion in {1876,1879}: provincias.append('Nacional-1')
+        # else:
+        #     provincias = ['Copiapó', 'Illapel', 'Quillota', 'Valparaíso', 'Santiago', 'Rancagua', 'Colchagua',
+        #                   'Talca', 'Parral', 'Puchacay', 'Rere', 'Cauquenes', 'Osorno', 'Chiloé']
     
     return list(filter(lambda x: x != '', provincias))
 
