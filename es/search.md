@@ -63,7 +63,6 @@ Corresponden a la duración completa, aún si el parlamentario no cumplió con s
 /*
 arreglar output de ciertas búsquedas: 
 demócrata: PD en vez de PDC/UDI/etc
-
 */
 $(document).ready( function () {
 var table = $('#example').DataTable({
