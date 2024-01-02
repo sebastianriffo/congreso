@@ -16,8 +16,8 @@ Dependiendo del período, los resultados de cada votación fueron obtenidos de
 
 * **1989-presente**. [Resultados históricos](https://historico.servel.cl/). Archivo Histórico del Servicio Electoral de Chile.
 * **1973**. [Resultados de las elecciones parlamentarias de Chile de 1973 (Anexo)](https://es.wikipedia.org/wiki/Anexo:Resultados_de_las_elecciones_parlamentarias_de_Chile_de_1973). Wikipedia.
-* **1932-1969**.
-  + Por partidos y coaliciones :
+* **1828-1969**.
+  + Por partidos y coaliciones (1925-1969):
     - Germán Urzúa Valenzuela. [*Historia política de Chile y su evolución electoral: desde 1810 a 1992*](https://books.google.fr/books?id=ac9AhNVyCCoC&printsec=frontcover#v=onepage&q&f=false). Editorial Jurídica de Chile, 1992.
     - Adolfo Aldunate y Ana Rita Díaz-Muñoz. [*Las provincias de Chile a través de indicadores: una infraestructura para los análisis causales y de procesos*](https://repositorio.cepal.org/handle/11362/8017?show=full). Programa de Intercambio CELADE-ELAS, 1972. 
     - Georgetown University. [*Political Database of the Americas*](https://pdba.georgetown.edu/Elecdata/Chile/cong_totals.html).
@@ -27,14 +27,29 @@ Dependiendo del período, los resultados de cada votación fueron obtenidos de
     - Michael J. Coppedge, [*A Classification of Latin American Political Parties*](https://kellogg.nd.edu/documents/1539). 1997. 
   + Listado de parlamentarios por período legislativo:
     - [Diarios de Sesiones del Congreso Nacional](https://www.bcn.cl/historiapolitica/corporaciones/index.html). Biblioteca del Congreso Nacional de Chile.
-    - [Diario La Nación](https://culturadigital.udp.cl/index.php/lanacion/). Cultura Digital, Universidad Diego Portales.
-    - Respectivos artículos en la categoría [Elecciones parlamentarias de Chile](https://es.wikipedia.org/wiki/Categoría:Elecciones_parlamentarias_de_Chile), Wikipedia.
-    - [Elecciones extraordinarias 1938-1971](https://archivo.servel.cl/index.php/elecciones-extraordinarias-1938-1971). Archivo Histórico del Servicio Electoral de Chile.
-* **1828-1930**. 
-  + Listado de parlamentarios por período legislativo:
-    - [Diarios de Sesiones del Congreso Nacional](https://www.bcn.cl/historiapolitica/corporaciones/index.html). Biblioteca del Congreso Nacional de Chile.
     - Luis Valencia Avaria. [*Anales de la República : textos constitucionales de Chile y registro de los ciudadanos que han integrado los poderes ejecutivo y legislativo desde 1810*](https://www.bcn.cl/Books/Anales_de_la_Republica//index.html#p=2), tomo II. Imprenta Universitaria, 1951.
-
+    - Diario La Nación. Cultura Digital, Universidad Diego Portales. 
+      <details>
+        <summary> Ver ediciones </summary>
+        <ul>
+          <li><a href="https://culturadigital.udp.cl/index.php/lanacion/la-nacion-15321"><i>Senadores y diputados presuntivamente electos</i></a>. La Nación. 7 de marzo de 1961, p. 1.</li>
+          <li><a href="https://culturadigital.udp.cl/index.php/lanacion/la-nacion-13694"><i>Nómina oficial, por provincias, de diputados presuntivamente electos</i></a>. La Nación. 5 de marzo de 1957, p. 2.</li>
+          <li><a href="https://culturadigital.udp.cl/index.php/lanacion/la-nacion-13699"><i>La Semana Política</i></a>. La Nación. 10 de marzo de 1957, p. 4.</li>
+          <li><a href="https://culturadigital.udp.cl/index.php/lanacion/la-nacion-12233"><i>Listado de senadores presuntivos elegidos en comicios del dgo</i></a>. La Nación. 3 de marzo de 1953, pp. 1, 6; Parlamentarios Electos. Ídem, p. 6.</li>                    
+          <li><a href="https://culturadigital.udp.cl/index.php/lanacion/la-nacion-10777">36 diputados y 5 senadores radicales</a>. La Nación. 8 de marzo de 1949, pp. 1-2.</li>
+          <li><a href="https://culturadigital.udp.cl/index.php/lanacion/la-nacion-9314"><i>Orden y tranquilidad caracterizaron el acto electoral de ayer</i></a>. La Nación. 5 de marzo de 1945, pp. 1, 10-12.</li>
+          <li><a href="https://culturadigital.udp.cl/index.php/lanacion/la-nacion-7887"><i>La izquierda conquistó el control del Congreso</i></a>. La Nación. 4 de marzo de 1941, p. 9.</li>           
+          <li><a href="https://culturadigital.udp.cl/index.php/lanacion/la-nacion-6112"><i>Resultados generales</i></a>. La Nación. 8 de marzo de 1937, p. 21.</li>                   
+          <li><a href="https://culturadigital.udp.cl/index.php/lanacion/la-nacion-4628"><i>Los nuevos miembros del Congreso Nacional</i></a>. La Nación. 16 de febrero de 1930, p. 21.</li>
+          <li><a href="https://culturadigital.udp.cl/index.php/lanacion/la-nacion-3269"><i>Los elegidos en todo el país</i></a>. La Nación. 24 de noviembre de 1925, p. 5.</li>
+          <li><a href="https://culturadigital.udp.cl/index.php/lanacion/la-nacion-2645"><i>El resultado de las urnas en la eleccion del domingo</i></a>. La Nación. 4 de marzo de 1924, p. 5.</li>
+          <li><a href="https://culturadigital.udp.cl/index.php/lanacion/la-nacion-2717/"><i>La composición del nuevo congreso nacional</i></a>. La Nación. 15 de mayo de 1924, p. 6.</li>                    
+          <li><a href="https://culturadigital.udp.cl/index.php/lanacion/la-nacion-2104"><i>Los candidatos triunfantes</i></a>. La Nación. 8 de marzo de 1921, p. 1.</li>
+          <li><a href="https://culturadigital.udp.cl/index.php/lanacion/la-nacion-1188"><i>La jornada electoral</i></a>. La Nación. 5 de marzo de 1918, p. 5.</li> 
+        </ul>
+        </details>
+    - Respectivos artículos en la categoría [Elecciones parlamentarias de Chile](https://es.wikipedia.org/wiki/Categoría:Elecciones_parlamentarias_de_Chile), Wikipedia.
+    - Elecciones extraordinarias [1925-1951](https://archivo.servel.cl/index.php/elecciones-extraordinarias-1925-1953) y [1938-1971](https://archivo.servel.cl/index.php/elecciones-extraordinarias-1938-1971). Archivo Histórico del Servicio Electoral de Chile.
 
 ### Divisiones Territoriales
 Los polígonos de cada división electoral fueron construidos a partir de

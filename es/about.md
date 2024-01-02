@@ -61,6 +61,12 @@ no pudiendo reconstruirlos a partir de la información actual. En el caso de los
 ### Problemas conocidos
 * El sitio web del SERVEL (servicio electoral) cambió recientemente, mostrando los resultados de 1989-2021 en forma distinta. La parte de web scraping tendrá que ser adaptada a ello.
 
+### En desarrollo
+* Un buscador parlamentario, que considera todos los períodos legislativos, se encuentra disponible [aquí](http://127.0.0.1:4000/es/search.html){:target="_blank"}. Aún falta verificar las militancias entre 1828 y 1930.
+
+<!--
+La composición del Congreso en 1828-1930 está disponible, pero falta verificar ciertos datos. Una vez terminado, esto será útil para construir una base de datos parlamentaria que considere todas las legislaturas.
+-->
+
 ### Trabajo Futuro
-* La composición del Congreso en 1828-1930 está disponible, pero falta verificar ciertos datos. Una vez terminado, esto será útil para construir una base de datos parlamentaria que considere todas las legislaturas.
 * Inspirado en lo hecho por [Naim Bro](https://link.springer.com/article/10.1007/s11186-022-09491-3){:target="_blank"}, me gustaría construir una red de parentezco de los parlamentarios antiguos y actuales.

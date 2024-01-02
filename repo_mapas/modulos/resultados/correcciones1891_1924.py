@@ -11,7 +11,9 @@ from operator import itemgetter
 from ast import literal_eval
 
 def correcciones1891_1924(candidatos, eleccion, rep):
-    ### queda revisar militancias entre 1891 y 1912, senadores del período
+    """
+    Pendiente: revisar militancias entre 1891 y 1915, senadores del período    
+    """
     
     candidatos.loc[candidatos['Partido'] == 'Independiente', 'Partido'] = 'Candidatura Independiente'
     
@@ -21,8 +23,6 @@ def correcciones1891_1924(candidatos, eleccion, rep):
     partidos = {'^$': {0:['^$'], 1:['^$']}[rep]}
     
     if eleccion == 1924:
-        #fuente: la nacion, 2 y 4/marzo/1924 y 15/mayo/1924
-        
         reemplazados = {0:['^$'], 1:['José Pedro Alessandri Palma']}[rep]
         reemplazantes = {0:['^$'], 1:['Juan Serrano Squella']}[rep]
         
@@ -51,7 +51,6 @@ def correcciones1891_1924(candidatos, eleccion, rep):
             candidatos = candidatos[~candidatos['Candidatos'].isin(['Jorge Errázuriz Tagle', 'Arturo Besa Navarro'])]
         
     if eleccion == 1921:
-        #fuente: la nacion, 6 y 8/marzo/1924
         reemplazados = {0:['Silva Cortés'], 
                         1:['Armando Quezada Acharán', 'Jorge Errázuriz Tagle', 'Arturo Besa Navarro', 'Malaquías Concha Ortiz', 
                            'Zenón Torrealba Ilabaca', 'Enrique Mac-Iver Rodríguez', 'José Pedro Alessandri Palma']}[rep]
@@ -81,7 +80,6 @@ def correcciones1891_1924(candidatos, eleccion, rep):
 
             candidatos = candidatos[~candidatos['Candidatos'].isin(['Roberto Lyon Santa María', 'Fernando Liborio Lazcano Echaurren', 'Samuel González Julio', 'José María Valderrama Lira'])]
     
-    #revisar: falta malaquias concha ortiz, reemplazado por enrique concha gonzalez en 1921
     if eleccion == 1918:
         reemplazados = {0:['Vial Solar', 'Acuña Valdivia'], 
                         1:['Pedro Vicente Reyes Palazuelos', 'Roberto Lyon Santa María', 'Fernando Liborio Lazcano Echaurren', 'Samuel González Julio', 'José María Valderrama Lira',

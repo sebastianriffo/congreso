@@ -30,22 +30,22 @@ an interactive visualization of Chilean parliamentary elections for both chamber
 
 For every election, information is portrayed at three different levels:
 
-<div class="row">
-  <div class="column">
+<div class="row-about">
+  <div class="column-about">
     <img src="../fig/home-1.png">
-    <div class="text"> <h4> Individual results </h4> 
+    <div class="text-about"> <h4> Individual results </h4> 
     Each icon represents the number of seats in the respective electoral division. If available, the detailed results are displayed, being possible to sort and filter them according to the elected members. </div>
   </div>
   
-  <div class="column">
+  <div class="column-about">
     <img src="../fig/home-2.png">
-    <div class="text"> <h4> Results by electoral divisions </h4> 
+    <div class="text-about"> <h4> Results by electoral divisions </h4> 
     When interacting with an electoral district or senatorial constituency, the local results obtained by the main alliances are depicted. Otherwise, these are replaced by their overall votes. </div>
   </div>
   
-  <div class="column">
+  <div class="column-about">
     <img src="../fig/home-3a.png">
-    <div class="text"> <h4> Seat distribution </h4> 
+    <div class="text-about"> <h4> Seat distribution </h4> 
     The composition of a chamber is presented in a apportionment diagram, with seats color-coded by alliances. These are further grouped by parties, each containing a list of their elected legislators. </div>
   </div>
 </div>
@@ -63,10 +63,12 @@ Once finished, it made sense to extend the project to cover elections before 198
 ### Kwown issues
 * SERVEL (electoral service) updated its website recently, displaying voting results for 1989-2021 in a different manner. Web scraping scripts now need to be adapted accordingly.
 
+### Ongoing developments
+* A legislators lookup tool, covering all legislative terms, is currently available [here](http://127.0.0.1:4000/es/search.html){:target="_blank"} (in Spanish only). Party affiliations during the 1828-1930 period still need validation.
+
 <!--
-Ongoing developments
+* The composition of Congress during the 1828-1930 period is also available, yet several details require validation. When completed, this will help in developing a comprehensive legislators' database spanning all legislative terms.
 -->
 
 ### Future work
-* The composition of Congress during the 1828-1930 period is also available, yet several details require validation. When completed, this will help in developing a comprehensive legislators' database spanning all legislative terms.
 * Inspired on [Naim Bro's work](https://link.springer.com/article/10.1007/s11186-022-09491-3){:target="_blank"}, I would like to construct a kinship network comprising past and current Congress members. 

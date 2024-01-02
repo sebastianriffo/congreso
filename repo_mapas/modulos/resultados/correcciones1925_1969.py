@@ -7,32 +7,13 @@ Created on Thu Aug 17 14:58:59 2023
 """
 def correcciones1925_1969(candidatos, eleccion, rep):
     """
-    Parameters
-    ----------
-    path_datos : TYPE
-        DESCRIPTION.
-    candidatos : TYPE
-        DESCRIPTION.
-    eleccion : TYPE
-        DESCRIPTION.
-    rep : TYPE
-        DESCRIPTION.
-
-    Returns
-    -------
-    candidatos : TYPE
-        DESCRIPTION.
-    reemplazados : TYPE
-        DESCRIPTION.
-    reemplazantes : TYPE
-        DESCRIPTION.
-    partidos : TYPE
-        DESCRIPTION.
-
+    28/11/2023: las elecciones complementarios fueraon revisadas entre 1925 y 1973
+    
+    Fuentes no verificadas
+    #1949: https://es-academic.com/dic.nsf/eswiki/421251
+    #1932: https://es-academic.com/dic.nsf/eswiki/421246 
+    #1930: https://es-academic.com/dic.nsf/eswiki/294010        
     """
-    
-    
-    #28/11/2023: las elecciones complementarios fueraon revisadas entre 1925 y 1973
     
     candidatos.loc[candidatos['Partido'] == 'Independiente', 'Partido'] = 'Candidatura Independiente'
 
@@ -59,7 +40,6 @@ def correcciones1925_1969(candidatos, eleccion, rep):
         if (rep == 1) and not sum(candidatos['Candidatos'].str.contains('Adonis Ramón Sepúlveda Acuña')):        
             candidatos.loc[len(candidatos.index),:] = 'Chiloé, Aysén y Magallanes','','Adonis Ramón Sepúlveda Acuña','Partido Socialista','','',None,'*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Adonis_Ramón_Sepúlveda_Acuña'
 
-
     elif eleccion == 1965:
         reemplazados = {0:['Muñoz Horz', 'Coñuepán Huenchual'], 1:['Corbalán González', 'García González']}[rep]
         reemplazantes = {0:['Montedónico Nápoli', 'Merino Jarpa'], 1:['Carrera Villavicencio', 'Baltra Cortés']}[rep]
@@ -82,7 +62,6 @@ def correcciones1925_1969(candidatos, eleccion, rep):
         reemplazados = {0:['Pinto Díaz', 'Naranjo Jara'], 1:['Tomic Romero']}[rep]
         reemplazantes = {0:['Monckeberg Barros', 'Naranjo Arias'], 1:['Prado Casas']}[rep]
 
-        # la nacion, 7/3/61, p.1
         partidos = {'Partido Liberal': {0:['Klein Doerner'], 1:['^$']}[rep],
                     'Partido Socialista': {0:['^$'], 1:['Chelén Rojas', 'Palacios González']}[rep],
                     'Partido Demócrata Cristiano': {0:['^$'], 1:['Frei Montalva', 'Echavarri Elorza']}[rep],
@@ -107,7 +86,6 @@ def correcciones1925_1969(candidatos, eleccion, rep):
         reemplazados = {0:['Zepeda Barrios', 'Rojas Wolff', 'Mallet Simonetti'], 1:['Marín Balmaceda', 'Jorge Alessandri Rodríguez']}[rep]
         reemplazantes = {0:['Mercado Illanes', 'Edwards Orrego', 'Zumaeta Faune'], 1:['Zepeda Barrios', 'Wachholtz Araya']}[rep]
 
-        # fuente : la nacion, 5/3/1957, p.2; y 10/3/1957, p.4
         partidos = {'Partido Nacional': {0:["Hurtado O'Ryan", 'Gormaz Molina', 'Lobos Arias', 'Widmer Ewertz', 'Valdés Solar', 'Lavandero Illanes', 'Raúl Aldunate Phillips', 'Momberg Roa'],
                                          1:['Pérez de Arce Plummer', 'Lavandero Eyzaguirre']}[rep], 
                     'Partido Liberal': {0:['^$'], 1:['Amunátegui Jordán']}[rep],
@@ -136,7 +114,6 @@ def correcciones1925_1969(candidatos, eleccion, rep):
                          1:['Quinteros Tricot']}[rep]
         presuntivos = {0:['Jaime Barros Pérez-Cotapos'], 1:['^$']}[rep]
 
-        #fuente : la nacion, 3/3/1953, pp.6 y 8
         partidos = {'Partido Conservador Social Cristiano': {0:['Palma Sanguinetti', 'Palma Gallardo'], 1:['^$']}[rep],
                     'Partido Conservador Tradicionalista': {0:['^$'], 1:['Cerda Jaraquemada', 'Bulnes Sanfuentes', 'Curti Cannobio']}[rep],
                     'Partido Socialista Popular': {0:['Naranjo Jara', 'Hernández Barrientos'], 1:['Martínez Martínez', 'Rodríguez Arenas']}[rep],
@@ -172,7 +149,6 @@ def correcciones1925_1969(candidatos, eleccion, rep):
         reemplazantes = {0:['Cruz Ponce', 'Noguera Prieto', 'Inés Leonor Enríquez Frodden', 'Puga Fisher', 'Puga Vega'],
                          1:['Tomic Romero', 'Arturo Matte Larraín', 'Cruz Toledo', 'Maira Castellón']}[rep]
 
-        #fuente: la nación, 8/3/1949, pp.1-2; y https://es-academic.com/dic.nsf/eswiki/421251
         partidos = {'Partido Radical Democrático': {0:['Torres Galdames','Rivas Fernández','Arenas Aguiar', 'Mejías Concha', 'Moller Bordeu','Sepúlveda Rondanelli', 'Durán Neumann'], 1:['Figueroa Anguita']}[rep],
                     'Partido Radical': {0:['Barrientos Villalobos'], 1:['^$']}[rep],
                     'Partido Socialista Popular': {0:['Galleguillos Clett', 'Tapia Moore', 'Rodríguez Arenas', 'Olavarría Alarcón', 'Castro Palma'], 1:['González Rojas']}[rep],
@@ -201,7 +177,6 @@ def correcciones1925_1969(candidatos, eleccion, rep):
         reemplazantes = {0:['Avilés Avilés', 'Durán Villarreal', 'Wiegand Frödden', 'Bedoya Hundesdoerffer', 'Moore Montero', 'Zañartu Urrutia', 'Sandoval Muñoz', 'Rogers Sotomayor'],
                          1:['Vásquez Galdames', 'Bulnes Correa']}[rep]
         
-        #fuente : la nación, 5/3/1945, p.4
         partidos = {'Partido Socialista': {0:['Rossetti Colombino'], 1:['^$']}[rep],
                     'Partido Socialista Auténtico': {0:['^$'], 1:['Domínguez Domínguez', 'Marmaduke Grove Vallejo']}[rep],
                     'Partido Agrario': {0:['Echavarri Elorza'], 1:['Jaime Larraín García-Moreno']}[rep],
@@ -233,7 +208,6 @@ def correcciones1925_1969(candidatos, eleccion, rep):
                          1:['Guzmán Cortés', 'Arturo Alessandri Palma', 'Larraín García-Moreno']}[rep]
         presuntivos = {0:['Ollino Buzeta'], 1:['^$']}[rep]
 
-        #fuente : la nación, 4/3/1941, p.4
         partidos = {'Partido Liberal': {0:['Labarca Moreno', 'Urrutia Infante'], 1:['Opaso Letelier', 'Amunátegui Jordán']}[rep],
                     'Partido Agrario': {0:['Echavarri Elorza'], 1:['Larraín García-Moreno']}[rep],
                     'Vanguardia Popular Socialista': {0:['González Von Marées'], 1:['^$']}[rep],
@@ -270,7 +244,6 @@ def correcciones1925_1969(candidatos, eleccion, rep):
                          1:['Martínez Martínez', 'Méndez Arancibia', 'Cruzat Ortega', 'Venegas Sepúlveda', 'Silva Sepúlveda', 'Ortega Mason']}[rep]
         presuntivos = {0:['Puga Fisher'], 1:['^$']}[rep]
 
-        # fuente: la nación, 8/3/1937. p.21
         partidos = {'Partido Conservador': {0:['Ruiz Correa'], 1:['^$']}[rep],
                     'Partido Radical': {0:['Masson Villarroel', 'San Martín Fuentes', 'Morales Beltramí'], 1:['Bórquez Pérez']}[rep],
                     'Partido Nacional Democrático': {0:['Chamudes Reitich', 'Zapata Díaz'], 1:['^$']}[rep],
@@ -310,7 +283,6 @@ def correcciones1925_1969(candidatos, eleccion, rep):
                          1:['Alessandri Rodríguez', 'Ríos Arias', 'Ureta Echazarreta', 'Marmaduke Grove Vallejo', 'Aldunate Errázuriz', 'Sáenz Cerda']}[rep]
         presuntivos = {0:['Grossert', 'Pinochet Alvis', 'Durán Morales', 'Mardones Guerrero', 'Gómez Pérez', 'González Quiroga'], 1:['^$']}[rep]
 
-        # fuente: https://es-academic.com/dic.nsf/eswiki/421246    
         #falta un segundo liberal doctrinario            
         partidos = {'Partido Conservador': {0:['Pereira Lyon', 'Pérez Gacitúa', 'Aburto Oróstegui', 'Cañas Flores'], 1:['^$']}[rep],
                     'Partido Social Republicano': {0:['Carrasco Rábago'], 1:['Hidalgo Plaza']}[rep], 
@@ -347,7 +319,6 @@ def correcciones1925_1969(candidatos, eleccion, rep):
         reemplazantes = {0:['Elguín Morales', 'Ruiz-Tagle Solar', 'Acuña Robert', 'Errázuriz Larraín', 'de Ferari Valdés', 'Barros Hurtado'],
                          1:['Arturo Alessandri Palma', 'Concha Stuardo', 'Gonzalo Urrejola Unzueta']}[rep]
         
-        # fuente: https://es-academic.com/dic.nsf/eswiki/294010
         partidos = {'Partido Radical': {0:['Gallo Sapiaín', 'Elguín Morales'], 1:['^$']}[rep],
                     'Partido Liberal Unido': {0:['de la Jara Zúniga', 'de la Cuadra Poisson'], 1:['Juan Luis Carmona', 'Sánchez García de la Huerta', 'Dartnell Encina']}[rep],
                     'Partido Demócrata': {0:['Quevedo Vega', 'Muñoz Moyano'], 1:['^$']}[rep],
@@ -375,7 +346,6 @@ def correcciones1925_1969(candidatos, eleccion, rep):
                          1:['Juan Luis Carmona', 'Cruzat Ortega', 'Korner Anwandter']}[rep]
         presuntivos = {0:['Cuevas Contreras', 'Fuenzalida Cerda'], 1:['Poblete Cortés']}[rep]
 
-        #fuente: la nación, 24/11/1924, p.5
         partidos = {'Partido Liberal Democrático': {0:['de la Cuadra Poisson', 'Vicuña Aguirre', 'de la Jara Zúniga'], 1:['Urzúa Jaramillo']}[rep],
                     'Partido Liberal': {0:['Ramírez Frías', 'Palacios Wilson', 'Alberto Collao', 'Rudloff Schmidt'], 1:['Gatica Silva']}[rep],
                     'Partido Radical': {0:['Acuña Robert', 'Troncoso Puga'], 1:['Piwonka Gilabert', 'Bórquez Pérez']}[rep],
