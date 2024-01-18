@@ -44,7 +44,7 @@ Se utilizó un orden paterno-materno, aún cuando este fue instaurado oficialmen
 
 <p>
 <h4 style="margin:0px"> Cargos </h4>
-Hasta 1891 se utilizó el título de <u>propietario</u> para Diputados y Senadores, quienes en caso de ausencia eran reemplazados por un <u>suplente</u>, categoría escogida conjuntamente en cada elección. Al quedar vacante una senaturía, se elegía a un <u>subrogante</u> al inicio de la siguiente legislatura, para así completar el período senatorial. Estos mecanismos de sustitución serían simplicados con la elección de un <u>reemplazante</u>, quién asume el resto del período por cese del mandato del titular. Si hoy en día es nombrado por el partido del parlamentario renunciado, hasta 1973 lo era mediante elecciones complementarias. La noción de <u>presuntivo</u> se refiere a quienes en principio fueron electos, siendo este resultado desestimado por el Congreso. Finalmente, entre 1990 y 2006 existieron los Senadores <u>designados</u>.
+Hasta 1891 se utilizó el título de <u>propietario</u> para Diputados y Senadores, quienes en caso de ausencia eran reemplazados por un <u>suplente</u>, categoría escogida conjuntamente en cada elección. Al quedar vacante una senaturía, se elegía a un <u>subrogante</u> al inicio de la siguiente legislatura, para así completar el período senatorial. Estos mecanismos de sustitución serían simplificados con la elección de un <u>reemplazante</u>, quién asume el resto del período por cese del mandato del titular. Si hoy en día es nombrado por el partido del parlamentario renunciado, hasta 1973 lo era mediante elecciones complementarias. La noción de <u>presuntivo</u> se refiere a quienes en principio fueron electos, siendo este resultado desestimado por el Congreso. Finalmente, entre 1990 y 2006 existieron los Senadores <u>designados</u>.
 </p>
 
 <p>
@@ -54,7 +54,7 @@ Corresponden a la duración completa, aún si el parlamentario no cumplió con s
 
 <p>
 <h4 style="margin:0px"> Base de datos </h4>
-Última revisión: 31 de diciembre de 2023. Falta verificar las militancias entre 1828 y 1930.
+Última revisión: 31 de diciembre de 2023. Falta verificar y completar las militancias entre 1828 y 1930.
 </p>
 </div>
 

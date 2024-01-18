@@ -191,14 +191,14 @@ input:checked ~ .dropdown-submenu {
 /*responsive navbar */
 .date {display: none}
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 850px) {
   .nav-menu .resp, .diputados, .senadores {display: none;}  
   .nav-menu li.icon {
     display: block;
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 850px) {
   .nav-menu.responsive {position: relative;}
   .nav-menu.responsive .icon {
     /*position: absolute;*/
@@ -236,16 +236,18 @@ input:checked ~ .dropdown-submenu {
 @media screen and (min-width: 660px) {
 	.mapa-iframe{
 		width: 100vw; 
-		height: calc(100vh - 50px); 
+		height: calc(100vh - 50px);
 		display:block; 
+		margin-top:20px;
 		border:none;
 	}	
 }
 @media screen and (max-width: 660px) {
 	.mapa-iframe{
 		width: 100vw; 
-		height: calc(100vh - 100px); 
+		height: calc(100vh - 50px);
 		display:block; 
+		margin-top:20px;
 		border:none;
 	}	
 }
