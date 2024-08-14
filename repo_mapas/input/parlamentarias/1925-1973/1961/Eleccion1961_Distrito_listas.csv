@@ -1,36 +1,4 @@
 Distrito,Lista/Pacto,Electos,Porcentaje,Votos
-Tarapacá,Frente de Acción Popular,1,31.32,7921.0
-Tarapacá,Partido Demócrata Cristiano,1,14.89,3767.0
-Tarapacá,Unión Nacional Laborista,0,0.0,0.0
-Tarapacá,Frente Democrático,2,50.28,12719.0
-Tarapacá,Candidatura Independiente,0,0.0,0.0
-Tarapacá,Válidamente emitidos,0,96.5,24407.0
-Tarapacá,Blancos/Nulos,0,3.5,886.0
-Tarapacá,Total,0,100.0,25293.0
-Antofagasta,Frente de Acción Popular,3,37.49,18071.0
-Antofagasta,Partido Demócrata Cristiano,1,13.28,6402.0
-Antofagasta,Unión Nacional Laborista,0,0.0,0.0
-Antofagasta,Frente Democrático,3,45.489999999999995,21926.0
-Antofagasta,Candidatura Independiente,0,0.0,0.0
-Antofagasta,Válidamente emitidos,0,96.27,46399.0
-Antofagasta,Blancos/Nulos,0,3.73,1799.0
-Antofagasta,Total,0,100.0,48198.0
-Atacama,Frente de Acción Popular,1,22.44,5711.0
-Atacama,Partido Demócrata Cristiano,0,21.01,5346.0
-Atacama,Unión Nacional Laborista,0,0.0,0.0
-Atacama,Frente Democrático,1,55.019999999999996,14001.0
-Atacama,Candidatura Independiente,0,0.0,0.0
-Atacama,Válidamente emitidos,0,98.48,25058.0
-Atacama,Blancos/Nulos,0,1.52,388.0
-Atacama,Total,0,100.0,25446.0
-Coquimbo,Frente de Acción Popular,2,28.23,14950.0
-Coquimbo,Partido Demócrata Cristiano,1,9.99,5292.0
-Coquimbo,Unión Nacional Laborista,0,0.0,0.0
-Coquimbo,Frente Democrático,4,59.97,31767.0
-Coquimbo,Candidatura Independiente,0,0.0,0.0
-Coquimbo,Válidamente emitidos,0,98.19,52009.0
-Coquimbo,Blancos/Nulos,0,1.81,958.0
-Coquimbo,Total,0,100.0,52967.0
 Aconcagua,Frente de Acción Popular,1,21.45,6709.0
 Aconcagua,Partido Demócrata Cristiano,0,15.72,4917.0
 Aconcagua,Unión Nacional Laborista,0,0.0,0.0
@@ -39,14 +7,142 @@ Aconcagua,Candidatura Independiente,0,0.0,0.0
 Aconcagua,Válidamente emitidos,0,95.52,29878.0
 Aconcagua,Blancos/Nulos,0,4.48,1402.0
 Aconcagua,Total,0,100.0,31280.0
-Valparaíso,Frente de Acción Popular,4,33.45,47291.0
-Valparaíso,Partido Demócrata Cristiano,2,15.84,22404.0
-Valparaíso,Unión Nacional Laborista,0,2.3,3255.0
-Valparaíso,Frente Democrático,6,44.99,63624.0
-Valparaíso,Candidatura Independiente,0,0.0,0.0
-Valparaíso,Válidamente emitidos,0,96.59,136574.0
-Valparaíso,Blancos/Nulos,0,3.41,4822.0
-Valparaíso,Total,0,100.0,141396.0
+Antofagasta,Frente de Acción Popular,3,37.49,18071.0
+Antofagasta,Partido Demócrata Cristiano,1,13.28,6402.0
+Antofagasta,Unión Nacional Laborista,0,0.0,0.0
+Antofagasta,Frente Democrático,3,45.489999999999995,21926.0
+Antofagasta,Candidatura Independiente,0,0.0,0.0
+Antofagasta,Válidamente emitidos,0,96.27,46399.0
+Antofagasta,Blancos/Nulos,0,3.73,1799.0
+Antofagasta,Total,0,100.0,48198.0
+Arauco,Frente de Acción Popular,2,47.39,7734.0
+Arauco,Partido Demócrata Cristiano,0,11.61,1895.0
+Arauco,Unión Nacional Laborista,0,0.0,0.0
+Arauco,Frente Democrático,0,21.22,3463.0
+Arauco,Candidatura Independiente,0,0.0,0.0
+Arauco,Válidamente emitidos,0,80.22,13092.0
+Arauco,Blancos/Nulos,0,19.78,3229.0
+Arauco,Total,0,100.0,16321.0
+Atacama,Frente de Acción Popular,1,22.44,5711.0
+Atacama,Partido Demócrata Cristiano,0,21.01,5346.0
+Atacama,Unión Nacional Laborista,0,0.0,0.0
+Atacama,Frente Democrático,1,55.019999999999996,14001.0
+Atacama,Candidatura Independiente,0,0.0,0.0
+Atacama,Válidamente emitidos,0,98.48,25058.0
+Atacama,Blancos/Nulos,0,1.52,388.0
+Atacama,Total,0,100.0,25446.0
+Bío-Bío,Frente de Acción Popular,0,24.12,6123.0
+Bío-Bío,Partido Demócrata Cristiano,1,16.39,4161.0
+Bío-Bío,Unión Nacional Laborista,0,0.0,0.0
+Bío-Bío,Frente Democrático,3,55.370000000000005,14059.0
+Bío-Bío,Candidatura Independiente,0,0.0,0.0
+Bío-Bío,Válidamente emitidos,0,95.88,24343.0
+Bío-Bío,Blancos/Nulos,0,4.12,1046.0
+Bío-Bío,Total,0,100.0,25389.0
+Cautín,Frente de Acción Popular,2,41.78,24824.0
+Cautín,Partido Demócrata Cristiano,3,8.43,5011.0
+Cautín,Unión Nacional Laborista,0,0.0,0.0
+Cautín,Frente Democrático,5,46.79,27802.0
+Cautín,Candidatura Independiente,0,0.0,0.0
+Cautín,Válidamente emitidos,0,97.01,57637.0
+Cautín,Blancos/Nulos,0,2.99,1776.0
+Cautín,Total,0,100.0,59413.0
+Chiloé,Frente de Acción Popular,0,16.83,2982.0
+Chiloé,Partido Demócrata Cristiano,0,5.59,991.0
+Chiloé,Unión Nacional Laborista,0,0.0,0.0
+Chiloé,Frente Democrático,3,72.49000000000001,12846.0
+Chiloé,Candidatura Independiente,0,0.0,0.0
+Chiloé,Válidamente emitidos,0,94.92,16819.0
+Chiloé,Blancos/Nulos,0,5.08,901.0
+Chiloé,Total,0,100.0,17720.0
+Colchagua,Frente de Acción Popular,0,14.6,4881.0
+Colchagua,Partido Demócrata Cristiano,1,18.63,6229.0
+Colchagua,Unión Nacional Laborista,0,0.0,0.0
+Colchagua,Frente Democrático,3,63.38,21190.0
+Colchagua,Candidatura Independiente,0,0.0,0.0
+Colchagua,Válidamente emitidos,0,96.6,32300.0
+Colchagua,Blancos/Nulos,0,3.4,1136.0
+Colchagua,Total,0,100.0,33436.0
+Concepción,Frente de Acción Popular,3,34.99,35671.0
+Concepción,Partido Demócrata Cristiano,1,14.26,14536.0
+Concepción,Unión Nacional Laborista,0,0.0,0.0
+Concepción,Frente Democrático,5,46.730000000000004,47636.0
+Concepción,Candidatura Independiente,0,0.0,0.0
+Concepción,Válidamente emitidos,0,95.99,97843.0
+Concepción,Blancos/Nulos,0,4.01,4088.0
+Concepción,Total,0,100.0,101931.0
+Coquimbo,Frente de Acción Popular,2,28.23,14950.0
+Coquimbo,Partido Demócrata Cristiano,1,9.99,5292.0
+Coquimbo,Unión Nacional Laborista,0,0.0,0.0
+Coquimbo,Frente Democrático,4,59.97,31767.0
+Coquimbo,Candidatura Independiente,0,0.0,0.0
+Coquimbo,Válidamente emitidos,0,98.19,52009.0
+Coquimbo,Blancos/Nulos,0,1.81,958.0
+Coquimbo,Total,0,100.0,52967.0
+Curicó,Frente de Acción Popular,1,22.43,4610.0
+Curicó,Partido Demócrata Cristiano,1,20.37,4188.0
+Curicó,Unión Nacional Laborista,0,0.0,0.0
+Curicó,Frente Democrático,1,55.31,11369.0
+Curicó,Candidatura Independiente,0,0.0,0.0
+Curicó,Válidamente emitidos,0,98.1,20167.0
+Curicó,Blancos/Nulos,0,1.9,390.0
+Curicó,Total,0,100.0,20557.0
+Linares,Frente de Acción Popular,1,18.66,5990.0
+Linares,Partido Demócrata Cristiano,1,17.94,5760.0
+Linares,Unión Nacional Laborista,0,0.12,37.0
+Linares,Frente Democrático,2,60.7,19488.0
+Linares,Candidatura Independiente,0,0.0,0.0
+Linares,Válidamente emitidos,0,97.42,31275.0
+Linares,Blancos/Nulos,0,2.58,829.0
+Linares,Total,0,100.0,32104.0
+Llanquihue y Aysén,Frente de Acción Popular,0,19.09,5844.0
+Llanquihue y Aysén,Partido Demócrata Cristiano,0,10.19,3120.0
+Llanquihue y Aysén,Unión Nacional Laborista,0,0.0,0.0
+Llanquihue y Aysén,Frente Democrático,3,65.81,20148.0
+Llanquihue y Aysén,Candidatura Independiente,0,0.0,0.0
+Llanquihue y Aysén,Válidamente emitidos,0,95.1,29112.0
+Llanquihue y Aysén,Blancos/Nulos,0,4.9,1501.0
+Llanquihue y Aysén,Total,0,100.0,30613.0
+Magallanes,Frente de Acción Popular,0,44.5,8539.0
+Magallanes,Partido Demócrata Cristiano,0,2.83,543.0
+Magallanes,Unión Nacional Laborista,0,0.0,0.0
+Magallanes,Frente Democrático,1,48.44,9292.0
+Magallanes,Candidatura Independiente,0,0.0,0.0
+Magallanes,Válidamente emitidos,0,95.76,18374.0
+Magallanes,Blancos/Nulos,0,4.24,813.0
+Magallanes,Total,0,100.0,19187.0
+Malleco,Frente de Acción Popular,0,13.91,4411.0
+Malleco,Partido Demócrata Cristiano,1,14.93,4733.0
+Malleco,Unión Nacional Laborista,0,0.0,0.0
+Malleco,Frente Democrático,5,68.61,21753.0
+Malleco,Candidatura Independiente,0,8.58,2720.0
+Malleco,Válidamente emitidos,0,106.03,33617.0
+Malleco,Blancos/Nulos,0,-6.03,-1911.0
+Malleco,Total,0,100.0,31706.0
+Maule,Frente de Acción Popular,1,23.0,4226.0
+Maule,Partido Demócrata Cristiano,1,28.81,5293.0
+Maule,Unión Nacional Laborista,0,0.0,0.0
+Maule,Frente Democrático,1,47.2,8671.0
+Maule,Candidatura Independiente,0,0.0,0.0
+Maule,Válidamente emitidos,0,99.02,18190.0
+Maule,Blancos/Nulos,0,0.98,180.0
+Maule,Total,0,100.0,18370.0
+O'Higgins,Frente de Acción Popular,1,39.739999999999995,23011.0
+O'Higgins,Partido Demócrata Cristiano,1,12.91,7478.0
+O'Higgins,Unión Nacional Laborista,0,0.0,0.0
+O'Higgins,Frente Democrático,4,43.66,25283.0
+O'Higgins,Candidatura Independiente,0,0.0,0.0
+O'Higgins,Válidamente emitidos,0,96.32,55772.0
+O'Higgins,Blancos/Nulos,0,3.68,2132.0
+O'Higgins,Total,0,100.0,57904.0
+Osorno,Frente de Acción Popular,1,20.44,5077.0
+Osorno,Partido Demócrata Cristiano,0,19.01,4721.0
+Osorno,Unión Nacional Laborista,0,0.0,0.0
+Osorno,Frente Democrático,2,56.91,14133.0
+Osorno,Candidatura Independiente,0,0.0,0.0
+Osorno,Válidamente emitidos,0,96.36,23931.0
+Osorno,Blancos/Nulos,0,3.64,904.0
+Osorno,Total,0,100.0,24835.0
 Santiago-1,Frente de Acción Popular,4,28.380000000000003,125007.0
 Santiago-1,Partido Demócrata Cristiano,4,16.62,73200.0
 Santiago-1,Unión Nacional Laborista,0,0.0,0.0
@@ -79,30 +175,6 @@ Santiago-4,Candidatura Independiente,0,0.0,0.0
 Santiago-4,Válidamente emitidos,0,96.87,426710.0
 Santiago-4,Blancos/Nulos,0,3.13,13767.0
 Santiago-4,Total,0,100.0,440477.0
-O'Higgins,Frente de Acción Popular,1,39.739999999999995,23011.0
-O'Higgins,Partido Demócrata Cristiano,1,12.91,7478.0
-O'Higgins,Unión Nacional Laborista,0,0.0,0.0
-O'Higgins,Frente Democrático,4,43.66,25283.0
-O'Higgins,Candidatura Independiente,0,0.0,0.0
-O'Higgins,Válidamente emitidos,0,96.32,55772.0
-O'Higgins,Blancos/Nulos,0,3.68,2132.0
-O'Higgins,Total,0,100.0,57904.0
-Colchagua,Frente de Acción Popular,0,14.6,4881.0
-Colchagua,Partido Demócrata Cristiano,1,18.63,6229.0
-Colchagua,Unión Nacional Laborista,0,0.0,0.0
-Colchagua,Frente Democrático,3,63.38,21190.0
-Colchagua,Candidatura Independiente,0,0.0,0.0
-Colchagua,Válidamente emitidos,0,96.6,32300.0
-Colchagua,Blancos/Nulos,0,3.4,1136.0
-Colchagua,Total,0,100.0,33436.0
-Curicó,Frente de Acción Popular,1,22.43,4610.0
-Curicó,Partido Demócrata Cristiano,1,20.37,4188.0
-Curicó,Unión Nacional Laborista,0,0.0,0.0
-Curicó,Frente Democrático,1,55.31,11369.0
-Curicó,Candidatura Independiente,0,0.0,0.0
-Curicó,Válidamente emitidos,0,98.1,20167.0
-Curicó,Blancos/Nulos,0,1.9,390.0
-Curicó,Total,0,100.0,20557.0
 Talca,Frente de Acción Popular,2,36.96,13751.0
 Talca,Partido Demócrata Cristiano,0,10.35,3853.0
 Talca,Unión Nacional Laborista,0,0.27,102.0
@@ -111,22 +183,30 @@ Talca,Candidatura Independiente,0,0.0,0.0
 Talca,Válidamente emitidos,0,97.24,36185.0
 Talca,Blancos/Nulos,0,2.76,1028.0
 Talca,Total,0,100.0,37213.0
-Maule,Frente de Acción Popular,1,23.0,4226.0
-Maule,Partido Demócrata Cristiano,1,28.81,5293.0
-Maule,Unión Nacional Laborista,0,0.0,0.0
-Maule,Frente Democrático,1,47.2,8671.0
-Maule,Candidatura Independiente,0,0.0,0.0
-Maule,Válidamente emitidos,0,99.02,18190.0
-Maule,Blancos/Nulos,0,0.98,180.0
-Maule,Total,0,100.0,18370.0
-Linares,Frente de Acción Popular,1,18.66,5990.0
-Linares,Partido Demócrata Cristiano,1,17.94,5760.0
-Linares,Unión Nacional Laborista,0,0.12,37.0
-Linares,Frente Democrático,2,60.7,19488.0
-Linares,Candidatura Independiente,0,0.0,0.0
-Linares,Válidamente emitidos,0,97.42,31275.0
-Linares,Blancos/Nulos,0,2.58,829.0
-Linares,Total,0,100.0,32104.0
+Tarapacá,Frente de Acción Popular,1,31.32,7921.0
+Tarapacá,Partido Demócrata Cristiano,1,14.89,3767.0
+Tarapacá,Unión Nacional Laborista,0,0.0,0.0
+Tarapacá,Frente Democrático,2,50.28,12719.0
+Tarapacá,Candidatura Independiente,0,0.0,0.0
+Tarapacá,Válidamente emitidos,0,96.5,24407.0
+Tarapacá,Blancos/Nulos,0,3.5,886.0
+Tarapacá,Total,0,100.0,25293.0
+Valdivia,Frente de Acción Popular,1,29.880000000000003,12523.0
+Valdivia,Partido Demócrata Cristiano,1,15.47,6483.0
+Valdivia,Unión Nacional Laborista,0,0.0,0.0
+Valdivia,Frente Democrático,3,50.09,20988.0
+Valdivia,Candidatura Independiente,0,0.0,0.0
+Valdivia,Válidamente emitidos,0,95.44,39994.0
+Valdivia,Blancos/Nulos,0,4.56,1911.0
+Valdivia,Total,0,100.0,41905.0
+Valparaíso,Frente de Acción Popular,4,33.45,47291.0
+Valparaíso,Partido Demócrata Cristiano,2,15.84,22404.0
+Valparaíso,Unión Nacional Laborista,0,2.3,3255.0
+Valparaíso,Frente Democrático,6,44.99,63624.0
+Valparaíso,Candidatura Independiente,0,0.0,0.0
+Valparaíso,Válidamente emitidos,0,96.59,136574.0
+Valparaíso,Blancos/Nulos,0,3.41,4822.0
+Valparaíso,Total,0,100.0,141396.0
 Ñuble-1,Frente de Acción Popular,0,13.23,6884.0
 Ñuble-1,Partido Demócrata Cristiano,1,25.27,13145.0
 Ñuble-1,Unión Nacional Laborista,0,0.0,0.0
@@ -143,83 +223,3 @@ Linares,Total,0,100.0,32104.0
 Ñuble-2,Válidamente emitidos,0,96.53,50210.0
 Ñuble-2,Blancos/Nulos,0,3.47,1805.0
 Ñuble-2,Total,0,100.0,52015.0
-Concepción,Frente de Acción Popular,3,34.99,35671.0
-Concepción,Partido Demócrata Cristiano,1,14.26,14536.0
-Concepción,Unión Nacional Laborista,0,0.0,0.0
-Concepción,Frente Democrático,5,46.730000000000004,47636.0
-Concepción,Candidatura Independiente,0,0.0,0.0
-Concepción,Válidamente emitidos,0,95.99,97843.0
-Concepción,Blancos/Nulos,0,4.01,4088.0
-Concepción,Total,0,100.0,101931.0
-Arauco,Frente de Acción Popular,2,47.39,7734.0
-Arauco,Partido Demócrata Cristiano,0,11.61,1895.0
-Arauco,Unión Nacional Laborista,0,0.0,0.0
-Arauco,Frente Democrático,0,21.22,3463.0
-Arauco,Candidatura Independiente,0,0.0,0.0
-Arauco,Válidamente emitidos,0,80.22,13092.0
-Arauco,Blancos/Nulos,0,19.78,3229.0
-Arauco,Total,0,100.0,16321.0
-Bío-Bío,Frente de Acción Popular,0,24.12,6123.0
-Bío-Bío,Partido Demócrata Cristiano,1,16.39,4161.0
-Bío-Bío,Unión Nacional Laborista,0,0.0,0.0
-Bío-Bío,Frente Democrático,3,55.370000000000005,14059.0
-Bío-Bío,Candidatura Independiente,0,0.0,0.0
-Bío-Bío,Válidamente emitidos,0,95.88,24343.0
-Bío-Bío,Blancos/Nulos,0,4.12,1046.0
-Bío-Bío,Total,0,100.0,25389.0
-Malleco,Frente de Acción Popular,0,13.91,4411.0
-Malleco,Partido Demócrata Cristiano,1,14.93,4733.0
-Malleco,Unión Nacional Laborista,0,0.0,0.0
-Malleco,Frente Democrático,5,68.61,21753.0
-Malleco,Candidatura Independiente,0,8.58,2720.0
-Malleco,Válidamente emitidos,0,106.03,33617.0
-Malleco,Blancos/Nulos,0,-6.03,-1911.0
-Malleco,Total,0,100.0,31706.0
-Cautín,Frente de Acción Popular,2,41.78,24824.0
-Cautín,Partido Demócrata Cristiano,3,8.43,5011.0
-Cautín,Unión Nacional Laborista,0,0.0,0.0
-Cautín,Frente Democrático,5,46.79,27802.0
-Cautín,Candidatura Independiente,0,0.0,0.0
-Cautín,Válidamente emitidos,0,97.01,57637.0
-Cautín,Blancos/Nulos,0,2.99,1776.0
-Cautín,Total,0,100.0,59413.0
-Valdivia,Frente de Acción Popular,1,29.880000000000003,12523.0
-Valdivia,Partido Demócrata Cristiano,1,15.47,6483.0
-Valdivia,Unión Nacional Laborista,0,0.0,0.0
-Valdivia,Frente Democrático,3,50.09,20988.0
-Valdivia,Candidatura Independiente,0,0.0,0.0
-Valdivia,Válidamente emitidos,0,95.44,39994.0
-Valdivia,Blancos/Nulos,0,4.56,1911.0
-Valdivia,Total,0,100.0,41905.0
-Osorno,Frente de Acción Popular,1,20.44,5077.0
-Osorno,Partido Demócrata Cristiano,0,19.01,4721.0
-Osorno,Unión Nacional Laborista,0,0.0,0.0
-Osorno,Frente Democrático,2,56.91,14133.0
-Osorno,Candidatura Independiente,0,0.0,0.0
-Osorno,Válidamente emitidos,0,96.36,23931.0
-Osorno,Blancos/Nulos,0,3.64,904.0
-Osorno,Total,0,100.0,24835.0
-Llanquihue y Aysén,Frente de Acción Popular,0,19.09,5844.0
-Llanquihue y Aysén,Partido Demócrata Cristiano,0,10.19,3120.0
-Llanquihue y Aysén,Unión Nacional Laborista,0,0.0,0.0
-Llanquihue y Aysén,Frente Democrático,3,65.81,20148.0
-Llanquihue y Aysén,Candidatura Independiente,0,0.0,0.0
-Llanquihue y Aysén,Válidamente emitidos,0,95.1,29112.0
-Llanquihue y Aysén,Blancos/Nulos,0,4.9,1501.0
-Llanquihue y Aysén,Total,0,100.0,30613.0
-Chiloé,Frente de Acción Popular,0,16.83,2982.0
-Chiloé,Partido Demócrata Cristiano,0,5.59,991.0
-Chiloé,Unión Nacional Laborista,0,0.0,0.0
-Chiloé,Frente Democrático,3,72.49000000000001,12846.0
-Chiloé,Candidatura Independiente,0,0.0,0.0
-Chiloé,Válidamente emitidos,0,94.92,16819.0
-Chiloé,Blancos/Nulos,0,5.08,901.0
-Chiloé,Total,0,100.0,17720.0
-Magallanes,Frente de Acción Popular,0,44.5,8539.0
-Magallanes,Partido Demócrata Cristiano,0,2.83,543.0
-Magallanes,Unión Nacional Laborista,0,0.0,0.0
-Magallanes,Frente Democrático,1,48.44,9292.0
-Magallanes,Candidatura Independiente,0,0.0,0.0
-Magallanes,Válidamente emitidos,0,95.76,18374.0
-Magallanes,Blancos/Nulos,0,4.24,813.0
-Magallanes,Total,0,100.0,19187.0

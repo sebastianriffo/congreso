@@ -1,68 +1,4 @@
 Distrito,Lista/Pacto,Partido,Electos,Porcentaje,Votos
-Tarapacá,Frente de Acción Popular,PS,0,0.0,0.0
-Tarapacá,Frente de Acción Popular,PC,2,37.43,17979.0
-Tarapacá,Frente de Acción Popular,CP,0,0.0,0.0
-Tarapacá,Frente de Acción Popular,PADENA,0,0.0,0.0
-Tarapacá,Frente de Acción Popular,VNP,0,0.0,0.0
-Tarapacá,Partido Democrático,PDo,0,0.15,73.0
-Tarapacá,Democracia Agrario Laborista,DAL,0,0.0,0.0
-Tarapacá,Partido Demócrata Cristiano,PDC,2,31.26,15013.0
-Tarapacá,Partido Radical,PR,0,15.43,7409.0
-Tarapacá,Derecha Tradicional,PL,0,14.02,6732.0
-Tarapacá,Derecha Tradicional,PCU,0,0.0,0.0
-Tarapacá,Acción Nacional,AN,0,0.0,0.0
-Tarapacá,Candidatura Independiente,IND,0,0.0,0.0
-Tarapacá,Válidamente emitidos,,0,98.28,47206.0
-Tarapacá,Blancos/Nulos,,0,1.72,824.0
-Tarapacá,Total,,0,100.0,48030.0
-Antofagasta,Frente de Acción Popular,CP,0,0.0,0.0
-Antofagasta,Frente de Acción Popular,PADENA,0,4.37,3300.0
-Antofagasta,Frente de Acción Popular,PC,2,21.29,16073.0
-Antofagasta,Frente de Acción Popular,VNP,0,0.0,0.0
-Antofagasta,Frente de Acción Popular,PS,1,15.48,11688.0
-Antofagasta,Partido Democrático,PDo,0,0.12,88.0
-Antofagasta,Democracia Agrario Laborista,DAL,0,0.0,0.0
-Antofagasta,Partido Demócrata Cristiano,PDC,3,33.69,25436.0
-Antofagasta,Partido Radical,PR,1,16.7,12606.0
-Antofagasta,Derecha Tradicional,PCU,0,0.0,0.0
-Antofagasta,Derecha Tradicional,PL,0,6.4,4829.0
-Antofagasta,Acción Nacional,AN,0,0.29,217.0
-Antofagasta,Candidatura Independiente,IND,0,0.0,0.0
-Antofagasta,Válidamente emitidos,,0,98.33,74237.0
-Antofagasta,Blancos/Nulos,,0,1.67,1264.0
-Antofagasta,Total,,0,100.0,75501.0
-Atacama,Frente de Acción Popular,VNP,0,0.0,0.0
-Atacama,Frente de Acción Popular,PS,0,19.07,7424.0
-Atacama,Frente de Acción Popular,PC,0,16.98,6612.0
-Atacama,Frente de Acción Popular,PADENA,0,0.0,0.0
-Atacama,Frente de Acción Popular,CP,0,0.0,0.0
-Atacama,Partido Democrático,PDo,0,0.0,0.0
-Atacama,Democracia Agrario Laborista,DAL,0,0.0,0.0
-Atacama,Partido Demócrata Cristiano,PDC,1,40.14,15626.0
-Atacama,Partido Radical,PR,1,20.38,7935.0
-Atacama,Derecha Tradicional,PCU,0,0.0,0.0
-Atacama,Derecha Tradicional,PL,0,0.0,0.0
-Atacama,Acción Nacional,AN,0,0.0,0.0
-Atacama,Candidatura Independiente,IND,0,0.0,0.0
-Atacama,Válidamente emitidos,,0,96.58,37597.0
-Atacama,Blancos/Nulos,,0,3.42,1333.0
-Atacama,Total,,0,100.0,38930.0
-Coquimbo,Frente de Acción Popular,PC,1,16.99,13236.0
-Coquimbo,Frente de Acción Popular,VNP,0,0.0,0.0
-Coquimbo,Frente de Acción Popular,PS,1,17.84,13897.0
-Coquimbo,Frente de Acción Popular,PADENA,0,0.0,0.0
-Coquimbo,Frente de Acción Popular,CP,0,0.0,0.0
-Coquimbo,Partido Democrático,PDo,0,0.18,139.0
-Coquimbo,Democracia Agrario Laborista,DAL,0,0.3,230.0
-Coquimbo,Partido Demócrata Cristiano,PDC,3,31.52,24550.0
-Coquimbo,Partido Radical,PR,1,18.57,14465.0
-Coquimbo,Derecha Tradicional,PCU,0,0.0,0.0
-Coquimbo,Derecha Tradicional,PL,1,11.68,9096.0
-Coquimbo,Acción Nacional,AN,0,0.0,0.0
-Coquimbo,Candidatura Independiente,IND,0,0.0,0.0
-Coquimbo,Válidamente emitidos,,0,97.08,75613.0
-Coquimbo,Blancos/Nulos,,0,2.92,2273.0
-Coquimbo,Total,,0,100.0,77886.0
 Aconcagua,Frente de Acción Popular,CP,0,0.0,0.0
 Aconcagua,Frente de Acción Popular,PC,0,0.0,0.0
 Aconcagua,Frente de Acción Popular,PS,1,26.4,11904.0
@@ -79,22 +15,278 @@ Aconcagua,Candidatura Independiente,IND,0,0.0,0.0
 Aconcagua,Válidamente emitidos,,0,98.81,44557.0
 Aconcagua,Blancos/Nulos,,0,1.19,537.0
 Aconcagua,Total,,0,100.0,45094.0
-Valparaíso,Frente de Acción Popular,VNP,0,0.51,1320.0
-Valparaíso,Frente de Acción Popular,PS,0,6.05,15656.0
-Valparaíso,Frente de Acción Popular,PC,2,13.69,35429.0
-Valparaíso,Frente de Acción Popular,PADENA,0,0.0,0.0
-Valparaíso,Frente de Acción Popular,CP,0,0.0,0.0
-Valparaíso,Partido Democrático,PDo,0,1.14,2941.0
-Valparaíso,Democracia Agrario Laborista,DAL,0,0.29,742.0
-Valparaíso,Partido Demócrata Cristiano,PDC,8,51.42,133014.0
-Valparaíso,Partido Radical,PR,1,9.44,24420.0
-Valparaíso,Derecha Tradicional,PL,1,7.64,19770.0
-Valparaíso,Derecha Tradicional,PCU,0,5.33,13800.0
-Valparaíso,Acción Nacional,AN,0,0.6,1564.0
-Valparaíso,Candidatura Independiente,IND,0,0.51,1324.0
-Valparaíso,Válidamente emitidos,,0,96.63,249980.0
-Valparaíso,Blancos/Nulos,,0,3.37,8724.0
-Valparaíso,Total,,0,100.0,258704.0
+Antofagasta,Frente de Acción Popular,CP,0,0.0,0.0
+Antofagasta,Frente de Acción Popular,PADENA,0,4.37,3300.0
+Antofagasta,Frente de Acción Popular,PC,2,21.29,16073.0
+Antofagasta,Frente de Acción Popular,VNP,0,0.0,0.0
+Antofagasta,Frente de Acción Popular,PS,1,15.48,11688.0
+Antofagasta,Partido Democrático,PDo,0,0.12,88.0
+Antofagasta,Democracia Agrario Laborista,DAL,0,0.0,0.0
+Antofagasta,Partido Demócrata Cristiano,PDC,3,33.69,25436.0
+Antofagasta,Partido Radical,PR,1,16.7,12606.0
+Antofagasta,Derecha Tradicional,PCU,0,0.0,0.0
+Antofagasta,Derecha Tradicional,PL,0,6.4,4829.0
+Antofagasta,Acción Nacional,AN,0,0.29,217.0
+Antofagasta,Candidatura Independiente,IND,0,0.0,0.0
+Antofagasta,Válidamente emitidos,,0,98.33,74237.0
+Antofagasta,Blancos/Nulos,,0,1.67,1264.0
+Antofagasta,Total,,0,100.0,75501.0
+Arauco,Frente de Acción Popular,CP,0,0.0,0.0
+Arauco,Frente de Acción Popular,PADENA,0,0.0,0.0
+Arauco,Frente de Acción Popular,PS,1,25.8,5083.0
+Arauco,Frente de Acción Popular,PC,0,21.26,4190.0
+Arauco,Frente de Acción Popular,VNP,0,0.0,0.0
+Arauco,Partido Democrático,PDo,0,0.0,0.0
+Arauco,Democracia Agrario Laborista,DAL,0,0.0,0.0
+Arauco,Partido Demócrata Cristiano,PDC,0,22.44,4422.0
+Arauco,Partido Radical,PR,1,29.81,5873.0
+Arauco,Derecha Tradicional,PCU,0,0.0,0.0
+Arauco,Derecha Tradicional,PL,0,0.0,0.0
+Arauco,Acción Nacional,AN,0,0.0,0.0
+Arauco,Candidatura Independiente,IND,0,0.0,0.0
+Arauco,Válidamente emitidos,,0,99.31,19568.0
+Arauco,Blancos/Nulos,,0,0.69,136.0
+Arauco,Total,,0,100.0,19704.0
+Atacama,Frente de Acción Popular,VNP,0,0.0,0.0
+Atacama,Frente de Acción Popular,PS,0,19.07,7424.0
+Atacama,Frente de Acción Popular,PC,0,16.98,6612.0
+Atacama,Frente de Acción Popular,PADENA,0,0.0,0.0
+Atacama,Frente de Acción Popular,CP,0,0.0,0.0
+Atacama,Partido Democrático,PDo,0,0.0,0.0
+Atacama,Democracia Agrario Laborista,DAL,0,0.0,0.0
+Atacama,Partido Demócrata Cristiano,PDC,1,40.14,15626.0
+Atacama,Partido Radical,PR,1,20.38,7935.0
+Atacama,Derecha Tradicional,PCU,0,0.0,0.0
+Atacama,Derecha Tradicional,PL,0,0.0,0.0
+Atacama,Acción Nacional,AN,0,0.0,0.0
+Atacama,Candidatura Independiente,IND,0,0.0,0.0
+Atacama,Válidamente emitidos,,0,96.58,37597.0
+Atacama,Blancos/Nulos,,0,3.42,1333.0
+Atacama,Total,,0,100.0,38930.0
+Bío-Bío,Frente de Acción Popular,PADENA,0,0.0,0.0
+Bío-Bío,Frente de Acción Popular,PC,1,18.01,6675.0
+Bío-Bío,Frente de Acción Popular,PS,0,0.0,0.0
+Bío-Bío,Frente de Acción Popular,VNP,0,0.0,0.0
+Bío-Bío,Frente de Acción Popular,CP,0,0.0,0.0
+Bío-Bío,Partido Democrático,PDo,0,2.98,1106.0
+Bío-Bío,Democracia Agrario Laborista,DAL,0,2.3,854.0
+Bío-Bío,Partido Demócrata Cristiano,PDC,2,34.76,12880.0
+Bío-Bío,Partido Radical,PR,1,23.76,8804.0
+Bío-Bío,Derecha Tradicional,PCU,0,5.72,2120.0
+Bío-Bío,Derecha Tradicional,PL,0,8.92,3306.0
+Bío-Bío,Acción Nacional,AN,0,0.0,0.0
+Bío-Bío,Candidatura Independiente,IND,0,0.0,0.0
+Bío-Bío,Válidamente emitidos,,0,96.47,35745.0
+Bío-Bío,Blancos/Nulos,,0,3.53,1308.0
+Bío-Bío,Total,,0,100.0,37053.0
+Cautín,Frente de Acción Popular,VNP,0,0.46,406.0
+Cautín,Frente de Acción Popular,PS,0,0.0,0.0
+Cautín,Frente de Acción Popular,PC,0,0.0,0.0
+Cautín,Frente de Acción Popular,CP,0,0.0,0.0
+Cautín,Frente de Acción Popular,PADENA,2,20.82,18206.0
+Cautín,Partido Democrático,PDo,0,0.82,717.0
+Cautín,Democracia Agrario Laborista,DAL,0,4.02,3515.0
+Cautín,Partido Demócrata Cristiano,PDC,5,37.2,32528.0
+Cautín,Partido Radical,PR,1,14.5,12677.0
+Cautín,Derecha Tradicional,PL,1,10.56,9235.0
+Cautín,Derecha Tradicional,PCU,1,8.79,7685.0
+Cautín,Acción Nacional,AN,0,0.0,0.0
+Cautín,Candidatura Independiente,IND,0,0.0,0.0
+Cautín,Válidamente emitidos,,0,97.17,84969.0
+Cautín,Blancos/Nulos,,0,2.83,2475.0
+Cautín,Total,,0,100.0,87444.0
+Chiloé,Frente de Acción Popular,CP,0,0.0,0.0
+Chiloé,Frente de Acción Popular,PADENA,0,0.0,0.0
+Chiloé,Frente de Acción Popular,PC,0,15.5,3391.0
+Chiloé,Frente de Acción Popular,PS,0,0.0,0.0
+Chiloé,Frente de Acción Popular,VNP,0,0.0,0.0
+Chiloé,Partido Democrático,PDo,0,0.0,0.0
+Chiloé,Democracia Agrario Laborista,DAL,0,0.0,0.0
+Chiloé,Partido Demócrata Cristiano,PDC,1,20.41,4465.0
+Chiloé,Partido Radical,PR,1,26.92,5889.0
+Chiloé,Derecha Tradicional,PCU,1,21.97,4805.0
+Chiloé,Derecha Tradicional,PL,0,13.15,2877.0
+Chiloé,Acción Nacional,AN,0,0.0,0.0
+Chiloé,Candidatura Independiente,IND,0,0.0,0.0
+Chiloé,Válidamente emitidos,,0,97.96,21427.0
+Chiloé,Blancos/Nulos,,0,2.04,447.0
+Chiloé,Total,,0,100.0,21874.0
+Colchagua,Frente de Acción Popular,VNP,0,0.14,57.0
+Colchagua,Frente de Acción Popular,CP,0,0.0,0.0
+Colchagua,Frente de Acción Popular,PADENA,0,0.0,0.0
+Colchagua,Frente de Acción Popular,PC,0,0.0,0.0
+Colchagua,Frente de Acción Popular,PS,1,19.95,7997.0
+Colchagua,Partido Democrático,PDo,0,0.11,44.0
+Colchagua,Democracia Agrario Laborista,DAL,0,0.0,0.0
+Colchagua,Partido Demócrata Cristiano,PDC,3,43.4,17399.0
+Colchagua,Partido Radical,PR,0,12.24,4907.0
+Colchagua,Derecha Tradicional,PCU,0,10.9,4371.0
+Colchagua,Derecha Tradicional,PL,0,11.17,4479.0
+Colchagua,Acción Nacional,AN,0,0.0,0.0
+Colchagua,Candidatura Independiente,IND,0,0.0,0.0
+Colchagua,Válidamente emitidos,,0,97.92,39254.0
+Colchagua,Blancos/Nulos,,0,2.08,833.0
+Colchagua,Total,,0,100.0,40087.0
+Concepción,Frente de Acción Popular,CP,0,0.0,0.0
+Concepción,Frente de Acción Popular,PADENA,0,5.52,8745.0
+Concepción,Frente de Acción Popular,PC,3,24.41,38641.0
+Concepción,Frente de Acción Popular,PS,0,7.73,12239.0
+Concepción,Frente de Acción Popular,VNP,0,0.0,0.0
+Concepción,Partido Democrático,PDo,0,0.25,395.0
+Concepción,Democracia Agrario Laborista,DAL,0,0.26,414.0
+Concepción,Partido Demócrata Cristiano,PDC,5,38.95,61670.0
+Concepción,Partido Radical,PR,1,15.27,24174.0
+Concepción,Derecha Tradicional,PCU,0,2.17,3434.0
+Concepción,Derecha Tradicional,PL,0,3.79,5998.0
+Concepción,Acción Nacional,AN,0,0.0,0.0
+Concepción,Candidatura Independiente,IND,0,0.0,0.0
+Concepción,Válidamente emitidos,,0,98.34,155710.0
+Concepción,Blancos/Nulos,,0,1.66,2621.0
+Concepción,Total,,0,100.0,158331.0
+Coquimbo,Frente de Acción Popular,PC,1,16.99,13236.0
+Coquimbo,Frente de Acción Popular,VNP,0,0.0,0.0
+Coquimbo,Frente de Acción Popular,PS,1,17.84,13897.0
+Coquimbo,Frente de Acción Popular,PADENA,0,0.0,0.0
+Coquimbo,Frente de Acción Popular,CP,0,0.0,0.0
+Coquimbo,Partido Democrático,PDo,0,0.18,139.0
+Coquimbo,Democracia Agrario Laborista,DAL,0,0.3,230.0
+Coquimbo,Partido Demócrata Cristiano,PDC,3,31.52,24550.0
+Coquimbo,Partido Radical,PR,1,18.57,14465.0
+Coquimbo,Derecha Tradicional,PCU,0,0.0,0.0
+Coquimbo,Derecha Tradicional,PL,1,11.68,9096.0
+Coquimbo,Acción Nacional,AN,0,0.0,0.0
+Coquimbo,Candidatura Independiente,IND,0,0.0,0.0
+Coquimbo,Válidamente emitidos,,0,97.08,75613.0
+Coquimbo,Blancos/Nulos,,0,2.92,2273.0
+Coquimbo,Total,,0,100.0,77886.0
+Curicó,Frente de Acción Popular,PADENA,0,0.0,0.0
+Curicó,Frente de Acción Popular,CP,0,0.0,0.0
+Curicó,Frente de Acción Popular,PC,0,0.0,0.0
+Curicó,Frente de Acción Popular,PS,1,23.64,6677.0
+Curicó,Frente de Acción Popular,VNP,0,0.0,0.0
+Curicó,Partido Democrático,PDo,0,0.52,147.0
+Curicó,Democracia Agrario Laborista,DAL,0,0.0,0.0
+Curicó,Partido Demócrata Cristiano,PDC,2,42.78,12083.0
+Curicó,Partido Radical,PR,0,16.75,4731.0
+Curicó,Derecha Tradicional,PL,0,10.68,3016.0
+Curicó,Derecha Tradicional,PCU,0,2.0,564.0
+Curicó,Acción Nacional,AN,0,0.0,0.0
+Curicó,Candidatura Independiente,IND,0,0.0,0.0
+Curicó,Válidamente emitidos,,0,96.36,27218.0
+Curicó,Blancos/Nulos,,0,3.64,1028.0
+Curicó,Total,,0,100.0,28246.0
+Linares,Frente de Acción Popular,PC,0,0.0,0.0
+Linares,Frente de Acción Popular,PS,1,16.68,7182.0
+Linares,Frente de Acción Popular,VNP,0,1.0,430.0
+Linares,Frente de Acción Popular,CP,0,0.77,330.0
+Linares,Frente de Acción Popular,PADENA,0,5.47,2354.0
+Linares,Partido Democrático,PDo,0,0.45,193.0
+Linares,Democracia Agrario Laborista,DAL,0,0.17,73.0
+Linares,Partido Demócrata Cristiano,PDC,2,39.85,17164.0
+Linares,Partido Radical,PR,1,16.87,7265.0
+Linares,Derecha Tradicional,PL,0,5.65,2432.0
+Linares,Derecha Tradicional,PCU,0,10.11,4353.0
+Linares,Acción Nacional,AN,0,0.0,0.0
+Linares,Candidatura Independiente,IND,0,0.0,0.0
+Linares,Válidamente emitidos,,0,97.0,41776.0
+Linares,Blancos/Nulos,,0,3.0,1294.0
+Linares,Total,,0,100.0,43070.0
+Llanquihue y Aysén,Frente de Acción Popular,PC,0,0.0,0.0
+Llanquihue y Aysén,Frente de Acción Popular,PADENA,0,0.0,0.0
+Llanquihue y Aysén,Frente de Acción Popular,CP,0,0.0,0.0
+Llanquihue y Aysén,Frente de Acción Popular,VNP,0,0.0,0.0
+Llanquihue y Aysén,Frente de Acción Popular,PS,1,19.6,9034.0
+Llanquihue y Aysén,Partido Democrático,PDo,0,0.0,0.0
+Llanquihue y Aysén,Democracia Agrario Laborista,DAL,0,0.0,0.0
+Llanquihue y Aysén,Partido Demócrata Cristiano,PDC,2,36.67,16901.0
+Llanquihue y Aysén,Partido Radical,PR,0,11.46,5283.0
+Llanquihue y Aysén,Derecha Tradicional,PCU,0,13.75,6339.0
+Llanquihue y Aysén,Derecha Tradicional,PL,0,16.68,7688.0
+Llanquihue y Aysén,Acción Nacional,AN,0,0.0,0.0
+Llanquihue y Aysén,Candidatura Independiente,IND,0,0.0,0.0
+Llanquihue y Aysén,Válidamente emitidos,,0,98.16,45245.0
+Llanquihue y Aysén,Blancos/Nulos,,0,1.84,847.0
+Llanquihue y Aysén,Total,,0,100.0,46092.0
+Magallanes,Frente de Acción Popular,CP,0,0.0,0.0
+Magallanes,Frente de Acción Popular,PADENA,0,0.0,0.0
+Magallanes,Frente de Acción Popular,VNP,0,0.0,0.0
+Magallanes,Frente de Acción Popular,PS,1,53.0,14975.0
+Magallanes,Frente de Acción Popular,PC,0,0.0,0.0
+Magallanes,Partido Democrático,PDo,0,0.0,0.0
+Magallanes,Democracia Agrario Laborista,DAL,0,0.0,0.0
+Magallanes,Partido Demócrata Cristiano,PDC,0,0.0,0.0
+Magallanes,Partido Radical,PR,0,44.9,12686.0
+Magallanes,Derecha Tradicional,PCU,0,0.0,0.0
+Magallanes,Derecha Tradicional,PL,0,0.0,0.0
+Magallanes,Acción Nacional,AN,0,0.0,0.0
+Magallanes,Candidatura Independiente,IND,0,0.0,0.0
+Magallanes,Válidamente emitidos,,0,97.9,27661.0
+Magallanes,Blancos/Nulos,,0,2.1,594.0
+Magallanes,Total,,0,100.0,28255.0
+Malleco,Frente de Acción Popular,VNP,0,0.0,0.0
+Malleco,Frente de Acción Popular,CP,0,0.0,0.0
+Malleco,Frente de Acción Popular,PS,1,11.66,4819.0
+Malleco,Frente de Acción Popular,PC,0,0.0,0.0
+Malleco,Frente de Acción Popular,PADENA,0,0.0,0.0
+Malleco,Partido Democrático,PDo,0,1.16,479.0
+Malleco,Democracia Agrario Laborista,DAL,0,3.15,1303.0
+Malleco,Partido Demócrata Cristiano,PDC,2,30.72,12697.0
+Malleco,Partido Radical,PR,1,19.89,8222.0
+Malleco,Derecha Tradicional,PL,2,28.34,11712.0
+Malleco,Derecha Tradicional,PCU,0,2.86,1183.0
+Malleco,Acción Nacional,AN,0,0.0,0.0
+Malleco,Candidatura Independiente,IND,0,0.0,0.0
+Malleco,Válidamente emitidos,,0,97.79,40415.0
+Malleco,Blancos/Nulos,,0,2.21,914.0
+Malleco,Total,,0,100.0,41329.0
+Maule,Frente de Acción Popular,CP,0,0.0,0.0
+Maule,Frente de Acción Popular,PADENA,0,20.44,4526.0
+Maule,Frente de Acción Popular,PC,0,0.0,0.0
+Maule,Frente de Acción Popular,PS,0,0.0,0.0
+Maule,Frente de Acción Popular,VNP,0,0.0,0.0
+Maule,Partido Democrático,PDo,0,0.0,0.0
+Maule,Democracia Agrario Laborista,DAL,0,0.0,0.0
+Maule,Partido Demócrata Cristiano,PDC,1,32.56,7208.0
+Maule,Partido Radical,PR,1,20.6,4561.0
+Maule,Derecha Tradicional,PCU,0,2.43,538.0
+Maule,Derecha Tradicional,PL,1,21.35,4727.0
+Maule,Acción Nacional,AN,0,0.0,0.0
+Maule,Candidatura Independiente,IND,0,0.0,0.0
+Maule,Válidamente emitidos,,0,97.38,21560.0
+Maule,Blancos/Nulos,,0,2.62,579.0
+Maule,Total,,0,100.0,22139.0
+O'Higgins,Frente de Acción Popular,PS,1,12.38,9859.0
+O'Higgins,Frente de Acción Popular,VNP,0,0.68,541.0
+O'Higgins,Frente de Acción Popular,PADENA,0,8.67,6905.0
+O'Higgins,Frente de Acción Popular,PC,1,15.78,12574.0
+O'Higgins,Frente de Acción Popular,CP,0,0.0,0.0
+O'Higgins,Partido Democrático,PDo,0,0.0,0.0
+O'Higgins,Democracia Agrario Laborista,DAL,0,0.0,0.0
+O'Higgins,Partido Demócrata Cristiano,PDC,4,39.65,31585.0
+O'Higgins,Partido Radical,PR,0,5.87,4673.0
+O'Higgins,Derecha Tradicional,PCU,0,9.31,7416.0
+O'Higgins,Derecha Tradicional,PL,0,4.75,3785.0
+O'Higgins,Acción Nacional,AN,0,0.0,0.0
+O'Higgins,Candidatura Independiente,IND,0,0.0,0.0
+O'Higgins,Válidamente emitidos,,0,97.08,77338.0
+O'Higgins,Blancos/Nulos,,0,2.92,2328.0
+O'Higgins,Total,,0,100.0,79666.0
+Osorno,Frente de Acción Popular,PADENA,0,0.0,0.0
+Osorno,Frente de Acción Popular,CP,0,0.0,0.0
+Osorno,Frente de Acción Popular,PC,0,0.0,0.0
+Osorno,Frente de Acción Popular,PS,0,10.36,3862.0
+Osorno,Frente de Acción Popular,VNP,0,0.0,0.0
+Osorno,Partido Democrático,PDo,0,0.0,0.0
+Osorno,Democracia Agrario Laborista,DAL,0,0.0,0.0
+Osorno,Partido Demócrata Cristiano,PDC,2,40.77,15199.0
+Osorno,Partido Radical,PR,1,29.4,10958.0
+Osorno,Derecha Tradicional,PCU,0,0.0,0.0
+Osorno,Derecha Tradicional,PL,0,6.25,2331.0
+Osorno,Acción Nacional,AN,0,0.0,0.0
+Osorno,Candidatura Independiente,IND,0,11.66,4345.0
+Osorno,Válidamente emitidos,,0,98.44,36695.0
+Osorno,Blancos/Nulos,,0,1.56,581.0
+Osorno,Total,,0,100.0,37276.0
 Santiago-1,Frente de Acción Popular,CP,0,0.3,2791.0
 Santiago-1,Frente de Acción Popular,PADENA,0,1.65,15521.0
 Santiago-1,Frente de Acción Popular,PC,3,13.48,126449.0
@@ -159,54 +351,6 @@ Santiago-4,Candidatura Independiente,IND,0,0.0,0.0
 Santiago-4,Válidamente emitidos,,0,96.2,902204.0
 Santiago-4,Blancos/Nulos,,0,3.8,35646.0
 Santiago-4,Total,,0,100.0,937850.0
-O'Higgins,Frente de Acción Popular,PS,1,12.38,9859.0
-O'Higgins,Frente de Acción Popular,VNP,0,0.68,541.0
-O'Higgins,Frente de Acción Popular,PADENA,0,8.67,6905.0
-O'Higgins,Frente de Acción Popular,PC,1,15.78,12574.0
-O'Higgins,Frente de Acción Popular,CP,0,0.0,0.0
-O'Higgins,Partido Democrático,PDo,0,0.0,0.0
-O'Higgins,Democracia Agrario Laborista,DAL,0,0.0,0.0
-O'Higgins,Partido Demócrata Cristiano,PDC,4,39.65,31585.0
-O'Higgins,Partido Radical,PR,0,5.87,4673.0
-O'Higgins,Derecha Tradicional,PCU,0,9.31,7416.0
-O'Higgins,Derecha Tradicional,PL,0,4.75,3785.0
-O'Higgins,Acción Nacional,AN,0,0.0,0.0
-O'Higgins,Candidatura Independiente,IND,0,0.0,0.0
-O'Higgins,Válidamente emitidos,,0,97.08,77338.0
-O'Higgins,Blancos/Nulos,,0,2.92,2328.0
-O'Higgins,Total,,0,100.0,79666.0
-Colchagua,Frente de Acción Popular,VNP,0,0.14,57.0
-Colchagua,Frente de Acción Popular,CP,0,0.0,0.0
-Colchagua,Frente de Acción Popular,PADENA,0,0.0,0.0
-Colchagua,Frente de Acción Popular,PC,0,0.0,0.0
-Colchagua,Frente de Acción Popular,PS,1,19.95,7997.0
-Colchagua,Partido Democrático,PDo,0,0.11,44.0
-Colchagua,Democracia Agrario Laborista,DAL,0,0.0,0.0
-Colchagua,Partido Demócrata Cristiano,PDC,3,43.4,17399.0
-Colchagua,Partido Radical,PR,0,12.24,4907.0
-Colchagua,Derecha Tradicional,PCU,0,10.9,4371.0
-Colchagua,Derecha Tradicional,PL,0,11.17,4479.0
-Colchagua,Acción Nacional,AN,0,0.0,0.0
-Colchagua,Candidatura Independiente,IND,0,0.0,0.0
-Colchagua,Válidamente emitidos,,0,97.92,39254.0
-Colchagua,Blancos/Nulos,,0,2.08,833.0
-Colchagua,Total,,0,100.0,40087.0
-Curicó,Frente de Acción Popular,PADENA,0,0.0,0.0
-Curicó,Frente de Acción Popular,CP,0,0.0,0.0
-Curicó,Frente de Acción Popular,PC,0,0.0,0.0
-Curicó,Frente de Acción Popular,PS,1,23.64,6677.0
-Curicó,Frente de Acción Popular,VNP,0,0.0,0.0
-Curicó,Partido Democrático,PDo,0,0.52,147.0
-Curicó,Democracia Agrario Laborista,DAL,0,0.0,0.0
-Curicó,Partido Demócrata Cristiano,PDC,2,42.78,12083.0
-Curicó,Partido Radical,PR,0,16.75,4731.0
-Curicó,Derecha Tradicional,PL,0,10.68,3016.0
-Curicó,Derecha Tradicional,PCU,0,2.0,564.0
-Curicó,Acción Nacional,AN,0,0.0,0.0
-Curicó,Candidatura Independiente,IND,0,0.0,0.0
-Curicó,Válidamente emitidos,,0,96.36,27218.0
-Curicó,Blancos/Nulos,,0,3.64,1028.0
-Curicó,Total,,0,100.0,28246.0
 Talca,Frente de Acción Popular,VNP,0,1.88,970.0
 Talca,Frente de Acción Popular,PS,0,0.0,0.0
 Talca,Frente de Acción Popular,PC,0,0.0,0.0
@@ -223,38 +367,54 @@ Talca,Candidatura Independiente,IND,0,0.0,0.0
 Talca,Válidamente emitidos,,0,96.89,49893.0
 Talca,Blancos/Nulos,,0,3.11,1603.0
 Talca,Total,,0,100.0,51496.0
-Maule,Frente de Acción Popular,CP,0,0.0,0.0
-Maule,Frente de Acción Popular,PADENA,0,20.44,4526.0
-Maule,Frente de Acción Popular,PC,0,0.0,0.0
-Maule,Frente de Acción Popular,PS,0,0.0,0.0
-Maule,Frente de Acción Popular,VNP,0,0.0,0.0
-Maule,Partido Democrático,PDo,0,0.0,0.0
-Maule,Democracia Agrario Laborista,DAL,0,0.0,0.0
-Maule,Partido Demócrata Cristiano,PDC,1,32.56,7208.0
-Maule,Partido Radical,PR,1,20.6,4561.0
-Maule,Derecha Tradicional,PCU,0,2.43,538.0
-Maule,Derecha Tradicional,PL,1,21.35,4727.0
-Maule,Acción Nacional,AN,0,0.0,0.0
-Maule,Candidatura Independiente,IND,0,0.0,0.0
-Maule,Válidamente emitidos,,0,97.38,21560.0
-Maule,Blancos/Nulos,,0,2.62,579.0
-Maule,Total,,0,100.0,22139.0
-Linares,Frente de Acción Popular,PC,0,0.0,0.0
-Linares,Frente de Acción Popular,PS,1,16.68,7182.0
-Linares,Frente de Acción Popular,VNP,0,1.0,430.0
-Linares,Frente de Acción Popular,CP,0,0.77,330.0
-Linares,Frente de Acción Popular,PADENA,0,5.47,2354.0
-Linares,Partido Democrático,PDo,0,0.45,193.0
-Linares,Democracia Agrario Laborista,DAL,0,0.17,73.0
-Linares,Partido Demócrata Cristiano,PDC,2,39.85,17164.0
-Linares,Partido Radical,PR,1,16.87,7265.0
-Linares,Derecha Tradicional,PL,0,5.65,2432.0
-Linares,Derecha Tradicional,PCU,0,10.11,4353.0
-Linares,Acción Nacional,AN,0,0.0,0.0
-Linares,Candidatura Independiente,IND,0,0.0,0.0
-Linares,Válidamente emitidos,,0,97.0,41776.0
-Linares,Blancos/Nulos,,0,3.0,1294.0
-Linares,Total,,0,100.0,43070.0
+Tarapacá,Frente de Acción Popular,PS,0,0.0,0.0
+Tarapacá,Frente de Acción Popular,PC,2,37.43,17979.0
+Tarapacá,Frente de Acción Popular,CP,0,0.0,0.0
+Tarapacá,Frente de Acción Popular,PADENA,0,0.0,0.0
+Tarapacá,Frente de Acción Popular,VNP,0,0.0,0.0
+Tarapacá,Partido Democrático,PDo,0,0.15,73.0
+Tarapacá,Democracia Agrario Laborista,DAL,0,0.0,0.0
+Tarapacá,Partido Demócrata Cristiano,PDC,2,31.26,15013.0
+Tarapacá,Partido Radical,PR,0,15.43,7409.0
+Tarapacá,Derecha Tradicional,PL,0,14.02,6732.0
+Tarapacá,Derecha Tradicional,PCU,0,0.0,0.0
+Tarapacá,Acción Nacional,AN,0,0.0,0.0
+Tarapacá,Candidatura Independiente,IND,0,0.0,0.0
+Tarapacá,Válidamente emitidos,,0,98.28,47206.0
+Tarapacá,Blancos/Nulos,,0,1.72,824.0
+Tarapacá,Total,,0,100.0,48030.0
+Valdivia,Frente de Acción Popular,CP,0,0.0,0.0
+Valdivia,Frente de Acción Popular,PADENA,0,0.0,0.0
+Valdivia,Frente de Acción Popular,PC,0,7.17,4378.0
+Valdivia,Frente de Acción Popular,VNP,0,0.0,0.0
+Valdivia,Frente de Acción Popular,PS,1,19.62,11978.0
+Valdivia,Partido Democrático,PDo,0,1.51,921.0
+Valdivia,Democracia Agrario Laborista,DAL,0,4.2,2563.0
+Valdivia,Partido Demócrata Cristiano,PDC,3,37.02,22598.0
+Valdivia,Partido Radical,PR,1,18.09,11042.0
+Valdivia,Derecha Tradicional,PL,0,10.33,6309.0
+Valdivia,Derecha Tradicional,PCU,0,0.0,0.0
+Valdivia,Acción Nacional,AN,0,0.0,0.0
+Valdivia,Candidatura Independiente,IND,0,0.0,0.0
+Valdivia,Válidamente emitidos,,0,97.94,59789.0
+Valdivia,Blancos/Nulos,,0,2.06,1257.0
+Valdivia,Total,,0,100.0,61046.0
+Valparaíso,Frente de Acción Popular,VNP,0,0.51,1320.0
+Valparaíso,Frente de Acción Popular,PS,0,6.05,15656.0
+Valparaíso,Frente de Acción Popular,PC,2,13.69,35429.0
+Valparaíso,Frente de Acción Popular,PADENA,0,0.0,0.0
+Valparaíso,Frente de Acción Popular,CP,0,0.0,0.0
+Valparaíso,Partido Democrático,PDo,0,1.14,2941.0
+Valparaíso,Democracia Agrario Laborista,DAL,0,0.29,742.0
+Valparaíso,Partido Demócrata Cristiano,PDC,8,51.42,133014.0
+Valparaíso,Partido Radical,PR,1,9.44,24420.0
+Valparaíso,Derecha Tradicional,PL,1,7.64,19770.0
+Valparaíso,Derecha Tradicional,PCU,0,5.33,13800.0
+Valparaíso,Acción Nacional,AN,0,0.6,1564.0
+Valparaíso,Candidatura Independiente,IND,0,0.51,1324.0
+Valparaíso,Válidamente emitidos,,0,96.63,249980.0
+Valparaíso,Blancos/Nulos,,0,3.37,8724.0
+Valparaíso,Total,,0,100.0,258704.0
 Ñuble-1,Frente de Acción Popular,PS,0,4.29,2916.0
 Ñuble-1,Frente de Acción Popular,PC,0,0.0,0.0
 Ñuble-1,Frente de Acción Popular,PADENA,0,0.0,0.0
@@ -287,163 +447,3 @@ Linares,Total,,0,100.0,43070.0
 Ñuble-2,Válidamente emitidos,,0,69.26,47112.0
 Ñuble-2,Blancos/Nulos,,0,30.74,20908.0
 Ñuble-2,Total,,0,100.0,68020.0
-Concepción,Frente de Acción Popular,CP,0,0.0,0.0
-Concepción,Frente de Acción Popular,PADENA,0,5.52,8745.0
-Concepción,Frente de Acción Popular,PC,3,24.41,38641.0
-Concepción,Frente de Acción Popular,PS,0,7.73,12239.0
-Concepción,Frente de Acción Popular,VNP,0,0.0,0.0
-Concepción,Partido Democrático,PDo,0,0.25,395.0
-Concepción,Democracia Agrario Laborista,DAL,0,0.26,414.0
-Concepción,Partido Demócrata Cristiano,PDC,5,38.95,61670.0
-Concepción,Partido Radical,PR,1,15.27,24174.0
-Concepción,Derecha Tradicional,PCU,0,2.17,3434.0
-Concepción,Derecha Tradicional,PL,0,3.79,5998.0
-Concepción,Acción Nacional,AN,0,0.0,0.0
-Concepción,Candidatura Independiente,IND,0,0.0,0.0
-Concepción,Válidamente emitidos,,0,98.34,155710.0
-Concepción,Blancos/Nulos,,0,1.66,2621.0
-Concepción,Total,,0,100.0,158331.0
-Arauco,Frente de Acción Popular,CP,0,0.0,0.0
-Arauco,Frente de Acción Popular,PADENA,0,0.0,0.0
-Arauco,Frente de Acción Popular,PS,1,25.8,5083.0
-Arauco,Frente de Acción Popular,PC,0,21.26,4190.0
-Arauco,Frente de Acción Popular,VNP,0,0.0,0.0
-Arauco,Partido Democrático,PDo,0,0.0,0.0
-Arauco,Democracia Agrario Laborista,DAL,0,0.0,0.0
-Arauco,Partido Demócrata Cristiano,PDC,0,22.44,4422.0
-Arauco,Partido Radical,PR,1,29.81,5873.0
-Arauco,Derecha Tradicional,PCU,0,0.0,0.0
-Arauco,Derecha Tradicional,PL,0,0.0,0.0
-Arauco,Acción Nacional,AN,0,0.0,0.0
-Arauco,Candidatura Independiente,IND,0,0.0,0.0
-Arauco,Válidamente emitidos,,0,99.31,19568.0
-Arauco,Blancos/Nulos,,0,0.69,136.0
-Arauco,Total,,0,100.0,19704.0
-Bío-Bío,Frente de Acción Popular,PADENA,0,0.0,0.0
-Bío-Bío,Frente de Acción Popular,PC,1,18.01,6675.0
-Bío-Bío,Frente de Acción Popular,PS,0,0.0,0.0
-Bío-Bío,Frente de Acción Popular,VNP,0,0.0,0.0
-Bío-Bío,Frente de Acción Popular,CP,0,0.0,0.0
-Bío-Bío,Partido Democrático,PDo,0,2.98,1106.0
-Bío-Bío,Democracia Agrario Laborista,DAL,0,2.3,854.0
-Bío-Bío,Partido Demócrata Cristiano,PDC,2,34.76,12880.0
-Bío-Bío,Partido Radical,PR,1,23.76,8804.0
-Bío-Bío,Derecha Tradicional,PCU,0,5.72,2120.0
-Bío-Bío,Derecha Tradicional,PL,0,8.92,3306.0
-Bío-Bío,Acción Nacional,AN,0,0.0,0.0
-Bío-Bío,Candidatura Independiente,IND,0,0.0,0.0
-Bío-Bío,Válidamente emitidos,,0,96.47,35745.0
-Bío-Bío,Blancos/Nulos,,0,3.53,1308.0
-Bío-Bío,Total,,0,100.0,37053.0
-Malleco,Frente de Acción Popular,VNP,0,0.0,0.0
-Malleco,Frente de Acción Popular,CP,0,0.0,0.0
-Malleco,Frente de Acción Popular,PS,1,11.66,4819.0
-Malleco,Frente de Acción Popular,PC,0,0.0,0.0
-Malleco,Frente de Acción Popular,PADENA,0,0.0,0.0
-Malleco,Partido Democrático,PDo,0,1.16,479.0
-Malleco,Democracia Agrario Laborista,DAL,0,3.15,1303.0
-Malleco,Partido Demócrata Cristiano,PDC,2,30.72,12697.0
-Malleco,Partido Radical,PR,1,19.89,8222.0
-Malleco,Derecha Tradicional,PL,2,28.34,11712.0
-Malleco,Derecha Tradicional,PCU,0,2.86,1183.0
-Malleco,Acción Nacional,AN,0,0.0,0.0
-Malleco,Candidatura Independiente,IND,0,0.0,0.0
-Malleco,Válidamente emitidos,,0,97.79,40415.0
-Malleco,Blancos/Nulos,,0,2.21,914.0
-Malleco,Total,,0,100.0,41329.0
-Cautín,Frente de Acción Popular,VNP,0,0.46,406.0
-Cautín,Frente de Acción Popular,PS,0,0.0,0.0
-Cautín,Frente de Acción Popular,PC,0,0.0,0.0
-Cautín,Frente de Acción Popular,CP,0,0.0,0.0
-Cautín,Frente de Acción Popular,PADENA,2,20.82,18206.0
-Cautín,Partido Democrático,PDo,0,0.82,717.0
-Cautín,Democracia Agrario Laborista,DAL,0,4.02,3515.0
-Cautín,Partido Demócrata Cristiano,PDC,5,37.2,32528.0
-Cautín,Partido Radical,PR,1,14.5,12677.0
-Cautín,Derecha Tradicional,PL,1,10.56,9235.0
-Cautín,Derecha Tradicional,PCU,1,8.79,7685.0
-Cautín,Acción Nacional,AN,0,0.0,0.0
-Cautín,Candidatura Independiente,IND,0,0.0,0.0
-Cautín,Válidamente emitidos,,0,97.17,84969.0
-Cautín,Blancos/Nulos,,0,2.83,2475.0
-Cautín,Total,,0,100.0,87444.0
-Valdivia,Frente de Acción Popular,CP,0,0.0,0.0
-Valdivia,Frente de Acción Popular,PADENA,0,0.0,0.0
-Valdivia,Frente de Acción Popular,PC,0,7.17,4378.0
-Valdivia,Frente de Acción Popular,VNP,0,0.0,0.0
-Valdivia,Frente de Acción Popular,PS,1,19.62,11978.0
-Valdivia,Partido Democrático,PDo,0,1.51,921.0
-Valdivia,Democracia Agrario Laborista,DAL,0,4.2,2563.0
-Valdivia,Partido Demócrata Cristiano,PDC,3,37.02,22598.0
-Valdivia,Partido Radical,PR,1,18.09,11042.0
-Valdivia,Derecha Tradicional,PL,0,10.33,6309.0
-Valdivia,Derecha Tradicional,PCU,0,0.0,0.0
-Valdivia,Acción Nacional,AN,0,0.0,0.0
-Valdivia,Candidatura Independiente,IND,0,0.0,0.0
-Valdivia,Válidamente emitidos,,0,97.94,59789.0
-Valdivia,Blancos/Nulos,,0,2.06,1257.0
-Valdivia,Total,,0,100.0,61046.0
-Osorno,Frente de Acción Popular,PADENA,0,0.0,0.0
-Osorno,Frente de Acción Popular,CP,0,0.0,0.0
-Osorno,Frente de Acción Popular,PC,0,0.0,0.0
-Osorno,Frente de Acción Popular,PS,0,10.36,3862.0
-Osorno,Frente de Acción Popular,VNP,0,0.0,0.0
-Osorno,Partido Democrático,PDo,0,0.0,0.0
-Osorno,Democracia Agrario Laborista,DAL,0,0.0,0.0
-Osorno,Partido Demócrata Cristiano,PDC,2,40.77,15199.0
-Osorno,Partido Radical,PR,1,29.4,10958.0
-Osorno,Derecha Tradicional,PCU,0,0.0,0.0
-Osorno,Derecha Tradicional,PL,0,6.25,2331.0
-Osorno,Acción Nacional,AN,0,0.0,0.0
-Osorno,Candidatura Independiente,IND,0,11.66,4345.0
-Osorno,Válidamente emitidos,,0,98.44,36695.0
-Osorno,Blancos/Nulos,,0,1.56,581.0
-Osorno,Total,,0,100.0,37276.0
-Llanquihue y Aysén,Frente de Acción Popular,PC,0,0.0,0.0
-Llanquihue y Aysén,Frente de Acción Popular,PADENA,0,0.0,0.0
-Llanquihue y Aysén,Frente de Acción Popular,CP,0,0.0,0.0
-Llanquihue y Aysén,Frente de Acción Popular,VNP,0,0.0,0.0
-Llanquihue y Aysén,Frente de Acción Popular,PS,1,19.6,9034.0
-Llanquihue y Aysén,Partido Democrático,PDo,0,0.0,0.0
-Llanquihue y Aysén,Democracia Agrario Laborista,DAL,0,0.0,0.0
-Llanquihue y Aysén,Partido Demócrata Cristiano,PDC,2,36.67,16901.0
-Llanquihue y Aysén,Partido Radical,PR,0,11.46,5283.0
-Llanquihue y Aysén,Derecha Tradicional,PCU,0,13.75,6339.0
-Llanquihue y Aysén,Derecha Tradicional,PL,0,16.68,7688.0
-Llanquihue y Aysén,Acción Nacional,AN,0,0.0,0.0
-Llanquihue y Aysén,Candidatura Independiente,IND,0,0.0,0.0
-Llanquihue y Aysén,Válidamente emitidos,,0,98.16,45245.0
-Llanquihue y Aysén,Blancos/Nulos,,0,1.84,847.0
-Llanquihue y Aysén,Total,,0,100.0,46092.0
-Chiloé,Frente de Acción Popular,CP,0,0.0,0.0
-Chiloé,Frente de Acción Popular,PADENA,0,0.0,0.0
-Chiloé,Frente de Acción Popular,PC,0,15.5,3391.0
-Chiloé,Frente de Acción Popular,PS,0,0.0,0.0
-Chiloé,Frente de Acción Popular,VNP,0,0.0,0.0
-Chiloé,Partido Democrático,PDo,0,0.0,0.0
-Chiloé,Democracia Agrario Laborista,DAL,0,0.0,0.0
-Chiloé,Partido Demócrata Cristiano,PDC,1,20.41,4465.0
-Chiloé,Partido Radical,PR,1,26.92,5889.0
-Chiloé,Derecha Tradicional,PCU,1,21.97,4805.0
-Chiloé,Derecha Tradicional,PL,0,13.15,2877.0
-Chiloé,Acción Nacional,AN,0,0.0,0.0
-Chiloé,Candidatura Independiente,IND,0,0.0,0.0
-Chiloé,Válidamente emitidos,,0,97.96,21427.0
-Chiloé,Blancos/Nulos,,0,2.04,447.0
-Chiloé,Total,,0,100.0,21874.0
-Magallanes,Frente de Acción Popular,CP,0,0.0,0.0
-Magallanes,Frente de Acción Popular,PADENA,0,0.0,0.0
-Magallanes,Frente de Acción Popular,VNP,0,0.0,0.0
-Magallanes,Frente de Acción Popular,PS,1,53.0,14975.0
-Magallanes,Frente de Acción Popular,PC,0,0.0,0.0
-Magallanes,Partido Democrático,PDo,0,0.0,0.0
-Magallanes,Democracia Agrario Laborista,DAL,0,0.0,0.0
-Magallanes,Partido Demócrata Cristiano,PDC,0,0.0,0.0
-Magallanes,Partido Radical,PR,0,44.9,12686.0
-Magallanes,Derecha Tradicional,PCU,0,0.0,0.0
-Magallanes,Derecha Tradicional,PL,0,0.0,0.0
-Magallanes,Acción Nacional,AN,0,0.0,0.0
-Magallanes,Candidatura Independiente,IND,0,0.0,0.0
-Magallanes,Válidamente emitidos,,0,97.9,27661.0
-Magallanes,Blancos/Nulos,,0,2.1,594.0
-Magallanes,Total,,0,100.0,28255.0

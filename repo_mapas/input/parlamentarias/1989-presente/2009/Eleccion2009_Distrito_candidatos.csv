@@ -1,16 +1,16 @@
 Distrito,Lista/Pacto,Partido,Candidatos,Votos,Porcentaje,Electos,Electos_comp,url
 D1,Concertación y Juntos Podemos por más Democracia,PS,"('Iván', 'Paredes', 'Fierro')",12084,16.17,,,
 D1,Concertación y Juntos Podemos por más Democracia,IND,"('Orlando', 'Vargas', 'Pizarro')",22425,30.01,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Orlando_Severo_Vargas_Pizarro
-D1,Coalición por el Cambio,UDI,"('Nino', 'Baltolu', 'Rasera')",17644,23.61,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Nino_Baltolu_Rasera
 D1,Coalición por el Cambio,RN,"('Ximena', 'Valcarce', 'Becerra')",15262,20.43,,,
+D1,Coalición por el Cambio,UDI,"('Nino', 'Baltolu', 'Rasera')",17644,23.61,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Nino_Baltolu_Rasera
 D1,Nueva Mayoría para Chile,PH,"('Nelson', 'Silva', 'Orellana')",613,0.82,,,
 D1,Nueva Mayoría para Chile,IND,"('Patricio', 'Barrios', 'Alday')",1029,1.38,,,
 D1,Chile Limpio. Vote Feliz,PRI,"('Jorge', 'Bernabé', 'Seleme', 'Zapata')",489,0.65,,,
 D1,Chile Limpio. Vote Feliz,IND,"('Pilar', 'Mazuela', 'Águila')",2728,3.65,,,
 D1,Candidatura Independiente,IND,"('Luis', 'Leblanc', 'Valenzuela')",2447,3.27,,,
 D1,Válidamente emitidos,,(),74721,100.0,,,
-D2,Concertación y Juntos Podemos por más Democracia,PC,"('Hugo', 'Gutiérrez', 'Gálvez')",28217,30.31,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Hugo_Humberto_Gutiérrez_Gálvez
 D2,Concertación y Juntos Podemos por más Democracia,PDC,"('Luis', 'Ricardo', 'Hormazábal', 'Sánchez')",3896,4.18,,,
+D2,Concertación y Juntos Podemos por más Democracia,PC,"('Hugo', 'Gutiérrez', 'Gálvez')",28217,30.31,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Hugo_Humberto_Gutiérrez_Gálvez
 D2,Coalición por el Cambio,RN,"('Néstor', 'Jofré', 'Núñez')",11537,12.39,,,
 D2,Coalición por el Cambio,IND,"('Marta', 'Eliana', 'Isasi', 'Barbieri')",28884,31.02,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Marta_Eliana_Isasi_Barbieri
 D2,Nueva Mayoría para Chile,IND,"('Julio', 'Volenski', 'Burgos')",3191,3.43,,,
@@ -20,78 +20,78 @@ D2,Chile Limpio. Vote Feliz,PRI,"('Gladys', 'Asunción', 'Pérez', 'Díaz')",660
 D2,Válidamente emitidos,,(),93105,100.0,,,
 D3,Concertación y Juntos Podemos por más Democracia,PRSD,"('Marcos', 'Andrés', 'Espinosa', 'Monardes')",16223,24.62,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Marcos_Espinosa_Monardes
 D3,Concertación y Juntos Podemos por más Democracia,PDC,"('Rodolfo', 'Seguel', 'Molina')",7060,10.72,,,
-D3,Coalición por el Cambio,UDI,"('Felipe', 'Ward', 'Edwards')",24618,37.36,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Felipe_Ward_Edwards
 D3,Coalición por el Cambio,CH1,"('Gerardo', 'Castro', 'Cortés')",1835,2.79,,,
+D3,Coalición por el Cambio,UDI,"('Felipe', 'Ward', 'Edwards')",24618,37.36,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Felipe_Ward_Edwards
 D3,Nueva Mayoría para Chile,PH,"('Pablo', 'Onell', 'Aracena')",1064,1.61,,,
 D3,Nueva Mayoría para Chile,IND,"('Julio', 'Ramos', 'Ossandón')",2712,4.12,,,
 D3,Chile Limpio. Vote Feliz,PRI,"('Mirta', 'Jesús', 'Moreno', 'Moreno')",9456,14.35,,,
 D3,Chile Limpio. Vote Feliz,MAS,"('Fernando', 'San Román', 'Bascuñán')",2918,4.43,,,
 D3,Válidamente emitidos,,(),65886,100.0,,,
-D4,Concertación y Juntos Podemos por más Democracia,PPD,"('Jorge', 'Molina', 'Cárcamo')",22351,20.16,,,
 D4,Concertación y Juntos Podemos por más Democracia,PDC,"('Gonzalo', 'Dantagnan', 'Vergara')",7350,6.63,,,
-D4,Coalición por el Cambio,CH1,"('Arturo', 'Basadre', 'Reyes')",5935,5.35,,,
+D4,Concertación y Juntos Podemos por más Democracia,PPD,"('Jorge', 'Molina', 'Cárcamo')",22351,20.16,,,
 D4,Coalición por el Cambio,UDI,"('Manuel', 'Rojas', 'Molina')",37241,33.59,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Rojas_Molina
+D4,Coalición por el Cambio,CH1,"('Arturo', 'Basadre', 'Reyes')",5935,5.35,,,
 D4,Nueva Mayoría para Chile,PEV,"('María', 'Josefina', 'Barros', 'Aroca')",2977,2.69,,,
 D4,Nueva Mayoría para Chile,PH,"('Pedro', 'Luque', 'Arancibia')",1779,1.6,,,
 D4,Chile Limpio. Vote Feliz,PRI,"('Pedro', 'Araya', 'Guerrero')",27268,24.6,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Araya_Guerrero
 D4,Chile Limpio. Vote Feliz,PRI,"('Marcos', 'Simunovic', 'Petricio')",5957,5.37,,,
 D4,Válidamente emitidos,,(),110858,100.0,,,
-D5,Concertación y Juntos Podemos por más Democracia,PC,"('Lautaro', 'Carmona', 'Soto')",17022,27.87,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Lautaro_Carmona_Soto
 D5,Concertación y Juntos Podemos por más Democracia,PDC,"('Anita', 'Quiroga', 'Araya')",13503,22.11,,,
+D5,Concertación y Juntos Podemos por más Democracia,PC,"('Lautaro', 'Carmona', 'Soto')",17022,27.87,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Lautaro_Carmona_Soto
 D5,Coalición por el Cambio,UDI,"('Carlos', 'Vilches', 'Guzmán')",13159,21.55,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Alfredo_Vilches_Guzmán
 D5,Coalición por el Cambio,RN,"('René', 'Aedo', 'Ormeño')",10714,17.54,,,
-D5,Nueva Mayoría para Chile,PEV,"('Jorge', 'Oporto', 'Marín')",838,1.37,,,
 D5,Nueva Mayoría para Chile,IND,"('Bruce', 'Trench', 'Fontanes')",2199,3.6,,,
+D5,Nueva Mayoría para Chile,PEV,"('Jorge', 'Oporto', 'Marín')",838,1.37,,,
 D5,Chile Limpio. Vote Feliz,IND,"('Miguel', 'Quintana', 'Marco')",1961,3.21,,,
 D5,Chile Limpio. Vote Feliz,PRI,"('Wilson', 'Wastavino', 'Rivera')",1680,2.75,,,
 D5,Válidamente emitidos,,(),61076,100.0,,,
 D6,Concertación y Juntos Podemos por más Democracia,PRSD,"('Alberto', 'Robles', 'Pantoja')",11582,26.77,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alberto_Robles_Pantoja
 D6,Concertación y Juntos Podemos por más Democracia,PPD,"('Víctor', 'Manuel', 'Rebolledo', 'González')",3612,8.35,,,
-D6,Coalición por el Cambio,CH1,"('Juan', 'Iván', 'Sabando', 'Santibáñez')",5336,12.33,,,
 D6,Coalición por el Cambio,UDI,"('Giovanni', 'Calderón', 'Bassi')",8330,19.26,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Giovanni_Oscar_Calderón_Bassi
+D6,Coalición por el Cambio,CH1,"('Juan', 'Iván', 'Sabando', 'Santibáñez')",5336,12.33,,,
 D6,Chile Limpio. Vote Feliz,PRI,"('Julieta', 'Cruz', 'Figueroa')",6157,14.23,,,
 D6,Chile Limpio. Vote Feliz,MAS,"('Fernando', 'Zamorano', 'Fernández')",5547,12.82,,,
-D6,Candidatura Independiente,IND,"('Osvaldo', 'Delgado', 'Quevedo')",1827,4.22,,,
 D6,Candidatura Independiente,IND,"('Juan', 'Luis', 'Marré', 'Ramírez')",869,2.01,,,
+D6,Candidatura Independiente,IND,"('Osvaldo', 'Delgado', 'Quevedo')",1827,4.22,,,
 D6,Válidamente emitidos,,(),43260,100.0,,,
 D7,Concertación y Juntos Podemos por más Democracia,PS,"('Marcelo', 'Díaz', 'Díaz')",32673,36.74,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Marcelo_Eduardo_Díaz_Díaz
 D7,Concertación y Juntos Podemos por más Democracia,PDC,"('Francisco', 'Villalón', 'Laidlaw')",11896,13.38,,,
 D7,Coalición por el Cambio,UDI,"('Sergio', 'Gahona', 'Salazar')",15614,17.56,,,
 D7,Coalición por el Cambio,RN,"('Mario', 'Bertolino', 'Rendic')",18037,20.28,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Mario_Bertolino_Rendic
-D7,Nueva Mayoría para Chile,PH,"('Penélope', 'Alcayaga', 'Areyte')",1154,1.3,,,
 D7,Nueva Mayoría para Chile,IND,"('Karina', 'Espinoza', 'Rodríguez')",890,1.0,,,
+D7,Nueva Mayoría para Chile,PH,"('Penélope', 'Alcayaga', 'Areyte')",1154,1.3,,,
 D7,Chile Limpio. Vote Feliz,PRI,"('Yuri', 'Olivares', 'Olivares')",5295,5.95,,,
 D7,Chile Limpio. Vote Feliz,IND,"('Percival', 'Madero', 'Santana')",3371,3.79,,,
 D7,Válidamente emitidos,,(),88930,100.0,,,
 D8,Concertación y Juntos Podemos por más Democracia,PDC,"('Matías', 'Walker', 'Prieto')",28948,27.21,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Matías_Walker_Prieto
 D8,Concertación y Juntos Podemos por más Democracia,PS,"('Daniel', 'Manouchehri', 'Lobos')",14753,13.87,,,
-D8,Coalición por el Cambio,CH1,"('Adriana', 'Peñafiel', 'Villafañe')",4915,4.62,,,
 D8,Coalición por el Cambio,UDI,"('Susana', 'Verdugo', 'Baraona')",18936,17.8,,,
-D8,Nueva Mayoría para Chile,IND,"('Miguel', 'Alvarado', 'Ramírez')",6794,6.39,,,
+D8,Coalición por el Cambio,CH1,"('Adriana', 'Peñafiel', 'Villafañe')",4915,4.62,,,
 D8,Nueva Mayoría para Chile,IND,"('Tirso', 'González', 'Alquinta')",905,0.85,,,
+D8,Nueva Mayoría para Chile,IND,"('Miguel', 'Alvarado', 'Ramírez')",6794,6.39,,,
 D8,Chile Limpio. Vote Feliz,IND,"('Ana', 'Victoria', 'Durruty', 'Corral')",2731,2.57,,,
 D8,Chile Limpio. Vote Feliz,IND,"('Felipe', 'Alamo', 'Barrios')",2471,2.32,,,
 D8,Candidatura Independiente,IND,"('Pedro', 'Antonio', 'Velásquez', 'Seguel')",25919,24.37,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Antonio_Velásquez_Seguel
 D8,Válidamente emitidos,,(),106372,100.0,,,
-D9,Concertación y Juntos Podemos por más Democracia,PPD,"('Adriana', 'Muñoz', ""D'Albora"")",15332,25.29,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Adriana_Muñoz_D'Albora
 D9,Concertación y Juntos Podemos por más Democracia,PDC,"('Renán', 'Fuentealba', 'Vildósola')",10729,17.69,,,
+D9,Concertación y Juntos Podemos por más Democracia,PPD,"('Adriana', 'Muñoz', ""D'Albora"")",15332,25.29,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Adriana_Muñoz_D'Albora
 D9,Coalición por el Cambio,UDI,"('Darío', 'Molina', 'Sanhueza')",12219,20.15,,,
 D9,Coalición por el Cambio,IND,"('Juan', 'Enrique', 'Jara', 'Opazo')",2934,4.84,,,
 D9,Nueva Mayoría para Chile,PH,"('Catherine', 'Guerra', 'Gallardo')",831,1.37,,,
 D9,Chile Limpio. Vote Feliz,PRI,"('Eduardo', 'Edmundo', 'Salas', 'Cerda')",2856,4.71,,,
 D9,Chile Limpio. Vote Feliz,PRI,"('Luis', 'Lemus', 'Aracena')",15735,25.95,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luis_Segundo_Lemus_Aracena
 D9,Válidamente emitidos,,(),60636,100.0,,,
-D10,Concertación y Juntos Podemos por más Democracia,PDC,"('Eduardo', 'Antonio', 'Cerda', 'García')",30017,21.94,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eduardo_Antonio_Cerda_García
 D10,Concertación y Juntos Podemos por más Democracia,PS,"('Arturo', 'Barrios', 'Oteíza')",12856,9.4,,,
-D10,Coalición por el Cambio,RN,"('Alfonso', 'Vargas', 'Lyng')",34859,25.48,,,
+D10,Concertación y Juntos Podemos por más Democracia,PDC,"('Eduardo', 'Antonio', 'Cerda', 'García')",30017,21.94,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eduardo_Antonio_Cerda_García
 D10,Coalición por el Cambio,IND,"('Andrea', 'Molina', 'Oliva')",36000,26.31,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Andrea_Molina_Oliva
-D10,Nueva Mayoría para Chile,IND,"('Esteban', 'Maturana', 'Doña')",11266,8.24,,,
+D10,Coalición por el Cambio,RN,"('Alfonso', 'Vargas', 'Lyng')",34859,25.48,,,
 D10,Nueva Mayoría para Chile,IND,"('Fernando', 'Orellana', 'Astorga')",1941,1.42,,,
+D10,Nueva Mayoría para Chile,IND,"('Esteban', 'Maturana', 'Doña')",11266,8.24,,,
 D10,Chile Limpio. Vote Feliz,PRI,"('Juan', 'Manuel', 'Díaz', 'Villanueva')",6584,4.81,,,
 D10,Candidatura Independiente,IND,"('Tomás', 'Díaz', 'Hormazábal')",3282,2.4,,,
 D10,Válidamente emitidos,,(),136805,100.0,,,
-D11,Concertación y Juntos Podemos por más Democracia,PPD,"('Marco', 'Antonio', 'Núñez', 'Lozano')",49801,46.55,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Marco_Antonio_Núñez_Lozano
 D11,Concertación y Juntos Podemos por más Democracia,PC,"('Daniel', 'Garrido', 'Quintanilla')",3917,3.66,,,
+D11,Concertación y Juntos Podemos por más Democracia,PPD,"('Marco', 'Antonio', 'Núñez', 'Lozano')",49801,46.55,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Marco_Antonio_Núñez_Lozano
 D11,Coalición por el Cambio,UDI,"('Juan', 'Antonio', 'Coloma', 'Álamos')",21209,19.82,,,
 D11,Coalición por el Cambio,RN,"('Gaspar', 'Rivas', 'Sánchez')",21634,20.22,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gaspar_Alberto_Rivas_Sánchez
 D11,Nueva Mayoría para Chile,PH,"('Ricardo', 'Georges', 'Cid')",1081,1.01,,,
@@ -100,12 +100,12 @@ D11,Candidatura Independiente,IND,"('Claudio', 'Rodríguez', 'Cataldo')",5937,5.
 D11,Válidamente emitidos,,(),106992,100.0,,,
 D12,Concertación y Juntos Podemos por más Democracia,PS,"('Marcelo', 'Schilling', 'Rodríguez')",24124,19.83,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Marcelo_Schilling_Rodríguez
 D12,Concertación y Juntos Podemos por más Democracia,PRSD,"('Rodrigo', 'Eduardo', 'Oliver', 'Varas')",15025,12.35,,,
-D12,Coalición por el Cambio,RN,"('Amelia', 'Herrera', 'Silva')",30092,24.74,,,
 D12,Coalición por el Cambio,UDI,"('Arturo', 'Squella', 'Ovalle')",30108,24.75,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Arturo_Squella_Ovalle
+D12,Coalición por el Cambio,RN,"('Amelia', 'Herrera', 'Silva')",30092,24.74,,,
 D12,Nueva Mayoría para Chile,PH,"('Martín', 'Ristempart', 'Soto')",2598,2.14,,,
 D12,Nueva Mayoría para Chile,IND,"('Marcelo', 'Trivelli', 'Oyarzún')",17554,14.43,,,
-D12,Chile Limpio. Vote Feliz,PRI,"('Milovan', 'Andro', 'Pablo', 'Kegevic', 'Bustamante')",1052,0.86,,,
 D12,Chile Limpio. Vote Feliz,PRI,"('Flavio', 'Castillo', 'Castillo')",1097,0.9,,,
+D12,Chile Limpio. Vote Feliz,PRI,"('Milovan', 'Andro', 'Pablo', 'Kegevic', 'Bustamante')",1052,0.86,,,
 D12,Válidamente emitidos,,(),121650,100.0,,,
 D13,Concertación y Juntos Podemos por más Democracia,PPD,"('Laura', 'Soto', 'González')",18945,14.49,,,
 D13,Concertación y Juntos Podemos por más Democracia,PDC,"('Aldo', 'Cornejo', 'González')",40582,31.04,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Aldo_Cornejo_González
@@ -113,15 +113,15 @@ D13,Coalición por el Cambio,IND,"('Rossana', 'Ducaseau', 'Flores')",22239,17.01
 D13,Coalición por el Cambio,RN,"('Joaquín', 'Godoy', 'Ibáñez')",38183,29.2,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Joaquín_Godoy_Ibáñez
 D13,Nueva Mayoría para Chile,PH,"('Jaime', 'González', 'Tapia')",2743,2.1,,,
 D13,Nueva Mayoría para Chile,IND,"('Francisco', 'Marín', 'Castro')",5851,4.47,,,
-D13,Chile Limpio. Vote Feliz,PRI,"('Manuel', 'Apablaza', 'Lastarria')",1239,0.95,,,
 D13,Chile Limpio. Vote Feliz,PRI,"('Abelardo', 'Cubillos', 'Cofré')",969,0.74,,,
+D13,Chile Limpio. Vote Feliz,PRI,"('Manuel', 'Apablaza', 'Lastarria')",1239,0.95,,,
 D13,Válidamente emitidos,,(),130751,100.0,,,
 D14,Concertación y Juntos Podemos por más Democracia,PPD,"('Rodrigo', 'González', 'Torres')",41168,25.89,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rodrigo_René_González_Torres
 D14,Concertación y Juntos Podemos por más Democracia,PRSD,"('Emilio', 'Alejandro', 'Oñate', 'Vera')",22914,14.41,,,
 D14,Coalición por el Cambio,RN,"('Carlos', 'Gómez', 'González')",32142,20.21,,,
 D14,Coalición por el Cambio,UDI,"('Edmundo', 'Eluchans', 'Urenda')",45829,28.82,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Edmundo_Eluchans_Urenda
-D14,Nueva Mayoría para Chile,PH,"('Jaime', 'Romero', 'Pérez')",2838,1.78,,,
 D14,Nueva Mayoría para Chile,IND,"('Julia', 'Rojas', 'Vásquez')",2487,1.56,,,
+D14,Nueva Mayoría para Chile,PH,"('Jaime', 'Romero', 'Pérez')",2838,1.78,,,
 D14,Chile Limpio. Vote Feliz,IND,"('Aníbal', 'González', 'Estay')",4911,3.09,,,
 D14,Candidatura Independiente,IND,"('Andrés', 'Lavín', 'Alvear')",6715,4.22,,,
 D14,Válidamente emitidos,,(),159004,100.0,,,
@@ -129,8 +129,8 @@ D15,Concertación y Juntos Podemos por más Democracia,PRSD,"('Patricio', 'Tombo
 D15,Concertación y Juntos Podemos por más Democracia,PDC,"('Víctor', 'Marcelo', 'Torres', 'Jeldes')",18102,21.11,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Víctor_Marcelo_Torres_Jeldes
 D15,Coalición por el Cambio,UDI,"('María', 'José', 'Hoffmann', 'Opazo')",20585,24.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/María_José_Hoffmann_Opazo
 D15,Coalición por el Cambio,RN,"('Carmen', 'Ibáñez', 'Soto')",15462,18.03,,,
-D15,Nueva Mayoría para Chile,IND,"('Cosme', 'Segundo', 'Caracciolo', 'Álvarez')",4251,4.96,,,
 D15,Nueva Mayoría para Chile,IND,"('Rosa', 'María', 'Leal', 'Fuentes')",1009,1.18,,,
+D15,Nueva Mayoría para Chile,IND,"('Cosme', 'Segundo', 'Caracciolo', 'Álvarez')",4251,4.96,,,
 D15,Chile Limpio. Vote Feliz,PRI,"('Claudio', 'Poblete', 'Herrera')",1035,1.21,,,
 D15,Chile Limpio. Vote Feliz,PRI,"('Nelson', 'de la Barra', 'Castro')",378,0.44,,,
 D15,Candidatura Independiente,IND,"('Fernando', 'Rodríguez', 'Vicuña')",14622,17.05,,,
@@ -144,15 +144,15 @@ D16,Nueva Mayoría para Chile,PH,"('César', 'Alejandro', 'Montenegro', 'Ampuero
 D16,Válidamente emitidos,,(),164475,100.0,,,
 D17,Concertación y Juntos Podemos por más Democracia,PPD,"('María', 'Antonieta', 'Saa', 'Díaz')",45798,32.6,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/María_Antonieta_Saa_Díaz
 D17,Concertación y Juntos Podemos por más Democracia,PDC,"('Eugenio', 'Ortega', 'Frei')",19630,13.97,,,
-D17,Coalición por el Cambio,UDI,"('Pablo', 'Jofré', 'Rivano')",15317,10.9,,,
 D17,Coalición por el Cambio,RN,"('Karla', 'Rubilar', 'Barahona')",46572,33.15,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Karla_Rubilar_Barahona
+D17,Coalición por el Cambio,UDI,"('Pablo', 'Jofré', 'Rivano')",15317,10.9,,,
 D17,Nueva Mayoría para Chile,PH,"('Eugenio', 'Osorio', 'Contreras')",4811,3.42,,,
 D17,Chile Limpio. Vote Feliz,PRI,"('Miguel', 'Ángel', 'Miño', 'Lillo')",2678,1.91,,,
 D17,Chile Limpio. Vote Feliz,MAS,"('Caroll', 'Cuellar', 'Godoy')",5663,4.03,,,
 D17,Válidamente emitidos,,(),140469,100.0,,,
-D18,Concertación y Juntos Podemos por más Democracia,PPD,"('Cristina', 'Girardi', 'Lavín')",51669,34.35,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Cristina_Girardi_Lavín
 D18,Concertación y Juntos Podemos por más Democracia,IND,"('Claudio', 'Alejandro', 'Narea', 'Guajardo')",18731,12.45,,,
-D18,Coalición por el Cambio,RN,"('Nicolás', 'Monckeberg', 'Díaz')",40782,27.11,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Nicolás_Monckeberg_Díaz
+D18,Concertación y Juntos Podemos por más Democracia,PPD,"('Cristina', 'Girardi', 'Lavín')",51669,34.35,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Cristina_Girardi_Lavín
+D18,Coalición por el Cambio,RN,"('Nicolás', 'Mönckeberg', 'Díaz')",40782,27.11,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Nicolás_Monckeberg_Díaz
 D18,Coalición por el Cambio,UDI,"('Mario', 'Varela', 'Herrera')",6951,4.62,,,
 D18,Nueva Mayoría para Chile,PH,"('Verónica', 'Torres', 'González')",2492,1.66,,,
 D18,Nueva Mayoría para Chile,IND,"('René', 'Aucapán', 'Aucapán')",1350,0.9,,,
@@ -160,14 +160,14 @@ D18,Chile Limpio. Vote Feliz,PRI,"('Carlos', 'Enrique', 'Olivares', 'Zepeda')",1
 D18,Chile Limpio. Vote Feliz,MAS,"('Ana', 'García', 'Sciaraffia')",6577,4.37,,,
 D18,Candidatura Independiente,IND,"('Pablo', 'Pellegrini', 'Ripamonti')",4922,3.27,,,
 D18,Válidamente emitidos,,(),150425,100.0,,,
-D19,Concertación y Juntos Podemos por más Democracia,PPD,"('Patricio', 'Hales', 'Dib')",39126,38.12,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Patricio_Alejandro_Hales_Dib
 D19,Concertación y Juntos Podemos por más Democracia,PS,"('Gonzalo', 'Durán', 'Baronti')",13329,12.99,,,
-D19,Coalición por el Cambio,UDI,"('Claudia', 'Nogueira', 'Fernández')",38297,37.31,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Claudia_Nogueira_Fernández
+D19,Concertación y Juntos Podemos por más Democracia,PPD,"('Patricio', 'Hales', 'Dib')",39126,38.12,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Patricio_Alejandro_Hales_Dib
 D19,Coalición por el Cambio,IND,"('Vlado', 'Mirosevic', 'Verdugo')",5148,5.02,,,
+D19,Coalición por el Cambio,UDI,"('Claudia', 'Nogueira', 'Fernández')",38297,37.31,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Claudia_Nogueira_Fernández
 D19,Nueva Mayoría para Chile,PH,"('Leonora', 'Zúñiga', 'Fuentes')",1775,1.73,,,
 D19,Nueva Mayoría para Chile,IND,"('Cristopher', 'González', 'Castillo')",1305,1.27,,,
-D19,Chile Limpio. Vote Feliz,IND,"('Jorge', 'Pavez', 'Urrutia')",2485,2.42,,,
 D19,Chile Limpio. Vote Feliz,MAS,"('Damaris', 'Hernández', 'Muñoz')",1177,1.15,,,
+D19,Chile Limpio. Vote Feliz,IND,"('Jorge', 'Pavez', 'Urrutia')",2485,2.42,,,
 D19,Válidamente emitidos,,(),102642,100.0,,,
 D20,Concertación y Juntos Podemos por más Democracia,PPD,"('Pepe', 'Auth', 'Stewart')",49981,20.7,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pepe_Auth_Stewart
 D20,Concertación y Juntos Podemos por más Democracia,PDC,"('Ricardo', 'Fabrega', 'Lacoa')",24562,10.17,,,
@@ -180,26 +180,26 @@ D20,Chile Limpio. Vote Feliz,PRI,"('Luis', 'Rodolfo', 'Pérez', 'Vera')",1011,0.
 D20,Válidamente emitidos,,(),241446,100.0,,,
 D21,Concertación y Juntos Podemos por más Democracia,PDC,"('Jorge', 'Burgos', 'Varela')",52982,29.79,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Burgos_Varela
 D21,Concertación y Juntos Podemos por más Democracia,IND,"('Álvaro', 'Cabrera', 'Maray')",15453,8.69,,,
-D21,Coalición por el Cambio,UDI,"('Rodrigo', 'Álvarez', 'Zenteno')",47013,26.44,,,
 D21,Coalición por el Cambio,RN,"('Marcela', 'Sabat', 'Fernández')",48732,27.4,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Marcela_Constanza_Sabat_Fernández
+D21,Coalición por el Cambio,UDI,"('Rodrigo', 'Álvarez', 'Zenteno')",47013,26.44,,,
 D21,Nueva Mayoría para Chile,PH,"('Natalia', 'Sobarzo', 'Galleani')",6658,3.74,,,
 D21,Nueva Mayoría para Chile,IND,"('Claudio', 'Venegas', 'Rojas')",3454,1.94,,,
 D21,Chile Limpio. Vote Feliz,PRI,"('Gloria', 'Angélica', 'Montero', 'Silva')",3547,1.99,,,
 D21,Válidamente emitidos,,(),177839,100.0,,,
 D22,Concertación y Juntos Podemos por más Democracia,PPD,"('Felipe', 'Harboe', 'Bascuñán')",42060,38.66,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Felipe_Harboe_Bascuñán
 D22,Concertación y Juntos Podemos por más Democracia,PS,"('Guido', 'Camu', 'Urzúa')",9018,8.29,,,
-D22,Coalición por el Cambio,RN,"('Alberto', 'Cardemil', 'Herrera')",38949,35.8,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alberto_Eugenio_Cardemil_Herrera
 D22,Coalición por el Cambio,UDI,"('Christian', 'Espejo', 'Muñoz')",9696,8.91,,,
-D22,Nueva Mayoría para Chile,PH,"('Danilo', 'Monteverde', 'Reyes')",3705,3.41,,,
+D22,Coalición por el Cambio,RN,"('Alberto', 'Cardemil', 'Herrera')",38949,35.8,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alberto_Eugenio_Cardemil_Herrera
 D22,Nueva Mayoría para Chile,IND,"('Pablo', 'Peñaloza', 'Torres')",2930,2.69,,,
+D22,Nueva Mayoría para Chile,PH,"('Danilo', 'Monteverde', 'Reyes')",3705,3.41,,,
 D22,Chile Limpio. Vote Feliz,PRI,"('Guillermo', 'Holtheuer', 'Lafosse')",2428,2.23,,,
 D22,Válidamente emitidos,,(),108786,100.0,,,
-D23,Concertación y Juntos Podemos por más Democracia,PRSD,"('Macarena', 'Carvallo', 'Silva')",22612,10.49,,,
 D23,Concertación y Juntos Podemos por más Democracia,IND,"('Alberto', 'Cienfuegos', 'Becerra')",27202,12.61,,,
+D23,Concertación y Juntos Podemos por más Democracia,PRSD,"('Macarena', 'Carvallo', 'Silva')",22612,10.49,,,
 D23,Coalición por el Cambio,UDI,"('Ernesto', 'Silva', 'Méndez')",60272,27.95,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ernesto_Silva_Méndez
-D23,Coalición por el Cambio,RN,"('Cristián', 'Monckeberg', 'Bruner')",77484,35.93,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Cristián_Monckeberg_Bruner
-D23,Nueva Mayoría para Chile,PH,"('Alfonso', 'Revuelta', 'Salfate')",2066,0.96,,,
+D23,Coalición por el Cambio,RN,"('Cristián', 'Mönckeberg', 'Bruner')",77484,35.93,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Cristián_Monckeberg_Bruner
 D23,Nueva Mayoría para Chile,PH,"('Joaquín', 'Arduengo', 'Naredo')",2140,0.99,,,
+D23,Nueva Mayoría para Chile,PH,"('Alfonso', 'Revuelta', 'Salfate')",2066,0.96,,,
 D23,Chile Limpio. Vote Feliz,PRI,"('José', 'Francisco', 'Salamanca', 'Santa María')",1677,0.78,,,
 D23,Chile Limpio. Vote Feliz,PRI,"('Cristián', 'Luco', 'Rosende')",1035,0.48,,,
 D23,Candidatura Independiente,IND,"('Rodrigo', 'García', 'Pinochet')",21155,9.81,,,
@@ -214,8 +214,8 @@ D24,Chile Limpio. Vote Feliz,IND,"('Guillermo', 'Abraham', 'González', 'Castro'
 D24,Válidamente emitidos,,(),135303,100.0,,,
 D25,Concertación y Juntos Podemos por más Democracia,PPD,"('Ximena', 'Vidal', 'Lázaro')",43794,30.81,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ximena_Vidal_Lázaro
 D25,Concertación y Juntos Podemos por más Democracia,PDC,"('Gonzalo', 'Duarte', 'Leiva')",29876,21.02,,,
-D25,Coalición por el Cambio,UDI,"('Felipe', 'Salaberry', 'Soto')",28444,20.01,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Felipe_Salaberry_Soto
 D25,Coalición por el Cambio,RN,"('Gonzalo', 'Díaz', 'del Río', 'Riesco')",26337,18.53,,,
+D25,Coalición por el Cambio,UDI,"('Felipe', 'Salaberry', 'Soto')",28444,20.01,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Felipe_Salaberry_Soto
 D25,Nueva Mayoría para Chile,PH,"('Erika', 'Klenner', 'Canales')",5161,3.63,,,
 D25,Nueva Mayoría para Chile,PH,"('Salvador', 'Víctor', 'Ojeda', 'Vásquez')",2228,1.57,,,
 D25,Chile Limpio. Vote Feliz,PRI,"('José', 'Pedro', 'Weinstein', 'Mendel')",3115,2.19,,,
@@ -225,24 +225,24 @@ D26,Concertación y Juntos Podemos por más Democracia,PS,"('Carlos', 'Montes', 
 D26,Concertación y Juntos Podemos por más Democracia,PDC,"('Myriam', 'Verdugo', 'Godoy')",6455,4.57,,,
 D26,Coalición por el Cambio,IND,"('Gustavo', 'Alessandri', 'Balmaceda')",20875,14.79,,,
 D26,Coalición por el Cambio,UDI,"('Gustavo', 'Hasbún', 'Selume')",36438,25.82,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gustavo_Hasbún_Selume
-D26,Nueva Mayoría para Chile,PH,"('Juan', 'Carlos', 'Gálvez', 'Galleguillos')",1823,1.29,,,
 D26,Nueva Mayoría para Chile,PH,"('Fernando', 'Muñoz', 'Figueroa')",1106,0.78,,,
+D26,Nueva Mayoría para Chile,PH,"('Juan', 'Carlos', 'Gálvez', 'Galleguillos')",1823,1.29,,,
 D26,Chile Limpio. Vote Feliz,PRI,"('Gustavo', 'Ignacio', 'Serrano', 'Reyes')",1310,0.93,,,
 D26,Chile Limpio. Vote Feliz,IND,"('Marcial', 'Valenzuela', 'Álvarez')",1923,1.36,,,
 D26,Válidamente emitidos,,(),141103,100.0,,,
 D27,Concertación y Juntos Podemos por más Democracia,PPD,"('Tucapel', 'Jiménez', 'Fuentes')",47765,31.89,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Tucapel_Francisco_Jiménez_Fuentes
 D27,Concertación y Juntos Podemos por más Democracia,PS,"('Daniel', 'Melo', 'Contreras')",25731,17.18,,,
-D27,Coalición por el Cambio,UDI,"('Iván', 'Moreira', 'Barros')",53683,35.84,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Iván_Moreira_Barros
 D27,Coalición por el Cambio,IND,"('Roberto', 'Nicolini', 'Barison')",13205,8.82,,,
-D27,Nueva Mayoría para Chile,PH,"('Miguel', 'Angelo', 'Bravo', 'Vilches')",3063,2.05,,,
+D27,Coalición por el Cambio,UDI,"('Iván', 'Moreira', 'Barros')",53683,35.84,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Iván_Moreira_Barros
 D27,Nueva Mayoría para Chile,PH,"('Matías', 'Escanilla', 'Becerra')",1153,0.77,,,
+D27,Nueva Mayoría para Chile,PH,"('Miguel', 'Angelo', 'Bravo', 'Vilches')",3063,2.05,,,
 D27,Chile Limpio. Vote Feliz,PRI,"('Óscar', 'Cavieres', 'Moreau')",2578,1.72,,,
 D27,Chile Limpio. Vote Feliz,MAS,"('Richard', 'Acharán', 'Barría')",2598,1.73,,,
 D27,Válidamente emitidos,,(),149776,100.0,,,
 D28,Concertación y Juntos Podemos por más Democracia,PC,"('Guillermo', 'Teillier', 'del Valle')",49040,33.52,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Guillermo_León_Teillier_del_Valle
 D28,Concertación y Juntos Podemos por más Democracia,PPD,"('Jorge', 'Insunza', 'Gregorio de las Heras')",36004,24.61,,,
-D28,Coalición por el Cambio,RN,"('Pedro', 'Browne', 'Urrejola')",31882,21.79,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Pablo_Browne_Urrejola
 D28,Coalición por el Cambio,UDI,"('José', 'Luis', 'Uriarte', 'Campos')",22588,15.44,,,
+D28,Coalición por el Cambio,RN,"('Pedro', 'Browne', 'Urrejola')",31882,21.79,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pedro_Pablo_Browne_Urrejola
 D28,Chile Limpio. Vote Feliz,PRI,"('Ulises', 'Hernán', 'Urzúa', 'López')",3765,2.57,,,
 D28,Chile Limpio. Vote Feliz,PRI,"('Raúl', 'Arroyo', 'Huenchual')",3015,2.06,,,
 D28,Válidamente emitidos,,(),146294,100.0,,,
@@ -251,44 +251,44 @@ D29,Concertación y Juntos Podemos por más Democracia,PDC,"('Walter', 'Oliva', 
 D29,Coalición por el Cambio,UDI,"('Francisco', 'Moreno', 'Guzmán')",42334,22.93,,,
 D29,Coalición por el Cambio,RN,"('Leopoldo', 'Pérez', 'Lahsen')",45464,24.63,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Leopoldo_Alfredo_Pérez_Lahsen
 D29,Nueva Mayoría para Chile,PH,"('Evaristo', 'Vargas', 'Estrada')",6161,3.34,,,
-D29,Chile Limpio. Vote Feliz,PRI,"('Claudio', 'José', 'Hidalgo', 'Moraga')",4749,2.57,,,
 D29,Chile Limpio. Vote Feliz,PRI,"('Amador', 'Palavecinos', 'Fuenzalida')",4666,2.53,,,
+D29,Chile Limpio. Vote Feliz,PRI,"('Claudio', 'José', 'Hidalgo', 'Moraga')",4749,2.57,,,
 D29,Válidamente emitidos,,(),184587,100.0,,,
 D30,Concertación y Juntos Podemos por más Democracia,PPD,"('Ramón', 'Farías', 'Ponce')",29335,19.27,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ramón_Farías_Ponce
 D30,Concertación y Juntos Podemos por más Democracia,PDC,"('Patricio', 'Achurra', 'Garfias')",22548,14.81,,,
 D30,Coalición por el Cambio,RN,"('Rosa', 'Oyarce', 'Suazo')",12329,8.1,,,
 D30,Coalición por el Cambio,UDI,"('José', 'Antonio', 'Kast', 'Rist')",53423,35.1,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Antonio_Kast_Rist
 D30,Nueva Mayoría para Chile,PH,"('Carlos', 'Caro', 'Briso')",5052,3.32,,,
-D30,Chile Limpio. Vote Feliz,PRI,"('Germán', 'Silva', 'Pavez')",2143,1.41,,,
 D30,Chile Limpio. Vote Feliz,MAS,"('Alejandro', 'Carpintero', 'Durán')",1960,1.29,,,
-D30,Candidatura Independiente,IND,"('Ángel', 'Bozán', 'Ramos')",21079,13.85,,,
+D30,Chile Limpio. Vote Feliz,PRI,"('Germán', 'Silva', 'Pavez')",2143,1.41,,,
 D30,Candidatura Independiente,IND,"('Roxana', 'Miranda', 'Meneses')",4332,2.85,,,
+D30,Candidatura Independiente,IND,"('Ángel', 'Bozán', 'Ramos')",21079,13.85,,,
 D30,Válidamente emitidos,,(),152201,100.0,,,
 D31,Concertación y Juntos Podemos por más Democracia,PS,"('Denise', 'Pascal', 'Allende')",52763,32.23,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Denise_Pascal_Allende
 D31,Concertación y Juntos Podemos por más Democracia,PDC,"('Yerko', 'Ljubetic', 'Godoy')",16842,10.29,,,
-D31,Coalición por el Cambio,UDI,"('Gonzalo', 'Uriarte', 'Herrera')",60833,37.16,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gonzalo_Uriarte_Herrera
 D31,Coalición por el Cambio,RN,"('Jéssica', 'Mualim', 'Fajuri')",23441,14.32,,,
+D31,Coalición por el Cambio,UDI,"('Gonzalo', 'Uriarte', 'Herrera')",60833,37.16,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gonzalo_Uriarte_Herrera
 D31,Nueva Mayoría para Chile,PH,"('Fidel', 'Valenzuela', 'Madrid')",4306,2.63,,,
-D31,Chile Limpio. Vote Feliz,PRI,"('Teresa', 'Ruiz', 'Flores')",4066,2.48,,,
 D31,Chile Limpio. Vote Feliz,PRI,"('Crescencio', 'López', 'Pérez')",1457,0.89,,,
+D31,Chile Limpio. Vote Feliz,PRI,"('Teresa', 'Ruiz', 'Flores')",4066,2.48,,,
 D31,Válidamente emitidos,,(),163708,100.0,,,
 D32,Concertación y Juntos Podemos por más Democracia,PS,"('Juan', 'Luis', 'Castro', 'González')",27772,30.76,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Luis_Castro_González
 D32,Concertación y Juntos Podemos por más Democracia,PPD,"('Aníbal', 'Pérez', 'Lobos')",13475,14.92,,,
 D32,Coalición por el Cambio,RN,"('Juan', 'José', 'Bruna', 'Carafi')",6998,7.75,,,
 D32,Coalición por el Cambio,UDI,"('Alejandro', 'García-Huidobro', 'Sanfuentes')",31346,34.71,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alejandro_García-Huidobro_Sanfuentes
-D32,Nueva Mayoría para Chile,IND,"('Esteban', 'Valenzuela', 'Van-Treek')",8488,9.4,,,
 D32,Nueva Mayoría para Chile,IND,"('Roberto', 'Villagra', 'Reyes')",2219,2.46,,,
+D32,Nueva Mayoría para Chile,IND,"('Esteban', 'Valenzuela', 'Van-Treek')",8488,9.4,,,
 D32,Válidamente emitidos,,(),90298,100.0,,,
-D33,Concertación y Juntos Podemos por más Democracia,PRSD,"('Alejandro', 'Miguel', 'Anselmo', 'Sule', 'Fernández')",22289,19.0,,,
 D33,Concertación y Juntos Podemos por más Democracia,PDC,"('Ricardo', 'Rincón', 'González')",38057,32.45,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ricardo_Enrique_Rincón_González
+D33,Concertación y Juntos Podemos por más Democracia,PRSD,"('Alejandro', 'Miguel', 'Anselmo', 'Sule', 'Fernández')",22289,19.0,,,
 D33,Coalición por el Cambio,UDI,"('Eugenio', 'Bauer', 'Jouanne')",26504,22.6,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Eugenio_Bauer_Jouanne
 D33,Coalición por el Cambio,RN,"('Patricio', 'Fernández', 'Goycoolea')",16721,14.26,,,
-D33,Nueva Mayoría para Chile,PH,"('Manuela', 'Vocar', 'Rubio')",2275,1.94,,,
 D33,Nueva Mayoría para Chile,IND,"('Claudio', 'Segovia', 'Cofré')",6629,5.65,,,
+D33,Nueva Mayoría para Chile,PH,"('Manuela', 'Vocar', 'Rubio')",2275,1.94,,,
 D33,Chile Limpio. Vote Feliz,PRI,"('Deysi', 'del Carmen', 'Navarro', 'Padilla')",4814,4.1,,,
 D33,Válidamente emitidos,,(),117289,100.0,,,
-D34,Concertación y Juntos Podemos por más Democracia,PDC,"('Moisés', 'Valenzuela', 'Martínez')",13194,14.05,,,
 D34,Concertación y Juntos Podemos por más Democracia,PRSD,"('Uldaricio', 'Roberto', 'Acosta', 'Maluenda')",5352,5.7,,,
+D34,Concertación y Juntos Podemos por más Democracia,PDC,"('Moisés', 'Valenzuela', 'Martínez')",13194,14.05,,,
 D34,Coalición por el Cambio,RN,"('Rodrigo', 'Montt', 'Swett')",11076,11.8,,,
 D34,Coalición por el Cambio,UDI,"('Javier', 'Macaya', 'Danús')",17130,18.24,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Javier_Ignacio_Macaya_Danus
 D34,Nueva Mayoría para Chile,IND,"('Héctor', 'Espinosa', 'Díaz')",1038,1.11,,,
@@ -341,107 +341,107 @@ D41,Concertación y Juntos Podemos por más Democracia,PRSD,"('Carlos', 'Abel', 
 D41,Concertación y Juntos Podemos por más Democracia,PDC,"('Carlos', 'Arzola', 'Burgos')",22611,17.95,,,
 D41,Coalición por el Cambio,UDI,"('Paz', 'Oyarzún', 'Montalva')",31855,25.28,,,
 D41,Coalición por el Cambio,RN,"('Rosauro', 'Martínez', 'Labbé')",42385,33.64,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Rosauro_Martínez_Labbé
-D41,Nueva Mayoría para Chile,IND,"('Abelardo', 'Jiménez', 'Moraga')",1336,1.06,,,
 D41,Nueva Mayoría para Chile,IND,"('Francisco', 'Gutiérrez', 'Durán')",1784,1.42,,,
+D41,Nueva Mayoría para Chile,IND,"('Abelardo', 'Jiménez', 'Moraga')",1336,1.06,,,
 D41,Chile Limpio. Vote Feliz,PRI,"('Patricia', 'Baeza', 'Figueroa')",1927,1.53,,,
 D41,Válidamente emitidos,,(),125991,100.0,,,
-D42,Concertación y Juntos Podemos por más Democracia,PDC,"('Jorge', 'Eduardo', 'Sabag', 'Villalobos')",32174,28.61,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Eduardo_Sabag_Villalobos
 D42,Concertación y Juntos Podemos por más Democracia,PPD,"('Felipe', 'Letelier', 'Norambuena')",26644,23.69,,,
-D42,Coalición por el Cambio,RN,"('Frank', 'Sauerbaum', 'Muñoz')",22861,20.33,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Frank_Carlos_Sauerbaum_Muñoz
+D42,Concertación y Juntos Podemos por más Democracia,PDC,"('Jorge', 'Eduardo', 'Sabag', 'Villalobos')",32174,28.61,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Eduardo_Sabag_Villalobos
 D42,Coalición por el Cambio,UDI,"('Marcelo', 'Rojas', 'Framm')",17030,15.14,,,
+D42,Coalición por el Cambio,RN,"('Frank', 'Sauerbaum', 'Muñoz')",22861,20.33,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Frank_Carlos_Sauerbaum_Muñoz
 D42,Nueva Mayoría para Chile,PH,"('Loreto', 'Muñoz', 'Gutiérrez')",1601,1.42,,,
 D42,Chile Limpio. Vote Feliz,PRI,"('Jorge', 'Brito', 'Gajardo')",6034,5.37,,,
 D42,Chile Limpio. Vote Feliz,PRI,"('Juan', 'Riquelme', 'Venegas')",6115,5.44,,,
 D42,Válidamente emitidos,,(),112459,100.0,,,
-D43,Concertación y Juntos Podemos por más Democracia,PS,"('Raúl', 'Súnico', 'Galdames')",26369,24.58,,,
 D43,Concertación y Juntos Podemos por más Democracia,PPD,"('Cristián', 'Campos', 'Jara')",33622,31.35,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Cristian_Campos_Jara
-D43,Coalición por el Cambio,UDI,"('Jorge', 'Ulloa', 'Aguillón')",30309,28.26,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Iván_Ulloa_Aguillón
+D43,Concertación y Juntos Podemos por más Democracia,PS,"('Raúl', 'Súnico', 'Galdames')",26369,24.58,,,
 D43,Coalición por el Cambio,RN,"('José', 'Luis', 'Gallego', 'Carrasco')",8996,8.39,,,
+D43,Coalición por el Cambio,UDI,"('Jorge', 'Ulloa', 'Aguillón')",30309,28.26,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Iván_Ulloa_Aguillón
 D43,Nueva Mayoría para Chile,PH,"('Jorge', 'Monje', 'Chávez')",2341,2.18,,,
 D43,Chile Limpio. Vote Feliz,PRI,"('Miguel', 'Espinoza', 'González')",2070,1.93,,,
 D43,Candidatura Independiente,IND,"('Mauricio', 'Concha', 'Alarcón')",3550,3.31,,,
 D43,Válidamente emitidos,,(),107257,100.0,,,
-D44,Concertación y Juntos Podemos por más Democracia,PDC,"('José', 'Miguel', 'Ortiz', 'Novoa')",45379,27.04,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Miguel_Ortiz_Novoa
 D44,Concertación y Juntos Podemos por más Democracia,PPD,"('María', 'Angélica', 'Fuentes', 'Fuentealba')",36824,21.94,,,
-D44,Coalición por el Cambio,RN,"('Claudio', 'Eguiluz', 'Rodríguez')",28932,17.24,,,
+D44,Concertación y Juntos Podemos por más Democracia,PDC,"('José', 'Miguel', 'Ortiz', 'Novoa')",45379,27.04,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Miguel_Ortiz_Novoa
 D44,Coalición por el Cambio,UDI,"('Enrique', 'van Rysselberghe', 'Herrera')",44735,26.65,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Enrique_Van_Rysselberghe_Herrera
+D44,Coalición por el Cambio,RN,"('Claudio', 'Eguiluz', 'Rodríguez')",28932,17.24,,,
 D44,Nueva Mayoría para Chile,IND,"('Félix', 'González', 'Gatica')",9471,5.64,,,
 D44,Chile Limpio. Vote Feliz,PRI,"('Arturo', 'Espinoza', 'Brower')",2502,1.49,,,
 D44,Válidamente emitidos,,(),167843,100.0,,,
 D45,Concertación y Juntos Podemos por más Democracia,PS,"('Clemira', 'Pacheco', 'Rivas')",38379,33.8,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Clemira_Pacheco_Rivas
 D45,Concertación y Juntos Podemos por más Democracia,PDC,"('Edmundo', 'Salas', 'de la Fuente')",19140,16.86,,,
-D45,Coalición por el Cambio,UDI,"('Sergio', 'Bobadilla', 'Muñoz')",29272,25.78,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Sergio_Enrique_Bobadilla_Muñoz
 D45,Coalición por el Cambio,RN,"('Eduardo', 'Alfredo', 'Durán', 'Salinas')",10006,8.81,,,
-D45,Chile Limpio. Vote Feliz,IND,"('Pamela', 'Jiles', 'Moreno')",11185,9.85,,,
+D45,Coalición por el Cambio,UDI,"('Sergio', 'Bobadilla', 'Muñoz')",29272,25.78,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Sergio_Enrique_Bobadilla_Muñoz
 D45,Chile Limpio. Vote Feliz,IND,"('Patricio', 'Sáez', 'Ramírez')",5573,4.91,,,
+D45,Chile Limpio. Vote Feliz,IND,"('Pamela', 'Jiles', 'Moreno')",11185,9.85,,,
 D45,Válidamente emitidos,,(),113555,100.0,,,
-D46,Concertación y Juntos Podemos por más Democracia,PC,"('Cristián', 'Cuevas', 'Zambrano')",22326,22.92,,,
 D46,Concertación y Juntos Podemos por más Democracia,PS,"('Manuel', 'Monsalve', 'Benavides')",30360,31.16,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Zacarías_Monsalve_Benavides
-D46,Coalición por el Cambio,IND,"('José', 'Manuel', 'Rebolledo', 'Cáceres')",8132,8.35,,,
+D46,Concertación y Juntos Podemos por más Democracia,PC,"('Cristián', 'Cuevas', 'Zambrano')",22326,22.92,,,
 D46,Coalición por el Cambio,UDI,"('Iván', 'Norambuena', 'Farías')",34852,35.77,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Iván_Ernesto_Norambuena_Farías
+D46,Coalición por el Cambio,IND,"('José', 'Manuel', 'Rebolledo', 'Cáceres')",8132,8.35,,,
 D46,Chile Limpio. Vote Feliz,PRI,"('Jaime', 'Bahamondes', 'Cabrera')",1750,1.8,,,
 D46,Válidamente emitidos,,(),97420,100.0,,,
-D47,Concertación y Juntos Podemos por más Democracia,PRSD,"('José', 'Pérez', 'Arriagada')",46606,33.8,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Pérez_Arriagada
 D47,Concertación y Juntos Podemos por más Democracia,PS,"('Juan', 'de Dios', 'Parra', 'Sepúlveda')",23725,17.21,,,
+D47,Concertación y Juntos Podemos por más Democracia,PRSD,"('José', 'Pérez', 'Arriagada')",46606,33.8,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Pérez_Arriagada
 D47,Coalición por el Cambio,UDI,"('Juan', 'Lobos', 'Krause')",51937,37.67,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Lobos_Krause
 D47,Coalición por el Cambio,RN,"('Daniel', 'Badilla', 'Alegría')",10039,7.28,,,
-D47,Nueva Mayoría para Chile,PH,"('Carlos', 'Carrasco', 'Pantoja')",1430,1.04,,,
 D47,Nueva Mayoría para Chile,IND,"('Juan', 'José', 'Torres', 'Paredes')",1698,1.23,,,
+D47,Nueva Mayoría para Chile,PH,"('Carlos', 'Carrasco', 'Pantoja')",1430,1.04,,,
 D47,Chile Limpio. Vote Feliz,PRI,"('Nivia', 'del Carmen', 'Riquelme', 'Gutiérrez')",2433,1.76,,,
 D47,Válidamente emitidos,,(),137868,100.0,,,
-D48,Concertación y Juntos Podemos por más Democracia,PDC,"('Mario', 'Artidoro', 'Venegas', 'Cárdenas')",20102,29.8,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Mario_Venegas_Cárdenas
 D48,Concertación y Juntos Podemos por más Democracia,PS,"('Rubén', 'Quilapi', 'Cabrapan')",11260,16.69,,,
+D48,Concertación y Juntos Podemos por más Democracia,PDC,"('Mario', 'Artidoro', 'Venegas', 'Cárdenas')",20102,29.8,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Mario_Venegas_Cárdenas
 D48,Coalición por el Cambio,RN,"('Jorge', 'Rathgeb', 'Schifferli')",14918,22.12,,,
 D48,Coalición por el Cambio,UDI,"('Gonzalo', 'Arenas', 'Hodar')",17223,25.54,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gonzalo_Arenas_Hödar
 D48,Nueva Mayoría para Chile,IND,"('Diego', 'Ancalao', 'Gavilán')",2870,4.26,,,
 D48,Chile Limpio. Vote Feliz,PRI,"('Luis', 'Soto', 'Ramírez')",1073,1.59,,,
 D48,Válidamente emitidos,,(),67446,100.0,,,
-D49,Concertación y Juntos Podemos por más Democracia,PPD,"('Óscar', 'Carrasco', 'Carrasco')",12744,19.08,,,
 D49,Concertación y Juntos Podemos por más Democracia,PDC,"('Fuad', 'Chahin', 'Valenzuela')",20212,30.26,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fuad_Eduardo_Chahin_Valenzuela
-D49,Coalición por el Cambio,UDI,"('Enrique', 'Estay', 'Peñaloza')",16009,23.97,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Enrique_Estay_Peñaloza
+D49,Concertación y Juntos Podemos por más Democracia,PPD,"('Óscar', 'Carrasco', 'Carrasco')",12744,19.08,,,
 D49,Coalición por el Cambio,RN,"('Cristián', 'Barra', 'Zambra')",15629,23.4,,,
-D49,Nueva Mayoría para Chile,PH,"('Ricardo', 'Millapán', 'Pichún')",1445,2.16,,,
+D49,Coalición por el Cambio,UDI,"('Enrique', 'Estay', 'Peñaloza')",16009,23.97,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Enrique_Estay_Peñaloza
 D49,Nueva Mayoría para Chile,IND,"('Marco', 'Antonio', 'Ortega', 'Cumiquir')",758,1.13,,,
+D49,Nueva Mayoría para Chile,PH,"('Ricardo', 'Millapán', 'Pichún')",1445,2.16,,,
 D49,Válidamente emitidos,,(),66797,100.0,,,
-D50,Concertación y Juntos Podemos por más Democracia,PDC,"('René', 'Saffirio', 'Espinoza')",37017,30.83,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/René_Fernando_Saffirio_Espinoza
 D50,Concertación y Juntos Podemos por más Democracia,PPD,"('Ricardo', 'Celis', 'Araya')",22330,18.6,,,
-D50,Coalición por el Cambio,RN,"('Germán', 'Becker', 'Alvear')",33785,28.14,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Germán_Becker_Alvear
+D50,Concertación y Juntos Podemos por más Democracia,PDC,"('René', 'Saffirio', 'Espinoza')",37017,30.83,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/René_Fernando_Saffirio_Espinoza
 D50,Coalición por el Cambio,UDI,"('Mauricio', 'Gejman', 'Trenit')",14484,12.06,,,
+D50,Coalición por el Cambio,RN,"('Germán', 'Becker', 'Alvear')",33785,28.14,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Germán_Becker_Alvear
 D50,Nueva Mayoría para Chile,IND,"('Jaime', 'Madariaga', 'de la Barra')",3710,3.09,,,
 D50,Nueva Mayoría para Chile,IND,"('Paola', 'Castro', 'Zambrano')",847,0.71,,,
 D50,Chile Limpio. Vote Feliz,PRI,"('Tatiana', 'Rudolph', 'Espinoza')",1196,1.0,,,
 D50,Chile Limpio. Vote Feliz,PRI,"('Mariela', 'Silva', 'Leal')",2079,1.73,,,
 D50,Candidatura Independiente,IND,"('Luis', 'Seguel', 'Mora')",4604,3.84,,,
 D50,Válidamente emitidos,,(),120052,100.0,,,
-D51,Concertación y Juntos Podemos por más Democracia,PPD,"('Joaquín', 'Tuma', 'Zedán')",16327,24.36,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Joaquín_Tuma_Zedan
 D51,Concertación y Juntos Podemos por más Democracia,IND,"('José', 'René', 'Inostroza', 'Valenzuela')",12077,18.02,,,
+D51,Concertación y Juntos Podemos por más Democracia,PPD,"('Joaquín', 'Tuma', 'Zedán')",16327,24.36,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Joaquín_Tuma_Zedan
 D51,Coalición por el Cambio,UDI,"('Cristóbal', 'Leturia', 'Infante')",10771,16.07,,,
 D51,Coalición por el Cambio,RN,"('José', 'Manuel', 'Edwards', 'Silva')",11275,16.82,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Manuel_Edwards_Silva
 D51,Nueva Mayoría para Chile,IND,"('Domingo', 'Ñancupil', 'Baeza')",4214,6.29,,,
 D51,Nueva Mayoría para Chile,IND,"('Adolfo', 'Millabur', 'Ñancuil')",3891,5.81,,,
-D51,Chile Limpio. Vote Feliz,PRI,"('Eduardo', 'Díaz', 'Herrera')",6354,9.48,,,
 D51,Chile Limpio. Vote Feliz,PRI,"('Andrés', 'Matta', 'Cuminao')",2114,3.15,,,
+D51,Chile Limpio. Vote Feliz,PRI,"('Eduardo', 'Díaz', 'Herrera')",6354,9.48,,,
 D51,Válidamente emitidos,,(),67023,100.0,,,
-D52,Concertación y Juntos Podemos por más Democracia,PRSD,"('Fernando', 'Meza', 'Moncada')",22116,32.72,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fernando_Meza_Moncada
 D52,Concertación y Juntos Podemos por más Democracia,PDC,"('Andrés', 'Jouannet', 'Valderrama')",8988,13.3,,,
+D52,Concertación y Juntos Podemos por más Democracia,PRSD,"('Fernando', 'Meza', 'Moncada')",22116,32.72,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fernando_Meza_Moncada
 D52,Coalición por el Cambio,RN,"('René', 'Manuel', 'García', 'García')",20726,30.66,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/René_Manuel_García_García
 D52,Coalición por el Cambio,UDI,"('Erwin', 'Gudenschwager', 'Jiménez')",10686,15.81,,,
-D52,Nueva Mayoría para Chile,PH,"('Eladio', 'Candia', 'Gajardo')",671,0.99,,,
 D52,Nueva Mayoría para Chile,IND,"('Sergio', 'Mora', 'Hernández')",1427,2.11,,,
+D52,Nueva Mayoría para Chile,PH,"('Eladio', 'Candia', 'Gajardo')",671,0.99,,,
 D52,Chile Limpio. Vote Feliz,PRI,"('Patricia', 'Mena', 'Vera')",2195,3.25,,,
 D52,Chile Limpio. Vote Feliz,PRI,"('Leonel', 'Ávila', 'Muñoz')",782,1.16,,,
 D52,Válidamente emitidos,,(),67591,100.0,,,
-D53,Concertación y Juntos Podemos por más Democracia,PS,"('Alfonso', 'de Urresti', 'Longton')",32433,38.71,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alfonso_Arturo_De_Urresti_Longton
 D53,Concertación y Juntos Podemos por más Democracia,PDC,"('Exequiel', 'Silva', 'Ortiz')",16620,19.84,,,
+D53,Concertación y Juntos Podemos por más Democracia,PS,"('Alfonso', 'de Urresti', 'Longton')",32433,38.71,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alfonso_Arturo_De_Urresti_Longton
 D53,Coalición por el Cambio,UDI,"('Jorge', 'Salazar', 'Ruiz')",7309,8.72,,,
 D53,Coalición por el Cambio,RN,"('Roberto', 'Delmastro', 'Naso')",25360,30.27,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Roberto_Delmastro_Naso
 D53,Chile Limpio. Vote Feliz,PRI,"('Ramón', 'de la Barra', 'Altamirano')",1501,1.79,,,
 D53,Chile Limpio. Vote Feliz,PRI,"('Carlos', 'Juan', 'Boero', 'Rodríguez')",553,0.66,,,
 D53,Válidamente emitidos,,(),83776,100.0,,,
-D54,Concertación y Juntos Podemos por más Democracia,PPD,"('Enrique', 'Jaramillo', 'Becker')",29004,37.43,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Enrique_Jaramillo_Becker
 D54,Concertación y Juntos Podemos por más Democracia,PDC,"('Iván', 'Navarro', 'Abarzúa')",10202,13.16,,,
-D54,Coalición por el Cambio,RN,"('Gonzalo', 'Fuenzalida', 'Figueroa')",16749,21.61,,,
+D54,Concertación y Juntos Podemos por más Democracia,PPD,"('Enrique', 'Jaramillo', 'Becker')",29004,37.43,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Enrique_Jaramillo_Becker
 D54,Coalición por el Cambio,UDI,"('Gastón', 'von Mühlenbrock', 'Zamora')",19978,25.78,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gastón_Von_Mühlenbrock_Zamora
+D54,Coalición por el Cambio,RN,"('Gonzalo', 'Fuenzalida', 'Figueroa')",16749,21.61,,,
 D54,Chile Limpio. Vote Feliz,IND,"('Hilda', 'Cerda', 'Espíndola')",965,1.25,,,
 D54,Chile Limpio. Vote Feliz,PRI,"('Jorge', 'Eugenio', 'Blaessinger', 'Lobos')",598,0.77,,,
 D54,Válidamente emitidos,,(),77496,100.0,,,
@@ -449,8 +449,8 @@ D55,Concertación y Juntos Podemos por más Democracia,PDC,"('Sergio', 'Ojeda', 
 D55,Concertación y Juntos Podemos por más Democracia,PRSD,"('Claudio', 'Antonio', 'Sule', 'Fernández')",9883,12.74,,,
 D55,Coalición por el Cambio,UDI,"('Javier', 'Hernández', 'Hernández')",22108,28.49,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Javier_Ricardo_Hernández_Hernández
 D55,Coalición por el Cambio,RN,"('Harry', 'Jurgensen', 'Rundshagen')",15888,20.48,,,
-D55,Chile Limpio. Vote Feliz,PRI,"('Jorge', 'René', 'Tejeda', 'Roa')",5502,7.09,,,
 D55,Chile Limpio. Vote Feliz,PRI,"('Jaime', 'Marcelo', 'Moraga', 'Carrasco')",591,0.76,,,
+D55,Chile Limpio. Vote Feliz,PRI,"('Jorge', 'René', 'Tejeda', 'Roa')",5502,7.09,,,
 D55,Válidamente emitidos,,(),77595,100.0,,,
 D56,Concertación y Juntos Podemos por más Democracia,PS,"('Fidel', 'Espinoza', 'Sandoval')",39245,51.3,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fidel_Edgardo_Espinoza_Sandoval
 D56,Concertación y Juntos Podemos por más Democracia,IND,"('Jorge', 'Cid', 'Manríquez')",5046,6.6,,,
@@ -459,32 +459,32 @@ D56,Coalición por el Cambio,UDI,"('Carlos', 'Recondo', 'Lavanderos')",18792,24.
 D56,Chile Limpio. Vote Feliz,PRI,"('Mauricio', 'Alejandro', 'Henríquez', 'Barría')",930,1.22,,,
 D56,Chile Limpio. Vote Feliz,IND,"('Baltazar', 'Rivera', 'Altamirano')",1629,2.13,,,
 D56,Válidamente emitidos,,(),76494,100.0,,,
-D57,Concertación y Juntos Podemos por más Democracia,PDC,"('Patricio', 'Vallespín', 'López')",33782,38.6,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Patricio_Vallespín_López
 D57,Concertación y Juntos Podemos por más Democracia,PC,"('José', 'Ortiz', 'Arcos')",3523,4.03,,,
-D57,Coalición por el Cambio,UDI,"('Marisol', 'Turres', 'Figueroa')",28552,32.62,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Marisol_Turres_Figueroa
+D57,Concertación y Juntos Podemos por más Democracia,PDC,"('Patricio', 'Vallespín', 'López')",33782,38.6,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Patricio_Vallespín_López
 D57,Coalición por el Cambio,RN,"('José', 'Segura', 'Díaz')",13773,15.74,,,
-D57,Chile Limpio. Vote Feliz,PRI,"('Luis', 'Felipe', 'Zúñiga', 'Obando')",1102,1.26,,,
+D57,Coalición por el Cambio,UDI,"('Marisol', 'Turres', 'Figueroa')",28552,32.62,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Marisol_Turres_Figueroa
 D57,Chile Limpio. Vote Feliz,IND,"('Jorge', 'Cumming', 'Ibar')",1238,1.41,,,
+D57,Chile Limpio. Vote Feliz,PRI,"('Luis', 'Felipe', 'Zúñiga', 'Obando')",1102,1.26,,,
 D57,Candidatura Independiente,IND,"('Eric', 'Vargas', 'Quinchaman')",5556,6.35,,,
 D57,Válidamente emitidos,,(),87526,100.0,,,
-D58,Concertación y Juntos Podemos por más Democracia,PDC,"('Gabriel', 'Héctor', 'Ascencio', 'Mansilla')",17457,23.1,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gabriel_Ascencio_Mansilla
 D58,Concertación y Juntos Podemos por más Democracia,PS,"('Jenny', 'Álvarez', 'Vera')",16638,22.02,,,
-D58,Coalición por el Cambio,RN,"('Alejandro', 'Santana', 'Tirachini')",27098,35.86,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alejandro_Santana_Tirachini
+D58,Concertación y Juntos Podemos por más Democracia,PDC,"('Gabriel', 'Héctor', 'Ascencio', 'Mansilla')",17457,23.1,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gabriel_Ascencio_Mansilla
 D58,Coalición por el Cambio,UDI,"('Claudio', 'Alvarado', 'Andrade')",14371,19.02,,,
+D58,Coalición por el Cambio,RN,"('Alejandro', 'Santana', 'Tirachini')",27098,35.86,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alejandro_Santana_Tirachini
 D58,Válidamente emitidos,,(),75564,100.0,,,
-D59,Concertación y Juntos Podemos por más Democracia,PPD,"('René', 'Osvaldo', 'Alinco', 'Bustos')",9381,22.9,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/René_Alinco_Bustos
 D59,Concertación y Juntos Podemos por más Democracia,PS,"('Viviana', 'Betancourt', 'Gallegos')",8355,20.4,,,
+D59,Concertación y Juntos Podemos por más Democracia,PPD,"('René', 'Osvaldo', 'Alinco', 'Bustos')",9381,22.9,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/René_Alinco_Bustos
 D59,Coalición por el Cambio,UDI,"('David', 'Sandoval', 'Plaza')",12902,31.5,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/David_Sandoval_Plaza
 D59,Coalición por el Cambio,RN,"('Pablo', 'Galilea', 'Carrillo')",10323,25.2,,,
 D59,Válidamente emitidos,,(),40961,100.0,,,
-D60,Concertación y Juntos Podemos por más Democracia,PDC,"('Carolina', 'Goic', 'Boroevic')",22498,34.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carolina_Goic_Boroevic
 D60,Concertación y Juntos Podemos por más Democracia,PS,"('Ana', 'María', 'Díaz', 'Pérez')",4877,7.37,,,
-D60,Coalición por el Cambio,RN,"('Claudio', 'Radonich', 'Jiménez')",9315,14.08,,,
+D60,Concertación y Juntos Podemos por más Democracia,PDC,"('Carolina', 'Goic', 'Boroevic')",22498,34.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carolina_Goic_Boroevic
 D60,Coalición por el Cambio,UDI,"('Arturo', 'Storaker', 'Molina')",4520,6.83,,,
-D60,Nueva Mayoría para Chile,IND,"('Jaime', 'Jelincic', 'Aguilar')",2230,3.37,,,
+D60,Coalición por el Cambio,RN,"('Claudio', 'Radonich', 'Jiménez')",9315,14.08,,,
 D60,Nueva Mayoría para Chile,IND,"('Luis', 'Burgos', 'Sanhueza')",3570,5.4,,,
-D60,Chile Limpio. Vote Feliz,PRI,"('Ana', 'Quilahuilque', 'Chávez')",624,0.94,,,
+D60,Nueva Mayoría para Chile,IND,"('Jaime', 'Jelincic', 'Aguilar')",2230,3.37,,,
 D60,Chile Limpio. Vote Feliz,PRI,"('Alex', 'Andrade', 'Veli')",451,0.68,,,
+D60,Chile Limpio. Vote Feliz,PRI,"('Ana', 'Quilahuilque', 'Chávez')",624,0.94,,,
 D60,Candidatura Independiente,IND,"('Sergio', 'Nelson', 'Tapia', 'Ogeda')",566,0.86,,,
 D60,Candidatura Independiente,IND,"('Miodrag', 'Marinovic', 'Solo de Zaldívar')",17512,26.47,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Miodrag_Arturo_Marinovic_Solo_de_Zaldívar
 D60,Válidamente emitidos,,(),66163,100.0,,,

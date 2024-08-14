@@ -104,14 +104,7 @@
 	{%- else -%}		
 		{% assign languages=site.pages | where_exp: "item", "item.ref == page.ref" | where_exp: "item", "item.ref == page.ref" | where_exp: "item", "item.ref2 == page.ref2" |sort: "lang" %}
 	{% endcomment %}
-	{%- endif -%}
-	
-	{% for v in languages %}
-		{% unless v.lang contains page.lang %}
-			<li class="lang"> <a href="{{ v.url  | relative_url }}">({{v.lang}})</a>
-		{% endunless %}	
-	{% endfor %}
-	
+	{%- endif -%}	
 	-->
 </ul>	
 </nav>  

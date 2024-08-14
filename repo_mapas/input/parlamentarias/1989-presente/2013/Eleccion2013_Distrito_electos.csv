@@ -7,10 +7,10 @@ D3,Alianza,UDI,"('Felipe', 'Ward', 'Edwards')",14604.0,24.12,*,*,https://www.bcn
 D3,Nueva Mayoría,PRSD,"('Marcos', 'Andrés', 'Espinosa', 'Monardes')",16877.0,27.87,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Marcos_Espinosa_Monardes
 D4,Alianza,RN,"('Paulina', 'Núñez', 'Urrutia')",20565.0,19.63,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Paulina_Andrea_Núñez_Urrutia
 D4,Nueva Mayoría,PRSD,"('Marcela', 'Ximena', 'Hernándo', 'Pérez')",27226.0,25.98,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Marcela_Ximena_Hernando_Pérez
-D5,Nueva Mayoría,PC,"('Lautaro', 'Carmona', 'Soto')",23293.0,41.9,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Lautaro_Carmona_Soto
 D5,Nueva Mayoría,IND,"('Daniella', 'Cicardini', 'Milla')",13382.0,24.07,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Daniella_Valentina_Cicardini_Milla
-D6,Nueva Mayoría,PRSD,"('Alberto', 'Robles', 'Pantoja')",5055.0,13.3,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alberto_Robles_Pantoja
+D5,Nueva Mayoría,PC,"('Lautaro', 'Carmona', 'Soto')",23293.0,41.9,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Lautaro_Carmona_Soto
 D6,Nueva Mayoría,PDC,"('Yasna', 'Provoste', 'Campillay')",16694.0,43.91,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Yasna_Provoste_Campillay
+D6,Nueva Mayoría,PRSD,"('Alberto', 'Robles', 'Pantoja')",5055.0,13.3,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Alberto_Robles_Pantoja
 D7,Alianza,UDI,"('Sergio', 'Gahona', 'Salazar')",20507.0,23.8,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Sergio_Alfredo_Gahona_Salazar
 D7,Nueva Mayoría,PS,"('Raúl', 'Saldívar', 'Auger')",25764.0,29.91,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Raúl_Fernando_Saldívar_Auger
 D8,Nueva Mayoría,PDC,"('Matías', 'Walker', 'Prieto')",38573.0,38.51,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Matías_Walker_Prieto
@@ -34,7 +34,7 @@ D16,Alianza,UDI,"('Patricio', 'Melero', 'Abaroa')",39449.0,23.54,*,*,https://www
 D16,Nueva Mayoría,PDC,"('Gabriel', 'Silber', 'Romo')",64696.0,38.6,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gabriel_Silber_Romo
 D17,Alianza,RN,"('Karla', 'Rubilar', 'Barahona')",35402.0,27.33,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Karla_Rubilar_Barahona
 D17,Nueva Mayoría,PPD,"('Daniel', 'Alejandro', 'Farcas', 'Guendelman')",32467.0,25.06,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Daniel_Alejandro_Farcas_Guendelman
-D18,Alianza,RN,"('Nicolás', 'Monckeberg', 'Díaz')",39100.0,28.75,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Nicolás_Monckeberg_Díaz
+D18,Alianza,RN,"('Nicolás', 'Mönckeberg', 'Díaz')",39100.0,28.75,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Nicolás_Monckeberg_Díaz
 D18,Nueva Mayoría,PPD,"('Cristina', 'Girardi', 'Lavín')",61874.0,45.5,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Cristina_Girardi_Lavín
 D19,Alianza,UDI,"('Claudia', 'Nogueira', 'Fernández')",23391.0,25.16,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Claudia_Nogueira_Fernández
 D19,Nueva Mayoría,PC,"('Karol', 'Cariola', 'Oliva')",35706.0,38.4,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Karol_Aída_Cariola_Oliva
@@ -44,12 +44,12 @@ D21,Alianza,RN,"('Marcela', 'Sabat', 'Fernández')",53135.0,28.58,*,*,https://ww
 D21,Nueva Mayoría,PS,"('Maya', 'Fernández', 'Allende')",58186.0,31.3,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Maya_Alejandra_Fernández_Allende
 D22,Alianza,IND,"('Felipe', 'Kast', 'Sommerhoff')",22431.0,19.55,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Felipe_José_Kast_Sommerhoff
 D22,Candidatura Independiente,IND,"('Giorgio', 'Jackson', 'Drago')",55259.0,48.17,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Kenneth_Giorgio_Jackson_Drago
-D23,Alianza,RN,"('Cristián', 'Monckeberg', 'Bruner')",77952.0,34.63,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Cristián_Monckeberg_Bruner
 D23,Alianza,UDI,"('Ernesto', 'Silva', 'Méndez')",76522.0,34.0,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ernesto_Silva_Méndez
+D23,Alianza,RN,"('Cristián', 'Mönckeberg', 'Bruner')",77952.0,34.63,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Cristián_Monckeberg_Bruner
 D24,Alianza,UDI,"('José', 'Antonio', 'Kast', 'Rist')",24471.0,18.72,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Antonio_Kast_Rist
 D24,Nueva Mayoría,PDC,"('Jaime', 'Pilowsky', 'Greene')",27072.0,20.71,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jaime_Hernán_Gonzalo_Pilowsky_Greene
-D25,Nueva Mayoría,PPD,"('Ramón', 'Farías', 'Ponce')",40278.0,30.61,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ramón_Farías_Ponce
 D25,Nueva Mayoría,PDC,"('Claudio', 'Arriagada', 'Macaya')",36410.0,27.67,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Claudio_Eugenio_Arriagada_Macaya
+D25,Nueva Mayoría,PPD,"('Ramón', 'Farías', 'Ponce')",40278.0,30.61,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Ramón_Farías_Ponce
 D26,Alianza,UDI,"('Gustavo', 'Hasbún', 'Selume')",34819.0,24.26,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gustavo_Hasbún_Selume
 D26,Nueva Mayoría,PC,"('Camila', 'Vallejo', 'Dowling')",62751.0,43.71,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Camila_Antonia_Amaranta_Vallejo_Dowling
 D27,Nueva Mayoría,PPD,"('Tucapel', 'Jiménez', 'Fuentes')",45523.0,33.51,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Tucapel_Francisco_Jiménez_Fuentes
@@ -92,8 +92,8 @@ D45,Nueva Mayoría,PS,"('Clemira', 'Pacheco', 'Rivas')",42711.0,41.59,*,*,https:
 D45,Nueva Mayoría,PDC,"('Marcelo', 'Chávez', 'Velásquez')",17131.0,16.68,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Marcelo_Omar_Chávez_Velásquez
 D46,Alianza,UDI,"('Iván', 'Norambuena', 'Farías')",30806.0,34.97,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Iván_Ernesto_Norambuena_Farías
 D46,Nueva Mayoría,PS,"('Manuel', 'Monsalve', 'Benavides')",33688.0,38.24,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Manuel_Zacarías_Monsalve_Benavides
-D47,Nueva Mayoría,PRSD,"('José', 'Pérez', 'Arriagada')",53539.0,43.41,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Pérez_Arriagada
 D47,Nueva Mayoría,IND,"('Roberto', 'Poblete', 'Zapata')",15826.0,12.83,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Roberto_Fortunato_Poblete_Zapata
+D47,Nueva Mayoría,PRSD,"('José', 'Pérez', 'Arriagada')",53539.0,43.41,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Pérez_Arriagada
 D48,Alianza,RN,"('Jorge', 'Rathgeb', 'Schifferli')",16449.0,26.47,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Jorge_Evaldo_Rathgeb_Schifferli
 D48,Nueva Mayoría,PDC,"('Mario', 'Artidoro', 'Venegas', 'Cárdenas')",22641.0,36.44,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Mario_Venegas_Cárdenas
 D49,Alianza,RN,"('Diego', 'Paulsen', 'Kehr')",16017.0,26.3,*,*,https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Diego_Alfredo_Paulsen_Kehr

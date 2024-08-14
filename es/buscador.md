@@ -1,7 +1,7 @@
 ---
 layout: default
 
-title: Parlamentarios
+title: Buscador
 
 lang: es
 ref: search
@@ -25,7 +25,7 @@ customcss:
   <table id="example" style="width:100%;">
       <thead>
           <tr>
-              <th scope="col">Parlamentario</th>
+              <th scope="col">Parlamentario (1828-2024)</th>
               <th scope="col">Partido</th>
               <th scope="col">Partido_completo</th>              
               <th scope="col">Trayectoria</th>
@@ -54,7 +54,7 @@ Corresponden a la duración completa, aún si el parlamentario no cumplió con s
 
 <p>
 <h4 style="margin:0px"> Base de datos </h4>
-Última revisión: 31 de diciembre de 2023. Falta verificar y completar las militancias entre 1828 y 1930.
+Última revisión: 31 de mayo de 2024. Falta verificar y completar las militancias entre 1828 y 1930.
 </p>
 </div>
 

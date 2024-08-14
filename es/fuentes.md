@@ -9,8 +9,11 @@ ref: fuentes
 published: true
 order: 6
 ---
+<!--
+## Electorales
+-->
 
-### Resultados electorales
+### Resultados
 
 Dependiendo del período, los resultados de cada votación fueron obtenidos de
 
@@ -51,7 +54,7 @@ Dependiendo del período, los resultados de cada votación fueron obtenidos de
     - Respectivos artículos en la categoría [Elecciones parlamentarias de Chile](https://es.wikipedia.org/wiki/Categoría:Elecciones_parlamentarias_de_Chile), Wikipedia.
     - Elecciones extraordinarias [1925-1951](https://archivo.servel.cl/index.php/elecciones-extraordinarias-1925-1953) y [1938-1971](https://archivo.servel.cl/index.php/elecciones-extraordinarias-1938-1971). Archivo Histórico del Servicio Electoral de Chile.
 
-### Divisiones Territoriales
+### Divisiones
 Los polígonos de cada división electoral fueron construidos a partir de
 
 * **1989-presente**.
@@ -69,9 +72,16 @@ AN/O32Pm-1975-mapaextpobr.pdf){:target="_blank"}. Oficina de Planificación Naci
   + [Guía y planos del Gran Santiago](https://www.flickr.com/photos/stgonostalgico/9887015914){:target="_blank"}. Instituto Geográfico Militar, 1947.
   + [Ríos y esteros de Chile](http://datos.cedeus.cl/layers/geonode:cl_rios_esteros_geo){:target="_blank"}. Centro de Desarrollo Urbano Sustentable (CEDEUS), Pontificia Universidad Católica de Chile y Universidad de Concepción.
   
-### Sistemas electorales
+### Sistemas
   + Ricardo Cruz-Coke. *Historia Electoral de Chile 1925-1973*. Editorial Jurídica de Chile, 1984.
   + Ricardo Gamboa Valenzuela. [*Reformando reglas electorales: la cédula única y los pactos electorales en chile (1958-1962)*](https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0718-090X2011000200001){:target="_blank"}. Revista de Ciencia Política, 31(2), pp. 159-186, 2011.
   + Ricardo Gamboa Valenzuela y Mauricio Morales. [*Deciding on the Electoral System: Chile’s Adoption of Proportional Representation in 1925*](https://repositorio.uchile.cl/handle/2250/132377){:target="_blank"}. Latin American Politics and Society, 57(2), pp. 41-66, 2015.
   + Michael Gallagher. [*Comparing Proportional Representation Electoral Systems: Quotas, Thresholds, Paradoxes and Majorities*](https://www.tcd.ie/Political_Science/people/michael_gallagher/BJPS1992.pdf){:target="_blank"}. British Journal of Political Science, 22(4), pp. 469-496, 1992.
   + Macarena Ponce de León Atria. *Estado y elecciones. La construcción electoral del poder en Chile, siglos XIX y XX*. En Iván Jaksić y Francisca Rengifo (editores), Historia política de Chile, 1810-2010. Tomo II: Estado y sociedad, pp. 243-270. Fondo de Cultura Económica, 2017.
+  
+<!--
+## Genealógicas
+  + Naim Bro. [*The structure of political conflict. The oligarchs and the bourgeoisie in the Chilean Congress, 1834–1894*](https://link.springer.com/article/10.1007/s11186-022-09491-3){:target="_blank"}. Theory and Society, 52, pp. 353–386, 2023.
+  + [genealog.cl](https://www.genealog.cl){:target="_blank"}
+-->
+

@@ -26,6 +26,7 @@ Inspirado en lo hecho por [DecideChile](https://2021.decidechile.cl/#/ev/2021.no
 </div>
 -->
 
+
 La información de cada elección se presenta en tres niveles:
 <div class="row-about">
   <div class="column-about">

@@ -79,7 +79,7 @@ def resultados1925_1969(candidatos, eleccion, rep, pactos, siglas, provincias):
     pp['Electos'] = pp['Electos'].map(lambda x: 1 if x == '*'else x).astype(int)        
 
     # pp[subdivrow] = pd.Categorical(pp[subdivrow], categories=provincias, ordered=False)
-    pp[subdivrow] = pd.Categorical(pp[subdivrow], categories=pp['Circunscripción'].unique().tolist(), ordered=False)    
+    pp[subdivrow] = pd.Categorical(pp[subdivrow], categories=pp[subdivrow].unique().tolist(), ordered=False)    
     return pp[[subdivrow, 'Lista/Pacto', 'Partido', 'Electos', 'Porcentaje', 'Votos']]
 
 

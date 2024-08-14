@@ -66,15 +66,15 @@ def nombres_unicode(candidatos, column='Candidatos'):
                  'Dalbora':"D'Albora", 'Danus':'Danús', 'Davila':'Dávila', 'de Rementeria':'de Rementería', 'del Rio':'del Río', 'Diaz':'Díaz', 'Doll':'Döll', 'Duenas':'Dueñas', 'Duran':'Durán',
                  'Echavarria':'Echavarría', 'Echeverria':'Echeverría', 'Echeñique':'Echenique', 'Echiburu':'Echiburú', 'Egana':'Egaña', 'Enriquez':'Enríquez', 'Errazuriz':'Errázuriz', 'Errázurriz':'Errázuriz', 'Escandon':'Escandón', 'Espana':'España', 'Espineira':'Espiñeira',
                  'Farias':'Farías', 'Farina':'Fariña', 'Fernandez':'Fernández', 'Forster':'Förster', 'Freí':'Frei', 'Frias':'Frías', 'Frodden':'Frödden',
-                 'Gacitua':'Gacitúa', 'Galvez':'Gálvez', 'Garces':'Garcés', 'Garcia':'García', 'Garin':'Garín', 'Garmendia':'Garmendía', 'Gayon':'Gayón', 'Gomez':'Gómez', 'Gonzalez':'González', 'Gundian':'Gundián', 'Gutierrez':'Gutiérrez', 'Guzman':'Guzmán',
-                 'Hasbun':'Hasbún', 'Hernandez':'Hernández', 'Herquinigo':'Herquiñigo', 'Hormann':'Hörmann', 'Hubner':'Hübner',
+                 'Gacitua':'Gacitúa', 'Galvez':'Gálvez', 'Garces':'Garcés', 'Garcia':'García', 'Garin':'Garín', 'Garmendia':'Garmendía', 'Gayon':'Gayón', 'Gomez':'Gómez', 'Gonzalez':'González', 'Gundian':'Gundián', 'Guemes':'Güemes', 'Gutierrez':'Gutiérrez', 'Guzman':'Guzmán',
+                 'Hasbun':'Hasbún', 'Hernandez':'Hernández', 'Herquinigo':'Herquíñigo', 'Hormann':'Hörmann', 'Hubner':'Hübner',
                  'Ibañez':'Ibáñez', 'Ibanez':'Ibáñez', 'Iñiguez':'Iñíguez', 'Iniguez':'Iñíguez', 'Irarrazabal':'Irarrázabal', 'Irarrazaval':'Irarrázaval', 'Irarrazával':'Irarrázaval',
                  'Jordan':'Jordán', 'Jimenez':'Jiménez',
                  'Konig':'König',
                  'Labbe':'Labbé', 'Labrin':'Labrín', 'Larrain':'Larraín', 'Larre':'Larré', 'Larréa':'Larrea', 'Lavaqui':'Lavaquí', 'Lavin':'Lavín', 'Lazon':'Lazón','Leon':'León', 'Leuquen':'Leuquén', 'Lopez':'López',
-                 'Macclure':'Mac Clure', 'Maciver':'Mac Iver', 'Mancheno':'Mancheño', 'Marin':'Marín', 'Martinez':'Martínez', 'Marquez':'Márquez', 'Mendez':'Méndez', 'Mendiburu':'Mendiburú', 'Messia':'Messía', 'Mohr':'Möhr', 'Monleon':'Monleón', 'Moran':'Morán', 'Morande':'Morandé', 'Moxo':'Moxó', 'Muhlenbrock':'Mühlenbrock', 'Muller':'Müller', 'Munoz':'Muñoz',
+                 'Macclure':'Mac Clure', 'Maciver':'Mac Iver', 'Mancheno':'Mancheño', 'Marin':'Marín', 'Martinez':'Martínez', 'Marquez':'Márquez', 'Mendez':'Méndez', 'Mendiburu':'Mendiburú', 'Messia':'Messía', 'Monckeberg':'Mönckeberg', 'Mohr':'Möhr', 'Monleon':'Monleón', 'Moran':'Morán', 'Morande':'Morandé', 'Moxo':'Moxó', 'Muhlenbrock':'Mühlenbrock', 'Muller':'Müller', 'Munoz':'Muñoz',
                  'Naveillan':'Naveillán', 'Nuñez':'Núñez', 'Nunez':'Núñez',
-                 'O Ryan':"O'Ryan", 'Ochagavia':'Ochagavía', 'Olavarria':'Olavarría', 'Ordenes':'Órdenes', 'Ortíz':'Ortiz', 'Ortuzar':'Ortúzar', 'Ossandon':'Ossandón',
+                 'O Ryan':"O'Ryan", "Oshee":"O'Shee", 'Ochagavia':'Ochagavía', 'Olavarria':'Olavarría', 'Ordenes':'Órdenes', 'Ortíz':'Ortiz', 'Ortuzar':'Ortúzar', 'Ossandon':'Ossandón',
                  'Padin':'Padín', 'Paez':'Páez', 'Paéz':'Páez', 'Patino':'Patiño', 'Pena':'Peña', 'Perez':'Pérez',
                  'Ramirez':'Ramírez', 'Renteria':'Rentería', 'Rincon':'Rincón', 'Rio':'Río', 'Rios':'Ríos', 'Rioseco':'Ríoseco', 'Risopatron':'Risopatrón', 'Rodriguez':'Rodríguez', 'Ruíz':'Ruiz',
                  'Saez':'Sáez', 'Saéz':'Sáez', 'Salamo':'Salamó', 'Saldias':'Saldías', 'Saldivar':'Saldívar', 'Sanchez':'Sánchez', 'Santibañez':'Santibáñez', 'Sepulveda':'Sepúlveda', 'Solis':'Solís', 'Suarez':'Suárez',
@@ -212,6 +212,14 @@ def nombres_unicode(candidatos, column='Candidatos'):
                       'Mario Venegas Cárdenas' : 'Mario Artidoro Venegas Cárdenas',
                       'Alberto Javier Rafael Zaldívar Larraín' : 'Alberto Zaldívar Larraín',
                       'José Ignacio Zenteno del Pozo y Silva' : 'José Ignacio Zenteno del Pozo',
+                      'Fernando Márquez de la Plata Encalada':'Fernando Márquez de la Plata Calvo',
+                      'Ramón Ossandón': 'Ramón Ossandón Vallejo', #fuente: anales.cl
+                      'Frutos Ossandón Oshee':"Frutos Ossandón O'Shee",
+                      'Servando Jordán':'Servando Jordán Mosti', #fuente: anales.cl
+                      'Cristiáno Becker Valdevellano':'Cristiano Becker Valdeavellano', 
+                      'Francisco Bunster':'Francisco Federico Bunster de la Maza',
+                      'Luis Felipe Puelma':'Luis Felipe Puelma Arístegui',
+                      'Ramón Montes Rosales':'José Ramón Montes Rosales',
                       }            
                     
     incongruencias_regex = {'^'+x+'$' : incongruencias[x] for x in incongruencias.keys()}
@@ -269,18 +277,23 @@ def nombres_formato_v2(candidatos, column='Candidatos', formato=True):
                              #
                              # apellidos «antiguos»˙
                              'Álvarez de Bahamonde':'Álvarez+de+Bahamonde',
-                             'Bravo de Naveda':'Bravo+de+Naveda', 'Bravo de Saravia':'Bravo+de+Saravia',
+                             'Bravo de Naveda':'Bravo+de+Naveda', 'Bravo de Saravia':'Bravo+de+Saravia', 'Bravo de Villalba':'Bravo+de+Villalba',
+                             'Calvo de Encalada':'Calvo+de+Encalada',
                              'Díaz de Saravia':'Díaz+de+Saravia',
-                             'Fernández de Braga':'Fernández+de+Braga', 'Fernández de Castro':'Fernández+de+Castro', 'Fernández de Cienfuegos':'Fernández+de+Cienfuegos', 
+                             'Fernández de Braga':'Fernández+de+Braga', 'Fernández de Castro':'Fernández+de+Castro', 'Fernández de Campino':'Fernández+de+Campino', 'Fernández de Cienfuegos':'Fernández+de+Cienfuegos', 
                              'Fernández de Gandarillas':'Fernández+de+Gandarillas', 'Fernández de Leiva':'Fernández+de+Leiva', 'Fernández de Muras':'Fernández+de+Muras',
                              'Fernández de Palazuelos':'Fernández+de+Palazuelos', 'Fernández de Valdivieso':'Fernández+de+Valdivieso',
+                             'Gutiérrez de la Fuente':'Gutiérrez+de+la+Fuente',                             
                              'Lazo de la Vega':'Lazo+de+la+Vega', 'López de Linares':'López+de+Linares', 'López de Sotomayor':'López+de+Sotomayor',
-                             'Martínez de Aldunate':'Martínez+de+Aldunate', 'Martínez de Luco':'Martínez+de+Luco', 'Martínez de Matta':'Martínez+de+Matta', 'Martínez de Rozas':'Martínez+de+Rozas', 'Martínez de Vergara':'Martínez+de+Vergara',
+                             'Martínez de Aldunate':'Martínez+de+Aldunate', 'Martínez de Luco':'Martínez+de+Luco', 'Martínez de Matta':'Martínez+de+Matta', 'Martínez de Ochagavía':'Martínez+de+Ochagavía', 'Martínez de Rozas':'Martínez+de+Rozas', 'Martínez de Vergara':'Martínez+de+Vergara',
                              'Montero de Amaya':'Montero+de+Amaya',
                              'Núñez de Guzmán':'Núñez+de+Guzmán', 'Núñez de Silva':'Núñez+de+Silva',
+                             'Ortiz de Elguea':'Ortiz+de+Elguea',
                              'Pérez de Camino':'Pérez+de+Camino', 'Pérez de Carmona':'Pérez+de+Carmona', 'Pérez de Iturrieta':'Pérez+de+Iturrieta', 'Pérez de Ramos':'Pérez+de+Ramos',
-                             'Rodríguez de Herrera':'Rodríguez+de+Herrera', 'Ruiz de Azúa':'Ruiz+de+Azúa',
-                             'Sáenz de Rozas':'Sáenz+de+Rozas', 'Salvador de Vergara':'Salvador+de+Vergara'
+                             'Rodríguez de Herrera':'Rodríguez+de+Herrera', 'Ruiz de Azúa':'Ruiz+de+Azúa', 'Ruiz de Urzúa':'Ruiz+de+Urzúa',                             
+                             'Sáenz de Mena':'Sáenz+de+Mena', 'Sáenz de Rozas':'Sáenz+de+Rozas', 'Salvador de Vergara':'Salvador+de+Vergara',
+                             'Velásquez de Covarrubias':'Velásquez+de+Covarrubias',
+                             'Zapata de Mayorga':'Zapata+de+Mayorga'
                              }    
     apellidos_compuestos2_regex = {'\\b'+x+'\\b' : apellidos_compuestos2[x] for x in apellidos_compuestos2.keys()}
     
@@ -292,7 +305,10 @@ def nombres_formato_v2(candidatos, column='Candidatos', formato=True):
     if not formato:
         # se asume que tienen dos apellidos
         candidatos[column] = candidatos[column].map(lambda x: x[2:] +x[0:2] if len(x) > 2 else (x[1]+x[0] if len(x) > 0 else x))
-        
+    
+    # mask = candidatos[column].isnull()
+    # print(candidatos[mask])
+    
     candidatos[column] = candidatos[column].map(lambda x: tuple([u.replace('+',' ') for u in x]))
 
     return candidatos

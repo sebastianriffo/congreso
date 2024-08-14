@@ -253,7 +253,7 @@ def correcciones1828_1888(candidatos, eleccion, rep):
                 candidatos.loc[len(candidatos.index),:] = 'Quillota','','Emilio Crisólogo Varas Fernández','','','',None,'*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Emilio_Crisólogo_Varas_Fernández'
         else:
             candidatos = candidatos[~candidatos['Candidatos'].isin(['Manuel Carvallo Gómez', 'Bernardo del Solar Marín',
-                                                                    'Santiago Segundo Pérez Larraín', 'Miguel María Guemes Fernández', 'Eugenio Domingo Torres Velasco',
+                                                                    'Santiago Segundo Pérez Larraín', 'Miguel María Güemes Fernández', 'Eugenio Domingo Torres Velasco',
                                                                     'Manuel Antonio Tocornal Grez', 'Manuel Alcalde Velasco',
                                                                     'Francisco Ignacio Ossa Mercado', 'Manuel Bulnes Prieto',
                                                                     'Juan José Aldunate Irarrázabal'])] 
@@ -596,7 +596,7 @@ def correcciones1828_1888(candidatos, eleccion, rep):
                 candidatos.loc[len(candidatos.index),:] = 'Aconcagua','','José Manuel Astorga Camus','','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Manuel_de_Astorga_Camus'
                 candidatos.loc[len(candidatos.index),:] = 'San Fernando','','Francisco Javier Ovalle','','','','*','*',''
                 candidatos.loc[len(candidatos.index),:] = 'San Fernando','','Estanislao Segundo Portales Larraín','','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Estanislao_Segundo_Portales_Larraín'
-                candidatos.loc[len(candidatos.index),:] = 'Curicó','','Fernando Márquez de la Plata Encalada','','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fernando_Márquez_de_la_Plata_Encalada'
+                candidatos.loc[len(candidatos.index),:] = 'Curicó','','Fernando Márquez de la Plata Calvo','','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Fernando_Márquez_de_la_Plata_Encalada'
                 candidatos.loc[len(candidatos.index),:] = 'San Carlos','','Juan Francisco Larraín Rojas','','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Juan_Francisco_Larraín_Rojas'
                 candidatos.loc[len(candidatos.index),:] = 'Concepción','','Antonio Jacobo Vial Formas','','','','*','*','https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Antonio_Jacobo_Vial_Formas'
                 #

@@ -60,7 +60,7 @@ def correcciones1925_1969(candidatos, eleccion, rep):
         candidatos = candidatos[~candidatos['Candidatos'].str.contains('Jorge Wachholtz Araya')]
         
         reemplazados = {0:['Pinto Díaz', 'Naranjo Jara'], 1:['Tomic Romero']}[rep]
-        reemplazantes = {0:['Monckeberg Barros', 'Naranjo Arias'], 1:['Prado Casas']}[rep]
+        reemplazantes = {0:['Mönckeberg Barros', 'Naranjo Arias'], 1:['Prado Casas']}[rep]
 
         partidos = {'Partido Liberal': {0:['Klein Doerner'], 1:['^$']}[rep],
                     'Partido Socialista': {0:['^$'], 1:['Chelén Rojas', 'Palacios González']}[rep],
